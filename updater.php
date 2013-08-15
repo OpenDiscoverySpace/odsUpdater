@@ -1,5 +1,8 @@
 <?php
 
+//
+// Updater version: 13.8.14b
+//
 // Copyright (c) 2013-2014 Luis Alberto Lalueza
 // http://github.com/luisango
 //
@@ -48,7 +51,7 @@ class Updater
      */
     private function debug($string, $n = 1, $separator = " ")
     {
-        if(false) {
+        if(true) {
             $n = ($n-1)*4;
             for($i = 0; $i < $n; $i++)
                 echo $separator;
@@ -123,9 +126,9 @@ class Updater
             return;
         }
 
-        if($node = node_submit($node)) {
+        /*if($node = node_submit($node)) {
             node_save($node);
-        }
+        }*/
 
         $this->debug("Saving node finished!", 2);
     }
@@ -334,6 +337,13 @@ class Updater
         return $node;   
     }
 
+    private function createDataRepositoryField($node, $value)
+    {
+        $node->field_data_provider['und'][]['tid'] = $this->getTermId($value, 'repository'); 
+
+        return $node;
+    }
+
     private function createEducationalContextField($node, $value)
     {
         foreach ($value as $educational_context)
@@ -498,10 +508,17 @@ class ODSDocument
 
     public function ODSDocument($path)
     {
+
         // Read file
         $xml = simplexml_load_file($path);
         $plain_xml = $xml->asXML();
         unset($xml);
+
+        // Gather repo
+        $url_split = explode("/", $path);
+        $this->data_repository = $url_split[1];
+
+        echo "REPO: ". $this->data_repository ."\n";
 
         // Anti-prefix (namespace) hack
         $plain_xml = str_replace("lom:", "", $plain_xml);
