@@ -1,7 +1,7 @@
 <?php
 
 //
-// Updater version: 13.8.14b
+// Updater version: 13.8.15
 //
 // Copyright (c) 2013-2014 Luis Alberto Lalueza
 // http://github.com/luisango
@@ -13,6 +13,8 @@
 // WITHOUT ANY WARRANTY; WITHOUT EVEN THE IMPLIED WARRANTY OF
 // MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
 // 
+
+define('UPDATER_DEBUG_ENABLED', false);
 
 /**
  * Reads a directory and subdirectories and stores them as an array
@@ -51,7 +53,7 @@ class Updater
      */
     private function debug($string, $n = 1, $separator = " ")
     {
-        if(true) {
+        if (UPDATER_DEBUG_ENABLED) {
             $n = ($n-1)*4;
             for($i = 0; $i < $n; $i++)
                 echo $separator;
@@ -810,6 +812,8 @@ foreach($files as $key => $file)
 echo "Instance updater...\n";
 $updater = new Updater();
 
+$processed_files = 0;
+
 echo "Processing XML...\n";
 foreach ($files as $file)
 {
@@ -817,6 +821,9 @@ foreach ($files as $file)
     $doc = new ODSDocument($file);
 
     $updater->createNode($doc->getData());
+
+    $processed_files++;
 }
 
 echo "\n\n\n\nUPDATER HAS FINISHED\n";
+echo "PROCESSED FILES: ". $processed_files ."\n";
