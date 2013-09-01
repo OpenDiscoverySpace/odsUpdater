@@ -1,7 +1,7 @@
 <?php
 
 //
-// Updater version: 13.8.15
+// Updater version: 13.8.31
 //
 // Copyright (c) 2013-2014 Luis Alberto Lalueza
 // http://github.com/luisango
@@ -283,6 +283,18 @@ class Updater
         return $node;
     }
 
+    private function createMetametadataContributeDateField($node, $value)
+    {
+        foreach ($value as $date)
+        {
+            $node->field_update_date['und'][0]['value'] = date('Y-m-d', strtotime($date['datetime']));
+
+            return $node;
+        }
+
+        return $node;
+    }
+
     private function createClassificationField($node, $value)
     {   
         foreach ($value as $classification)
@@ -339,8 +351,34 @@ class Updater
         return $node;   
     }
 
+    private function getRepositoryNameFromHarvestName($value) 
+    {
+        $repositories = array(
+            "COSMOS_HEALTHY"    => "Cosmos",
+            "DRYADES"           => "Dryades",
+            "I2GEO"             => "i2geo",
+            "LAFLOR"            => "La Flor",
+            "MOODLE"            => "Moodle Carnet",
+            "PHOTODENDRO_DS"    => "Photodentro",
+            "PHOTODENDRO_VIDEO" => "Photodentro",
+            "SKOLE"             => "Skole",
+        );
+
+        if (array_key_exists($value, $repositories) {
+            foreach ($repositories as $machine_name => $respository_name)
+            {
+                if ($machine_name == $value)
+                    return $repository_name;
+            }
+        }
+
+        return $value;
+    }
+
     private function createDataRepositoryField($node, $value)
     {
+        $value = $this->getRepositoryNameFromHarvestName($value);
+
         $node->field_data_provider['und'][]['tid'] = $this->getTermId($value, 'repository'); 
 
         return $node;
@@ -394,7 +432,6 @@ class Updater
 
         if(count($terms) > 0) {   
             // If term was found
-            foreach($terms as $key => $value)
             {
                 $this->debug("Found term ID in vocabulary '". $vocabulary ."' with ID='". $key ."'.", 3);
                 // Return ID of the tag
@@ -473,6 +510,11 @@ class ODSDocument
             array(
                 "name"  => "lifecycle_contribute_date",
                 "xpath" => "/lom/lifeCycle/contribute/date",
+                "type"  => "date",
+            ),
+            array(
+                "name"  => "metametadata_contribute_date",
+                "xpath" => "/lom/metaMetadata/contribute/date",
                 "type"  => "date",
             ),
             array(
