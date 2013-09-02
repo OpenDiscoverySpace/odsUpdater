@@ -152,8 +152,10 @@ class Updater
     private function createGeneralLanguageField($node, $value)
     {
         // Prevent for multiple languages
-        foreach ($value as $language)
+        foreach ($value as $language) {
+            $language = $this->replaceWithHeuristics($language, "languages.ini");
             $node->language = $language;
+        }
 
         return $node;
     }
@@ -169,13 +171,15 @@ class Updater
             // For each language in title
             foreach ($title_languages as $title)
             {
+                $language = $title['language'];
+                $language = $this->replaceWithHeuristics($language, "languages.ini");
+
                 // If title language match resource language
-                if($title['language'] == $node->language) {
+                if($language == $node->language) {
                     $node->title = $title['value'];
                 }
 
                 // Set current language translation
-                $language = $title['language'];
                 $node->title_field[$language][0]['value'] = $title['value'];
             }
 
@@ -199,6 +203,7 @@ class Updater
             foreach($description_languages as $description)
             {
                 $language = $description['language'];
+                $language = $this->replaceWithHeuristics($language, "languages.ini");
 
                 $node->body[$language][0]['value']   = $description['value'];
                 $node->body[$language][0]['summary'] = $description['value'];
@@ -307,6 +312,7 @@ class Updater
                     foreach ($entry_languages as $entry)
                     {
                         $language = $entry['language'];
+                        $language = $this->replaceWithHeuristics($language, "languages.ini");
 
                         // NOT MULTILINGUAL
                         $node->field_classification_taxonpath['und'][0]['value'] = $entry['value'];
@@ -353,16 +359,7 @@ class Updater
 
     private function getRepositoryNameFromHarvestName($value) 
     {
-        $repositories = array(
-            "COSMOS_HEALTHY"    => "Cosmos",
-            "DRYADES"           => "Dryades",
-            "I2GEO"             => "i2geo",
-            "LAFLOR"            => "La Flor",
-            "MOODLE"            => "Moodle Carnet",
-            "PHOTODENDRO_DS"    => "Photodentro",
-            "PHOTODENDRO_VIDEO" => "Photodentro",
-            "SKOLE"             => "Skole",
-        );
+        $value = $this->replaceWithHeuristics($value, "repositories.ini");
 
         if (array_key_exists($value, $repositories) {
             foreach ($repositories as $machine_name => $respository_name)
@@ -451,6 +448,24 @@ class Updater
             // Recursive ;)
             return $this->getTermId($term, $vocabulary);
         }
+    }
+
+    private function replaceWithHeuristics($value, $heuristics)
+    {
+        if (is_file($heuristics) && is_readable($heuristics)) {
+            $heuristics = parse_ini_file($heuristics);
+
+            if (array_key_exists($value, $heuristics)) {
+                foreach ($heuristics as $heursitic => $replace) {
+                    if ($heuristic == $value) {
+                        $value = $replace;
+                        break;
+                    }
+                }
+            }
+        }
+
+        return $value;
     }
 }
 
@@ -845,10 +860,11 @@ foreach($files as $key => $file)
     if(is_dir($file))
         unset($files[$key]);
 
-    // FIX MAC OSX - PLEASE MANTAIN FOLDERS CLEAN
-    if (strpos($file,'.DS_Store') !== false) {
-        unset($files[$key]);
-    }
+    // Discard non-xml files
+    if (strlen($file) > 4) 
+        if (substr($file, -4) != ".xml") {
+            unset($files[$key]);
+        }
 }
 
 echo "Instance updater...\n";
