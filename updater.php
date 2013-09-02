@@ -361,7 +361,7 @@ class Updater
     {
         $value = $this->replaceWithHeuristics($value, "repositories.ini");
 
-        if (array_key_exists($value, $repositories) {
+        if (array_key_exists($value, $repositories)) {
             foreach ($repositories as $machine_name => $respository_name)
             {
                 if ($machine_name == $value)
