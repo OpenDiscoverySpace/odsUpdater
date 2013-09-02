@@ -18,6 +18,10 @@ This is an updater. A program that stores new content and keep it up to date.
 Well, it takes each file of a folder (`<drupal_site>/harvest/`) and runs some xpath queries to get specific content from each XML.
 Once it has parsed each XML, Updater maps and clean the data just parsed, then it creates and saves the content as new node.
 
+## Readable names
+
+Repositories and languages, in most of the cases, must be replaced by a readable name for Drupal (or users). You must add, as necessary, new translations of unreadable names at `languages.ini` and `repositories.ini`.
+
 ## How to run it?
 
 1. Place at your *Drupal folder*.
