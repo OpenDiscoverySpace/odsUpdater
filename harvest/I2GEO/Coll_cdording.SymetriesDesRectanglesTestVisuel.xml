@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_cdording.SymetriesDesRectanglesTestVisuel</entry>
+    </identifier>
+    <title>
+      <string language="fr">Symétries des rectangles : test visuel</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">Imagiciel : un rectangle est dessiné. Grâce à un point libre "symétrie et à deux autres petits points libres rouges, on fait apparaître l'image d'un point lié au rectangle par différentes symétries axiale et centrale.&lt;p/&gt;
+&lt;strong&gt;Cette resource est la copie d'une trace de la première étape d'intergeo&lt;/strong&gt;&lt;p/&gt;
+Cette resource vient de &lt;a class="wikicreatelink" href="http://i2geo.net/xwiki/bin/edit/Traces/Tester+symetries+rectangle?parent=Coll_cdording.SymetriesDesRectanglesTestVisuel"&gt;&lt;span class="wikicreatelinktext"&gt;Tester symetries rectangle&lt;/span&gt;&lt;span class="wikicreatelinkqm"&gt;?&lt;/span&gt;&lt;/a&gt; qui mentionne 1 constructions.&lt;p/&gt;
+&lt;ul class="minus"&gt;
+&lt;li&gt;Système de géométrie: &lt;span class="wikilink"&gt;&lt;a href="http://i2geo.net/xwiki/bin/view/Softwares/Cabri"&gt;Cabri&lt;/a&gt;&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;Pays: fr&lt;/li&gt;
+&lt;li&gt;Niveau d'enseignement: Collège 5e&lt;/li&gt;
+&lt;li&gt;Sujet principal: Transformations&lt;/li&gt;
+&lt;li&gt;Autres thèmesQuadrilaterals&lt;/li&gt;
+&lt;/ul&gt;</string>
+    </description>
+    <keyword>
+      <string language="fr">Quadrilaterals</string>
+      <!-- ttac = #Transformation_r -->
+      <string language="de">Transformation</string>
+      <string language="de">Abbildung</string>
+      <string language="de">Transformation</string>
+      <string language="de">Abbildung</string>
+      <string language="fr">transformation</string>
+      <string language="en">transformation</string>
+      <string language="es">transformación</string>
+      <string language="nl">Transformatie</string>
+      <string language="cs">Geometrické zobrazení</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">1.02</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Carole Dording&#xD;
+N:Dording;Carole;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-04-20T14:24:44.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Carole Dording&#xD;
+N:Dording;Carole;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-11-04T15:03:14.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_cdording/SymetriesDesRectanglesTestVisuel</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills</value>
+            </context>
+                                     -->
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <!-- unrecognized license type: "cc-by-sa" -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Transformation_r</id>
+        <entry>
+          <string language="de">Transformation</string>
+          <string language="de">Abbildung</string>
+          <string language="de">Transformation</string>
+          <string language="de">Abbildung</string>
+          <string language="fr">transformation</string>
+          <string language="en">transformation</string>
+          <string language="es">transformación</string>
+          <string language="nl">Transformatie</string>
+          <string language="cs">Geometrické zobrazení</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

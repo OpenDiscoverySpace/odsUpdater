@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_MichiBinder.MatheVital-LineareAlgebraIArtikelzumThemaSpiegelkaleidoskope</entry>
+    </identifier>
+    <title>
+      <string language="en">MatheVital - Lineare Algebra I: Artikel zum Thema Spiegelkaleidoskope</string>
+    </title>
+    <language>en</language>
+    <description>
+      <string language="en">Artikel "Blicke in die Unendlichkeit" von Jürgen Richter-Gebert. Inhalte: Kaleidoskope, Kaleidoskopmuster mit mathematischen Bezug zu den Themen Platonische Körper, Spiegelungen, Winkelverhältnisse ,&amp;#8230;</string>
+    </description>
+    <keyword>
+      <string language="en" />
+      <!-- ttac = #Platonic_solid_r,#Reflection_r,#Angle_r,#patterns_and_structures_r,#Symmetry_r,#Use_theorem_about_the_sum_of_the_angles_in_triangle -->
+      <string language="de">Platonischer Körper</string>
+      <string language="fr">solide de Platon</string>
+      <string language="en">platonic solid</string>
+      <string language="es">sólido platónico</string>
+      <string language="nl">Platoons veelvlak</string>
+      <string language="nl">Platoons lichaam</string>
+      <string language="nl">Regelmatig veelvlak</string>
+      <string language="nl">Platoons veelvlak</string>
+      <string language="nl">Platoons lichaam</string>
+      <string language="nl">Regelmatig veelvlak</string>
+      <string language="nl">Platoons veelvlak</string>
+      <string language="nl">Platoons lichaam</string>
+      <string language="nl">Regelmatig veelvlak</string>
+      <string language="cs">Pravidelný mnohostěn</string>
+      <string language="de">Spiegelung</string>
+      <string language="fr">symétrie</string>
+      <string language="en">reflection</string>
+      <string language="nl">Spiegeling</string>
+      <string language="cs">Souměrnost</string>
+      <string language="de">Winkel</string>
+      <string language="fr">Secteur angulaire</string>
+      <string language="fr">angle</string>
+      <string language="fr">Secteur angulaire</string>
+      <string language="fr">angle</string>
+      <string language="en">angle</string>
+      <string language="es">Ángulo</string>
+      <string language="nl">Hoek</string>
+      <string language="cs">Velikost úhlu</string>
+      <string language="de">Muster und Strukturen</string>
+      <string language="nl">Patronen en structuren</string>
+      <string language="de">Symmetrie</string>
+      <string language="fr">symétrie</string>
+      <string language="en">symmetry</string>
+      <string language="es">simetría</string>
+      <string language="nl">Symmetrie</string>
+      <string language="cs">Souměrné</string>
+      <string language="de">die Winkelsumme im Dreieck verwenden</string>
+      <string language="fr">utiliser le résultat sur la somme des angles d'un triangle</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">3.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Michael Binder&#xD;
+N:Binder;Michael;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-09-19T21:10:02.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Michael Binder&#xD;
+N:Binder;Michael;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-09-22T13:20:16.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_MichiBinder/MatheVital-LineareAlgebraIArtikelzumThemaSpiegelkaleidoskope</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT resource_article
+    true    true    true     -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>expositive</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>text</value>
+    </learningResourceType>
+    <interactivityLevel>
+      <source>LOMv1.0</source>
+      <value>very low</value>
+    </interactivityLevel>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills</value>
+            </context>
+                                     -->
+    <language>en</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">CurrikiCode.AssetLicenseClass_licenseType_Licences.Licences.CreativeCommonsAttributionNon-CommercialShareAlike</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by-nc-sa/2.0/</licenseURI>-->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Platonic_solid_r</id>
+        <entry>
+          <string language="de">Platonischer Körper</string>
+          <string language="fr">solide de Platon</string>
+          <string language="en">platonic solid</string>
+          <string language="es">sólido platónico</string>
+          <string language="nl">Platoons veelvlak</string>
+          <string language="nl">Platoons lichaam</string>
+          <string language="nl">Regelmatig veelvlak</string>
+          <string language="nl">Platoons veelvlak</string>
+          <string language="nl">Platoons lichaam</string>
+          <string language="nl">Regelmatig veelvlak</string>
+          <string language="nl">Platoons veelvlak</string>
+          <string language="nl">Platoons lichaam</string>
+          <string language="nl">Regelmatig veelvlak</string>
+          <string language="cs">Pravidelný mnohostěn</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Reflection_r</id>
+        <entry>
+          <string language="de">Spiegelung</string>
+          <string language="fr">symétrie</string>
+          <string language="en">reflection</string>
+          <string language="nl">Spiegeling</string>
+          <string language="cs">Souměrnost</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Angle_r</id>
+        <entry>
+          <string language="de">Winkel</string>
+          <string language="fr">Secteur angulaire</string>
+          <string language="fr">angle</string>
+          <string language="fr">Secteur angulaire</string>
+          <string language="fr">angle</string>
+          <string language="en">angle</string>
+          <string language="es">Ángulo</string>
+          <string language="nl">Hoek</string>
+          <string language="cs">Velikost úhlu</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#patterns_and_structures_r</id>
+        <entry>
+          <string language="de">Muster und Strukturen</string>
+          <string language="nl">Patronen en structuren</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Symmetry_r</id>
+        <entry>
+          <string language="de">Symmetrie</string>
+          <string language="fr">symétrie</string>
+          <string language="en">symmetry</string>
+          <string language="es">simetría</string>
+          <string language="nl">Symmetrie</string>
+          <string language="cs">Souměrné</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Use_theorem_about_the_sum_of_the_angles_in_triangle</id>
+        <entry>
+          <string language="de">die Winkelsumme im Dreieck verwenden</string>
+          <string language="fr">utiliser le résultat sur la somme des angles d'un triangle</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

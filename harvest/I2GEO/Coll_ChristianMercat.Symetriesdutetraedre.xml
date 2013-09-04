@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_ChristianMercat.Symetriesdutetraedre</entry>
+    </identifier>
+    <title>
+      <string language="fr">Symétries du tétraèdre</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">On illustre les déplacements laissant invariant le tétraèdre régulier. On sélectionne par les touches A, B, C, D, E, F, G les rotations. Les trois premières fixent les points correspondants et sont d'ordre 3, les trois autres sont d'ordre 2. La permutation (paire) des sommets est affichée. Le tétraèdre image disparait quand on est proche de l'identité. Cela fait donc 12 déplacements. Ils sont combinaisons paire de réflexions par rapport aux plans passant par une arête et le milieu de l'arête opposée. En composant ces 12 avec une réflexion, on obtient les 12 anti-déplacements (non illustrés) qui préservent le tétraèdre.</string>
+    </description>
+    <keyword>
+      <string language="fr" />
+      <!-- ttac = #Tetrahedron_r,#Construct_symmetry_line,#use_solids_to_solve_realworld_problems,#Platonic_solid_r -->
+      <string language="de">Tetraeder</string>
+      <string language="fr">tétraèdre</string>
+      <string language="en">tetrahedron</string>
+      <string language="es">tetraedro</string>
+      <string language="nl">Tetraëder</string>
+      <string language="cs">Čtyřstěn</string>
+      <string language="cs">Trojboký jehlan</string>
+      <string language="cs">Čtyřstěn</string>
+      <string language="cs">Trojboký jehlan</string>
+      <string language="de">die Symmetrieachse konstruieren</string>
+      <string language="fr">construire l'axe de symétrie d'une figure</string>
+      <string language="en">construct the symmetry line</string>
+      <string language="nl">De symmetrie-as construeren</string>
+      <string language="de">Eigenschaften von Körpern zur Lösung von Anwendungsaufgaben verwenden</string>
+      <string language="fr">utiliser des propriétés des solides pour résoudre des problèmes du monde physique</string>
+      <string language="en">use properties of solids to solve problems of the physical space</string>
+      <string language="es">usar propiedades de los sólidos para resolver problemas del mundo físico</string>
+      <string language="de">Platonischer Körper</string>
+      <string language="fr">solide de Platon</string>
+      <string language="en">platonic solid</string>
+      <string language="es">sólido platónico</string>
+      <string language="nl">Platoons veelvlak</string>
+      <string language="nl">Platoons lichaam</string>
+      <string language="nl">Regelmatig veelvlak</string>
+      <string language="nl">Platoons veelvlak</string>
+      <string language="nl">Platoons lichaam</string>
+      <string language="nl">Regelmatig veelvlak</string>
+      <string language="nl">Platoons veelvlak</string>
+      <string language="nl">Platoons lichaam</string>
+      <string language="nl">Regelmatig veelvlak</string>
+      <string language="cs">Pravidelný mnohostěn</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">7.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Christian Mercat IREM de Lyon, IUFM&#xD;
+N:IREM de Lyon, IUFM;Christian Mercat;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2012-02-13T19:01:45.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Christian Mercat IREM de Lyon, IUFM&#xD;
+N:IREM de Lyon, IUFM;Christian Mercat;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2012-02-14T00:18:55.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>g3w</format>
+    <size>9835</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_ChristianMercat/Symetriesdutetraedre</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#university</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Universität</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Universität</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >université</value>                </context>
+                                <context><source>i2g</source>
+                    <value >université</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >university</value>                </context>
+                                <context><source>i2g</source>
+                    <value >university</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >universiteit</value>                </context>
+                                <context><source>i2g</source>
+                    <value >universiteit</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Universität</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Universität</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >université</value>                </context>
+                                <context><source>i2g</source>
+                    <value >université</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >university</value>                </context>
+                                <context><source>i2g</source>
+                    <value >university</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >universiteit</value>                </context>
+                                <context><source>i2g</source>
+                    <value >universiteit</value>                </context>
+                                         -->
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Tetrahedron_r</id>
+        <entry>
+          <string language="de">Tetraeder</string>
+          <string language="fr">tétraèdre</string>
+          <string language="en">tetrahedron</string>
+          <string language="es">tetraedro</string>
+          <string language="nl">Tetraëder</string>
+          <string language="cs">Čtyřstěn</string>
+          <string language="cs">Trojboký jehlan</string>
+          <string language="cs">Čtyřstěn</string>
+          <string language="cs">Trojboký jehlan</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Construct_symmetry_line</id>
+        <entry>
+          <string language="de">die Symmetrieachse konstruieren</string>
+          <string language="fr">construire l'axe de symétrie d'une figure</string>
+          <string language="en">construct the symmetry line</string>
+          <string language="nl">De symmetrie-as construeren</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#use_solids_to_solve_realworld_problems</id>
+        <entry>
+          <string language="de">Eigenschaften von Körpern zur Lösung von Anwendungsaufgaben verwenden</string>
+          <string language="fr">utiliser des propriétés des solides pour résoudre des problèmes du monde physique</string>
+          <string language="en">use properties of solids to solve problems of the physical space</string>
+          <string language="es">usar propiedades de los sólidos para resolver problemas del mundo físico</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Platonic_solid_r</id>
+        <entry>
+          <string language="de">Platonischer Körper</string>
+          <string language="fr">solide de Platon</string>
+          <string language="en">platonic solid</string>
+          <string language="es">sólido platónico</string>
+          <string language="nl">Platoons veelvlak</string>
+          <string language="nl">Platoons lichaam</string>
+          <string language="nl">Regelmatig veelvlak</string>
+          <string language="nl">Platoons veelvlak</string>
+          <string language="nl">Platoons lichaam</string>
+          <string language="nl">Regelmatig veelvlak</string>
+          <string language="nl">Platoons veelvlak</string>
+          <string language="nl">Platoons lichaam</string>
+          <string language="nl">Regelmatig veelvlak</string>
+          <string language="cs">Pravidelný mnohostěn</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

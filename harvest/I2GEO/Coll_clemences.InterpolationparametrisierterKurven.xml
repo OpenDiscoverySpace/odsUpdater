@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_clemences.InterpolationparametrisierterKurven</entry>
+    </identifier>
+    <title>
+      <string language="de">Interpolation parametrisierter Kurven</string>
+    </title>
+    <language>de</language>
+    <description>
+      <string language="de">In diesem Applet kann man aus 4 Punkten eine Kurve abbilden. Die 4 Punkte kann man verschieben.&lt;p/&gt;
+Originale version : &lt;span class="nobr"&gt;&lt;a href="http://i2geo.net/xwiki/bin/view/Coll_truppeldanielsg/InterpolationparametrisierterKurven"&gt;http://i2geo.net/xwiki/bin/view/Coll_truppeldanielsg/InterpolationparametrisierterKurven&lt;/a&gt;&lt;/span&gt;</string>
+    </description>
+    <keyword>
+      <string language="de">funktion</string>
+      <!-- ttac = #Function_r,#Graphical_Representation_of_Function_r -->
+      <string language="de">Funktion</string>
+      <string language="fr">Fonction</string>
+      <string language="fr">fonction</string>
+      <string language="fr">Fonction</string>
+      <string language="fr">fonction</string>
+      <string language="en">function</string>
+      <string language="nl">Functie</string>
+      <string language="cs">Funkce</string>
+      <string language="de">graphische Darstellung einer Funktion</string>
+      <string language="fr">représentation graphique de fonction</string>
+      <string language="en">graphical representation of a function</string>
+      <string language="nl">Grafische weergave van een functie</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">4.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Sassenou  Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M&#xD;
+N: Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M;Sassenou;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-04-22T11:38:03.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Sassenou  Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M&#xD;
+N: Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M;Sassenou;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-04-23T09:14:45.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>cdy</format>
+    <size>1743</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_clemences/InterpolationparametrisierterKurven</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT resource_animation
+        true    true     -->
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>demonstration</value>
+    </learningResourceType>
+    <interactivityLevel>
+      <source>LOMv1.0</source>
+      <value>medium</value>
+    </interactivityLevel>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills</value>
+            </context>
+                                     -->
+    <language>de</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Function_r</id>
+        <entry>
+          <string language="de">Funktion</string>
+          <string language="fr">Fonction</string>
+          <string language="fr">fonction</string>
+          <string language="fr">Fonction</string>
+          <string language="fr">fonction</string>
+          <string language="en">function</string>
+          <string language="nl">Functie</string>
+          <string language="cs">Funkce</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Graphical_Representation_of_Function_r</id>
+        <entry>
+          <string language="de">graphische Darstellung einer Funktion</string>
+          <string language="fr">représentation graphique de fonction</string>
+          <string language="en">graphical representation of a function</string>
+          <string language="nl">Grafische weergave van een functie</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

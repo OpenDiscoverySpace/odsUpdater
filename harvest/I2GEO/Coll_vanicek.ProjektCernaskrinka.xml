@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_vanicek.ProjektCernaskrinka</entry>
+    </identifier>
+    <title>
+      <string language="en">Projekt: Černá skříňka</string>
+    </title>
+    <language>en</language>
+    <description>
+      <string language="en">6 souborů. --- Odhalování skrytého zobrazení pomocí stopy vzoru a obrazu při manipulaci. „Černou skříňku“ v této úloze představuje skryté zobrazení, které zobrazuje bod A do bodu A' v souboru, který žák dostane jako zadání. Do mechanismu zobrazení není vidět, proto „černá skříňka“. Žák má odhalit, o jaké zobrazení se jedná, tedy jak se bod A zobrazuje do A'. 
+Žák může tahat bodem A po nákresně a pozorovat chování bodu A', může si zapnout stopu obou bodů. Z tvaru stopy se pokusí rozeznat, zda jde o shodnost, zda je přímá či nepřímá apod. Svoji hypotézu může ověřit konstrukcí onoho zobrazení, které zobrazí bod A do pomocného obrazu B, a poté manipulací kontrolovat, zda A' splývá s B. 
+Vyvrcholením projektu je pokus o vytvoření své vlastní „černé skříňky“, tu uložit a dát ji ostatním k uhodnutí.</string>
+    </description>
+    <keyword>
+      <string language="en" />
+      <!-- ttac =  -->
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">1.02</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Jiří Vaníček&#xD;
+N:Vaníček;Jiří;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-04-27T16:05:53.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Jiří Vaníček&#xD;
+N:Vaníček;Jiří;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-11-04T01:12:25.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>zip</format>
+    <size>3470</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_vanicek/ProjektCernaskrinka</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills</value>
+            </context>
+                                     -->
+    <language>en</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+</lom>
+

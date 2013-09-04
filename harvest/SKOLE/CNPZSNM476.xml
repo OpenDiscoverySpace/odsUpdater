@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM lomODS.xsd">
+  <general>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM476</entry>
+    </identifier>
+    <title>
+      <string language="de">Novi mediji u nastavi njemačkog jezika</string>
+    </title>
+    <language>de</language>
+    <description>
+      <string language="hr">Autor handouta je Robert Bösiger koji je na seminaru u Austriji (Graz / Raach am Hochgebirge, 13. do 25. kolovoza 2012.) - koje je organiziralo austrijsko društvo Verein für Kultur und Sprache - imao izlaganje na temu Novi mediji u nastavi njemačkog jezika. Handout sadrži korisne linkove za nastavu njemačkog jezika poput internetskih stranica s nastavnim materijalima, listićima te ideje za korištenje novih medija u nastavi njemačkog jezika (snimanje Vijesti, digitalstory).</string>
+    </description>
+    <keyword>
+      <string language="hr">njemački</string>
+      <string language="hr">snimanje filma</string>
+      <string language="hr">nastavni materijali</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <contribute>
+      <role>
+        <source>LOMODSv1.0</source>
+        <value>author</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+N:HAJSOK;MARTA
+FN:MARTA HAJSOK
+END:VCARD]]></entity>
+    </contribute>
+  </lifeCycle>
+  <metaMetadata>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM476</entry>
+    </identifier>
+    <metadataSchema>LOMv1.0</metadataSchema>
+  </metaMetadata>
+  <technical>
+    <location>http://www.skole.hr/nastavni-materijali/materijal?nm_action=get_materijal_detaljno&amp;id=476</location>
+  </technical>
+  <educational>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>reference</value>
+    </learningResourceType>
+    <intendedEndUserRole>
+      <source>LOMODSv1.0</source>
+      <value>learner</value>
+    </intendedEndUserRole>
+    <context>
+      <source>LOMODSv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <typicalAgeRange>
+      <string language="en">14-15</string>
+    </typicalAgeRange>
+  </educational>
+  <rights>
+    <copyrightAndOtherRestrictions>
+      <source>LOMODSv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="hr">Ovaj objekt učenja je vlasništvo njegovog autora. Objekt učenja slobodan je za korištenje uz navođenje autora materijala.</string>
+      <string language="en">This learning object is owned by its respective author. The learning object is free for use, but it is necessary to attribute the author as its creator.</string>
+    </description>
+  </rights>
+  <relation />
+  <annotation />
+  <classification>
+    <purpose>
+      <source>LOMODSv1.0</source>
+      <value>discipline</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Language Learning Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Reading</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Language Learning Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Writing</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Language Learning Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Speaking</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Language Learning Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Vocabulary</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

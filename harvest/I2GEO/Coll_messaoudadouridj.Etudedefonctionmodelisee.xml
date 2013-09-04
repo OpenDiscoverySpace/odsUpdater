@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_messaoudadouridj.Etudedefonctionmodelisee</entry>
+    </identifier>
+    <title>
+      <string language="fr">Étude de fonction modélisée</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">Cette activité s’adresse aux élèves de  la première année du deuxième cycle du secondaire.
+Elle vise à amener l’élève à déterminer le domaine de définition d’une fonction, à rechercher des images et des antécédents de valeurs bien précises, à connaître le principe de  projection de points sur les axes d’un graphique pour pouvoir faire une comparaison entre deux modélisations d’une fonction(fonctions affine et polynomiale) et  aussi à faire l’étude du sens de variation de cette fonction.
+Il devra utiliser le logiciel Geogebra pour effectuer le tracé du graphique des deux fonctions en question afin de déterminer les antécédents d’une fonction, tâche qui est impossible à faire analytiquement en raison de l’ordre de grandeur des paramètres du polynôme. 
+-Résoudre une situation-problème -Déployer un raisonnement mathématique -Communiquer à l'aide du langage mathématique&lt;p/&gt;</string>
+    </description>
+    <keyword>
+      <string language="fr" />
+      <!-- ttac =  -->
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">5.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:messaouda Douridj&#xD;
+N:Douridj;messaouda;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-10-04T21:15:27.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:messaouda Douridj&#xD;
+N:Douridj;messaouda;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-10-05T02:43:17.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>rar</format>
+    <size>128823</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_messaoudadouridj/Etudedefonctionmodelisee</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_exercise
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>exercise</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills</value>
+            </context>
+                                     -->
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+</lom>
+

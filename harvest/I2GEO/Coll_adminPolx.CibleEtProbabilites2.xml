@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_adminPolx.CibleEtProbabilites2</entry>
+    </identifier>
+    <title>
+      <string language="en">Cible et probabilités</string>
+    </title>
+    <language>en</language>
+    <description>
+      <string language="en">Cette animation illustre exactement le texte de l'exercice et la modélisation retenue est celle qui est proposée. C'est justement la mise en place de cette modélisation qui nous conduit à réfléchir à la meilleure façon de choisir aléatoirement un point dans un disque avec une probabilité de présence uniforme.&lt;p/&gt;
+Activité ayant pour premier objectif de faire comprendre l'intérêt des variables aléatoires, en particulier ici où il est impossible de raisonner sur les événements élémentaires qui nous placent dans un univers non fini.</string>
+    </description>
+    <keyword>
+      <string language="en">Aire d’un disque - Proportionnalité</string>
+      <!-- ttac = #Probability_r -->
+      <string language="de">Wahrscheinlichkeit</string>
+      <string language="fr">probabilité</string>
+      <string language="en">probability</string>
+      <string language="es">probabilidad</string>
+      <string language="nl">Waarschijnlijkheid</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">5.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Paul Libbrecht&#xD;
+N:Libbrecht;Paul;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-03-18T23:08:40.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Paul Libbrecht&#xD;
+N:Libbrecht;Paul;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2011-01-22T00:12:21.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_adminPolx/CibleEtProbabilites2</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills</value>
+            </context>
+                                     -->
+    <language>en</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <!-- unrecognized license type: "cc-public-domain" -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Probability_r</id>
+        <entry>
+          <string language="de">Wahrscheinlichkeit</string>
+          <string language="fr">probabilité</string>
+          <string language="en">probability</string>
+          <string language="es">probabilidad</string>
+          <string language="nl">Waarschijnlijkheid</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

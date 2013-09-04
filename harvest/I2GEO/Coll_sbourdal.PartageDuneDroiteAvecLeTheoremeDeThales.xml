@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_sbourdal.PartageDuneDroiteAvecLeTheoremeDeThales</entry>
+    </identifier>
+    <title>
+      <string language="fr">Partage d'une droite avec le théorème de Thalès</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">Activité complète composée de six figures, d'un scénario, de fiches élève et professeur pour la construction d'un partage d'un segment à la règle et au compas en utilisant le théorème de Thalès.&lt;p/&gt;
+&lt;strong&gt;Cette ressource est la copie d'une trace de la première étape d'Intergeo&lt;/strong&gt;&lt;p/&gt;
+Cette ressource vient de &lt;a class="wikicreatelink" href="http://i2geo.net/xwiki/bin/edit/Traces/Partage+Thales?parent=Coll_sbourdal.PartageDuneDroiteAvecLeTheoremeDeThales"&gt;&lt;span class="wikicreatelinktext"&gt;Partage Thales&lt;/span&gt;&lt;span class="wikicreatelinkqm"&gt;?&lt;/span&gt;&lt;/a&gt; qui mentionne 6 constructions.&lt;p/&gt;
+&lt;ul class="minus"&gt;
+&lt;li&gt;Système de géométrie: &lt;span class="wikilink"&gt;&lt;a href="http://i2geo.net/xwiki/bin/view/Softwares/TracEnPoche"&gt;Trac En Poche&lt;/a&gt;&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;Pays: fr&lt;/li&gt;
+&lt;li&gt;Niveau d'enseignement: Collège 3e&lt;/li&gt;
+&lt;li&gt;Sujet principal: proportions&lt;/li&gt;
+&lt;li&gt;Autres thèmes&lt;/li&gt;
+&lt;/ul&gt;</string>
+    </description>
+    <keyword>
+      <string language="fr">Thalès Partage Proportionnalité</string>
+      <!-- ttac = #Proportional_r,#InterceptTheorem,#Construct_segment_divided_into_equal_parts -->
+      <string language="de">proportional</string>
+      <string language="de">direkt proportional</string>
+      <string language="de">proportional</string>
+      <string language="de">direkt proportional</string>
+      <string language="fr">proportionnel</string>
+      <string language="fr">relation de proportionnalité directe</string>
+      <string language="fr">proportionnel</string>
+      <string language="fr">relation de proportionnalité directe</string>
+      <string language="en">proportional</string>
+      <string language="es">proporcional</string>
+      <string language="es">relación de proporcionalidad directa</string>
+      <string language="es">proporcional</string>
+      <string language="es">relación de proporcionalidad directa</string>
+      <string language="nl">Recht evenredig</string>
+      <string language="nl">Proportioneel</string>
+      <string language="nl">Evenredig</string>
+      <string language="nl">Recht evenredig</string>
+      <string language="nl">Proportioneel</string>
+      <string language="nl">Evenredig</string>
+      <string language="nl">Recht evenredig</string>
+      <string language="nl">Proportioneel</string>
+      <string language="nl">Evenredig</string>
+      <string language="de">Vierstreckensatz</string>
+      <string language="de">Strahlensatz</string>
+      <string language="de">Vierstreckensatz</string>
+      <string language="de">Strahlensatz</string>
+      <string language="fr">Théorème de Thalès</string>
+      <string language="en">Intercept-Theorem</string>
+      <string language="en">Intercepting lines theorem</string>
+      <string language="en">Intercept-Theorem</string>
+      <string language="en">Intercepting lines theorem</string>
+      <string language="es">Teorema de Tales</string>
+      <string language="nl">Stelling van Thales</string>
+      <string language="de">eine Strecke, die in gleiche Abschnitte geteilt ist, konstruieren</string>
+      <string language="fr">construire un segment divisé en parties égales</string>
+      <string language="en">construct a segment divided in equal parts</string>
+      <string language="nl">Een lijnstuk construeren dat in gelijke stukken is opgedeeld</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">1.02</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Sylvain Bourdal&amp;eacute&#xD;
+N:Bourdal&amp;eacute;Sylvain;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-03-03T20:49:02.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Sylvain Bourdal&amp;eacute&#xD;
+N:Bourdal&amp;eacute;Sylvain;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-11-04T14:55:49.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_sbourdal/PartageDuneDroiteAvecLeTheoremeDeThales</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#College_4</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Troisième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Troisième de Collège</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Troisième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Troisième de Collège</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 14 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 14 -->
+    <typicalAgeRange>
+      <string language="en">14-15</string>
+    </typicalAgeRange>
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">CurrikiCode.AssetLicenseClass_licenseType_Licences.Licences.CreativeCommonsAttributionNon-CommercialShareAlike</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by-nc-sa/2.0/</licenseURI>-->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Proportional_r</id>
+        <entry>
+          <string language="de">proportional</string>
+          <string language="de">direkt proportional</string>
+          <string language="de">proportional</string>
+          <string language="de">direkt proportional</string>
+          <string language="fr">proportionnel</string>
+          <string language="fr">relation de proportionnalité directe</string>
+          <string language="fr">proportionnel</string>
+          <string language="fr">relation de proportionnalité directe</string>
+          <string language="en">proportional</string>
+          <string language="es">proporcional</string>
+          <string language="es">relación de proporcionalidad directa</string>
+          <string language="es">proporcional</string>
+          <string language="es">relación de proporcionalidad directa</string>
+          <string language="nl">Recht evenredig</string>
+          <string language="nl">Proportioneel</string>
+          <string language="nl">Evenredig</string>
+          <string language="nl">Recht evenredig</string>
+          <string language="nl">Proportioneel</string>
+          <string language="nl">Evenredig</string>
+          <string language="nl">Recht evenredig</string>
+          <string language="nl">Proportioneel</string>
+          <string language="nl">Evenredig</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#InterceptTheorem</id>
+        <entry>
+          <string language="de">Vierstreckensatz</string>
+          <string language="de">Strahlensatz</string>
+          <string language="de">Vierstreckensatz</string>
+          <string language="de">Strahlensatz</string>
+          <string language="fr">Théorème de Thalès</string>
+          <string language="en">Intercept-Theorem</string>
+          <string language="en">Intercepting lines theorem</string>
+          <string language="en">Intercept-Theorem</string>
+          <string language="en">Intercepting lines theorem</string>
+          <string language="es">Teorema de Tales</string>
+          <string language="nl">Stelling van Thales</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Construct_segment_divided_into_equal_parts</id>
+        <entry>
+          <string language="de">eine Strecke, die in gleiche Abschnitte geteilt ist, konstruieren</string>
+          <string language="fr">construire un segment divisé en parties égales</string>
+          <string language="en">construct a segment divided in equal parts</string>
+          <string language="nl">Een lijnstuk construeren dat in gelijke stukken is opgedeeld</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

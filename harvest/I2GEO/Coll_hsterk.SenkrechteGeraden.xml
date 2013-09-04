@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_hsterk.SenkrechteGeraden</entry>
+    </identifier>
+    <title>
+      <string language="de">Senkrechte Geraden</string>
+    </title>
+    <language>de</language>
+    <description>
+      <string language="de">Dieses Übungsblatt handelt von: Gerade, Senkrechte und rechter Winkel. Es ist ein interaktives applet, dass GEONExT benutzt.&lt;p/&gt;</string>
+    </description>
+    <keyword>
+      <string language="de">Punkt Gerade Lot</string>
+      <!-- ttac = #Cartesian_coordinates_r,#TwoD_coordinates_r,#Orthogonal_r,#Straight_Line_r -->
+      <string language="de">Kartesische Koordinaten</string>
+      <string language="fr">coordonnées cartésiennes</string>
+      <string language="en">Cartesian coordinates</string>
+      <string language="es">coordenadas cartesianas</string>
+      <string language="nl">Cartesische coördinaten</string>
+      <string language="cs">Kartézské souřadnice</string>
+      <string language="de">2D Koordinaten</string>
+      <string language="fr">coordonnées dans le plan</string>
+      <string language="en">2D coordinates</string>
+      <string language="nl">2D coördinaten</string>
+      <string language="nl">Vlakke coördinaten</string>
+      <string language="nl">2D coördinaten</string>
+      <string language="nl">Vlakke coördinaten</string>
+      <string language="de">senkrecht</string>
+      <string language="de">orthogonal</string>
+      <string language="de">lotrecht</string>
+      <string language="de">senkrecht</string>
+      <string language="de">orthogonal</string>
+      <string language="de">lotrecht</string>
+      <string language="de">senkrecht</string>
+      <string language="de">orthogonal</string>
+      <string language="de">lotrecht</string>
+      <string language="es">ortogonal</string>
+      <string language="nl">Orthogonaal</string>
+      <string language="cs">Kolmost</string>
+      <string language="de">Gerade</string>
+      <string language="fr">droite</string>
+      <string language="en">straight line</string>
+      <string language="es">línea recta</string>
+      <string language="nl">Rechte</string>
+      <string language="nl">Rechte lijn</string>
+      <string language="nl">Rechte</string>
+      <string language="nl">Rechte lijn</string>
+      <string language="cs">Přímka</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">1.02</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Hans Sterk Sterk-TU/e&#xD;
+N:Sterk-TU/e;Hans Sterk;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2008-11-21T14:52:39.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Maxim Hendriks&#xD;
+N:Hendriks;Maxim;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-11-04T14:50:53.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_hsterk/SenkrechteGeraden</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Gymnasium_Saarland_5te_level</value>
+            </context>
+                                     -->
+    <language>de</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <!-- unrecognized license type: "cc-by-sa" -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Cartesian_coordinates_r</id>
+        <entry>
+          <string language="de">Kartesische Koordinaten</string>
+          <string language="fr">coordonnées cartésiennes</string>
+          <string language="en">Cartesian coordinates</string>
+          <string language="es">coordenadas cartesianas</string>
+          <string language="nl">Cartesische coördinaten</string>
+          <string language="cs">Kartézské souřadnice</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#TwoD_coordinates_r</id>
+        <entry>
+          <string language="de">2D Koordinaten</string>
+          <string language="fr">coordonnées dans le plan</string>
+          <string language="en">2D coordinates</string>
+          <string language="nl">2D coördinaten</string>
+          <string language="nl">Vlakke coördinaten</string>
+          <string language="nl">2D coördinaten</string>
+          <string language="nl">Vlakke coördinaten</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Orthogonal_r</id>
+        <entry>
+          <string language="de">senkrecht</string>
+          <string language="de">orthogonal</string>
+          <string language="de">lotrecht</string>
+          <string language="de">senkrecht</string>
+          <string language="de">orthogonal</string>
+          <string language="de">lotrecht</string>
+          <string language="de">senkrecht</string>
+          <string language="de">orthogonal</string>
+          <string language="de">lotrecht</string>
+          <string language="es">ortogonal</string>
+          <string language="nl">Orthogonaal</string>
+          <string language="cs">Kolmost</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Straight_Line_r</id>
+        <entry>
+          <string language="de">Gerade</string>
+          <string language="fr">droite</string>
+          <string language="en">straight line</string>
+          <string language="es">línea recta</string>
+          <string language="nl">Rechte</string>
+          <string language="nl">Rechte lijn</string>
+          <string language="nl">Rechte</string>
+          <string language="nl">Rechte lijn</string>
+          <string language="cs">Přímka</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

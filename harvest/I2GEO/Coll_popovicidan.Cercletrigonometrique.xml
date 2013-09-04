@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_popovicidan.Cercletrigonometrique</entry>
+    </identifier>
+    <title>
+      <string language="fr">Cercle trigonométrique</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">La représentation analytique des fonctions trigonométriques en GeoGebra est déjà bien connue. C’est pourquoi notre objectif n’est pas de répéter ce qui a été fait antérieurement, mais plutôt de profiter de cette représentation pour  mieux expliquer aux élèves le lien entre la définition des fonctions trigonométriques dans le triangle rectangle et dans le cercle trigonométrique et  la généralisation pour des angles négatifs ou supérieures à 900. &lt;p/&gt;
+L’activité « Cercle trigonométrique » est destinée aux élèves de deuxième cycle, 5e secondaire conformément au « Programme de formation de l’école Québécoise » du Canada.  Son objectif est de profiter des avantages du GeoGebra pour analyser plus en détail la définition élémentaire des fonctions trigonométriques et leur représentation analytique. Suite à l’activité, les élèves doivent être convaincus de la similitude entre les deux manières de définir les fonctions SIN, COS et TAN, et de pouvoir utiliser la représentation analytique pour retrouver des propriétés fondamentales de ces fonctions. La compétence disciplinaire principale qu’on veut développer aux élèves est de « Communiquer à l’aide d’un langage mathématique » (PFLQ). Cette activité devrait se dérouler en classe en petit groupes de 4 ou 5 élèves. Chaque groupe doit alors choisir un responsable qui répondra aux questions travaillées de concert par tous les membres de l’équipe. Il va compléter un questionnaire qui inclut également des questions sur la manipulation du logiciel GeoGebra afin d’assurer l’interaction active sur le plan technologique.                &lt;p/&gt;</string>
+    </description>
+    <keyword>
+      <string language="fr">trigonométrie cercle</string>
+      <!-- ttac = #Trigonometric_function_r,#Plot_trigonometric_functions -->
+      <string language="de">trigonometrische Funktion</string>
+      <string language="fr">fonction trigonométrique</string>
+      <string language="en">trigonometric function</string>
+      <string language="nl">Trigonometrische functie</string>
+      <string language="cs">Goniometrické funkce</string>
+      <string language="de">trigonometrische Funktionen graphisch darstellen</string>
+      <string language="fr">représenter graphiquement une fonction trigonométrique</string>
+      <string language="en">plot_trigonometric_functions</string>
+      <string language="nl">Een grafiek tekenen voor een goniometrische functie</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">9.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Dan Popovici&#xD;
+N:Popovici;Dan;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2011-10-03T17:30:01.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Dan Popovici&#xD;
+N:Popovici;Dan;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2011-10-04T13:46:57.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>zip</format>
+    <size>17154</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_popovicidan/Cercletrigonometrique</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_exercise
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>exercise</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills</value>
+            </context>
+                                     -->
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Trigonometric_function_r</id>
+        <entry>
+          <string language="de">trigonometrische Funktion</string>
+          <string language="fr">fonction trigonométrique</string>
+          <string language="en">trigonometric function</string>
+          <string language="nl">Trigonometrische functie</string>
+          <string language="cs">Goniometrické funkce</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Plot_trigonometric_functions</id>
+        <entry>
+          <string language="de">trigonometrische Funktionen graphisch darstellen</string>
+          <string language="fr">représenter graphiquement une fonction trigonométrique</string>
+          <string language="en">plot_trigonometric_functions</string>
+          <string language="nl">Een grafiek tekenen voor een goniometrische functie</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

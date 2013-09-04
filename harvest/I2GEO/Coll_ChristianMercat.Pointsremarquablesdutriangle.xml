@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_ChristianMercat.Pointsremarquablesdutriangle</entry>
+    </identifier>
+    <title>
+      <string language="fr">Points remarquables du triangle</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">Centre de gravité, centre du cercle circonscrit, orthocentre, point d'Euler, droite d'Euler, cercle d'Euler, cercle inscrit, cercles ex-inscrits.</string>
+    </description>
+    <keyword>
+      <string language="fr" />
+      <!-- ttac = #Triangle_r,#Centre_r,#Circumcircle_r,#Incircle_r,#Straight_Line_r,#Barycenter_r -->
+      <string language="de">Dreieck</string>
+      <string language="fr">triangle</string>
+      <string language="en">triangle</string>
+      <string language="es">Triángulo</string>
+      <string language="nl">Driehoek</string>
+      <string language="cs">trojúhelník</string>
+      <string language="de">Mittelpunkt</string>
+      <string language="fr">centre</string>
+      <string language="en">centre</string>
+      <string language="es">centro</string>
+      <string language="nl">Centrum</string>
+      <string language="nl">Middelpunt</string>
+      <string language="nl">Centrum</string>
+      <string language="nl">Middelpunt</string>
+      <string language="cs">Střed</string>
+      <string language="de">Umkreis</string>
+      <string language="fr">cercle circonscrit</string>
+      <string language="en">circumscribed circle</string>
+      <string language="en">circumcircle</string>
+      <string language="en">circumscribed circle</string>
+      <string language="en">circumcircle</string>
+      <string language="es">Círculo circumscrito</string>
+      <string language="nl">Omgeschreven cirkel</string>
+      <string language="cs">Opsaná kružnice</string>
+      <string language="de">Inkreis</string>
+      <string language="fr">cercle inscrit</string>
+      <string language="en">incircle</string>
+      <string language="es">Círculo inscrito</string>
+      <string language="nl">Ingeschreven cirkel</string>
+      <string language="cs">Vepsaná kružnice</string>
+      <string language="de">Gerade</string>
+      <string language="fr">droite</string>
+      <string language="en">straight line</string>
+      <string language="es">línea recta</string>
+      <string language="nl">Rechte</string>
+      <string language="nl">Rechte lijn</string>
+      <string language="nl">Rechte</string>
+      <string language="nl">Rechte lijn</string>
+      <string language="cs">Přímka</string>
+      <string language="de">Schwerpunkt</string>
+      <string language="fr">barycentre</string>
+      <string language="en">barycenter</string>
+      <string language="en">centroid</string>
+      <string language="en">barycenter</string>
+      <string language="en">centroid</string>
+      <string language="es">baricentro</string>
+      <string language="nl">Barycentrum</string>
+      <string language="nl">Zwaartepunt</string>
+      <string language="nl">Barycentrum</string>
+      <string language="nl">Zwaartepunt</string>
+      <string language="cs">Těžiště</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">3.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Christian Mercat IREM de Lyon, IUFM&#xD;
+N:IREM de Lyon, IUFM;Christian Mercat;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2012-04-03T18:34:17.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Christian Mercat IREM de Lyon, IUFM&#xD;
+N:IREM de Lyon, IUFM;Christian Mercat;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2012-04-03T18:40:28.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>ggb</format>
+    <size>12202</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_ChristianMercat/Pointsremarquablesdutriangle</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#College_4</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Troisième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Troisième de Collège</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Troisième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Troisième de Collège</value>                </context>
+                                                    <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#university</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Universität</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Universität</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >université</value>                </context>
+                                <context><source>i2g</source>
+                    <value >université</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >university</value>                </context>
+                                <context><source>i2g</source>
+                    <value >university</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >universiteit</value>                </context>
+                                <context><source>i2g</source>
+                    <value >universiteit</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Universität</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Universität</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >université</value>                </context>
+                                <context><source>i2g</source>
+                    <value >université</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >university</value>                </context>
+                                <context><source>i2g</source>
+                    <value >university</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >universiteit</value>                </context>
+                                <context><source>i2g</source>
+                    <value >universiteit</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 14 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 14 -->
+    <typicalAgeRange>
+      <string language="en">14-15</string>
+    </typicalAgeRange>
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Triangle_r</id>
+        <entry>
+          <string language="de">Dreieck</string>
+          <string language="fr">triangle</string>
+          <string language="en">triangle</string>
+          <string language="es">Triángulo</string>
+          <string language="nl">Driehoek</string>
+          <string language="cs">trojúhelník</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Centre_r</id>
+        <entry>
+          <string language="de">Mittelpunkt</string>
+          <string language="fr">centre</string>
+          <string language="en">centre</string>
+          <string language="es">centro</string>
+          <string language="nl">Centrum</string>
+          <string language="nl">Middelpunt</string>
+          <string language="nl">Centrum</string>
+          <string language="nl">Middelpunt</string>
+          <string language="cs">Střed</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Circumcircle_r</id>
+        <entry>
+          <string language="de">Umkreis</string>
+          <string language="fr">cercle circonscrit</string>
+          <string language="en">circumscribed circle</string>
+          <string language="en">circumcircle</string>
+          <string language="en">circumscribed circle</string>
+          <string language="en">circumcircle</string>
+          <string language="es">Círculo circumscrito</string>
+          <string language="nl">Omgeschreven cirkel</string>
+          <string language="cs">Opsaná kružnice</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Incircle_r</id>
+        <entry>
+          <string language="de">Inkreis</string>
+          <string language="fr">cercle inscrit</string>
+          <string language="en">incircle</string>
+          <string language="es">Círculo inscrito</string>
+          <string language="nl">Ingeschreven cirkel</string>
+          <string language="cs">Vepsaná kružnice</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Straight_Line_r</id>
+        <entry>
+          <string language="de">Gerade</string>
+          <string language="fr">droite</string>
+          <string language="en">straight line</string>
+          <string language="es">línea recta</string>
+          <string language="nl">Rechte</string>
+          <string language="nl">Rechte lijn</string>
+          <string language="nl">Rechte</string>
+          <string language="nl">Rechte lijn</string>
+          <string language="cs">Přímka</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Barycenter_r</id>
+        <entry>
+          <string language="de">Schwerpunkt</string>
+          <string language="fr">barycentre</string>
+          <string language="en">barycenter</string>
+          <string language="en">centroid</string>
+          <string language="en">barycenter</string>
+          <string language="en">centroid</string>
+          <string language="es">baricentro</string>
+          <string language="nl">Barycentrum</string>
+          <string language="nl">Zwaartepunt</string>
+          <string language="nl">Barycentrum</string>
+          <string language="nl">Zwaartepunt</string>
+          <string language="cs">Těžiště</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

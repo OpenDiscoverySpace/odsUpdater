@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM lomODS.xsd">
+  <general>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM527</entry>
+    </identifier>
+    <title>
+      <string language="hr">Europska unija</string>
+    </title>
+    <language>hr</language>
+    <description>
+      <string language="hr">U školskoj 2005./2006. godini autorica materijala je bila predstavnica Hrvatske i član myEurope tima u projektu "Linking and Learning Europe". Tim je bio sastavljen od 40 iskusnih učitelja iz svih država članica EU i 4 države kandidatkinje. Organizator projekta je European Schoolnet sa sjedištem u Bruxellesu, Belgija uz potporu Europske komisije. Cilj projekta je bio izrada objekata učenja (Learning objects and WebQuests) - online materijala za poučavanje i učenje o europskom građanstvu i kulturalnim različitostima. Ovi objekti učenja imaju svoje pedagoške vrijednosti te se mogu prilagoditi svakom nastavnom planu i programu. Izrađeni su na 25 europskih jezika i pohranjeni u myEurope repozitoriju.&lt;br /&gt;	&lt;br /&gt;		&lt;br /&gt;	&lt;br /&gt;		Europska unija je interaktivna skupina raznolikih zadataka, naslova, slikovnih materijala, web materijala i web stranica o Europskoj uniji. Ova skupina objekata učenja izrađena je programom Hot Potatoes na hrvatskom jeziku i pohranjena u myEurope repozitoriju. Tu se nalazi i sadržaj, ciljevi i zadaće, ključne riječi, korelacija, dobna skupina te upute za nastavnika.&lt;br /&gt;		Autorica preporučuje korištenje myEurope repozitorija.&lt;br /&gt;	&lt;br /&gt;		&lt;br /&gt;	&lt;br /&gt;		Napomena:&lt;br /&gt;	&lt;br /&gt;		&lt;br /&gt;			Svi zadaci mogu se koristiti i pojedinačno.&lt;br /&gt;		&lt;br /&gt;			Moguća je integrirana nastava (blok sat) u 7. razredu (Geografija, Engleski jezik, Tehnička kultura, Informatika) i u 8. razredu (Povijest, Engleski jezik, Tehnička kultura, Informatika)&lt;br /&gt;	&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;</string>
+    </description>
+    <keyword>
+      <string language="hr">Europska unija</string>
+      <string language="hr">inicijative EU / svjetski mir / Schumanova deklaracija</string>
+      <string language="hr">kronologija stvaranja EU (do 2007.)</string>
+      <string language="hr">Europsko vijeće i  institucije EU</string>
+      <string language="hr">financijske institucije EU</string>
+      <string language="hr">fondovi EU</string>
+      <string language="hr">simboli EU</string>
+      <string language="hr">države članice i njihove zastave (do 2007.)</string>
+      <string language="hr">države kandidatkinje i njihove zastave (do 2007)</string>
+      <string language="hr">put Hrvatske u EU (do 2007.)</string>
+      <string language="hr">zanimljivosti o EU</string>
+      <string language="hr">ICT</string>
+      <string language="hr">e-learning</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <contribute>
+      <role>
+        <source>LOMODSv1.0</source>
+        <value>author</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+N:Dusparić;Biserka
+FN:Biserka Dusparić
+END:VCARD]]></entity>
+    </contribute>
+  </lifeCycle>
+  <metaMetadata>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM527</entry>
+    </identifier>
+    <metadataSchema>LOMv1.0</metadataSchema>
+  </metaMetadata>
+  <technical>
+    <location>http://www.skole.hr/nastavni-materijali/materijal?nm_action=get_materijal_detaljno&amp;id=527</location>
+  </technical>
+  <educational>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>exercise</value>
+    </learningResourceType>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>enquiry-oriented activity</value>
+    </learningResourceType>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>lecture</value>
+    </learningResourceType>
+    <intendedEndUserRole>
+      <source>LOMODSv1.0</source>
+      <value>learner</value>
+    </intendedEndUserRole>
+    <context>
+      <source>LOMODSv1.0</source>
+      <value>primary education</value>
+    </context>
+    <typicalAgeRange>
+      <string language="en">12-13</string>
+      <string language="en">13-14</string>
+    </typicalAgeRange>
+  </educational>
+  <rights>
+    <copyrightAndOtherRestrictions>
+      <source>LOMODSv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="hr">Ovaj objekt učenja je vlasništvo njegovog autora. Objekt učenja slobodan je za korištenje uz navođenje autora materijala.</string>
+      <string language="en">This learning object is owned by its respective author. The learning object is free for use, but it is necessary to attribute the author as its creator.</string>
+    </description>
+  </rights>
+  <relation />
+  <annotation />
+  <classification>
+    <purpose>
+      <source>LOMODSv1.0</source>
+      <value>discipline</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Science Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Geography and Earth Science</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Geography</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Social Studies Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Discipline</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Applied Social Sciences</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

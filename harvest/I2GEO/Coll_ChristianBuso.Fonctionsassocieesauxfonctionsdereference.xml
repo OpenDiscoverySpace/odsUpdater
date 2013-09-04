@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_ChristianBuso.Fonctionsassocieesauxfonctionsdereference</entry>
+    </identifier>
+    <title>
+      <string language="fr">Fonctions associees aux fonctions de reference</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">Travailler les fonctions associées aux fonctions carré, inverse ,racine, cosinus et sinus du type :
+f(x+a) ; f(x) + k; f(x+a) + k ; bf(x) ; bf(x+a) + k</string>
+    </description>
+    <keyword>
+      <string language="fr">analyse</string>
+      <!-- ttac = #Sketch_graph_of_sine_cosine_tangent_function,#Graph_of_a_function_r,#Square_root_r -->
+      <string language="de">den Graphen einer trigonometrischen Funktion skizzieren</string>
+      <string language="fr">tracer à main levée le graphe des fonctions sinus, cosinus et tangentes</string>
+      <string language="en">sketch_graph_of_sine_cosine_tangent_function</string>
+      <string language="nl">De grafiek van een goniometrische functie schetsen</string>
+      <string language="de">Graph einer Funktion</string>
+      <string language="fr">représentation graphique d'une fonction</string>
+      <string language="es">Gráfica</string>
+      <string language="nl">Grafiek van een functie</string>
+      <string language="de">Quadratwurzel</string>
+      <string language="fr">racine carrée</string>
+      <string language="en">square root</string>
+      <string language="nl">Wortel</string>
+      <string language="nl">Vierkantswortel</string>
+      <string language="nl">Wortel</string>
+      <string language="nl">Vierkantswortel</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">1.02</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Chrisitan Buso&#xD;
+N:Buso;Chrisitan;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2008-10-24T00:08:20.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Chrisitan Buso&#xD;
+N:Buso;Chrisitan;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-11-04T14:49:26.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>zip</format>
+    <size>33054</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_ChristianBuso/Fonctionsassocieesauxfonctionsdereference</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_exercise
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>exercise</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Lycée_Général_et_Technologique_2</value>
+            </context>
+                                     -->
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">CurrikiCode.AssetLicenseClass_licenseType_Licences.Licences.CreativeCommonsAttributionNon-CommercialShareAlike</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by-nc-sa/2.0/</licenseURI>-->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Sketch_graph_of_sine_cosine_tangent_function</id>
+        <entry>
+          <string language="de">den Graphen einer trigonometrischen Funktion skizzieren</string>
+          <string language="fr">tracer à main levée le graphe des fonctions sinus, cosinus et tangentes</string>
+          <string language="en">sketch_graph_of_sine_cosine_tangent_function</string>
+          <string language="nl">De grafiek van een goniometrische functie schetsen</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Graph_of_a_function_r</id>
+        <entry>
+          <string language="de">Graph einer Funktion</string>
+          <string language="fr">représentation graphique d'une fonction</string>
+          <string language="es">Gráfica</string>
+          <string language="nl">Grafiek van een functie</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Square_root_r</id>
+        <entry>
+          <string language="de">Quadratwurzel</string>
+          <string language="fr">racine carrée</string>
+          <string language="en">square root</string>
+          <string language="nl">Wortel</string>
+          <string language="nl">Vierkantswortel</string>
+          <string language="nl">Wortel</string>
+          <string language="nl">Vierkantswortel</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

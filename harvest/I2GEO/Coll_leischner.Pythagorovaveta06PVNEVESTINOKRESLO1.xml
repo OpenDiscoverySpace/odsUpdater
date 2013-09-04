@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_leischner.Pythagorovaveta06PVNEVESTINOKRESLO1</entry>
+    </identifier>
+    <title>
+      <string language="cs">Pythagorova věta, 06_PV  NEVĚSTINO KŘESLO 1</string>
+    </title>
+    <language>cs</language>
+    <description>
+      <string language="cs">Další z důkazů Pythagorovy věty, který byl znám v 9. století v Indii. Indové jej nazývali „nevěstino křeslo.“ Dva čtverce máme rozdělit dvěma přímkami a ze vzniklých částí sestavit čtverec stejného obsahu, jako má sjednocení původních dvou. Řešení zobrazíme mačkáním tlačítek v daném pořadí. Po zmáčknutí tlačítka 3 přemístíme vybarvené trojúhelníky nahoru uchopením za vrcholy A, B. Doporučujeme žákům ukázat, že úloha převedení dvou čtverců na jediný je vlastně důkaz Pythagorovy věty.</string>
+    </description>
+    <keyword>
+      <string language="cs">Pythagorova věta</string>
+      <!-- ttac =  -->
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">2.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Pavel Leischner, JCU, cz&#xD;
+N:Leischner, JCU, cz;Pavel;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-10-26T21:07:53.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Pavel Leischner, JCU, cz&#xD;
+N:Leischner, JCU, cz;Pavel;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-12-20T23:29:05.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>cabri2File</format>
+    <size>8422</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_leischner/Pythagorovaveta06PVNEVESTINOKRESLO1</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_worksheet
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>exercise</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills</value>
+            </context>
+                                     -->
+    <language>cs</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+</lom>
+

@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM lomODS.xsd">
+  <general>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM24</entry>
+    </identifier>
+    <title>
+      <string language="hr">Osnovna građa računala</string>
+    </title>
+    <language>hr</language>
+    <description>
+      <string language="hr">Kratki ilustrirani pregled osnovnih pojmova o građi računala. Poglavlja: Kodovi i kodiranje, Bit i bajt, Obrada podataka, Temeljna građa, CPU, Kako radi mikroprocesor, Memorija, Ulazno-izlazni sklopovi, Vrata, Sabirnice, Vrste računala</string>
+    </description>
+    <keyword>
+      <string language="hr">računala</string>
+      <string language="hr">bit</string>
+      <string language="hr">bajt</string>
+      <string language="hr">memorija</string>
+      <string language="hr">CPU</string>
+      <string language="hr">vrata</string>
+      <string language="hr">sabirnice</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <contribute>
+      <role>
+        <source>LOMODSv1.0</source>
+        <value>author</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+N:Blagojević;Lidija
+FN:Lidija Blagojević
+END:VCARD]]></entity>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMODSv1.0</source>
+        <value>author</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+N:Grundler;Darko
+FN:Darko Grundler
+END:VCARD]]></entity>
+    </contribute>
+  </lifeCycle>
+  <metaMetadata>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM24</entry>
+    </identifier>
+    <metadataSchema>LOMv1.0</metadataSchema>
+  </metaMetadata>
+  <technical>
+    <location>http://www.skole.hr/nastavni-materijali/materijal?nm_action=get_materijal_detaljno&amp;id=24</location>
+  </technical>
+  <educational>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>demonstration</value>
+    </learningResourceType>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>lecture</value>
+    </learningResourceType>
+    <intendedEndUserRole>
+      <source>LOMODSv1.0</source>
+      <value>learner</value>
+    </intendedEndUserRole>
+    <context>
+      <source>LOMODSv1.0</source>
+      <value>primary education</value>
+    </context>
+    <context>
+      <source>LOMODSv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <context>
+      <source>LOMODSv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <typicalAgeRange>
+      <string language="en">12-13</string>
+      <string language="en">13-14</string>
+      <string language="en">14-15</string>
+      <string language="en">15-16</string>
+      <string language="en">16-17</string>
+      <string language="en">17-18</string>
+    </typicalAgeRange>
+  </educational>
+  <rights>
+    <copyrightAndOtherRestrictions>
+      <source>LOMODSv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="hr">Ovaj objekt učenja je vlasništvo njegovog autora. Objekt učenja slobodan je za korištenje uz navođenje autora materijala.</string>
+      <string language="en">This learning object is owned by its respective author. The learning object is free for use, but it is necessary to attribute the author as its creator.</string>
+    </description>
+  </rights>
+  <relation />
+  <annotation />
+  <classification>
+    <purpose>
+      <source>LOMODSv1.0</source>
+      <value>discipline</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">ODS ICT Vocabulary</string>
+      </source>
+      <taxon />
+    </taxonPath>
+    <taxonPath>
+      <source>
+        <string language="en">ODS ICT Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Technology</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Computer science</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Science Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Physics</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Technological applications</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Transport (air, water and ground)</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+    <taxonPath>
+      <source>
+        <string language="en">ODS ICT Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Technology</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Engineering</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Science Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Physics</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Technological applications</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Wood production</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Science Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Environmental Education</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Environment</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Wood</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Science Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Geography and Earth Science</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Earth science</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">geology</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Science Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Geography and Earth Science</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Geography</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Geomorphological processes - general information</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Science Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Geography and Earth Science</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Earth science</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Mathematics Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Applied Mathematics</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Science Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Geography and Earth Science</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Earth science</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Science Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Physics</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Technological applications</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Transport (air, water and ground)</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Science Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Chemistry</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Science Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Chemistry</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Physical chemistry</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Science Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Physics</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Technological applications</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Textiles</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

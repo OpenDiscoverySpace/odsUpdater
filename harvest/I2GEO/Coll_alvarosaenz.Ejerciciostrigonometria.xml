@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_alvarosaenz.Ejerciciostrigonometria</entry>
+    </identifier>
+    <title>
+      <string language="es">Ejercicios trigonometría (4º ESO)</string>
+    </title>
+    <language>es</language>
+    <description>
+      <string language="es">Cuatro ejercicios de trigonometría para que el alumno resuelva utilizando las fórmulas, luego construya los triángulos con GeoGebra y por último compare los resultados obtenidos. &lt;p/&gt;
+Para la realización de los ejercicios utilzaremos tres sesiones: 1ª sesión: Realización de los ejercicios en el aula (utilizando fórmulas) 2ª sesión: Realización de los ejercicios en el aula de ordenadores (utilizando GeoGebra) 3ª sesión: Corrección utilizando GeoGebra.&lt;p/&gt;
+El documento Practica trigonometria.pdf contiene los enunciados de los ejercicios.&lt;p/&gt;
+Los archivos ejecicioN.ggb son los archivos de GeoGebra para que el alumno resuelva los ejercicios&lt;p/&gt;
+Los archivos explicación_ejercicioN.mov son videos de la resolución de los ejercicios. Se pueden utilizar de ayuda para el alumnado.</string>
+    </description>
+    <keyword>
+      <string language="es" />
+      <!-- ttac = #Trigonometric_ratio_r -->
+      <string language="de">trigonometrische Verhältnisse</string>
+      <string language="fr">ligne trigonométrique</string>
+      <string language="en">trigonometric ratio</string>
+      <string language="es">razón trigonométrica</string>
+      <string language="nl">Trigonometrische verhouding</string>
+      <string language="nl">Goniometrische verhouding</string>
+      <string language="nl">Trigonometrische verhouding</string>
+      <string language="nl">Goniometrische verhouding</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">11.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Álvaro Sáenz de Cabezón&#xD;
+N:Sáenz de Cabezón;Álvaro;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-09-22T19:33:17.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Álvaro Sáenz de Cabezón&#xD;
+N:Sáenz de Cabezón;Álvaro;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-12-16T11:40:57.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>zip</format>
+    <size>5648946</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_alvarosaenz/Ejerciciostrigonometria</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_exercise
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>exercise</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Secundaria_4</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Cuarto de ESO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Cuarto de ESO</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Cuarto de ESO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Cuarto de ESO</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 15 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 15 -->
+    <typicalAgeRange>
+      <string language="en">15-16</string>
+    </typicalAgeRange>
+    <language>es</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Trigonometric_ratio_r</id>
+        <entry>
+          <string language="de">trigonometrische Verhältnisse</string>
+          <string language="fr">ligne trigonométrique</string>
+          <string language="en">trigonometric ratio</string>
+          <string language="es">razón trigonométrica</string>
+          <string language="nl">Trigonometrische verhouding</string>
+          <string language="nl">Goniometrische verhouding</string>
+          <string language="nl">Trigonometrische verhouding</string>
+          <string language="nl">Goniometrische verhouding</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

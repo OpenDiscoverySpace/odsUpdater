@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_clemences.Regionnementduplan</entry>
+    </identifier>
+    <title>
+      <string language="fr">Régionnement du plan</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">En déplaçant un point M sur un repère à l'aide du curseur, on peut constater que celui-ci peut appartenir à l'un ou l'autre des demi-plans selon sa position. On constate ainsi qu'une droite sépare deux demi-plans.</string>
+    </description>
+    <keyword>
+      <string language="fr" />
+      <!-- ttac = #Plane_in_coordinate_system_r,#Straight_Line_r,#Equation_of_a_straight_line_r,#Line_in_coordinate_system_r,#Plane_r,#Basic_planar_geometry_topics_r -->
+      <string language="de">Ebene in einem Koordinatensystem</string>
+      <string language="fr">plan dans un repère</string>
+      <string language="en">plane in a coordinate system</string>
+      <string language="nl">Vlak in een coördinatenstelsel</string>
+      <string language="cs">Souřadná rovina</string>
+      <string language="de">Gerade</string>
+      <string language="fr">droite</string>
+      <string language="en">straight line</string>
+      <string language="es">línea recta</string>
+      <string language="nl">Rechte</string>
+      <string language="nl">Rechte lijn</string>
+      <string language="nl">Rechte</string>
+      <string language="nl">Rechte lijn</string>
+      <string language="cs">Přímka</string>
+      <string language="de">Gleichung einer Geraden</string>
+      <string language="fr">équation d'une droite</string>
+      <string language="es">Ecuación de una recta</string>
+      <string language="nl">Vergelijking van een rechte lijn</string>
+      <string language="de">Gerade im Koordinatensystem</string>
+      <string language="fr">droite dans un repère</string>
+      <string language="en">straight line in a coordinate system</string>
+      <string language="nl">Rechte lijn in een coördinatenstelsel</string>
+      <string language="cs">Přímka v soustavě souřadnic</string>
+      <string language="de">Ebene</string>
+      <string language="fr">plan</string>
+      <string language="en">plane</string>
+      <string language="es">plano</string>
+      <string language="nl">Vlak</string>
+      <string language="cs">Rovina</string>
+      <string language="de">Grundthemen der ebenen Geometrie</string>
+      <string language="fr">Notions de base en géométrie plane</string>
+      <string language="es">elementos básicos de la geometría en el plano</string>
+      <string language="nl">Basisbegrippen van de vlakke meetkunde</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">4.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Sassenou  Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M&#xD;
+N: Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M;Sassenou;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-04-04T08:39:39.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Sassenou  Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M&#xD;
+N: Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M;Sassenou;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-04-08T10:52:48.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>ggb</format>
+    <size>2431</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_clemences/Regionnementduplan</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Lycee_General_et_Technologique_3_serie_STG</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Terminale technologique STG</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Terminale technologique STG</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Terminale technologique STG</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Terminale technologique STG</value>                </context>
+                                                    <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Lycee_General_et_Technologique_2_serie_ES</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Première générale ES</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Première générale ES</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Première générale ES</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Première générale ES</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 17 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 16 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 17 -->
+    <typicalAgeRange>
+      <string language="en">17-18</string>
+    </typicalAgeRange>
+    <!-- typicalAgeRange is: 16 -->
+    <typicalAgeRange>
+      <string language="en">16-17</string>
+    </typicalAgeRange>
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Plane_in_coordinate_system_r</id>
+        <entry>
+          <string language="de">Ebene in einem Koordinatensystem</string>
+          <string language="fr">plan dans un repère</string>
+          <string language="en">plane in a coordinate system</string>
+          <string language="nl">Vlak in een coördinatenstelsel</string>
+          <string language="cs">Souřadná rovina</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Straight_Line_r</id>
+        <entry>
+          <string language="de">Gerade</string>
+          <string language="fr">droite</string>
+          <string language="en">straight line</string>
+          <string language="es">línea recta</string>
+          <string language="nl">Rechte</string>
+          <string language="nl">Rechte lijn</string>
+          <string language="nl">Rechte</string>
+          <string language="nl">Rechte lijn</string>
+          <string language="cs">Přímka</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Equation_of_a_straight_line_r</id>
+        <entry>
+          <string language="de">Gleichung einer Geraden</string>
+          <string language="fr">équation d'une droite</string>
+          <string language="es">Ecuación de una recta</string>
+          <string language="nl">Vergelijking van een rechte lijn</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Line_in_coordinate_system_r</id>
+        <entry>
+          <string language="de">Gerade im Koordinatensystem</string>
+          <string language="fr">droite dans un repère</string>
+          <string language="en">straight line in a coordinate system</string>
+          <string language="nl">Rechte lijn in een coördinatenstelsel</string>
+          <string language="cs">Přímka v soustavě souřadnic</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Plane_r</id>
+        <entry>
+          <string language="de">Ebene</string>
+          <string language="fr">plan</string>
+          <string language="en">plane</string>
+          <string language="es">plano</string>
+          <string language="nl">Vlak</string>
+          <string language="cs">Rovina</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Basic_planar_geometry_topics_r</id>
+        <entry>
+          <string language="de">Grundthemen der ebenen Geometrie</string>
+          <string language="fr">Notions de base en géométrie plane</string>
+          <string language="es">elementos básicos de la geometría en el plano</string>
+          <string language="nl">Basisbegrippen van de vlakke meetkunde</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

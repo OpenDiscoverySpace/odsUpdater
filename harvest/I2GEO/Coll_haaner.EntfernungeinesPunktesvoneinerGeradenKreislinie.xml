@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_haaner.EntfernungeinesPunktesvoneinerGeradenKreislinie</entry>
+    </identifier>
+    <title>
+      <string language="de">Entfernung eines Punktes von einer Geraden / Kreislinie</string>
+    </title>
+    <language>de</language>
+    <description>
+      <string language="de">Drei Beispiele zum Thema Entfernungen:
+&lt;br&gt;&lt;br&gt;
+&lt;br&gt;   1) Das Lot als kürzeste Verbindung eines Punktes mit einer Geraden.
+&lt;br&gt;   2) Der Radius als kürzeste Entfernung des Mittelpunkts zur Kreislinie.
+&lt;br&gt;   3) Wann ist ein Punkt außerhalb bzw. innerhalb eines Kreises?
+&lt;br&gt;&lt;br&gt;
+&lt;br&gt;&lt;span class="nobr"&gt;&lt;a href="http://i2geo.net/xwiki/bin/download/Coll_haaner/EntfernungeinesPunktesvoneinerGeradenKreislinie/entfernung.zip/entfernung/index.html"&gt;http://i2geo.net/xwiki/bin/download/Coll_haaner/EntfernungeinesPunktesvoneinerGeradenKreislinie/entfernung.zip/entfernung/index.html&lt;/a&gt;&lt;/span&gt;</string>
+    </description>
+    <keyword>
+      <string language="de">Längen Orthogonalität Radius GEONExT</string>
+      <!-- ttac = #Length_r,#Orthogonal_r,#Diameter_r -->
+      <string language="de">Länge</string>
+      <string language="fr">Longueur</string>
+      <string language="en">length</string>
+      <string language="es">Longitud</string>
+      <string language="nl">Lengte</string>
+      <string language="cs">Délka</string>
+      <string language="de">senkrecht</string>
+      <string language="de">orthogonal</string>
+      <string language="de">lotrecht</string>
+      <string language="de">senkrecht</string>
+      <string language="de">orthogonal</string>
+      <string language="de">lotrecht</string>
+      <string language="de">senkrecht</string>
+      <string language="de">orthogonal</string>
+      <string language="de">lotrecht</string>
+      <string language="es">ortogonal</string>
+      <string language="nl">Orthogonaal</string>
+      <string language="cs">Kolmost</string>
+      <string language="de">Durchmesser</string>
+      <string language="fr">diamètre</string>
+      <string language="en">Diameter</string>
+      <string language="es">diámetro</string>
+      <string language="nl">Diameter</string>
+      <string language="nl">Middellijn</string>
+      <string language="nl">Diameter</string>
+      <string language="nl">Middellijn</string>
+      <string language="cs">Průměr</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">1.02</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Heiko Vogel&#xD;
+N:Vogel;Heiko;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2008-10-09T11:40:19.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Heiko Vogel&#xD;
+N:Vogel;Heiko;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-11-04T14:50:39.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>zip</format>
+    <size>1032092</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_haaner/EntfernungeinesPunktesvoneinerGeradenKreislinie</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_worksheet
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>exercise</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Gymnasium_Saarland_8te_level</value>
+            </context>
+                                     -->
+    <language>de</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Length_r</id>
+        <entry>
+          <string language="de">Länge</string>
+          <string language="fr">Longueur</string>
+          <string language="en">length</string>
+          <string language="es">Longitud</string>
+          <string language="nl">Lengte</string>
+          <string language="cs">Délka</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Orthogonal_r</id>
+        <entry>
+          <string language="de">senkrecht</string>
+          <string language="de">orthogonal</string>
+          <string language="de">lotrecht</string>
+          <string language="de">senkrecht</string>
+          <string language="de">orthogonal</string>
+          <string language="de">lotrecht</string>
+          <string language="de">senkrecht</string>
+          <string language="de">orthogonal</string>
+          <string language="de">lotrecht</string>
+          <string language="es">ortogonal</string>
+          <string language="nl">Orthogonaal</string>
+          <string language="cs">Kolmost</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Diameter_r</id>
+        <entry>
+          <string language="de">Durchmesser</string>
+          <string language="fr">diamètre</string>
+          <string language="en">Diameter</string>
+          <string language="es">diámetro</string>
+          <string language="nl">Diameter</string>
+          <string language="nl">Middellijn</string>
+          <string language="nl">Diameter</string>
+          <string language="nl">Middellijn</string>
+          <string language="cs">Průměr</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

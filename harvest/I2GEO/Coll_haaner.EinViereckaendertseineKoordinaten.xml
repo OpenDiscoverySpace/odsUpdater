@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_haaner.EinViereckaendertseineKoordinaten</entry>
+    </identifier>
+    <title>
+      <string language="de">Ein Viereck aendert seine Koordinaten</string>
+    </title>
+    <language>de</language>
+    <description>
+      <string language="de">Die Koordinaten verschiedener Vierecke können in vorgegebene Richtungen verändert werden. Es ist zu untersuchen, ob die entstehenden Vierecke zu den ursprünglichen kongruent sind.
+&lt;br&gt;&lt;br&gt;
+&lt;span class="nobr"&gt;&lt;a href="http://i2geo.net/xwiki/bin/download/Coll_haaner/EinViereckaendertseineKoordinaten/viereck.zip/viereck/index.html"&gt;http://i2geo.net/xwiki/bin/download/Coll_haaner/EinViereckaendertseineKoordinaten/viereck.zip/viereck/index.html&lt;/a&gt;&lt;/span&gt;</string>
+    </description>
+    <keyword>
+      <string language="de">Vierecke Kongruenz Koordinaten Translation GEONExT</string>
+      <!-- ttac = #Quadrilateral_r,#Congruent_r,#Translation_r,#Coordinates_r -->
+      <string language="de">Viereck</string>
+      <string language="fr">quadrilatère</string>
+      <string language="en">quadrilateral</string>
+      <string language="es">cuadrilátero</string>
+      <string language="nl">Vierhoek</string>
+      <string language="cs">Čtyřúhelník</string>
+      <string language="nl">Congruent (van figuren)</string>
+      <string language="nl">Congruent (van figuren)</string>
+      <string language="de">deckungsgleich</string>
+      <string language="de">kongruent</string>
+      <string language="de">deckungsgleich</string>
+      <string language="de">kongruent</string>
+      <string language="fr">isométrique</string>
+      <string language="en">congruent</string>
+      <string language="nl">Congruent (van figuren)</string>
+      <string language="nl">Congruent (van figuren)</string>
+      <string language="cs">Shodnost</string>
+      <string language="de">Translation</string>
+      <string language="de">Verschiebung</string>
+      <string language="de">Translation</string>
+      <string language="de">Verschiebung</string>
+      <string language="fr">translation</string>
+      <string language="en">shift</string>
+      <string language="es">translación</string>
+      <string language="nl">Translatie</string>
+      <string language="nl">Verschuiving</string>
+      <string language="nl">Translatie</string>
+      <string language="nl">Verschuiving</string>
+      <string language="cs">Translace</string>
+      <string language="cs">Posunutí</string>
+      <string language="cs">Translace</string>
+      <string language="cs">Posunutí</string>
+      <string language="de">Koordinaten</string>
+      <string language="fr">coordonnées</string>
+      <string language="en">coordinates</string>
+      <string language="nl">Coördinaten</string>
+      <string language="cs">Souřadnice</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">1.02</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Heiko Vogel&#xD;
+N:Vogel;Heiko;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2008-10-09T14:33:04.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Heiko Vogel&#xD;
+N:Vogel;Heiko;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-11-04T14:50:42.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>zip</format>
+    <size>1119013</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_haaner/EinViereckaendertseineKoordinaten</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_worksheet
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>exercise</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Gymnasium_Saarland_5te_level</value>
+            </context>
+                                     -->
+    <language>de</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Quadrilateral_r</id>
+        <entry>
+          <string language="de">Viereck</string>
+          <string language="fr">quadrilatère</string>
+          <string language="en">quadrilateral</string>
+          <string language="es">cuadrilátero</string>
+          <string language="nl">Vierhoek</string>
+          <string language="cs">Čtyřúhelník</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Congruent_r</id>
+        <entry>
+          <string language="nl">Congruent (van figuren)</string>
+          <string language="nl">Congruent (van figuren)</string>
+          <string language="de">deckungsgleich</string>
+          <string language="de">kongruent</string>
+          <string language="de">deckungsgleich</string>
+          <string language="de">kongruent</string>
+          <string language="fr">isométrique</string>
+          <string language="en">congruent</string>
+          <string language="nl">Congruent (van figuren)</string>
+          <string language="nl">Congruent (van figuren)</string>
+          <string language="cs">Shodnost</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Translation_r</id>
+        <entry>
+          <string language="de">Translation</string>
+          <string language="de">Verschiebung</string>
+          <string language="de">Translation</string>
+          <string language="de">Verschiebung</string>
+          <string language="fr">translation</string>
+          <string language="en">shift</string>
+          <string language="es">translación</string>
+          <string language="nl">Translatie</string>
+          <string language="nl">Verschuiving</string>
+          <string language="nl">Translatie</string>
+          <string language="nl">Verschuiving</string>
+          <string language="cs">Translace</string>
+          <string language="cs">Posunutí</string>
+          <string language="cs">Translace</string>
+          <string language="cs">Posunutí</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Coordinates_r</id>
+        <entry>
+          <string language="de">Koordinaten</string>
+          <string language="fr">coordonnées</string>
+          <string language="en">coordinates</string>
+          <string language="nl">Coördinaten</string>
+          <string language="cs">Souřadnice</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

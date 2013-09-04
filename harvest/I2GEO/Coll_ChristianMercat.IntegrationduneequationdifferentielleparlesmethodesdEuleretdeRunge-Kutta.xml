@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_ChristianMercat.IntegrationduneequationdifferentielleparlesmethodesdEuleretdeRunge-Kutta</entry>
+    </identifier>
+    <title>
+      <string language="fr">Intégration d'une équation différentielle par les méthodes d'Euler et de Runge-Kutta</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">Vous pouvez 
+&lt;ul class="minus"&gt;
+&lt;li&gt;modifier la fonction avec Ctrl+M puis choisir f,&lt;/li&gt;
+&lt;li&gt;déplacer les points diagonales du champs de vecteur,&lt;/li&gt;
+&lt;li&gt;déplacer le point où sont calculées les solutions numériques approchées par les méthodes d'Euler (en bleu) et de Runge-Kutta (en rouge),&lt;/li&gt;
+&lt;li&gt;faire la trace de ces courbes intégrales et déplacer le point&lt;/li&gt;
+&lt;li&gt;piloter au clavier le pas d'intégration avec la touche D et les flèches&lt;/li&gt;
+&lt;li&gt;piloter au clavier le point M dans la suite de points (touche M et flèches)&lt;/li&gt;
+&lt;/ul&gt;</string>
+    </description>
+    <keyword>
+      <string language="fr" />
+      <!-- ttac = #Derivative_r,#Vector_r,#Tangent_Vector -->
+      <string language="de">Abgeleite</string>
+      <string language="de">Abgeleite</string>
+      <string language="en">Derivative</string>
+      <string language="en">Derivative</string>
+      <string language="nl">Afgeleide</string>
+      <string language="nl">Afgeleide</string>
+      <string language="de">Abgeleite</string>
+      <string language="de">Abgeleite</string>
+      <string language="en">Derivative</string>
+      <string language="en">Derivative</string>
+      <string language="nl">Afgeleide</string>
+      <string language="nl">Afgeleide</string>
+      <string language="de">Vektor</string>
+      <string language="fr">vecteur</string>
+      <string language="en">Vector</string>
+      <string language="es">vector</string>
+      <string language="nl">Vector</string>
+      <string language="cs">Vektor</string>
+      <string language="de">Tangentialvektor</string>
+      <string language="de">Tangentialvektor</string>
+      <string language="en">Tangent vector</string>
+      <string language="en">Tangent vector</string>
+      <string language="nl">Raakvector</string>
+      <string language="nl">Raakvector</string>
+      <string language="de">Tangentialvektor</string>
+      <string language="de">Tangentialvektor</string>
+      <string language="en">Tangent vector</string>
+      <string language="en">Tangent vector</string>
+      <string language="nl">Raakvector</string>
+      <string language="nl">Raakvector</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">5.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Christian Mercat IREM de Lyon, IUFM&#xD;
+N:IREM de Lyon, IUFM;Christian Mercat;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2011-01-27T16:53:45.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Christian Mercat IREM de Lyon, IUFM&#xD;
+N:IREM de Lyon, IUFM;Christian Mercat;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2011-01-27T17:17:36.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>g2w</format>
+    <size>13764</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_ChristianMercat/IntegrationduneequationdifferentielleparlesmethodesdEuleretdeRunge-Kutta</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#university</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Universität</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Universität</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >université</value>                </context>
+                                <context><source>i2g</source>
+                    <value >université</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >university</value>                </context>
+                                <context><source>i2g</source>
+                    <value >university</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >universiteit</value>                </context>
+                                <context><source>i2g</source>
+                    <value >universiteit</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Universität</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Universität</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >université</value>                </context>
+                                <context><source>i2g</source>
+                    <value >université</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >university</value>                </context>
+                                <context><source>i2g</source>
+                    <value >university</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >universiteit</value>                </context>
+                                <context><source>i2g</source>
+                    <value >universiteit</value>                </context>
+                                         -->
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Derivative_r</id>
+        <entry>
+          <string language="de">Abgeleite</string>
+          <string language="de">Abgeleite</string>
+          <string language="en">Derivative</string>
+          <string language="en">Derivative</string>
+          <string language="nl">Afgeleide</string>
+          <string language="nl">Afgeleide</string>
+          <string language="de">Abgeleite</string>
+          <string language="de">Abgeleite</string>
+          <string language="en">Derivative</string>
+          <string language="en">Derivative</string>
+          <string language="nl">Afgeleide</string>
+          <string language="nl">Afgeleide</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Vector_r</id>
+        <entry>
+          <string language="de">Vektor</string>
+          <string language="fr">vecteur</string>
+          <string language="en">Vector</string>
+          <string language="es">vector</string>
+          <string language="nl">Vector</string>
+          <string language="cs">Vektor</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Tangent_Vector</id>
+        <entry>
+          <string language="de">Tangentialvektor</string>
+          <string language="de">Tangentialvektor</string>
+          <string language="en">Tangent vector</string>
+          <string language="en">Tangent vector</string>
+          <string language="nl">Raakvector</string>
+          <string language="nl">Raakvector</string>
+          <string language="de">Tangentialvektor</string>
+          <string language="de">Tangentialvektor</string>
+          <string language="en">Tangent vector</string>
+          <string language="en">Tangent vector</string>
+          <string language="nl">Raakvector</string>
+          <string language="nl">Raakvector</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

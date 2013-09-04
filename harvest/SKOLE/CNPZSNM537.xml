@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM lomODS.xsd">
+  <general>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM537</entry>
+    </identifier>
+    <title>
+      <string language="en">Biodiversity</string>
+    </title>
+    <language>en</language>
+    <description>
+      <string language="hr">U školskoj 2005./2006. godini bila sam predstavnica Hrvatske i član myEurope tima u projektu "Linking and Learning Europe". Tim je bio sastavljen od 40 iskusnih učitelja iz svih država članica EU i 4 države kandidatkinje. Organizator projekta je European Schoolnet sa sjedištem u Bruxellesu, Belgija uz potporu Europske komisije. Cilj projekta je bio izrada objekata učenja ( Learning objects and WebQuests) - online materijala za poučavanje i učenje o europskom građanstvu i kulturalnim različitostima.&lt;br /&gt;	&lt;br /&gt;		&lt;br /&gt;	&lt;br /&gt;		Ovi objekti učenja imaju svoje pedagoške vrijednosti te se mogu prilagoditi svakom nastavnom planu i programu. Izrađeni su na 25 europskih jezika i pohranjeni u myEurope repozitoriju.&lt;br /&gt;	&lt;br /&gt;		&lt;br /&gt;	&lt;br /&gt;		Biodiversity je interaktivna skupina raznolikih zadataka, naslova, slikovnih materijala, web materijala i web stranica o biološkoj raznolikosti i njezine zaštite u Europi. Ova skupina objekata učenja izrađena je programom Hot Potatoes na engleskome jeziku i pohranjena u myEurope repozitoriju. Tu se nalazi i sadržaj, ciljevi i zadaće, ključne riječi, korelacija, dobna skupina te upute za nastavnika.&lt;br /&gt;	&lt;br /&gt;		&lt;br /&gt;	&lt;br /&gt;		Preporučujem korištenje myEurope repozitorija.&lt;br /&gt;	Napomena:&lt;br /&gt;	&lt;br /&gt;		&lt;br /&gt;			Većina zadataka može se koristiti i pojedinačno.&lt;br /&gt;		&lt;br /&gt;			Moguća je integrirana nastava (blok sat) u 6. razredu (Engleski jezik, Priroda), u 7. razredu (Engleski jezik, Tehnička kultura, Informatika) i u 8. razredu (Engleski jezik, Tehnička kultura, Informatika</string>
+    </description>
+    <keyword>
+      <string language="hr">priroda</string>
+      <string language="hr">biološka raznolikost</string>
+      <string language="hr">akcije i mjere zaštite na europskoj i globalnoj razini</string>
+      <string language="hr">glagoli / nazivi za životinje</string>
+      <string language="hr">poslovice</string>
+      <string language="hr">izrazi iz prirode</string>
+      <string language="hr">izreka Mahatme Gandhi</string>
+      <string language="hr">the Present Simple Passive</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <contribute>
+      <role>
+        <source>LOMODSv1.0</source>
+        <value>author</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+N:Dusparić;Biserka
+FN:Biserka Dusparić
+END:VCARD]]></entity>
+    </contribute>
+  </lifeCycle>
+  <metaMetadata>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM537</entry>
+    </identifier>
+    <metadataSchema>LOMv1.0</metadataSchema>
+  </metaMetadata>
+  <technical>
+    <location>http://www.skole.hr/nastavni-materijali/materijal?nm_action=get_materijal_detaljno&amp;id=537</location>
+  </technical>
+  <educational>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>exercise</value>
+    </learningResourceType>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>enquiry-oriented activity</value>
+    </learningResourceType>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>lecture</value>
+    </learningResourceType>
+    <intendedEndUserRole>
+      <source>LOMODSv1.0</source>
+      <value>learner</value>
+    </intendedEndUserRole>
+    <context>
+      <source>LOMODSv1.0</source>
+      <value>primary education</value>
+    </context>
+    <typicalAgeRange>
+      <string language="en">11-12</string>
+      <string language="en">12-13</string>
+      <string language="en">13-14</string>
+    </typicalAgeRange>
+  </educational>
+  <rights>
+    <copyrightAndOtherRestrictions>
+      <source>LOMODSv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="hr">Ovaj objekt učenja je vlasništvo njegovog autora. Objekt učenja slobodan je za korištenje uz navođenje autora materijala.</string>
+      <string language="en">This learning object is owned by its respective author. The learning object is free for use, but it is necessary to attribute the author as its creator.</string>
+    </description>
+  </rights>
+  <relation />
+  <annotation />
+  <classification>
+    <purpose>
+      <source>LOMODSv1.0</source>
+      <value>discipline</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Language Learning Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Reading</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Language Learning Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Writing</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Language Learning Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Speaking</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Language Learning Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Vocabulary</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

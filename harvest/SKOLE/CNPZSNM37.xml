@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM lomODS.xsd">
+  <general>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM37</entry>
+    </identifier>
+    <title>
+      <string language="hr">PUP - priručnik za učenje i podučavanje</string>
+    </title>
+    <language>hr</language>
+    <description>
+      <string language="hr">PUP - Priručnik za učenje i poučavanje je lokalizacija programa Learning Essentials, nadopunjena sadržajima domaćih autora. Priručnik se sastoji od dva dijela: PUP-a učenike i PUP-a za nastavnike.&lt;br /&gt;	PUP daje na pregledan i vrlo intuitivan način niz predložaka, uputa i savjeta za oblikovanje dokumenata. Omogućuje stvaranje kvalitetnog nastavnog sadržaja i kvalitetnu pripremu učeničkih projekata na osnovi velikog broja predložaka. Svojom jednostavnošću, intuitivnošću i prilagođenošću procesima učenja, program daje veliki poticaj za svladavanje i korištenje ICT-a u svrhu kvalitetne nastave i učenja. Oslobađa korisnike bavljenjem formom i oblikovanjem te im na jednostavan način omogućuje kreiranje kvalitetnog sadržaja. Odabirom vanjskih linkova, priručnik pomaže nastavnicima da budu informirani o novostima u struci i u sustavu obrazovanja. Učenicima omogućuje jednostavan i brz pristup izvorima znanja, kreiranim za njihov uzrast i njihove potrebe.&lt;br /&gt;	&lt;br /&gt;&lt;br /&gt;	Više o sadržajima PUP-a&lt;br /&gt;&lt;br /&gt;	&lt;br /&gt;	U PUP-u se nalaze tri vrste sadržaja: predlošci, pomoćnici za predloške i vodiči.&lt;br /&gt;&lt;br /&gt;	Predlošci olakšavaju oblikovanje vaših uradaka ili vam daju kvalitetnu pripremu za izradu uratka. U PUP-u se nalaze predlošci dokumenata u Wordu, Excelu i PowerPointu, svaki od predložaka s nekoliko grafičkih oblika.&lt;br /&gt;	Predlošci u Wordu daju gotovo oblikovanje referata. Predložak u PowerPointu o povijesnom događaju sadržava desetak slajdova i na svakom slajdu uputu o sadržaju kojeg trebate unijeti. Predlošci u Excelu daju gotove grafove za koje trebate unijeti svoje brojčane podatke i naslove.&lt;br /&gt;	Pomoćnici sadrže upute za uporabu predloška ili za izvođenje nekog zadatka ili projekta.&lt;br /&gt;	Pomoćnici se otvaraju u zasebnom prozoru tako da ga možete koristiti usporedno s otvorenim predloškom ili dokumentom. Na karticama se nalaze točke nabrajanja koje daju određene savjete ili podsjećaju na korake koje treba učiniti. Pomoću pomoćnika može se pratiti napredak tako da se u kućice upisuju potvrdne kvačice: "obavljeno".&lt;br /&gt;	U pomoćnicima se po potrebi nalaze i linkovi na dodatne upute u vodičima ili na predloške dokumenata. Ukoliko kliknete na neki od tih linkova,utoliko će se dokumenti otvarati u zasebnim prozorima.&lt;br /&gt;	Vodiči su mali multimedijalni digitalni udžbenici.&lt;br /&gt;	U kombinaciji slike i teksta ili filma i teksta daju teoretska znanja i ideje potrebne pri izradi zadataka ili projekata. U vodičima se nalaze i linkovi na dokumente ili na druge vodiče.&lt;br /&gt;	Sadržaji u nastavničkom dijelu su većim dijelom preuzeti iz nastavničke prakse naših škola.&lt;br /&gt;	Ovi predlošci nikako ne predstavljaju jedini mogući način rada.&lt;br /&gt;	Autorskom timu bi bilo drago da predstavljeni materijali budu olakšanje rada nastavnicima, ali i inspiracija za nove načine uporabe računala na korist nastavnicima i učenicima.&lt;br /&gt;	Ukoliko imate prijedloge za nove materijale, utoliko će nam biti drago da ih uvrstimo u PUP, na zadovoljstvo i korist svima.</string>
+    </description>
+    <keyword>
+      <string language="hr">predlošci za nastavu</string>
+      <string language="hr">predlošci za pripremu nastave</string>
+      <string language="hr">didaktički materijal</string>
+      <string language="hr">projektni rad</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <contribute>
+      <role>
+        <source>LOMODSv1.0</source>
+        <value>author</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+N:Sadaić;Karmen
+FN:Karmen Sadaić
+END:VCARD]]></entity>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMODSv1.0</source>
+        <value>author</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+N:Grmić;Emina
+FN:Emina Grmić
+END:VCARD]]></entity>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMODSv1.0</source>
+        <value>author</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+N:Brust;Vesna
+FN:Vesna Brust
+END:VCARD]]></entity>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMODSv1.0</source>
+        <value>author</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+N:Jagnjić;Ankica
+FN:Ankica Jagnjić
+END:VCARD]]></entity>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMODSv1.0</source>
+        <value>author</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+N:Seršić;Marjana
+FN:Marjana Seršić
+END:VCARD]]></entity>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMODSv1.0</source>
+        <value>author</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+N:Čorković;Gabrijela
+FN:Gabrijela Čorković
+END:VCARD]]></entity>
+    </contribute>
+  </lifeCycle>
+  <metaMetadata>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM37</entry>
+    </identifier>
+    <metadataSchema>LOMv1.0</metadataSchema>
+  </metaMetadata>
+  <technical>
+    <location>http://www.skole.hr/nastavni-materijali/materijal?nm_action=get_materijal_detaljno&amp;id=37</location>
+  </technical>
+  <educational>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>tool</value>
+    </learningResourceType>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>demonstration</value>
+    </learningResourceType>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>exercise</value>
+    </learningResourceType>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>lecture</value>
+    </learningResourceType>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>presentation</value>
+    </learningResourceType>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>case study</value>
+    </learningResourceType>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>reference</value>
+    </learningResourceType>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <intendedEndUserRole>
+      <source>LOMODSv1.0</source>
+      <value>learner</value>
+    </intendedEndUserRole>
+    <context>
+      <source>LOMODSv1.0</source>
+      <value>primary education</value>
+    </context>
+    <context>
+      <source>LOMODSv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <typicalAgeRange>
+      <string language="en">12-13</string>
+      <string language="en">13-14</string>
+      <string language="en">14-15</string>
+      <string language="en">15-16</string>
+      <string language="en">16-17</string>
+      <string language="en">17-18</string>
+    </typicalAgeRange>
+  </educational>
+  <rights>
+    <copyrightAndOtherRestrictions>
+      <source>LOMODSv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="hr">Ovaj objekt učenja je vlasništvo njegovog autora. Objekt učenja slobodan je za korištenje uz navođenje autora materijala.</string>
+      <string language="en">This learning object is owned by its respective author. The learning object is free for use, but it is necessary to attribute the author as its creator.</string>
+    </description>
+  </rights>
+  <relation />
+  <annotation />
+  <classification>
+    <purpose>
+      <source>LOMODSv1.0</source>
+      <value>discipline</value>
+    </purpose>
+    <taxonPath />
+  </classification>
+</lom>
+

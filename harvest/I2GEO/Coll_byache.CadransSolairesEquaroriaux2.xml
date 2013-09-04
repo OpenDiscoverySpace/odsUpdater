@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_byache.CadransSolairesEquaroriaux2</entry>
+    </identifier>
+    <title>
+      <string language="fr">Cadrans solaires équatoriaux 2</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">Fichiers GeoGebra pour expliquer le fonctionnement des cadrans solaires équatoriaux, dans le cadre d'un IDD (itinéraire de découverte math / physique au collège en 5ème)&lt;p/&gt;
+Le cadran schématisé ici n'est pas situé au Pôle Nord : sa table est donc placée dans un plan incliné par rapport à l'horizontale d'un angle égal à la latitude.</string>
+    </description>
+    <keyword>
+      <string language="fr">cadran solaire astronomy</string>
+      <!-- ttac = #Unknown_r,#Angle_r -->
+      <string language="de">Unbekannte</string>
+      <string language="fr">inconnue</string>
+      <string language="en">unknown</string>
+      <string language="nl">Onbekende</string>
+      <string language="de">Winkel</string>
+      <string language="fr">Secteur angulaire</string>
+      <string language="fr">angle</string>
+      <string language="fr">Secteur angulaire</string>
+      <string language="fr">angle</string>
+      <string language="en">angle</string>
+      <string language="es">Ángulo</string>
+      <string language="nl">Hoek</string>
+      <string language="cs">Velikost úhlu</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">1.02</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Paul  Byache&#xD;
+N:Byache;Paul ;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-03-18T17:15:43.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Paul  Byache&#xD;
+N:Byache;Paul ;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-11-04T15:01:37.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_byache/CadransSolairesEquaroriaux2</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#College_2</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Cinquième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Cinquième de Collège</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Cinquième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Cinquième de Collège</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 12 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 12 -->
+    <typicalAgeRange>
+      <string language="en">12-13</string>
+    </typicalAgeRange>
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <!-- unrecognized license type: "cc-by-nc-sa" -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Unknown_r</id>
+        <entry>
+          <string language="de">Unbekannte</string>
+          <string language="fr">inconnue</string>
+          <string language="en">unknown</string>
+          <string language="nl">Onbekende</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Angle_r</id>
+        <entry>
+          <string language="de">Winkel</string>
+          <string language="fr">Secteur angulaire</string>
+          <string language="fr">angle</string>
+          <string language="fr">Secteur angulaire</string>
+          <string language="fr">angle</string>
+          <string language="en">angle</string>
+          <string language="es">Ángulo</string>
+          <string language="nl">Hoek</string>
+          <string language="cs">Velikost úhlu</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

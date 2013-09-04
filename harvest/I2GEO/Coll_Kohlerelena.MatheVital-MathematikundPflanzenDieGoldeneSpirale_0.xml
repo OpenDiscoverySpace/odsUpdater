@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_Kohlerelena.MatheVital-MathematikundPflanzenDieGoldeneSpirale_0</entry>
+    </identifier>
+    <title>
+      <string language="en">MatheVital - Mathematik und Pflanzen: Die Goldene Spirale</string>
+    </title>
+    <language>en</language>
+    <description>
+      <string language="en">Nimmt man von einem Goldenen Rechteck ein Quadrat weg, so verbleibt ein Goldenes Rechteck. Nimmt man von diesem wieder ein Quadrat weg, verbleibt wieder ein Goldenes Rechteck. Führt man dies immer weiter fort, so entsteht eine Sequenz von immer kleineren Goldenen Rechtecken. Achtet man zudem darauf, an welcher Stelle man das Quadrat jeweils wegnimmt, so entsteht eine spiralförmige Anordnung von Goldenen Rechtecken.&lt;p/&gt;
+Im folgenden Applet kann man eine logarithmitsche Spirale zeichnen, die so genannte Goldene Spirale.</string>
+    </description>
+    <keyword>
+      <string language="en" />
+      <!-- ttac = #Spiral_r,#Enlargement_r -->
+      <string language="de">Spirale</string>
+      <string language="fr">spirale</string>
+      <string language="en">Spiral</string>
+      <string language="nl">Spiraal</string>
+      <string language="de">zentrische Streckung</string>
+      <string language="de">Streckung</string>
+      <string language="de">zentrische Streckung</string>
+      <string language="de">Streckung</string>
+      <string language="fr">homothétie</string>
+      <string language="en">enlargement</string>
+      <string language="nl">Schaling</string>
+      <string language="nl">Homothetie</string>
+      <string language="nl">Schaling</string>
+      <string language="nl">Homothetie</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">2.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Elena Kohler&#xD;
+N:Kohler;Elena;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-09-18T10:25:47.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Elena Kohler&#xD;
+N:Kohler;Elena;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-09-18T10:38:28.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_Kohlerelena/MatheVital-MathematikundPflanzenDieGoldeneSpirale_0</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_worksheet
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>exercise</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills</value>
+            </context>
+                                     -->
+    <language>en</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">CurrikiCode.AssetLicenseClass_licenseType_Licences.Licences.CreativeCommonsAttributionNon-CommercialShareAlike</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by-nc-sa/2.0/</licenseURI>-->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Spiral_r</id>
+        <entry>
+          <string language="de">Spirale</string>
+          <string language="fr">spirale</string>
+          <string language="en">Spiral</string>
+          <string language="nl">Spiraal</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Enlargement_r</id>
+        <entry>
+          <string language="de">zentrische Streckung</string>
+          <string language="de">Streckung</string>
+          <string language="de">zentrische Streckung</string>
+          <string language="de">Streckung</string>
+          <string language="fr">homothétie</string>
+          <string language="en">enlargement</string>
+          <string language="nl">Schaling</string>
+          <string language="nl">Homothetie</string>
+          <string language="nl">Schaling</string>
+          <string language="nl">Homothetie</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

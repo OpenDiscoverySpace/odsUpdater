@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_fmaizjimenez.Construcciondenumerosirracionalesapartirderaicescuadradas</entry>
+    </identifier>
+    <title>
+      <string language="es">Construccion de números irracionales a partir de raices cuadradas</string>
+    </title>
+    <language>es</language>
+    <description>
+      <string language="es">Construcción y representación de raíces de números enteros aplicando el teorema de Pitágoras</string>
+    </description>
+    <keyword>
+      <string language="es" />
+      <!-- ttac = #Number_r -->
+      <string language="de">Zahl</string>
+      <string language="fr">nombre</string>
+      <string language="en">number</string>
+      <string language="es">numero</string>
+      <string language="nl">Getal</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">3.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Maiz Jimenez, Francisco&#xD;
+N:Jimenez, Francisco;Maiz;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-12-26T18:26:52.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Tomas Recio&#xD;
+N:Recio;Tomas;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2011-01-03T09:56:46.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>ggb</format>
+    <size>4403</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_fmaizjimenez/Construcciondenumerosirracionalesapartirderaicescuadradas</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <!-- educational annotations from Curriki's ICT resource_animation
+        true    true     -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>demonstration</value>
+    </learningResourceType>
+    <interactivityLevel>
+      <source>LOMv1.0</source>
+      <value>medium</value>
+    </interactivityLevel>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Secundaria_4</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Cuarto de ESO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Cuarto de ESO</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Cuarto de ESO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Cuarto de ESO</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 15 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 15 -->
+    <typicalAgeRange>
+      <string language="en">15-16</string>
+    </typicalAgeRange>
+    <language>es</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Number_r</id>
+        <entry>
+          <string language="de">Zahl</string>
+          <string language="fr">nombre</string>
+          <string language="en">number</string>
+          <string language="es">numero</string>
+          <string language="nl">Getal</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

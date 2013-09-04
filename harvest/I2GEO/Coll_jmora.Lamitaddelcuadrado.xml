@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_jmora.Lamitaddelcuadrado</entry>
+    </identifier>
+    <title>
+      <string language="es">La mitad del cuadrado</string>
+    </title>
+    <language>es</language>
+    <description>
+      <string language="es">Se parte de un enunciado geométrico muy sencillo para estudiantes de esta edad y, tras recorrer distintos contenidos matemáticos: geométricos, numéricos y algebraicos, se desemboca en la construcción y estudio de mosaicos. En un principio el trabajo se realizaba sólo con lápiz y papel. En estas paginas se ha actualizado la propuesta con la ayuda del software de Geometría Dinámica y del programa Cabri Géomètre II.  El objetivo que se pretende es mostrar el desarrollo de un proyecto de investigación realizado en una clase de tercero de ESO</string>
+    </description>
+    <keyword>
+      <string language="es" />
+      <!-- ttac = #GeometricObject_r,#Use_basic_geometry_to_describe_real_world,#Basic_planar_geometry_topics_r -->
+      <string language="de">geometrisches Objekt</string>
+      <string language="fr">objet géométrique</string>
+      <string language="en">geometric object</string>
+      <string language="nl">Meetkundig object</string>
+      <string language="cs">Geometrický objekt</string>
+      <string language="de">grundlegende Geometrie zur Beschreibung der Welt verwenden</string>
+      <string language="fr">utiliser des termes géométriques basiques pour décrire la réalité</string>
+      <string language="en">use basic geometric language to describe the real world</string>
+      <string language="es">usar términos básicos de geometría para describir la realidad</string>
+      <string language="de">Grundthemen der ebenen Geometrie</string>
+      <string language="fr">Notions de base en géométrie plane</string>
+      <string language="es">elementos básicos de la geometría en el plano</string>
+      <string language="nl">Basisbegrippen van de vlakke meetkunde</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">4.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Jose Antonio Mora&#xD;
+N:Mora;Jose Antonio;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-09-26T22:51:07.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Jose Antonio Mora&#xD;
+N:Mora;Jose Antonio;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-09-26T22:57:18.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_jmora/Lamitaddelcuadrado</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_problemset
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>exercise</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Secundaria_2</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Segundo de ESO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Segundo de ESO</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Segundo de ESO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Segundo de ESO</value>                </context>
+                                                    <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Secundaria_3</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Tercero de ESO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Tercero de ESO</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Tercero de ESO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Tercero de ESO</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 13 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 14 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 13 -->
+    <typicalAgeRange>
+      <string language="en">13-14</string>
+    </typicalAgeRange>
+    <!-- typicalAgeRange is: 14 -->
+    <typicalAgeRange>
+      <string language="en">14-15</string>
+    </typicalAgeRange>
+    <language>es</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#GeometricObject_r</id>
+        <entry>
+          <string language="de">geometrisches Objekt</string>
+          <string language="fr">objet géométrique</string>
+          <string language="en">geometric object</string>
+          <string language="nl">Meetkundig object</string>
+          <string language="cs">Geometrický objekt</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Use_basic_geometry_to_describe_real_world</id>
+        <entry>
+          <string language="de">grundlegende Geometrie zur Beschreibung der Welt verwenden</string>
+          <string language="fr">utiliser des termes géométriques basiques pour décrire la réalité</string>
+          <string language="en">use basic geometric language to describe the real world</string>
+          <string language="es">usar términos básicos de geometría para describir la realidad</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Basic_planar_geometry_topics_r</id>
+        <entry>
+          <string language="de">Grundthemen der ebenen Geometrie</string>
+          <string language="fr">Notions de base en géométrie plane</string>
+          <string language="es">elementos básicos de la geometría en el plano</string>
+          <string language="nl">Basisbegrippen van de vlakke meetkunde</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

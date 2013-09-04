@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_JacquesGressier.CommentcreerunexercicededemonstrationavecGeometrix39</entry>
+    </identifier>
+    <title>
+      <string language="en">Comment créer un exercice de démonstration avec Géométrix 3.9</string>
+    </title>
+    <language>en</language>
+    <description>
+      <string language="en">Vidéo exposant les principes de base de la création d'un exercice de démonstration par le professeur avec Géométrix 3.9</string>
+    </description>
+    <keyword>
+      <string language="en" />
+      <!-- ttac = #Proof_r,#Geometrix -->
+      <string language="de">Beweis</string>
+      <string language="fr">démonstration</string>
+      <string language="en">proof</string>
+      <string language="es">demostración</string>
+      <string language="nl">Bewijs</string>
+      <string language="fr">Géométrix</string>
+      <string language="fr">Géométrix</string>
+      <string language="en">Geometrix</string>
+      <string language="en">Geometrix</string>
+      <string language="fr">Géométrix</string>
+      <string language="fr">Géométrix</string>
+      <string language="en">Geometrix</string>
+      <string language="en">Geometrix</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">3.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Jacques Gressier&#xD;
+N:Gressier;Jacques;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-03-22T18:23:09.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Maxim Hendriks&#xD;
+N:Hendriks;Maxim;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2011-01-20T00:10:51.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_JacquesGressier/CommentcreerunexercicededemonstrationavecGeometrix39</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT resource_presentation
+    true    true    true     -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>expositive</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>presentation</value>
+    </learningResourceType>
+    <interactivityLevel>
+      <source>LOMv1.0</source>
+      <value>very low</value>
+    </interactivityLevel>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills</value>
+            </context>
+                                     -->
+    <language>en</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Proof_r</id>
+        <entry>
+          <string language="de">Beweis</string>
+          <string language="fr">démonstration</string>
+          <string language="en">proof</string>
+          <string language="es">demostración</string>
+          <string language="nl">Bewijs</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Geometrix</id>
+        <entry>
+          <string language="fr">Géométrix</string>
+          <string language="fr">Géométrix</string>
+          <string language="en">Geometrix</string>
+          <string language="en">Geometrix</string>
+          <string language="fr">Géométrix</string>
+          <string language="fr">Géométrix</string>
+          <string language="en">Geometrix</string>
+          <string language="en">Geometrix</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

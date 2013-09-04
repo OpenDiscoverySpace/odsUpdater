@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_ChristianMercat.LambertVconcouranteshorsdutableauparLambert</entry>
+    </identifier>
+    <title>
+      <string language="fr">Lambert V: concourantes hors du tableau par Lambert</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">Soit deux droites (AC) et (BD) concourantes. Leur point d'intersection est hors du tableau. Comment tracer une troisième droite, passant par un point E donné, concourantes aux deux premières. Lambert, dans son traité de perspectives, en appliquant le théorème de Desargues, donne une solution présentée ici. La rédaction initiale semble prendre la droite (BD) comme donnée et choisit un point D dessus. Nous avons défini ici la droite comme (BD). On peut bouger les cinq points donnés.</string>
+    </description>
+    <keyword>
+      <string language="fr" />
+      <!-- ttac = #Perspective_projection_r,#Intersection_r -->
+      <string language="de">Zentralprojektion</string>
+      <string language="en">Perspective projection</string>
+      <string language="nl">Centrale projectie</string>
+      <string language="de">Schnittmenge</string>
+      <string language="fr">intersection</string>
+      <string language="en">intersection</string>
+      <string language="nl">Doorsnede (van verzamelingen)</string>
+      <string language="cs">Průnik</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">3.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Christian Mercat IREM de Lyon, IUFM&#xD;
+N:IREM de Lyon, IUFM;Christian Mercat;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-12-08T13:28:51.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Christian Mercat IREM de Lyon, IUFM&#xD;
+N:IREM de Lyon, IUFM;Christian Mercat;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-12-08T14:21:07.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>ggb</format>
+    <size>7727</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_ChristianMercat/LambertVconcouranteshorsdutableauparLambert</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#university</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Universität</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Universität</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >université</value>                </context>
+                                <context><source>i2g</source>
+                    <value >université</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >university</value>                </context>
+                                <context><source>i2g</source>
+                    <value >university</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >universiteit</value>                </context>
+                                <context><source>i2g</source>
+                    <value >universiteit</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Universität</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Universität</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >université</value>                </context>
+                                <context><source>i2g</source>
+                    <value >université</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >university</value>                </context>
+                                <context><source>i2g</source>
+                    <value >university</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >universiteit</value>                </context>
+                                <context><source>i2g</source>
+                    <value >universiteit</value>                </context>
+                                                    <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Lycee_General_et_Technologique_3_serie_L</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Terminale générale L</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Terminale générale L</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Terminale générale L</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Terminale générale L</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 17 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 17 -->
+    <typicalAgeRange>
+      <string language="en">17-18</string>
+    </typicalAgeRange>
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Perspective_projection_r</id>
+        <entry>
+          <string language="de">Zentralprojektion</string>
+          <string language="en">Perspective projection</string>
+          <string language="nl">Centrale projectie</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Intersection_r</id>
+        <entry>
+          <string language="de">Schnittmenge</string>
+          <string language="fr">intersection</string>
+          <string language="en">intersection</string>
+          <string language="nl">Doorsnede (van verzamelingen)</string>
+          <string language="cs">Průnik</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_bclerc.UnCercleBienCale</entry>
+    </identifier>
+    <title>
+      <string language="en">Un cercle bien calé</string>
+    </title>
+    <language>en</language>
+    <description>
+      <string language="en">Centre du cercle inscrit dans un triangle : construction, observation, conjecture, démonstration.&lt;p/&gt;
+&lt;strong&gt;Cette resource est la copie d'une trace de la première étape d'intergeo&lt;/strong&gt;&lt;p/&gt;
+Cette resource vient de &lt;a class="wikicreatelink" href="http://i2geo.net/xwiki/bin/edit/Traces/Un+cercle+bien+cale?parent=Coll_bclerc.UnCercleBienCale"&gt;&lt;span class="wikicreatelinktext"&gt;Un cercle bien cale&lt;/span&gt;&lt;span class="wikicreatelinkqm"&gt;?&lt;/span&gt;&lt;/a&gt; qui mentionne 2 constructions.&lt;p/&gt;
+&lt;ul class="minus"&gt;
+&lt;li&gt;Système de géométrie: &lt;span class="wikilink"&gt;&lt;a href="http://i2geo.net/xwiki/bin/view/Softwares/TracEnPoche"&gt;Trac En Poche&lt;/a&gt;&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;Pays: fr&lt;/li&gt;
+&lt;li&gt;Niveau d'enseignement: college, 4eme&lt;/li&gt;
+&lt;li&gt;Sujet principal: Lines&lt;/li&gt;
+&lt;li&gt;Autres thèmescercle inscrit, triangles&lt;/li&gt;
+&lt;/ul&gt;</string>
+    </description>
+    <keyword>
+      <string language="en">cercle inscrit triangles</string>
+      <!-- ttac = #Straight_Line_r -->
+      <string language="de">Gerade</string>
+      <string language="fr">droite</string>
+      <string language="en">straight line</string>
+      <string language="es">línea recta</string>
+      <string language="nl">Rechte</string>
+      <string language="nl">Rechte lijn</string>
+      <string language="nl">Rechte</string>
+      <string language="nl">Rechte lijn</string>
+      <string language="cs">Přímka</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">1.02</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Benjamin Clerc Clerc&#xD;
+N:Clerc;Benjamin Clerc;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-04-06T16:01:13.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Benjamin Clerc Clerc&#xD;
+N:Clerc;Benjamin Clerc;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-11-04T15:01:27.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_bclerc/UnCercleBienCale</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills</value>
+            </context>
+                                     -->
+    <language>en</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">CurrikiCode.AssetLicenseClass_licenseType_Licences.GFDL</string>
+    </description>
+    <!-- <licenseURI>http://www.gnu.org/copyleft/fdl.html</licenseURI>-->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Straight_Line_r</id>
+        <entry>
+          <string language="de">Gerade</string>
+          <string language="fr">droite</string>
+          <string language="en">straight line</string>
+          <string language="es">línea recta</string>
+          <string language="nl">Rechte</string>
+          <string language="nl">Rechte lijn</string>
+          <string language="nl">Rechte</string>
+          <string language="nl">Rechte lijn</string>
+          <string language="cs">Přímka</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

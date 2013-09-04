@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_FabianMundt.MatheVital-LineareAlgebra1</entry>
+    </identifier>
+    <title>
+      <string language="de">MatheVital - Lineare Algebra I</string>
+    </title>
+    <language>de</language>
+    <description>
+      <string language="de">Diese Sammlung von Applets stellt vorlesungsbegleitende Materialien zur Vorlesung Lineare Algebra I zur Verfügung. Die Materialien umfassen hierbei Themen, die sich nicht nur auf Kernthemen der Linearen Algebra beschränken, sondern auch im weiteren Umfeld der Linearen Algebra interessant sind. Sie umfassen Themen der Gruppentheorie, Symmetrische Gruppen, Komplexe Zahlen, den Fundamentalsatz der Algebra, Kettenbrüche und natürlich viele Aspekte der Linearen Algebra. Die Materialien können als Beispiel in der Vorlesung verwendet werden und auch als Begleitlektüre für Studenten.</string>
+    </description>
+    <keyword>
+      <string language="de" />
+      <!-- ttac = #Visualise_dynamic_images,#Transformation_r,#Function_r -->
+      <string language="de">etwas mit dynamischen Abbilungen veranschaulichen</string>
+      <string language="en">visualise dynamic images</string>
+      <string language="de">Transformation</string>
+      <string language="de">Abbildung</string>
+      <string language="de">Transformation</string>
+      <string language="de">Abbildung</string>
+      <string language="fr">transformation</string>
+      <string language="en">transformation</string>
+      <string language="es">transformación</string>
+      <string language="nl">Transformatie</string>
+      <string language="cs">Geometrické zobrazení</string>
+      <string language="de">Funktion</string>
+      <string language="fr">Fonction</string>
+      <string language="fr">fonction</string>
+      <string language="fr">Fonction</string>
+      <string language="fr">fonction</string>
+      <string language="en">function</string>
+      <string language="nl">Functie</string>
+      <string language="cs">Funkce</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">5.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Fabian Mundt&#xD;
+N:Mundt;Fabian;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-09-15T11:12:11.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Fabian Mundt&#xD;
+N:Mundt;Fabian;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-09-20T20:03:24.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_FabianMundt/MatheVital-LineareAlgebra1</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_worksheet
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>exercise</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#university</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Universität</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Universität</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >université</value>                </context>
+                                <context><source>i2g</source>
+                    <value >université</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >university</value>                </context>
+                                <context><source>i2g</source>
+                    <value >university</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >universiteit</value>                </context>
+                                <context><source>i2g</source>
+                    <value >universiteit</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Universität</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Universität</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >université</value>                </context>
+                                <context><source>i2g</source>
+                    <value >université</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >university</value>                </context>
+                                <context><source>i2g</source>
+                    <value >university</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >universiteit</value>                </context>
+                                <context><source>i2g</source>
+                    <value >universiteit</value>                </context>
+                                                    <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Secondary_School_England_and_Wales_7</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Secondary School -  Year 13 (England and Wales)</value>                </context>
+                                <context><source>i2g</source>
+                    <value >upper 6th form</value>                </context>
+                                <context><source>i2g</source>
+                    <value >upper sixth form</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Secondary School -  Year 13 (England and Wales)</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Secondary School -  Year 13 (England and Wales)</value>                </context>
+                                <context><source>i2g</source>
+                    <value >upper 6th form</value>                </context>
+                                <context><source>i2g</source>
+                    <value >upper sixth form</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Secondary School -  Year 13 (England and Wales)</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Secondary School -  Year 13 (England and Wales)</value>                </context>
+                                <context><source>i2g</source>
+                    <value >upper 6th form</value>                </context>
+                                <context><source>i2g</source>
+                    <value >upper sixth form</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Secondary School -  Year 13 (England and Wales)</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Secondary School -  Year 13 (England and Wales)</value>                </context>
+                                <context><source>i2g</source>
+                    <value >upper 6th form</value>                </context>
+                                <context><source>i2g</source>
+                    <value >upper sixth form</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Secondary School -  Year 13 (England and Wales)</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 17 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 17 -->
+    <typicalAgeRange>
+      <string language="en">17-18</string>
+    </typicalAgeRange>
+    <language>de</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">CurrikiCode.AssetLicenseClass_licenseType_Licences.Licences.CreativeCommonsAttributionNon-CommercialShareAlike</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by-nc-sa/2.0/</licenseURI>-->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Visualise_dynamic_images</id>
+        <entry>
+          <string language="de">etwas mit dynamischen Abbilungen veranschaulichen</string>
+          <string language="en">visualise dynamic images</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Transformation_r</id>
+        <entry>
+          <string language="de">Transformation</string>
+          <string language="de">Abbildung</string>
+          <string language="de">Transformation</string>
+          <string language="de">Abbildung</string>
+          <string language="fr">transformation</string>
+          <string language="en">transformation</string>
+          <string language="es">transformación</string>
+          <string language="nl">Transformatie</string>
+          <string language="cs">Geometrické zobrazení</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Function_r</id>
+        <entry>
+          <string language="de">Funktion</string>
+          <string language="fr">Fonction</string>
+          <string language="fr">fonction</string>
+          <string language="fr">Fonction</string>
+          <string language="fr">fonction</string>
+          <string language="en">function</string>
+          <string language="nl">Functie</string>
+          <string language="cs">Funkce</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM lomODS.xsd">
+  <general>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM136</entry>
+    </identifier>
+    <title>
+      <string language="hr">Naša škola: jučer - danas - sutra</string>
+    </title>
+    <language>hr</language>
+    <description>
+      <string language="hr">Projektom "Naša škola: jučer - danas - sutra" želimo predstaviti našu školu na jedan nov način, izbjegavajući standardne priredbe. Kroz rad na projektu želimo primjenjujući novu tehnologiju upoznati što više nastavnog sadržaja na učenicima zanimljiv način, te to na kraju prezentirati roditeljima i zajednici, prezentirajući ne samo povijest škole već i naše znanje.</string>
+    </description>
+    <keyword>
+      <string language="hr">naša škola</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <contribute>
+      <role>
+        <source>LOMODSv1.0</source>
+        <value>author</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+N:Delić;Suzana
+FN:Suzana Delić
+END:VCARD]]></entity>
+    </contribute>
+  </lifeCycle>
+  <metaMetadata>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM136</entry>
+    </identifier>
+    <metadataSchema>LOMv1.0</metadataSchema>
+  </metaMetadata>
+  <technical>
+    <location>http://www.skole.hr/nastavni-materijali/materijal?nm_action=get_materijal_detaljno&amp;id=136</location>
+  </technical>
+  <educational>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>presentation</value>
+    </learningResourceType>
+    <intendedEndUserRole>
+      <source>LOMODSv1.0</source>
+      <value>learner</value>
+    </intendedEndUserRole>
+    <context>
+      <source>LOMODSv1.0</source>
+      <value>primary education</value>
+    </context>
+    <typicalAgeRange>
+      <string language="en">6-7</string>
+      <string language="en">7-8</string>
+      <string language="en">8-9</string>
+      <string language="en">9-10</string>
+      <string language="en">10-11</string>
+      <string language="en">11-12</string>
+      <string language="en">12-13</string>
+      <string language="en">13-14</string>
+    </typicalAgeRange>
+  </educational>
+  <rights>
+    <copyrightAndOtherRestrictions>
+      <source>LOMODSv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="hr">Ovaj objekt učenja je vlasništvo njegovog autora. Objekt učenja slobodan je za korištenje uz navođenje autora materijala.</string>
+      <string language="en">This learning object is owned by its respective author. The learning object is free for use, but it is necessary to attribute the author as its creator.</string>
+    </description>
+  </rights>
+  <relation />
+  <annotation />
+  <classification>
+    <purpose>
+      <source>LOMODSv1.0</source>
+      <value>discipline</value>
+    </purpose>
+    <taxonPath />
+  </classification>
+</lom>
+

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_clemences.Untriangleetdeuxmilieux_0</entry>
+    </identifier>
+    <title>
+      <string language="fr">Un triangle et deux milieux</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">Construction, conjecture et démonstration de la propriété relative aux milieux dans le triangle : Dans un triangle, la droite qui passe par les milieux de deux côtés est parallèle au troisième côté et la longueur du segment qui joint ces deux milieux est égale à la moitié de la longueur du troisième côté.&lt;p/&gt;
+Activité 1 : Un triangle et deux milieux&lt;p/&gt;
+   1.Conjecture avec TracenPoche&lt;p/&gt;
+         1.Construis un triangle THE. En utilisant le bouton place le point O milieu de &lt;a class="wikicreatelink" href="http://i2geo.net/xwiki/bin/edit/Coll_clemences/TH?parent=Coll_clemences.Untriangleetdeuxmilieux_0"&gt;&lt;span class="wikicreatelinktext"&gt;TH&lt;/span&gt;&lt;span class="wikicreatelinkqm"&gt;?&lt;/span&gt;&lt;/a&gt; et le point L milieu de &lt;a class="wikicreatelink" href="http://i2geo.net/xwiki/bin/edit/Coll_clemences/TE?parent=Coll_clemences.Untriangleetdeuxmilieux_0"&gt;&lt;span class="wikicreatelinktext"&gt;TE&lt;/span&gt;&lt;span class="wikicreatelinkqm"&gt;?&lt;/span&gt;&lt;/a&gt;. Trace la droite (OL). à l'aide du bouton , fais apparaître les longueurs des segments &lt;a class="wikicreatelink" href="http://i2geo.net/xwiki/bin/edit/Coll_clemences/OL?parent=Coll_clemences.Untriangleetdeuxmilieux_0"&gt;&lt;span class="wikicreatelinktext"&gt;OL&lt;/span&gt;&lt;span class="wikicreatelinkqm"&gt;?&lt;/span&gt;&lt;/a&gt; et &lt;a class="wikicreatelink" href="http://i2geo.net/xwiki/bin/edit/Coll_clemences/HE?parent=Coll_clemences.Untriangleetdeuxmilieux_0"&gt;&lt;span class="wikicreatelinktext"&gt;HE&lt;/span&gt;&lt;span class="wikicreatelinkqm"&gt;?&lt;/span&gt;&lt;/a&gt;.&lt;p/&gt;
+         2.Déplace les sommets du triangle. Observe la position des droites (OL) et (HE). Note sur ton cahier les longueurs des segments &lt;a class="wikicreatelink" href="http://i2geo.net/xwiki/bin/edit/Coll_clemences/OL?parent=Coll_clemences.Untriangleetdeuxmilieux_0"&gt;&lt;span class="wikicreatelinktext"&gt;OL&lt;/span&gt;&lt;span class="wikicreatelinkqm"&gt;?&lt;/span&gt;&lt;/a&gt; et &lt;a class="wikicreatelink" href="http://i2geo.net/xwiki/bin/edit/Coll_clemences/HE?parent=Coll_clemences.Untriangleetdeuxmilieux_0"&gt;&lt;span class="wikicreatelinktext"&gt;HE&lt;/span&gt;&lt;span class="wikicreatelinkqm"&gt;?&lt;/span&gt;&lt;/a&gt;. Quelles remarques peux-tu faire ?&lt;p/&gt;
+         3.Dans la fenêtre Analyse, tape : " position(OL,HE) = " puis appuie sur la touche F9. Déplace à nouveau les sommets du triangle. Tes remarques semblent-elles se confirmer ?&lt;p/&gt;
+   2.Démonstration voir la figure interactive&lt;p/&gt;
+         1.Trace un triangle ABC, place I le milieu de &lt;a class="wikicreatelink" href="http://i2geo.net/xwiki/bin/edit/Coll_clemences/AB?parent=Coll_clemences.Untriangleetdeuxmilieux_0"&gt;&lt;span class="wikicreatelinktext"&gt;AB&lt;/span&gt;&lt;span class="wikicreatelinkqm"&gt;?&lt;/span&gt;&lt;/a&gt; et J le milieu de &lt;a class="wikicreatelink" href="http://i2geo.net/xwiki/bin/edit/Coll_clemences/AC?parent=Coll_clemences.Untriangleetdeuxmilieux_0"&gt;&lt;span class="wikicreatelinktext"&gt;AC&lt;/span&gt;&lt;span class="wikicreatelinkqm"&gt;?&lt;/span&gt;&lt;/a&gt;.
+            On souhaite montrer que les droites (IJ) et (BC) sont parallèles et que la longueur du segment &lt;a class="wikicreatelink" href="http://i2geo.net/xwiki/bin/edit/Coll_clemences/IJ?parent=Coll_clemences.Untriangleetdeuxmilieux_0"&gt;&lt;span class="wikicreatelinktext"&gt;IJ&lt;/span&gt;&lt;span class="wikicreatelinkqm"&gt;?&lt;/span&gt;&lt;/a&gt; est égale à la moitié de celle du segment &lt;a class="wikicreatelink" href="http://i2geo.net/xwiki/bin/edit/Coll_clemences/BC?parent=Coll_clemences.Untriangleetdeuxmilieux_0"&gt;&lt;span class="wikicreatelinktext"&gt;BC&lt;/span&gt;&lt;span class="wikicreatelinkqm"&gt;?&lt;/span&gt;&lt;/a&gt;.&lt;p/&gt;
+         2.Construis le point K symétrique de I par rapport à J. Montre que le quadrilatère AKCI est un parallélogramme. Que peux-tu en déduire pour les droites (KC) et (AI) ? Pour les segments &lt;a class="wikicreatelink" href="http://i2geo.net/xwiki/bin/edit/Coll_clemences/KC?parent=Coll_clemences.Untriangleetdeuxmilieux_0"&gt;&lt;span class="wikicreatelinktext"&gt;KC&lt;/span&gt;&lt;span class="wikicreatelinkqm"&gt;?&lt;/span&gt;&lt;/a&gt; et &lt;a class="wikicreatelink" href="http://i2geo.net/xwiki/bin/edit/Coll_clemences/AI?parent=Coll_clemences.Untriangleetdeuxmilieux_0"&gt;&lt;span class="wikicreatelinktext"&gt;AI&lt;/span&gt;&lt;span class="wikicreatelinkqm"&gt;?&lt;/span&gt;&lt;/a&gt; ?&lt;p/&gt;
+         3.Que peux-tu dire des segments &lt;a class="wikicreatelink" href="http://i2geo.net/xwiki/bin/edit/Coll_clemences/AI?parent=Coll_clemences.Untriangleetdeuxmilieux_0"&gt;&lt;span class="wikicreatelinktext"&gt;AI&lt;/span&gt;&lt;span class="wikicreatelinkqm"&gt;?&lt;/span&gt;&lt;/a&gt; et &lt;a class="wikicreatelink" href="http://i2geo.net/xwiki/bin/edit/Coll_clemences/IB?parent=Coll_clemences.Untriangleetdeuxmilieux_0"&gt;&lt;span class="wikicreatelinktext"&gt;IB&lt;/span&gt;&lt;span class="wikicreatelinkqm"&gt;?&lt;/span&gt;&lt;/a&gt; ? En utilisant le fait que les points A, I et B sont alignés et la question b, que peux-tu dire des segments &lt;a class="wikicreatelink" href="http://i2geo.net/xwiki/bin/edit/Coll_clemences/IB?parent=Coll_clemences.Untriangleetdeuxmilieux_0"&gt;&lt;span class="wikicreatelinktext"&gt;IB&lt;/span&gt;&lt;span class="wikicreatelinkqm"&gt;?&lt;/span&gt;&lt;/a&gt; et &lt;a class="wikicreatelink" href="http://i2geo.net/xwiki/bin/edit/Coll_clemences/KC?parent=Coll_clemences.Untriangleetdeuxmilieux_0"&gt;&lt;span class="wikicreatelinktext"&gt;KC&lt;/span&gt;&lt;span class="wikicreatelinkqm"&gt;?&lt;/span&gt;&lt;/a&gt; ? Montre que le quadrilatère IKCB est un parallélogramme.&lt;p/&gt;
+         4.Déduis-en que les droites (IJ) et (BC) sont parallèles. Montre que .
+         5. Écris les deux propriétés que l'on vient de démontrer.&lt;p/&gt;
+Cliquer sur la figure (bouton gauche, éviter de cliquer trop à droite ...) en appuyant sur la touche "p", le mode "pas à pas" est alors actif (même manipulation pour en sortir) :&lt;p/&gt;
+permet de visualiser la construction par bloc de la correction ;&lt;p/&gt;
+Version originale : &lt;span class="nobr"&gt;&lt;a href="http://i2geo.net/xwiki/bin/view/Coll_jharaki/UnTriangleEtDeuxMilieux"&gt;http://i2geo.net/xwiki/bin/view/Coll_jharaki/UnTriangleEtDeuxMilieux&lt;/a&gt;&lt;/span&gt;</string>
+    </description>
+    <keyword>
+      <string language="fr">Triangle-Milieux-Proportions</string>
+      <!-- ttac = #Midpoint_r,#Triangle_r -->
+      <string language="de">Massenmittelpunkt</string>
+      <string language="fr">milieu</string>
+      <string language="en">midpoint</string>
+      <string language="es">punto medio</string>
+      <string language="nl">Middelpunt</string>
+      <string language="cs">Střed</string>
+      <string language="de">Dreieck</string>
+      <string language="fr">triangle</string>
+      <string language="en">triangle</string>
+      <string language="es">Triángulo</string>
+      <string language="nl">Driehoek</string>
+      <string language="cs">trojúhelník</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">4.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Sassenou  Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M&#xD;
+N: Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M;Sassenou;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-05-28T10:23:28.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Sassenou  Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M&#xD;
+N: Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M;Sassenou;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-05-28T10:30:39.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>tracenpocheFile</format>
+    <size>3223</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_clemences/Untriangleetdeuxmilieux_0</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#College_3</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Quatrième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Quatrième de Collège</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Quatrième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Quatrième de Collège</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 13 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 13 -->
+    <typicalAgeRange>
+      <string language="en">13-14</string>
+    </typicalAgeRange>
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Midpoint_r</id>
+        <entry>
+          <string language="de">Massenmittelpunkt</string>
+          <string language="fr">milieu</string>
+          <string language="en">midpoint</string>
+          <string language="es">punto medio</string>
+          <string language="nl">Middelpunt</string>
+          <string language="cs">Střed</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Triangle_r</id>
+        <entry>
+          <string language="de">Dreieck</string>
+          <string language="fr">triangle</string>
+          <string language="en">triangle</string>
+          <string language="es">Triángulo</string>
+          <string language="nl">Driehoek</string>
+          <string language="cs">trojúhelník</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

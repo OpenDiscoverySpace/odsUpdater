@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_jmora.MatematicaseneldisenodeAzulejosconGeoGebra</entry>
+    </identifier>
+    <title>
+      <string language="es">Matemáticas en el diseño de Azulejos con GeoGebra.</string>
+    </title>
+    <language>es</language>
+    <description>
+      <string language="es">Experiencia realizada en la clase de matemáticas en dos grupos de Secundaria que han seguido líneas de trabajo diferentes: en 2º de ESO han reflexionado sobre los elementos geométricos y las relaciones entre los polígonos. El grupo de 4º ha profundizado en las ideas de simetría adquiridas en cursos anteriores mediante la creación de azulejos con diferentes elementos de simetría y después analizamos  el efecto producido por cada movimiento para construir mosaicos. 
+Estas dos líneas han confluido en la utilización de GeoGebra en la Resolución de Problemas y para diseñar azulejos que después pintamos en el Museo del Azulejo de Onda utilizando la técnica del estarcido, un proceso de decoración muy antiguo que hemos podido seguir paso a paso. Una vez pintadas, dejamos las baldosas para la cocción y dos semanas después nos las enviaron para componer cuatro mosaicos que actualmente decoran el instituto.
+También se han utilizado las posibilidades de GeoGebra como software de Geometría Dinámica para crear applets interactivos en los que pueden mostrar y ocultar algunas partes de la construcción, poner en marcha y detener animaciones o modificar ciertos parámetros para analizar los cambios que se producen.</string>
+    </description>
+    <keyword>
+      <string language="es" />
+      <!-- ttac = #Symmetry_r,#Periodic_plane_tesselation_r,#Control_generalisation -->
+      <string language="de">Symmetrie</string>
+      <string language="fr">symétrie</string>
+      <string language="en">symmetry</string>
+      <string language="es">simetría</string>
+      <string language="nl">Symmetrie</string>
+      <string language="cs">Souměrné</string>
+      <string language="de">periodisches Ebenenmosaik</string>
+      <string language="fr">pavage périodique plan</string>
+      <string language="en">Periodic plane tiling</string>
+      <string language="en">periodic plane tesselation</string>
+      <string language="en">Periodic plane tiling</string>
+      <string language="en">periodic plane tesselation</string>
+      <string language="nl">Periodieke vlakvulling</string>
+      <string language="nl">Periodieke vlakke betegeling</string>
+      <string language="nl">Periodieke vlakvulling</string>
+      <string language="nl">Periodieke vlakke betegeling</string>
+      <string language="de">Verallgemeinerungen überprüfen</string>
+      <string language="fr">contrôler une généralisation</string>
+      <string language="en">examine generalisations</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">5.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Jose Antonio Mora&#xD;
+N:Mora;Jose Antonio;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-09-25T18:38:05.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Jose Antonio Mora&#xD;
+N:Mora;Jose Antonio;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-09-26T10:02:28.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_jmora/MatematicaseneldisenodeAzulejosconGeoGebra</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT curriculum_lp
+        true         -->
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>lesson plan</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Secondary_School_Northern_Ireland_5</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Secondary School - Year 12 (Northern Ireland)</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Secondary School - Year 12 (Northern Ireland)</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Secondary School - Year 12 (Northern Ireland)</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Secondary School - Year 12 (Northern Ireland)</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 15 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 15 -->
+    <typicalAgeRange>
+      <string language="en">15-16</string>
+    </typicalAgeRange>
+    <language>es</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Symmetry_r</id>
+        <entry>
+          <string language="de">Symmetrie</string>
+          <string language="fr">symétrie</string>
+          <string language="en">symmetry</string>
+          <string language="es">simetría</string>
+          <string language="nl">Symmetrie</string>
+          <string language="cs">Souměrné</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Periodic_plane_tesselation_r</id>
+        <entry>
+          <string language="de">periodisches Ebenenmosaik</string>
+          <string language="fr">pavage périodique plan</string>
+          <string language="en">Periodic plane tiling</string>
+          <string language="en">periodic plane tesselation</string>
+          <string language="en">Periodic plane tiling</string>
+          <string language="en">periodic plane tesselation</string>
+          <string language="nl">Periodieke vlakvulling</string>
+          <string language="nl">Periodieke vlakke betegeling</string>
+          <string language="nl">Periodieke vlakvulling</string>
+          <string language="nl">Periodieke vlakke betegeling</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Control_generalisation</id>
+        <entry>
+          <string language="de">Verallgemeinerungen überprüfen</string>
+          <string language="fr">contrôler une généralisation</string>
+          <string language="en">examine generalisations</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

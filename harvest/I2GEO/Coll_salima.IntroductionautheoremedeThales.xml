@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_salima.IntroductionautheoremedeThales</entry>
+    </identifier>
+    <title>
+      <string language="fr">Introduction au théorème de Thalès</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">Cette activité est destinée aux élèves du premier cycle du secondaire au Québec. Elle permet à l'élève de découvrir le théorème de Thalès (Ce théorème n'est pas nommé en tant que tel au Québec, mais on l'introduit à travers la notion de proportionnalité des longueurs de segments). L'activité met l'élève en situation de recherche, ce qui le rend plus convaincu de cette propriété. En déployant un raisonnement inductif, l'élève change la valeur épistémologique de cette propriété.
+Les pré requis nécessaires pour cette activité sont les notion de proportionnalité, les triangles et les droites parallèles.</string>
+    </description>
+    <keyword>
+      <string language="fr" />
+      <!-- ttac =  -->
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">13.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Baiteche Salima&#xD;
+N:Salima;Baiteche;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-10-05T04:02:59.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Baiteche Salima&#xD;
+N:Salima;Baiteche;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-10-14T19:42:27.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>zip</format>
+    <size>129987</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_salima/IntroductionautheoremedeThales</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_exercise
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>exercise</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills</value>
+            </context>
+                                     -->
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+</lom>
+

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_jml.activitieswithacubenet</entry>
+    </identifier>
+    <title>
+      <string language="en">activities with a cube net</string>
+    </title>
+    <language>en</language>
+    <description>
+      <string language="en">Study of the nets of a cube. Students will learn how to construct regular polyhedrons in Cabri 3D, how to use the Open polyhedron tool and how to create a net polyhedron in a new page in order to print it and create real models out of paper or cardboard. They will solve tasks on nets of a cube such as determining what vertices or edges of a net come together when the net is folded.</string>
+    </description>
+    <keyword>
+      <string language="en">net polyhedron cube</string>
+      <!-- ttac = #Net_of_a_polyhedron_r,#Construct_net_of_a_solid,#Manipulate_nets_of_solid_objects -->
+      <string language="de">Netz eines Polyeders</string>
+      <string language="fr">patron d'un polyèdre</string>
+      <string language="en">net of a polyhedron</string>
+      <string language="nl">Uitslag van een veelvlak</string>
+      <string language="cs">Síť mnohostěnu</string>
+      <string language="de">das Netz eines Körpers konstruieren</string>
+      <string language="fr">construire le patron d'un solide</string>
+      <string language="fr">construction d'un développement d'un solide</string>
+      <string language="fr">construire un développment d'un solide</string>
+      <string language="fr">construire le patron d'un solide</string>
+      <string language="fr">construction d'un développement d'un solide</string>
+      <string language="fr">construire un développment d'un solide</string>
+      <string language="fr">construire le patron d'un solide</string>
+      <string language="fr">construction d'un développement d'un solide</string>
+      <string language="fr">construire un développment d'un solide</string>
+      <string language="en">construct the net of a solid</string>
+      <string language="nl">Een uitslag van een veelvlak maken</string>
+      <string language="de">das Netz eines Körpers bearbeiten</string>
+      <string language="fr">manipuler un patron d'un cube</string>
+      <string language="en">manipulate nets of solid objects</string>
+      <string language="nl">Uitslagen van lichamen manipuleren</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">1.02</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Jean-Marie (Cabri) Jean-Marie Laborde&#xD;
+N:Jean-Marie Laborde;Jean-Marie (Cabri);;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2008-10-15T09:47:04.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Jean-Marie (Cabri) Jean-Marie Laborde&#xD;
+N:Jean-Marie Laborde;Jean-Marie (Cabri);;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-11-04T14:50:55.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_jml/activitieswithacubenet</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT resource_animation
+        true    true     -->
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>demonstration</value>
+    </learningResourceType>
+    <interactivityLevel>
+      <source>LOMv1.0</source>
+      <value>medium</value>
+    </interactivityLevel>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills</value>
+            </context>
+                                     -->
+    <language>en</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Net_of_a_polyhedron_r</id>
+        <entry>
+          <string language="de">Netz eines Polyeders</string>
+          <string language="fr">patron d'un polyèdre</string>
+          <string language="en">net of a polyhedron</string>
+          <string language="nl">Uitslag van een veelvlak</string>
+          <string language="cs">Síť mnohostěnu</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Construct_net_of_a_solid</id>
+        <entry>
+          <string language="de">das Netz eines Körpers konstruieren</string>
+          <string language="fr">construire le patron d'un solide</string>
+          <string language="fr">construction d'un développement d'un solide</string>
+          <string language="fr">construire un développment d'un solide</string>
+          <string language="fr">construire le patron d'un solide</string>
+          <string language="fr">construction d'un développement d'un solide</string>
+          <string language="fr">construire un développment d'un solide</string>
+          <string language="fr">construire le patron d'un solide</string>
+          <string language="fr">construction d'un développement d'un solide</string>
+          <string language="fr">construire un développment d'un solide</string>
+          <string language="en">construct the net of a solid</string>
+          <string language="nl">Een uitslag van een veelvlak maken</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Manipulate_nets_of_solid_objects</id>
+        <entry>
+          <string language="de">das Netz eines Körpers bearbeiten</string>
+          <string language="fr">manipuler un patron d'un cube</string>
+          <string language="en">manipulate nets of solid objects</string>
+          <string language="nl">Uitslagen van lichamen manipuleren</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

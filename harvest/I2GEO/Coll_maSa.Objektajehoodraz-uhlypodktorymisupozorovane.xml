@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_maSa.Objektajehoodraz-uhlypodktorymisupozorovane</entry>
+    </identifier>
+    <title>
+      <string language="cs">Objekt a jeho odraz - uhly, pod ktorými sú pozorované</string>
+    </title>
+    <language>cs</language>
+    <description>
+      <string language="cs">Vzťah medzi výškou pozorovateľa, uhlami, pod ktorými pozorujeme objekt na oblohe a jeho odraz na vodnej hladine a vzdialenosťou objektu od jeho odrazu.</string>
+    </description>
+    <keyword>
+      <string language="cs" />
+      <!-- ttac = #Angle_fig_r,#Triangle_r -->
+      <string language="de">Winkel</string>
+      <string language="fr">angle</string>
+      <string language="en">angle</string>
+      <string language="es">Ángulo</string>
+      <string language="nl">Hoek</string>
+      <string language="cs">Úhel</string>
+      <string language="de">Dreieck</string>
+      <string language="fr">triangle</string>
+      <string language="en">triangle</string>
+      <string language="es">Triángulo</string>
+      <string language="nl">Driehoek</string>
+      <string language="cs">trojúhelník</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">2.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:maSa maja&#xD;
+N:maja;maSa;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-04-06T15:21:08.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:maSa maja&#xD;
+N:maja;maSa;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-04-06T15:29:13.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>ggb</format>
+    <size>4657</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_maSa/Objektajehoodraz-uhlypodktorymisupozorovane</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills</value>
+            </context>
+                                     -->
+    <language>cs</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Angle_fig_r</id>
+        <entry>
+          <string language="de">Winkel</string>
+          <string language="fr">angle</string>
+          <string language="en">angle</string>
+          <string language="es">Ángulo</string>
+          <string language="nl">Hoek</string>
+          <string language="cs">Úhel</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Triangle_r</id>
+        <entry>
+          <string language="de">Dreieck</string>
+          <string language="fr">triangle</string>
+          <string language="en">triangle</string>
+          <string language="es">Triángulo</string>
+          <string language="nl">Driehoek</string>
+          <string language="cs">trojúhelník</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

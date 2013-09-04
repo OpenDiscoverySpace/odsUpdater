@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_MaximHendriks.DickKlingenswebpage</entry>
+    </identifier>
+    <title>
+      <string language="nl">Dick Klingens webpagina</string>
+    </title>
+    <language>nl</language>
+    <description>
+      <string language="nl">Een webpagina met een groot aantal pagina's dat allerlei wiskunde behandelt die weliswaar 'elementair' is, maar toch diepgaand. Bevat vele Cabri-applets, die allemaal automatisch binnen de browser worden afgespeeld. (U hebt dus zelf geen Cabri nodig.)&lt;p/&gt;
+Uit de vlakke meetkunde komen geavanceerde onderwerpen zoals bijvoorbeeld isotomische verwantschap aan bod. Ook een gedeelte over ruimtemeetkunde is in opbouw. &lt;p/&gt;
+Geschikt voor talentvolle en geïnteresseerde leerlingen die meer willen leren.</string>
+    </description>
+    <keyword>
+      <string language="nl">stellingen bewijzen analytische meetkunde geavanceerd</string>
+      <!-- ttac = #Circle_r,#Triangle_r,#Quadrilateral_r,#Ellipse_r,#Sphere_r,#Plane_r -->
+      <string language="de">Kreis</string>
+      <string language="fr">cercle</string>
+      <string language="en">circle</string>
+      <string language="es">Círculo</string>
+      <string language="nl">Cirkel</string>
+      <string language="cs">Kružnice</string>
+      <string language="de">Dreieck</string>
+      <string language="fr">triangle</string>
+      <string language="en">triangle</string>
+      <string language="es">Triángulo</string>
+      <string language="nl">Driehoek</string>
+      <string language="cs">trojúhelník</string>
+      <string language="de">Viereck</string>
+      <string language="fr">quadrilatère</string>
+      <string language="en">quadrilateral</string>
+      <string language="es">cuadrilátero</string>
+      <string language="nl">Vierhoek</string>
+      <string language="cs">Čtyřúhelník</string>
+      <string language="de">Ellipse</string>
+      <string language="fr">ellipse</string>
+      <string language="en">Ellipse</string>
+      <string language="nl">Ellips</string>
+      <string language="cs">Elipsa</string>
+      <string language="de">Kugel</string>
+      <string language="fr">sphère</string>
+      <string language="en">sphere</string>
+      <string language="es">esfera</string>
+      <string language="nl">Bol</string>
+      <string language="cs">Koule</string>
+      <string language="de">Ebene</string>
+      <string language="fr">plan</string>
+      <string language="en">plane</string>
+      <string language="es">plano</string>
+      <string language="nl">Vlak</string>
+      <string language="cs">Rovina</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">4.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Maxim Hendriks&#xD;
+N:Hendriks;Maxim;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2008-09-19T09:50:20.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Maxim Hendriks&#xD;
+N:Hendriks;Maxim;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-12-14T11:35:02.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_MaximHendriks/DickKlingenswebpage</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT book_textbook
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>expositive</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>textbook</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#VWO_5</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >VWO - klas 5</value>                </context>
+                                <context><source>i2g</source>
+                    <value >vijfde klas gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 5 gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 5 VWO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 5 atheneum</value>                </context>
+                                <context><source>i2g</source>
+                    <value >vijfde klas VWO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >vijfde klas atheneum</value>                </context>
+                                <context><source>i2g</source>
+                    <value >VWO - klas 5</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >VWO - klas 5</value>                </context>
+                                <context><source>i2g</source>
+                    <value >vijfde klas gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 5 gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 5 VWO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 5 atheneum</value>                </context>
+                                <context><source>i2g</source>
+                    <value >vijfde klas VWO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >vijfde klas atheneum</value>                </context>
+                                <context><source>i2g</source>
+                    <value >VWO - klas 5</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >VWO - klas 5</value>                </context>
+                                <context><source>i2g</source>
+                    <value >vijfde klas gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 5 gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 5 VWO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 5 atheneum</value>                </context>
+                                <context><source>i2g</source>
+                    <value >vijfde klas VWO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >vijfde klas atheneum</value>                </context>
+                                <context><source>i2g</source>
+                    <value >VWO - klas 5</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >VWO - klas 5</value>                </context>
+                                <context><source>i2g</source>
+                    <value >vijfde klas gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 5 gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 5 VWO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 5 atheneum</value>                </context>
+                                <context><source>i2g</source>
+                    <value >vijfde klas VWO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >vijfde klas atheneum</value>                </context>
+                                <context><source>i2g</source>
+                    <value >VWO - klas 5</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >VWO - klas 5</value>                </context>
+                                <context><source>i2g</source>
+                    <value >vijfde klas gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 5 gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 5 VWO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 5 atheneum</value>                </context>
+                                <context><source>i2g</source>
+                    <value >vijfde klas VWO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >vijfde klas atheneum</value>                </context>
+                                <context><source>i2g</source>
+                    <value >VWO - klas 5</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >VWO - klas 5</value>                </context>
+                                <context><source>i2g</source>
+                    <value >vijfde klas gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 5 gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 5 VWO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 5 atheneum</value>                </context>
+                                <context><source>i2g</source>
+                    <value >vijfde klas VWO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >vijfde klas atheneum</value>                </context>
+                                <context><source>i2g</source>
+                    <value >VWO - klas 5</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >VWO - klas 5</value>                </context>
+                                <context><source>i2g</source>
+                    <value >vijfde klas gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 5 gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 5 VWO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 5 atheneum</value>                </context>
+                                <context><source>i2g</source>
+                    <value >vijfde klas VWO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >vijfde klas atheneum</value>                </context>
+                                <context><source>i2g</source>
+                    <value >VWO - klas 5</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >VWO - klas 5</value>                </context>
+                                <context><source>i2g</source>
+                    <value >vijfde klas gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 5 gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 5 VWO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 5 atheneum</value>                </context>
+                                <context><source>i2g</source>
+                    <value >vijfde klas VWO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >vijfde klas atheneum</value>                </context>
+                                <context><source>i2g</source>
+                    <value >VWO - klas 5</value>                </context>
+                                                    <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#VWO_6</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >VWO - klas 6</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 6 gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >examenklas VWO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >zesde klas gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 6 atheneum</value>                </context>
+                                <context><source>i2g</source>
+                    <value >examenklas gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >zesde klas atheneum</value>                </context>
+                                <context><source>i2g</source>
+                    <value >zesde klas VWO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >examenklas atheneum</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 6 VWO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >VWO - klas 6</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >VWO - klas 6</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 6 gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >examenklas VWO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >zesde klas gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 6 atheneum</value>                </context>
+                                <context><source>i2g</source>
+                    <value >examenklas gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >zesde klas atheneum</value>                </context>
+                                <context><source>i2g</source>
+                    <value >zesde klas VWO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >examenklas atheneum</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 6 VWO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >VWO - klas 6</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >VWO - klas 6</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 6 gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >examenklas VWO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >zesde klas gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 6 atheneum</value>                </context>
+                                <context><source>i2g</source>
+                    <value >examenklas gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >zesde klas atheneum</value>                </context>
+                                <context><source>i2g</source>
+                    <value >zesde klas VWO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >examenklas atheneum</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 6 VWO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >VWO - klas 6</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >VWO - klas 6</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 6 gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >examenklas VWO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >zesde klas gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 6 atheneum</value>                </context>
+                                <context><source>i2g</source>
+                    <value >examenklas gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >zesde klas atheneum</value>                </context>
+                                <context><source>i2g</source>
+                    <value >zesde klas VWO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >examenklas atheneum</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 6 VWO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >VWO - klas 6</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >VWO - klas 6</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 6 gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >examenklas VWO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >zesde klas gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 6 atheneum</value>                </context>
+                                <context><source>i2g</source>
+                    <value >examenklas gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >zesde klas atheneum</value>                </context>
+                                <context><source>i2g</source>
+                    <value >zesde klas VWO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >examenklas atheneum</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 6 VWO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >VWO - klas 6</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >VWO - klas 6</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 6 gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >examenklas VWO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >zesde klas gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 6 atheneum</value>                </context>
+                                <context><source>i2g</source>
+                    <value >examenklas gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >zesde klas atheneum</value>                </context>
+                                <context><source>i2g</source>
+                    <value >zesde klas VWO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >examenklas atheneum</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 6 VWO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >VWO - klas 6</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >VWO - klas 6</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 6 gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >examenklas VWO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >zesde klas gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 6 atheneum</value>                </context>
+                                <context><source>i2g</source>
+                    <value >examenklas gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >zesde klas atheneum</value>                </context>
+                                <context><source>i2g</source>
+                    <value >zesde klas VWO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >examenklas atheneum</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 6 VWO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >VWO - klas 6</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >VWO - klas 6</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 6 gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >examenklas VWO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >zesde klas gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 6 atheneum</value>                </context>
+                                <context><source>i2g</source>
+                    <value >examenklas gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >zesde klas atheneum</value>                </context>
+                                <context><source>i2g</source>
+                    <value >zesde klas VWO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >examenklas atheneum</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 6 VWO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >VWO - klas 6</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >VWO - klas 6</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 6 gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >examenklas VWO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >zesde klas gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 6 atheneum</value>                </context>
+                                <context><source>i2g</source>
+                    <value >examenklas gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >zesde klas atheneum</value>                </context>
+                                <context><source>i2g</source>
+                    <value >zesde klas VWO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >examenklas atheneum</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 6 VWO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >VWO - klas 6</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >VWO - klas 6</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 6 gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >examenklas VWO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >zesde klas gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 6 atheneum</value>                </context>
+                                <context><source>i2g</source>
+                    <value >examenklas gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >zesde klas atheneum</value>                </context>
+                                <context><source>i2g</source>
+                    <value >zesde klas VWO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >examenklas atheneum</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 6 VWO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >VWO - klas 6</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >VWO - klas 6</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 6 gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >examenklas VWO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >zesde klas gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 6 atheneum</value>                </context>
+                                <context><source>i2g</source>
+                    <value >examenklas gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >zesde klas atheneum</value>                </context>
+                                <context><source>i2g</source>
+                    <value >zesde klas VWO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >examenklas atheneum</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 6 VWO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >VWO - klas 6</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 16 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 17 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 16 -->
+    <typicalAgeRange>
+      <string language="en">16-17</string>
+    </typicalAgeRange>
+    <!-- typicalAgeRange is: 17 -->
+    <typicalAgeRange>
+      <string language="en">17-18</string>
+    </typicalAgeRange>
+    <language>nl</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Circle_r</id>
+        <entry>
+          <string language="de">Kreis</string>
+          <string language="fr">cercle</string>
+          <string language="en">circle</string>
+          <string language="es">Círculo</string>
+          <string language="nl">Cirkel</string>
+          <string language="cs">Kružnice</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Triangle_r</id>
+        <entry>
+          <string language="de">Dreieck</string>
+          <string language="fr">triangle</string>
+          <string language="en">triangle</string>
+          <string language="es">Triángulo</string>
+          <string language="nl">Driehoek</string>
+          <string language="cs">trojúhelník</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Quadrilateral_r</id>
+        <entry>
+          <string language="de">Viereck</string>
+          <string language="fr">quadrilatère</string>
+          <string language="en">quadrilateral</string>
+          <string language="es">cuadrilátero</string>
+          <string language="nl">Vierhoek</string>
+          <string language="cs">Čtyřúhelník</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Ellipse_r</id>
+        <entry>
+          <string language="de">Ellipse</string>
+          <string language="fr">ellipse</string>
+          <string language="en">Ellipse</string>
+          <string language="nl">Ellips</string>
+          <string language="cs">Elipsa</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Sphere_r</id>
+        <entry>
+          <string language="de">Kugel</string>
+          <string language="fr">sphère</string>
+          <string language="en">sphere</string>
+          <string language="es">esfera</string>
+          <string language="nl">Bol</string>
+          <string language="cs">Koule</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Plane_r</id>
+        <entry>
+          <string language="de">Ebene</string>
+          <string language="fr">plan</string>
+          <string language="en">plane</string>
+          <string language="es">plano</string>
+          <string language="nl">Vlak</string>
+          <string language="cs">Rovina</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

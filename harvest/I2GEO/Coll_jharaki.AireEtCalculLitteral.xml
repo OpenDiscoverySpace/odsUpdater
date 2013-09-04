@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_jharaki.AireEtCalculLitteral</entry>
+    </identifier>
+    <title>
+      <string language="fr">Aire et calcul littéral</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">ABC est un triangle rectangle isocèle en A tel que AB=10 cm. AMNP est un rectangle tel que M est sur AB, N est sur BC et P est sur AC. On note AM=x. Exprimer l'aire de AMNP en fonction de x.&lt;p/&gt;
+&lt;strong&gt;Cette ressource est la copie d'une trace de la première étape d'intergeo&lt;/strong&gt;&lt;p/&gt;
+Cette ressource vient de &lt;a class="wikicreatelink" href="http://i2geo.net/xwiki/bin/edit/Traces/Aire+et+calcul+litteral?parent=Coll_jharaki.AireEtCalculLitteral"&gt;&lt;span class="wikicreatelinktext"&gt;Aire et calcul litteral&lt;/span&gt;&lt;span class="wikicreatelinkqm"&gt;?&lt;/span&gt;&lt;/a&gt; qui mentionne 1 constructions.&lt;p/&gt;
+&lt;ul class="minus"&gt;
+&lt;li&gt;Système de géométrie: &lt;span class="wikilink"&gt;&lt;a href="http://i2geo.net/xwiki/bin/view/Softwares/TracEnPoche"&gt;Trac En Poche&lt;/a&gt;&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;Pays: France&lt;/li&gt;
+&lt;li&gt;Niveau d'enseignement: college, 4eme&lt;/li&gt;
+&lt;li&gt;Sujet principal: Areas&lt;/li&gt;
+&lt;li&gt;Autres thèmes calcul littéral&lt;/li&gt;
+&lt;/ul&gt;</string>
+    </description>
+    <keyword>
+      <string language="fr">calcul littéral</string>
+      <!-- ttac = #Area_r -->
+      <string language="de">Fläche</string>
+      <string language="fr">aire</string>
+      <string language="es">Área</string>
+      <string language="nl">Oppervlakte</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">1.02</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:jharaki jalil&#xD;
+N:jalil;jharaki;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-04-06T16:48:03.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:jharaki jalil&#xD;
+N:jalil;jharaki;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-11-04T14:58:26.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_jharaki/AireEtCalculLitteral</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#College_3</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Quatrième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Quatrième de Collège</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Quatrième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Quatrième de Collège</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 13 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 13 -->
+    <typicalAgeRange>
+      <string language="en">13-14</string>
+    </typicalAgeRange>
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">CurrikiCode.AssetLicenseClass_licenseType_Licences.GFDL</string>
+    </description>
+    <!-- <licenseURI>http://www.gnu.org/copyleft/fdl.html</licenseURI>-->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Area_r</id>
+        <entry>
+          <string language="de">Fläche</string>
+          <string language="fr">aire</string>
+          <string language="es">Área</string>
+          <string language="nl">Oppervlakte</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

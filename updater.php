@@ -1,7 +1,7 @@
 <?php
 
 //
-// Updater version: 13.8.31
+// Updater version: 13.9.4
 //
 // Copyright (c) 2013-2014 Luis Alberto Lalueza
 // http://github.com/luisango
@@ -14,7 +14,7 @@
 // MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
 // 
 
-define('UPDATER_DEBUG_ENABLED', false);
+define('UPDATER_DEBUG_ENABLED', true);
 
 /**
  * Reads a directory and subdirectories and stores them as an array
@@ -69,6 +69,8 @@ class Updater
     private function prepareNode()
     {
         $node = new stdClass();
+        $node->title = "";
+        $node->language = "";
         $node->type = 'educational_object';
         node_object_prepare($node);
 
@@ -128,9 +130,9 @@ class Updater
             return;
         }
 
-        /*if($node = node_submit($node)) {
+        if($node = node_submit($node)) {
             node_save($node);
-        }*/
+        }
 
         $this->debug("Saving node finished!", 2);
     }
@@ -190,6 +192,10 @@ class Updater
             }
         }
 
+        if($node->title === "" || $node->title === null) {
+            $node->title = "Missing title";
+        }
+
         return $node;
     }
 
@@ -242,7 +248,7 @@ class Updater
     {
         foreach ($value as $copyright)
         {
-            $node->field_copyright['und'][0]['value'] = $copyright['source'];
+            $node->field_copyright['und'][0]['value'] = (strlen($copyright['source']) > 0) ? "Yes" : "No";
         }
 
         return $node;
@@ -268,6 +274,9 @@ class Updater
     {
         foreach ($value as $author)
         {
+            // Transformations
+            $author = str_replace("\\", "", $author);
+
             $node->field_author_fullname['und'][0]['value'] = $author;
 
             return $node;
@@ -345,7 +354,14 @@ class Updater
 
     private function createGeneralAggregationlevelField($node, $value)
     {
-        // NOT IMPLEMENTED YET
+        foreach ($value as $aggregation_level) {
+            $aggregation_value = $this->replaceWithHeuristics($aggregation_level["value"], "aggregation_level.ini");
+
+            $this->debug("AL: ". $aggregation_value, 5);
+            exit(0);
+
+            $node->field_field_aggregation_level = $this->getTermId($aggregation_value, 'aggregation_level');
+        }
 
         return $node;
     }
@@ -357,26 +373,14 @@ class Updater
         return $node;   
     }
 
-    private function getRepositoryNameFromHarvestName($value) 
+    private function createDataRepositoryField($node, $value)
     {
         $value = $this->replaceWithHeuristics($value, "repositories.ini");
 
-        if (array_key_exists($value, $repositories) {
-            foreach ($repositories as $machine_name => $respository_name)
-            {
-                if ($machine_name == $value)
-                    return $repository_name;
-            }
-        }
+        $term_id = $this->getTermId($value, 'repository', false); 
 
-        return $value;
-    }
-
-    private function createDataRepositoryField($node, $value)
-    {
-        $value = $this->getRepositoryNameFromHarvestName($value);
-
-        $node->field_data_provider['und'][]['tid'] = $this->getTermId($value, 'repository'); 
+        if ($term_id != 0)
+            $node->field_data_provider['und'][]['tid'] = $term_id;
 
         return $node;
     }
@@ -422,7 +426,7 @@ class Updater
      * @param  string $vocabulary
      * @return integer Term ID
      */
-    private function getTermId($term, $vocabulary)
+    private function getTermId($term, $vocabulary, $create_if_not_found = true)
     {
         // Get term on 'edu_tags' vocabulary
         $terms = taxonomy_get_term_by_name($term, $vocabulary);
@@ -435,18 +439,24 @@ class Updater
                 return $key;
             }
         } else {
-            $vid = taxonomy_vocabulary_machine_name_load($vocabulary)->vid;
+            // If create the term in the vocabulary
+            if ($create_if_not_found) {
+                $vid = taxonomy_vocabulary_machine_name_load($vocabulary)->vid;
 
-            // Add term to the vocabulary
-            taxonomy_term_save((object) array(
-              'name' => $term,
-              'vid' => $vid,
-            ));
+                // Add term to the vocabulary
+                taxonomy_term_save((object) array(
+                  'name' => $term,
+                  'vid' => $vid,
+                ));
 
-            $this->debug("Inserted new term '". $term ."' into vocabulary '". $vocabulary ."'.", 3);
+                $this->debug("Inserted new term '". $term ."' into vocabulary '". $vocabulary ."'.", 3);
 
-            // Recursive ;)
-            return $this->getTermId($term, $vocabulary);
+                // Recursive ;)
+                return $this->getTermId($term, $vocabulary);
+            } else {
+                // Return 0 if term not created
+                return 0;
+            }
         }
     }
 
@@ -456,14 +466,17 @@ class Updater
             $heuristics = parse_ini_file($heuristics);
 
             if (array_key_exists($value, $heuristics)) {
-                foreach ($heuristics as $heursitic => $replace) {
+                foreach ($heuristics as $heuristic => $replace) {
                     if ($heuristic == $value) {
+                        $this->debug("String '". $value ."' has been replaced with '". $replace ."' with '". $heuristic ."'", 3);
                         $value = $replace;
                         break;
                     }
                 }
             }
         }
+
+        // MUST DEFINE STATIC TRANSFORMATIONS AS 'none'
 
         return $value;
     }

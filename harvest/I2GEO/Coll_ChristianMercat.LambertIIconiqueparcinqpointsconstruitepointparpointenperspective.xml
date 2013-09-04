@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_ChristianMercat.LambertIIconiqueparcinqpointsconstruitepointparpointenperspective</entry>
+    </identifier>
+    <title>
+      <string language="fr">Lambert II: conique par cinq points, construite point par point en perspective</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">On donne 5 points A, B, C, M_0 et M_1. Lambert, dans son traité sur la perspective, explique comment construire d'autres points de l'ellipse vue comme cercle en perspective défini par ces cinq points, définissant une ligne d'horizon. Ces points sont construits itérativement. La première construction est explicitée et la suite des 15 points suivants est montrée. On peut bouger les points de construction.</string>
+    </description>
+    <keyword>
+      <string language="fr" />
+      <!-- ttac = #Ellipse_r,#Perspective_projection_r -->
+      <string language="de">Ellipse</string>
+      <string language="fr">ellipse</string>
+      <string language="en">Ellipse</string>
+      <string language="nl">Ellips</string>
+      <string language="cs">Elipsa</string>
+      <string language="de">Zentralprojektion</string>
+      <string language="en">Perspective projection</string>
+      <string language="nl">Centrale projectie</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">4.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Christian Mercat IREM de Lyon, IUFM&#xD;
+N:IREM de Lyon, IUFM;Christian Mercat;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-12-01T19:22:25.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Christian Mercat IREM de Lyon, IUFM&#xD;
+N:IREM de Lyon, IUFM;Christian Mercat;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-12-01T22:02:30.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>ggb</format>
+    <size>7604</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_ChristianMercat/LambertIIconiqueparcinqpointsconstruitepointparpointenperspective</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#university</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Universität</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Universität</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >université</value>                </context>
+                                <context><source>i2g</source>
+                    <value >université</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >university</value>                </context>
+                                <context><source>i2g</source>
+                    <value >university</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >universiteit</value>                </context>
+                                <context><source>i2g</source>
+                    <value >universiteit</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Universität</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Universität</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >université</value>                </context>
+                                <context><source>i2g</source>
+                    <value >université</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >university</value>                </context>
+                                <context><source>i2g</source>
+                    <value >university</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >universiteit</value>                </context>
+                                <context><source>i2g</source>
+                    <value >universiteit</value>                </context>
+                                         -->
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Ellipse_r</id>
+        <entry>
+          <string language="de">Ellipse</string>
+          <string language="fr">ellipse</string>
+          <string language="en">Ellipse</string>
+          <string language="nl">Ellips</string>
+          <string language="cs">Elipsa</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Perspective_projection_r</id>
+        <entry>
+          <string language="de">Zentralprojektion</string>
+          <string language="en">Perspective projection</string>
+          <string language="nl">Centrale projectie</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

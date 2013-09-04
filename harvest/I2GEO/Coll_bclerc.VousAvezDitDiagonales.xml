@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_bclerc.VousAvezDitDiagonales</entry>
+    </identifier>
+    <title>
+      <string language="fr">Vous avez dit diagonales ?</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">Activité de découverte sur les particularités des quadrilatères en fonction de celles de leurs diagonales.
+ Maintenir le clic gauche et appuyer sur "o" pour faire apparaître l'angle AÔB, puis lorsque ce dernier égale 90°, appuyer sur "l" pour faire apparaître les longueurs des côtés ; appuyer sur "d" pour faire apparaître les longueurs des diagonales, puis lorsque ces dernières sont égales, appuyer sur "a" pour faire apparaître les angles des sommets ; appuyer sur "t" pour faire apparaître la nature du quadrilatère, et sur "b" pour faire apparaître simultanément les longueurs des diagonales et l'angle à leur intersection&lt;p/&gt;
+&lt;strong&gt;Cette ressource est la copie d'une trace de la première étape d'intergeo&lt;/strong&gt;&lt;p/&gt;
+Cette ressource vient de &lt;a class="wikicreatelink" href="http://i2geo.net/xwiki/bin/edit/Traces/Vous+avez+dit+diagonales?parent=Coll_bclerc.VousAvezDitDiagonales"&gt;&lt;span class="wikicreatelinktext"&gt;Vous avez dit diagonales&lt;/span&gt;&lt;span class="wikicreatelinkqm"&gt;?&lt;/span&gt;&lt;/a&gt; qui mentionne 1 constructions.&lt;p/&gt;
+&lt;ul class="minus"&gt;
+&lt;li&gt;Système de géométrie: &lt;span class="wikilink"&gt;&lt;a href="http://i2geo.net/xwiki/bin/view/Softwares/TracEnPoche"&gt;Trac En Poche&lt;/a&gt;&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;Pays : France&lt;/li&gt;
+&lt;li&gt;Niveau d'enseignement : college 5eme&lt;/li&gt;
+&lt;li&gt;Sujet principal : Quadrilaterals&lt;/li&gt;
+&lt;li&gt;Autres thèmes : parallélogramme, rectangle, losange, carré&lt;/li&gt;
+&lt;/ul&gt;</string>
+    </description>
+    <keyword>
+      <string language="fr">parallélogramme rectangle losange carré</string>
+      <!-- ttac = #Quadrilateral,#Know_rhombus_properties,#Recognise_rhombus -->
+      <string language="de">die Eigenschaften einer Raute (Rhombus) kennen</string>
+      <string language="fr">connaître les propriétés du losange</string>
+      <string language="fr">reconnaître un losange</string>
+      <string language="fr">reconnaître un losange</string>
+      <string language="fr">reconnaître un losange</string>
+      <string language="fr">reconnaître un losange</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">1.02</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Benjamin Clerc Clerc&#xD;
+N:Clerc;Benjamin Clerc;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-01-02T18:11:13.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Benjamin Clerc Clerc&#xD;
+N:Clerc;Benjamin Clerc;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-11-04T15:01:29.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_bclerc/VousAvezDitDiagonales</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#England_and_Wales_Year6</value>
+            </context>
+                                     -->
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">CurrikiCode.AssetLicenseClass_licenseType_Licences.GFDL</string>
+    </description>
+    <!-- <licenseURI>http://www.gnu.org/copyleft/fdl.html</licenseURI>-->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Quadrilateral</id>
+        <entry>
+          <string language="en">
+            <!-- fallback from URI -->
+            Quadrilateral
+          </string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Know_rhombus_properties</id>
+        <entry>
+          <string language="de">die Eigenschaften einer Raute (Rhombus) kennen</string>
+          <string language="fr">connaître les propriétés du losange</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Recognise_rhombus</id>
+        <entry>
+          <string language="fr">reconnaître un losange</string>
+          <string language="fr">reconnaître un losange</string>
+          <string language="fr">reconnaître un losange</string>
+          <string language="fr">reconnaître un losange</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

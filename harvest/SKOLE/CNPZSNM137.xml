@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM lomODS.xsd">
+  <general>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM137</entry>
+    </identifier>
+    <title>
+      <string language="en">Primjena Interneta u nastavi prema udžbeniku "The World of Work and Money 4"</string>
+    </title>
+    <language>en</language>
+    <description>
+      <string language="hr">Nastavna jedinica usklađena je s programom učenja engleskog jezika u 4. razredu ekonomske škole (12. godina učenja jezika i 4. godina učenja poslovnog engleskog jezika). Različiti su načini korištenja računala danas. Mnogi se učenici koriste računalom, ali je potrebno naglasiti potrebu računala u našem životu i ukazati učenicima na neke od dobrobit koje im donosi računalo i u svakodnevnom životu. Učenici sudjeluju kroz oblike grupnog rada istražujući tekst na internetu. Važno je da učenici uoče prednosti upotrebe računala u svakidašnjem životu.&lt;br /&gt;&lt;br /&gt;	&lt;br /&gt;&lt;br /&gt;	U kratkom uvodnom dijelu s učenicima se ponovi informacija iz udžbenika "The World of Work and Money 4" u tekstu: www.net.com - The good news&lt;br /&gt;&lt;br /&gt;	Učenici u grupnom radu traže odgovore na zadatke pod naslovima:&lt;br /&gt;&lt;br /&gt;	&lt;br /&gt;		Yahoo's co-founders&lt;br /&gt;	&lt;br /&gt;		21st century capitalism: Net Economy&lt;br /&gt;	&lt;br /&gt;		Global commerce: countryroadfashins.com&lt;br /&gt;	&lt;br /&gt;		Amazon.com&lt;br /&gt;	&lt;br /&gt;		Peapod.com&lt;br /&gt;	&lt;br /&gt;		Compare.Net&lt;br /&gt;	&lt;br /&gt;		New electronic world: "Information at your fingertips"&lt;br /&gt;	&lt;br /&gt;		Consumer culture of 21st century consumers&lt;br /&gt;	&lt;br /&gt;		"The new economy is overtaking the existing economy as we know it."&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;	&lt;br /&gt;&lt;br /&gt;	Iza toga učenike se dijeli u 7 grupa s novim zadaćama koje trebaju riješiti kao samostalne zadaće. Things you can do on the Web:&lt;br /&gt;&lt;br /&gt;	&lt;br /&gt;		meet people&lt;br /&gt;	&lt;br /&gt;		get the latest news&lt;br /&gt;	&lt;br /&gt;		order a meal&lt;br /&gt;	&lt;br /&gt;		find a job&lt;br /&gt;	&lt;br /&gt;		go shopping&lt;br /&gt;	&lt;br /&gt;		make travel plans&lt;br /&gt;	&lt;br /&gt;		study abroad</string>
+    </description>
+    <keyword>
+      <string language="hr">povijest trgovine putem Interneta</string>
+      <string language="hr">potrebe globalnog gospodarstva</string>
+      <string language="hr">samostalna upotreba računala u različite svrhe s ciljem olakšavanja</string>
+      <string language="hr">svakodnevnih zahtjeva i potreba</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <contribute>
+      <role>
+        <source>LOMODSv1.0</source>
+        <value>author</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+N:Selaković;Asima
+FN:Asima Selaković
+END:VCARD]]></entity>
+    </contribute>
+  </lifeCycle>
+  <metaMetadata>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM137</entry>
+    </identifier>
+    <metadataSchema>LOMv1.0</metadataSchema>
+  </metaMetadata>
+  <technical>
+    <location>http://www.skole.hr/nastavni-materijali/materijal?nm_action=get_materijal_detaljno&amp;id=137</location>
+  </technical>
+  <educational>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>simulation</value>
+    </learningResourceType>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>exercise</value>
+    </learningResourceType>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>lecture</value>
+    </learningResourceType>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>case study</value>
+    </learningResourceType>
+    <intendedEndUserRole>
+      <source>LOMODSv1.0</source>
+      <value>learner</value>
+    </intendedEndUserRole>
+    <context>
+      <source>LOMODSv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <context>
+      <source>LOMODSv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <typicalAgeRange>
+      <string language="en">17-18</string>
+    </typicalAgeRange>
+  </educational>
+  <rights>
+    <copyrightAndOtherRestrictions>
+      <source>LOMODSv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">This learning object is owned by its respective author. The learning object is free for use, but it is necessary to attribute the author as its creator.</string>
+      <string language="hr">Ovaj objekt učenja je vlasništvo njegovog autora. Objekt učenja slobodan je za korištenje uz navođenje autora materijala.</string>
+    </description>
+  </rights>
+  <relation />
+  <annotation />
+  <classification>
+    <purpose>
+      <source>LOMODSv1.0</source>
+      <value>discipline</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">ODS ICT Vocabulary</string>
+      </source>
+      <taxon />
+    </taxonPath>
+    <taxonPath>
+      <source>
+        <string language="en">ODS ICT Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Technology</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Computer science</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Language Learning Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Reading</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Language Learning Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Writing</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Language Learning Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Speaking</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Language Learning Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Vocabulary</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Social Studies Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Economy</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_jitkanovakova.Stredovyaobvodovyuhel</entry>
+    </identifier>
+    <title>
+      <string language="en">Středový a obvodový úhel</string>
+    </title>
+    <language>en</language>
+    <description>
+      <string language="en">Zavedení pojmu středový a obvodový úhel příslušný danému oblouku  a popsání jejich vztahu.</string>
+    </description>
+    <keyword>
+      <string language="en" />
+      <!-- ttac = #Arc_r,#Central_angle_r,#Inscribed_angle_r -->
+      <string language="de">Kreisbogen</string>
+      <string language="fr">arc</string>
+      <string language="en">arch</string>
+      <string language="es">arco de circumferéncia</string>
+      <string language="nl">Cirkelboog</string>
+      <string language="cs">Oblouk</string>
+      <string language="de">Mittelspunktwinkel</string>
+      <string language="fr">angle au centre</string>
+      <string language="en">angle at centre</string>
+      <string language="nl">Middelpuntshoek</string>
+      <string language="cs">Středový úhel</string>
+      <string language="de">einbeschriebener Winkel</string>
+      <string language="fr">angle inscrit</string>
+      <string language="en">inscribed angle</string>
+      <string language="nl">Ingeschreven hoek</string>
+      <string language="cs">Obvodový úhel</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">1.02</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Jitka Nováková&#xD;
+N:Nováková;Jitka;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-10-13T14:03:00.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Jitka Nováková&#xD;
+N:Nováková;Jitka;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-11-04T14:59:40.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>cabri2File</format>
+    <size>8152</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_jitkanovakova/Stredovyaobvodovyuhel</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <!-- educational annotations from Curriki's ICT resource_animation
+        true    true     -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>demonstration</value>
+    </learningResourceType>
+    <interactivityLevel>
+      <source>LOMv1.0</source>
+      <value>medium</value>
+    </interactivityLevel>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Zakladni_Skola_6</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Základní Škola - 6. třída</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Základní Škola - 6. třída</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Zakladni Skola - 6. trida</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Základní Škola - 6. třída</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Základní Škola - 6. třída</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Zakladni Skola - 6. trida</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Základní Škola - 6. třída</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Základní Škola - 6. třída</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Zakladni Skola - 6. trida</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 11 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 11 -->
+    <typicalAgeRange>
+      <string language="en">11-12</string>
+    </typicalAgeRange>
+    <language>en</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Arc_r</id>
+        <entry>
+          <string language="de">Kreisbogen</string>
+          <string language="fr">arc</string>
+          <string language="en">arch</string>
+          <string language="es">arco de circumferéncia</string>
+          <string language="nl">Cirkelboog</string>
+          <string language="cs">Oblouk</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Central_angle_r</id>
+        <entry>
+          <string language="de">Mittelspunktwinkel</string>
+          <string language="fr">angle au centre</string>
+          <string language="en">angle at centre</string>
+          <string language="nl">Middelpuntshoek</string>
+          <string language="cs">Středový úhel</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Inscribed_angle_r</id>
+        <entry>
+          <string language="de">einbeschriebener Winkel</string>
+          <string language="fr">angle inscrit</string>
+          <string language="en">inscribed angle</string>
+          <string language="nl">Ingeschreven hoek</string>
+          <string language="cs">Obvodový úhel</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_omarMontreal.Trianglessemblablesanglesetproportionnalites</entry>
+    </identifier>
+    <title>
+      <string language="fr">Triangles semblables, angles et proportionnalités</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">Cette activité se réfère aux propriétés des triangles semblables. Elle est destinée pour les élèves de la deuxième année du premier  cycle dans le programme de formation de l’école québécoise. Pour une durée d’environ 75 minutes, cette activité se fait en groupe de deux élèves pour un ordinateur ayant un logiciel Cabri pour la géométrie dynamique.  Les élèves doivent connaitre les concepts et les processus : mesure, les angles, les triangles, le rapport de similitude,  la proportionnalité. Dans  cette activité, on vise à développer chez l’élève la compétence «Déployer un raisonnement mathématique»,  car  il doit établir des conjectures. La compétence «Résoudre une situation-problème» est sollicitée en partie.</string>
+    </description>
+    <keyword>
+      <string language="fr" />
+      <!-- ttac =  -->
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">33.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Omar El Majzoub&#xD;
+N:El Majzoub;Omar;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-10-04T19:58:59.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Omar El Majzoub&#xD;
+N:El Majzoub;Omar;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-10-05T14:34:34.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>zip</format>
+    <size>13437</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_omarMontreal/Trianglessemblablesanglesetproportionnalites</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills</value>
+            </context>
+                                     -->
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+</lom>
+

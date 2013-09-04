@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM lomODS.xsd">
+  <general>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM26</entry>
+    </identifier>
+    <title>
+      <string language="hr">Privid plohe u crtežu</string>
+    </title>
+    <language>hr</language>
+    <description>
+      <string language="hr">Nastavna jedinica Privid plohe u crtežu namijenjena je učenicima 1. razreda gimnazija. Obuhvaća 45 minuta nastave ili jedan školski sat. Cilj nastavne jedinice je upoznavanje crtačkih postupaka za postizanje iluzije volumena i prostora. Koncepcijski, nastavna jedinica se vezuje uz metodički razrađene vježbe na: http://infoz.ffzg.hr/msp/ i knjigu J.Damjanov: Umjetnost-Avantura; Hermes, Zagreb 1999. Nastavna jedinica je zamišljena tako da tijekom nastavnog sata učenici aktivno sudjeluju u nastavnom procesu kroz postupke crtanja, analize, usporedbe i prepoznavanja. Umjetnička djela se prezentiraju putem power point projekcije, fotokopija detalja i reprodukcija u udžbeniku. Istražuje se crtež, te izražajne mogućnosti za postizanje privida plohe i volumena. Istražuju se plošne sintagme fraziranja, akumulacije, križanja, sjenčanja, akumulacije, laviranja i pentimento. Na kraju sata učenici igraju ulogu kustosa koji trebaju provjeriti autentičnost djela.</string>
+    </description>
+    <keyword>
+      <string language="hr">crtež</string>
+      <string language="hr">linijske sintagme</string>
+      <string language="hr">plošne sintagme fraziranje</string>
+      <string language="hr">akumulacija</string>
+      <string language="hr">križanje</string>
+      <string language="hr">sjenčanje</string>
+      <string language="hr">akumulacija</string>
+      <string language="hr">laviranje i pentimento</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <contribute>
+      <role>
+        <source>LOMODSv1.0</source>
+        <value>author</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+N:Rismondo;Kristina
+FN:Kristina Rismondo
+END:VCARD]]></entity>
+    </contribute>
+  </lifeCycle>
+  <metaMetadata>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM26</entry>
+    </identifier>
+    <metadataSchema>LOMv1.0</metadataSchema>
+  </metaMetadata>
+  <technical>
+    <location>http://www.skole.hr/nastavni-materijali/materijal?nm_action=get_materijal_detaljno&amp;id=26</location>
+  </technical>
+  <educational>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>exercise</value>
+    </learningResourceType>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>lecture</value>
+    </learningResourceType>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>presentation</value>
+    </learningResourceType>
+    <intendedEndUserRole>
+      <source>LOMODSv1.0</source>
+      <value>learner</value>
+    </intendedEndUserRole>
+    <context>
+      <source>LOMODSv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <typicalAgeRange>
+      <string language="en">14-15</string>
+    </typicalAgeRange>
+  </educational>
+  <rights>
+    <copyrightAndOtherRestrictions>
+      <source>LOMODSv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="hr">Ovaj objekt učenja je vlasništvo njegovog autora. Objekt učenja slobodan je za korištenje uz navođenje autora materijala.</string>
+      <string language="en">This learning object is owned by its respective author. The learning object is free for use, but it is necessary to attribute the author as its creator.</string>
+    </description>
+  </rights>
+  <relation />
+  <annotation />
+  <classification>
+    <purpose>
+      <source>LOMODSv1.0</source>
+      <value>discipline</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Social Studies Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Culture and Cultural Theory</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

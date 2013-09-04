@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM lomODS.xsd">
+  <general>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM516</entry>
+    </identifier>
+    <title>
+      <string language="hr">Djed i repa</string>
+    </title>
+    <language>hr</language>
+    <description>
+      <string language="hr">Četiri osnovne jezične djelatnosti su slušanje, govorenje, čitanje i pisanje. One su međusobno povezane, a svrha im je komunikacija. Preduvjet su za uspješno učenje. U svim nastavnim predmetima su važne djelatnosti, ne samo u nastavi hrvatskoga jezika. Važne su za život.&lt;br /&gt;	Ova prezentacija bavi se prvenstveno čitanjem. U prvom razredu osnovne škole jako je važno kod djece poticati i razvijati želju i ljubav prema čitanju. Važno je čitanje na glas, zborno čitanje, čitanje u paru, pojedinačno, čitanje po ulogamaâŚ Važno je da dijete čuje svoje čitanje i čitanje drugih.&lt;br /&gt;	Zanimljiva ruska narodna priča zasićena ponavljanjima dobar je odabir za poticanje učenika prvog razreda na čitanje. Prezentacija koja sadrži napisanu priču čije razumijevanje potpomažu crteži, ali tek nakon pročitanih rečenica, dobar je model uvježbavanja čitanja i razumijevanja pročitanog.&lt;br /&gt;	Na kraju čitanja nalazi se zadatak kojim se provjerava razumijevanje i zapamćivanje priče te svojevrsna nadogradnja u vidu natjecanja po grupama pri čemu treba otkriti skrivenu sliku.</string>
+    </description>
+    <keyword>
+      <string language="hr">čitanje</string>
+      <string language="hr">priča</string>
+      <string language="hr">prvi razred</string>
+      <string language="hr">osnovna škola</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <contribute>
+      <role>
+        <source>LOMODSv1.0</source>
+        <value>author</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+N:Conjar;Bogdanka
+FN:Bogdanka Conjar
+END:VCARD]]></entity>
+    </contribute>
+  </lifeCycle>
+  <metaMetadata>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM516</entry>
+    </identifier>
+    <metadataSchema>LOMv1.0</metadataSchema>
+  </metaMetadata>
+  <technical>
+    <location>http://www.skole.hr/nastavni-materijali/materijal?nm_action=get_materijal_detaljno&amp;id=516</location>
+  </technical>
+  <educational>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>presentation</value>
+    </learningResourceType>
+    <intendedEndUserRole>
+      <source>LOMODSv1.0</source>
+      <value>learner</value>
+    </intendedEndUserRole>
+    <context>
+      <source>LOMODSv1.0</source>
+      <value>primary education</value>
+    </context>
+    <typicalAgeRange>
+      <string language="en">6-7</string>
+    </typicalAgeRange>
+  </educational>
+  <rights>
+    <copyrightAndOtherRestrictions>
+      <source>LOMODSv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="hr">Ovaj objekt učenja je vlasništvo njegovog autora. Objekt učenja slobodan je za korištenje uz navođenje autora materijala.</string>
+      <string language="en">This learning object is owned by its respective author. The learning object is free for use, but it is necessary to attribute the author as its creator.</string>
+    </description>
+  </rights>
+  <relation />
+  <annotation />
+  <classification>
+    <purpose>
+      <source>LOMODSv1.0</source>
+      <value>discipline</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Social Studies Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Culture and Cultural Theory</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Literacy</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Social Studies Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Discipline</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Linguistics</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

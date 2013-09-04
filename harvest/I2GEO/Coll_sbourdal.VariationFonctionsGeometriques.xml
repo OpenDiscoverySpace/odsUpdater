@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_sbourdal.VariationFonctionsGeometriques</entry>
+    </identifier>
+    <title>
+      <string language="fr">Variation fonctions geometriques</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">Activité complète composée de sept figures, d'un scénario, de fiches élève et professeur pour la comparaisons des variations de fonctions aires et périmètres de figures géométriques en vu de caractériser la proportionnalité.&lt;p/&gt;
+&lt;strong&gt;Cette ressource est la copie d'une trace de la première étape d'intergeo&lt;/strong&gt;&lt;p/&gt;
+Cette ressource vient de &lt;a class="wikicreatelink" href="http://i2geo.net/xwiki/bin/edit/Traces/Variation+fonctions+g%C3%A9om%C3%A9triques?parent=Coll_sbourdal.VariationFonctionsGeometriques"&gt;&lt;span class="wikicreatelinktext"&gt;Variation fonctions géométriques&lt;/span&gt;&lt;span class="wikicreatelinkqm"&gt;?&lt;/span&gt;&lt;/a&gt; qui mentionne 7 constructions.&lt;p/&gt;
+&lt;ul class="minus"&gt;
+&lt;li&gt;Système de géométrie: &lt;span class="wikilink"&gt;&lt;a href="http://i2geo.net/xwiki/bin/view/Softwares/TracEnPoche"&gt;Trac En Poche&lt;/a&gt;&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;Pays: fr&lt;/li&gt;
+&lt;li&gt;Niveau d'enseignement: Collège 4e&lt;/li&gt;
+&lt;li&gt;Sujet principal: proportions&lt;/li&gt;
+&lt;li&gt;Autres thèmes Variations de fonctions d'origine géométrique&lt;/li&gt;
+&lt;/ul&gt;</string>
+    </description>
+    <keyword>
+      <string language="fr">Variations de fonctions d’origine géométrique</string>
+      <!-- ttac = #Proportional_r,#Identify_in_formula_variation_of_magnitude_in_function_of_another_magnitude,#Magnitude_r -->
+      <string language="de">proportional</string>
+      <string language="de">direkt proportional</string>
+      <string language="de">proportional</string>
+      <string language="de">direkt proportional</string>
+      <string language="fr">proportionnel</string>
+      <string language="fr">relation de proportionnalité directe</string>
+      <string language="fr">proportionnel</string>
+      <string language="fr">relation de proportionnalité directe</string>
+      <string language="en">proportional</string>
+      <string language="es">proporcional</string>
+      <string language="es">relación de proporcionalidad directa</string>
+      <string language="es">proporcional</string>
+      <string language="es">relación de proporcionalidad directa</string>
+      <string language="nl">Recht evenredig</string>
+      <string language="nl">Proportioneel</string>
+      <string language="nl">Evenredig</string>
+      <string language="nl">Recht evenredig</string>
+      <string language="nl">Proportioneel</string>
+      <string language="nl">Evenredig</string>
+      <string language="nl">Recht evenredig</string>
+      <string language="nl">Proportioneel</string>
+      <string language="nl">Evenredig</string>
+      <string language="fr">envisager dans une formule les variations d'une grandeur en fonction d'une autre</string>
+      <string language="de">Größe</string>
+      <string language="fr">grandeur</string>
+      <string language="en">magnitude</string>
+      <string language="en">Measure</string>
+      <string language="en">magnitude</string>
+      <string language="en">Measure</string>
+      <string language="es">Magnitud</string>
+      <string language="es">Medida</string>
+      <string language="es">Magnitud</string>
+      <string language="es">Medida</string>
+      <string language="nl">Grootheid</string>
+      <string language="nl">Maat</string>
+      <string language="nl">Grootheid</string>
+      <string language="nl">Maat</string>
+      <string language="cs">Míra, velikost</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">1.02</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Sylvain Bourdal&amp;eacute&#xD;
+N:Bourdal&amp;eacute;Sylvain;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-03-03T20:49:27.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Sylvain Bourdal&amp;eacute&#xD;
+N:Bourdal&amp;eacute;Sylvain;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-11-04T14:55:50.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_sbourdal/VariationFonctionsGeometriques</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#College_3</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Quatrième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Quatrième de Collège</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Quatrième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Quatrième de Collège</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 13 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 13 -->
+    <typicalAgeRange>
+      <string language="en">13-14</string>
+    </typicalAgeRange>
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">CurrikiCode.AssetLicenseClass_licenseType_Licences.Licences.CreativeCommonsAttributionNon-CommercialShareAlike</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by-nc-sa/2.0/</licenseURI>-->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Proportional_r</id>
+        <entry>
+          <string language="de">proportional</string>
+          <string language="de">direkt proportional</string>
+          <string language="de">proportional</string>
+          <string language="de">direkt proportional</string>
+          <string language="fr">proportionnel</string>
+          <string language="fr">relation de proportionnalité directe</string>
+          <string language="fr">proportionnel</string>
+          <string language="fr">relation de proportionnalité directe</string>
+          <string language="en">proportional</string>
+          <string language="es">proporcional</string>
+          <string language="es">relación de proporcionalidad directa</string>
+          <string language="es">proporcional</string>
+          <string language="es">relación de proporcionalidad directa</string>
+          <string language="nl">Recht evenredig</string>
+          <string language="nl">Proportioneel</string>
+          <string language="nl">Evenredig</string>
+          <string language="nl">Recht evenredig</string>
+          <string language="nl">Proportioneel</string>
+          <string language="nl">Evenredig</string>
+          <string language="nl">Recht evenredig</string>
+          <string language="nl">Proportioneel</string>
+          <string language="nl">Evenredig</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Identify_in_formula_variation_of_magnitude_in_function_of_another_magnitude</id>
+        <entry>
+          <string language="fr">envisager dans une formule les variations d'une grandeur en fonction d'une autre</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Magnitude_r</id>
+        <entry>
+          <string language="de">Größe</string>
+          <string language="fr">grandeur</string>
+          <string language="en">magnitude</string>
+          <string language="en">Measure</string>
+          <string language="en">magnitude</string>
+          <string language="en">Measure</string>
+          <string language="es">Magnitud</string>
+          <string language="es">Medida</string>
+          <string language="es">Magnitud</string>
+          <string language="es">Medida</string>
+          <string language="nl">Grootheid</string>
+          <string language="nl">Maat</string>
+          <string language="nl">Grootheid</string>
+          <string language="nl">Maat</string>
+          <string language="cs">Míra, velikost</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM lomODS.xsd">
+  <general>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM295</entry>
+    </identifier>
+    <title>
+      <string language="hr">Hardver_1</string>
+    </title>
+    <language>hr</language>
+    <description>
+      <string language="hr">Građa računala Hardware &lt;br /&gt;&lt;br /&gt;	Nastavna cjelina obuhvaća :uvod u sklopovlje računala i &lt;br /&gt;&lt;br /&gt;	ulazno i izlazne uređaje računala. &lt;br /&gt;&lt;br /&gt;	Rad se nalazi na stranici http://glogica.edu.glogster.com/uvod-u-sklopovlje-/&lt;br /&gt;&lt;br /&gt;	 izrađen je :&lt;br /&gt;&lt;br /&gt;	&lt;br /&gt;		alatom Glogster Edu i sastoji se od 7 povezanih interaktivnih postera (glogova) naziva Hardver_1.&lt;br /&gt;	&lt;br /&gt;		U glogovima se nalaze veze na udžbenik, radnu bilježnicu te prezentacije s DVD-a koju inače koristim u nastavi. Korištenje tih materijala moguće je slobodno koristiti.&lt;br /&gt;	&lt;br /&gt;		Način komunikacije s učenicima i provjere znanja odvija se putem društvene mreže Edmodo.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;	Rad je javan i mogu ga koristiti učenici i nastavnici.Ovakav način poučavanjazanimljiviji je za učenike i jednostavniji za nastavnike. Svi potrebni materijali su "na jednom mjestu" i tako nastavamože započeti u nekoliko klikova.&lt;br /&gt;&lt;br /&gt;</string>
+    </description>
+  </general>
+  <lifeCycle>
+    <contribute>
+      <role>
+        <source>LOMODSv1.0</source>
+        <value>author</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+N:Ivanov-Štimac;Daniela
+FN:Daniela Ivanov-Štimac
+END:VCARD]]></entity>
+    </contribute>
+  </lifeCycle>
+  <metaMetadata>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM295</entry>
+    </identifier>
+    <metadataSchema>LOMv1.0</metadataSchema>
+  </metaMetadata>
+  <technical>
+    <location>http://www.skole.hr/nastavni-materijali/materijal?nm_action=get_materijal_detaljno&amp;id=295</location>
+  </technical>
+  <educational>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>website</value>
+    </learningResourceType>
+    <intendedEndUserRole>
+      <source>LOMODSv1.0</source>
+      <value>learner</value>
+    </intendedEndUserRole>
+    <context>
+      <source>LOMODSv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <typicalAgeRange>
+      <string language="en">14-15</string>
+    </typicalAgeRange>
+  </educational>
+  <rights>
+    <copyrightAndOtherRestrictions>
+      <source>LOMODSv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">This learning object is owned by its respective author. The learning object is free for use, but it is necessary to attribute the author as its creator.</string>
+      <string language="hr">Ovaj objekt učenja je vlasništvo njegovog autora. Objekt učenja slobodan je za korištenje uz navođenje autora materijala.</string>
+    </description>
+  </rights>
+  <relation />
+  <annotation />
+  <classification>
+    <purpose>
+      <source>LOMODSv1.0</source>
+      <value>discipline</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">ODS ICT Vocabulary</string>
+      </source>
+      <taxon />
+    </taxonPath>
+    <taxonPath>
+      <source>
+        <string language="en">ODS ICT Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Technology</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Computer science</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

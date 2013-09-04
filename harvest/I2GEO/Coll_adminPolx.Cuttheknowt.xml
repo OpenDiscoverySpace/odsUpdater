@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_adminPolx.Cuttheknowt</entry>
+    </identifier>
+    <title>
+      <string language="en">Cut the knot</string>
+    </title>
+    <language>en</language>
+    <description>
+      <string language="en">A nice web-site with lots of information about the knots and with many more:&lt;p/&gt;
+&lt;ul class="star"&gt;
+&lt;li&gt;arithmetics&lt;/li&gt;
+&lt;li&gt;combinatorics&lt;/li&gt;
+&lt;li&gt;logic&lt;/li&gt;
+&lt;li&gt;algebra&lt;/li&gt;
+&lt;li&gt;...&lt;/li&gt;
+&lt;/ul&gt;Not everything is easily copyable on &lt;span class="nobr"&gt;&lt;a href="http://www.cut-the-knot.com/"&gt;http://www.cut-the-knot.com/&lt;/a&gt;&lt;/span&gt; but it is a professionally maintained resource with lots</string>
+    </description>
+    <keyword>
+      <string language="en" />
+      <!-- ttac =  -->
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">2.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Paul Libbrecht&#xD;
+N:Libbrecht;Paul;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2008-11-14T14:21:34.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Paul Libbrecht&#xD;
+N:Libbrecht;Paul;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2013-02-11T18:02:45.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_adminPolx/Cuttheknowt</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_problemset
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>exercise</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills</value>
+            </context>
+                                     -->
+    <language>en</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+</lom>
+

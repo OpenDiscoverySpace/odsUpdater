@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM lomODS.xsd">
+  <general>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM557</entry>
+    </identifier>
+    <title>
+      <string language="hr">WILLIAM SHAKESPEARE</string>
+    </title>
+    <language>hr</language>
+    <description>
+      <string language="hr">W. Shakespeare - životna i stvaralaška biografija.&lt;br /&gt;&lt;br /&gt;	Elizabetansko kazalište. Shakespeareov sonet.&lt;br /&gt;&lt;br /&gt;	&lt;br /&gt;&lt;br /&gt;	Dramski ciklusi - pregled djela po temi i vrsti.&lt;br /&gt;&lt;br /&gt;	"HAMLET", "SAN IVANJSKE NOĆI" - analiza&lt;br /&gt;&lt;br /&gt;	&lt;br /&gt;&lt;br /&gt;	Autorice: Marija Dizdar i Paula Tumir, 2. b&lt;br /&gt;&lt;br /&gt;	Mentorica: Antonia Sikavica Joler, prof.</string>
+    </description>
+    <keyword>
+      <string language="hr">Shakespeare</string>
+      <string language="hr">renesansa</string>
+      <string language="hr">Hamlet</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <contribute>
+      <role>
+        <source>LOMODSv1.0</source>
+        <value>author</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+N:Sikavica Joler;Antonia
+FN:Antonia Sikavica Joler
+END:VCARD]]></entity>
+    </contribute>
+  </lifeCycle>
+  <metaMetadata>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM557</entry>
+    </identifier>
+    <metadataSchema>LOMv1.0</metadataSchema>
+  </metaMetadata>
+  <technical>
+    <location>http://www.skole.hr/nastavni-materijali/materijal?nm_action=get_materijal_detaljno&amp;id=557</location>
+  </technical>
+  <educational>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>presentation</value>
+    </learningResourceType>
+    <intendedEndUserRole>
+      <source>LOMODSv1.0</source>
+      <value>learner</value>
+    </intendedEndUserRole>
+    <context>
+      <source>LOMODSv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <typicalAgeRange>
+      <string language="en">15-16</string>
+    </typicalAgeRange>
+  </educational>
+  <rights>
+    <copyrightAndOtherRestrictions>
+      <source>LOMODSv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="hr">Ovaj objekt učenja je vlasništvo njegovog autora. Objekt učenja slobodan je za korištenje uz navođenje autora materijala.</string>
+      <string language="en">This learning object is owned by its respective author. The learning object is free for use, but it is necessary to attribute the author as its creator.</string>
+    </description>
+  </rights>
+  <relation />
+  <annotation />
+  <classification>
+    <purpose>
+      <source>LOMODSv1.0</source>
+      <value>discipline</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Social Studies Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Culture and Cultural Theory</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Literacy</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Social Studies Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Discipline</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Linguistics</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

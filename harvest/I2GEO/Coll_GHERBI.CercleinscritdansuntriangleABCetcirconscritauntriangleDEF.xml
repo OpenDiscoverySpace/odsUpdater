@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_GHERBI.CercleinscritdansuntriangleABCetcirconscritauntriangleDEF</entry>
+    </identifier>
+    <title>
+      <string language="fr">Cercle  inscrit dans un triangle ABC et circonscrit  à un triangle DEF</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">Description: 
+  La première partie de l’activité propose aux élèves de tracer un triangle équilatéral ABC et un cercle inscrit à ce triangle et de tracer un autre triangle inscrit à ce cercle. On demande aux élèves de déduire la nature du triangle inscrit  et de comparer ses angles à ceux du triangle ABC en justifiants leurs réponses.
+La deuxième partie de l’activité propose un défi aux élèves d’étudier un cas d’un triangle quelconque où les élèves sont amenés à émettre des conjonctures sur la nature des angles du triangle inscrit (en fonction des angles ainsi formés)
+Compétences:
+1-Déployer un raisonnement mathématique :L’élève déploie un raisonnement mathématique en formulant une conjoncture en faisant appel à ses savoirs mathématique en reconnaissant les caractéristiques des figures planes (le triangle et le cercle).Il mesure à l’aide des outils du logiciel de géométrie dynamique les angles .L’élève est amené à mobiliser des raisonnements pour énoncer une conjoncture mathématique. Il procède par des déductions simples à partir de définitions et de propriétés, par exemple pour déterminer la valeur de mesures manquantes.
+2-Communiquer à l’aide du langage mathématique :L’élève décrit et interprète la figure plane oralement, par écrit et par l’utilisation d’outil informatique oblige l’élève à clarifier sa pensée et lui permet d’apprendre ou de renforcer les concepts et processus mathématiques (points de concours de bissectrice, centre du cercle inscrit,..)Cette compétence amène l’élève à interpréter des messages à caractère mathématique en exprimant des idées au moyen du langage mathématique en tenant compte des règles et des conventions qui  s’y attachent ainsi que du contexte.&lt;p/&gt;</string>
+    </description>
+    <keyword>
+      <string language="fr" />
+      <!-- ttac =  -->
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">2.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Ahmed GHERBI&#xD;
+N:GHERBI;Ahmed;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-10-04T22:29:30.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Ahmed GHERBI&#xD;
+N:GHERBI;Ahmed;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-10-04T22:32:11.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>zip</format>
+    <size>7891</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_GHERBI/CercleinscritdansuntriangleABCetcirconscritauntriangleDEF</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills</value>
+            </context>
+                                     -->
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+</lom>
+

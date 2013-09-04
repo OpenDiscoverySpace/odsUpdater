@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_vanicek.Osovesoumernyutvarjakovysledekexperimentu</entry>
+    </identifier>
+    <title>
+      <string language="cs">Osově souměrný útvar jako výsledek experimentu</string>
+    </title>
+    <language>cs</language>
+    <description>
+      <string language="cs">Je dána figura se zobrazením čtyřúhelníka v souměrnosti podle osy. Žáci hledají polohu osy tak, aby vzor a obraz splynuly, následně diskutují.
+&lt;ul class="minus"&gt;
+&lt;li class="innerlist"&gt;&lt;ul class="minus"&gt;
+&lt;li class="innerlist"&gt;&lt;ul class="minus"&gt;
+&lt;li&gt;Zadání:&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;Je dán čtyřúhelník a přímka, která jím neprochází. Sestrojte obraz čtyřúhelníka podle této přímky.
+&lt;ol&gt;
+&lt;li class="innerlist"&gt;null&lt;li class="innerlist"&gt;null&lt;li class="innerlist"&gt;null&lt;li class="innerlist"&gt;null&lt;li class="innerlist"&gt;&lt;ol class="katakana"&gt;
+&lt;li class="innerlist"&gt;null&lt;li class="innerlist"&gt;null&lt;li class="innerlist"&gt;null&lt;li class="innerlist"&gt;null&lt;li&gt;se pohybovat osou tak, aby vzor a obraz splynuly. Měňte také tvar čtyřúhelníka – vzoru.&lt;/li&gt;
+null&lt;/li&gt;
+null&lt;/li&gt;
+null&lt;/li&gt;
+null&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+null&lt;/li&gt;
+null&lt;/li&gt;
+null&lt;/li&gt;
+null&lt;/li&gt;
+&lt;/ol&gt;2.	Podařilo se vám nastavit obrázek tak, aby oba obrazce splynuly? Jakou vlastnost musí mít takový čtyřúhelník?
+&lt;ul class="minus"&gt;
+&lt;li class="innerlist"&gt;&lt;ul class="minus"&gt;
+&lt;li class="innerlist"&gt;&lt;ul class="minus"&gt;
+&lt;li&gt;Metodická poznámka:&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;Žáci splní zadání úlohy právě ve chvíli, kdy čtyřúhelník bude osově souměrný. Žáci objeví různé konkrétní tvary: deltoid, čtverec, obdélník, rovnoramenný lichoběžník, trojúhelník. Dotazem na společnou vlastnost všech těchto tvarů a po diskusi lze pojem souměrný útvar přirozeně zavést.</string>
+    </description>
+    <keyword>
+      <string language="cs">osová souměrnost čtyřúhelnék</string>
+      <!-- ttac =  -->
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">1.02</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Jiří Vaníček&#xD;
+N:Vaníček;Jiří;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-04-23T16:38:13.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Jiří Vaníček&#xD;
+N:Vaníček;Jiří;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-11-04T01:12:20.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format />
+    <size>1825</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_vanicek/Osovesoumernyutvarjakovysledekexperimentu</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills</value>
+            </context>
+                                     -->
+    <language>cs</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+</lom>
+

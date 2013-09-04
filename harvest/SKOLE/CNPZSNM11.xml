@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM lomODS.xsd">
+  <general>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM11</entry>
+    </identifier>
+    <title>
+      <string language="hr">C_najdrazi</string>
+    </title>
+    <language>hr</language>
+    <description>
+      <string language="hr">Projekt C_najdrazi predstavlja zbirku riješenih zadataka i zadataka za vježbu. Materijal je podijeljen na cjeline:&lt;br /&gt;&lt;br /&gt;	&lt;br /&gt;		kontrola toka programa&lt;br /&gt;	&lt;br /&gt;		polja&lt;br /&gt;	&lt;br /&gt;		složeni tipovi podataka&lt;br /&gt;	&lt;br /&gt;		pokazivači&lt;br /&gt;	&lt;br /&gt;		datoteke&lt;br /&gt;	&lt;br /&gt;		funkcije&lt;br /&gt;	&lt;br /&gt;		grafika&lt;br /&gt;	&lt;br /&gt;		dinamičke strukture&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;	Svaka cjelina sadrži određeni broj riješenih zadataka i zadataka za vježbu.&lt;br /&gt;&lt;br /&gt;	&lt;br /&gt;	Web stranice prate nastavno gradivo iz programiranja i dopunjavaju nastavne sadržaje iz udžbenika riješenim zadacima i zadacima za vježbu.</string>
+    </description>
+    <keyword>
+      <string language="hr">kontrola toka programa</string>
+      <string language="hr">polja</string>
+      <string language="hr">složeni tipovi podataka</string>
+      <string language="hr">pokazivači</string>
+      <string language="hr">datoteke</string>
+      <string language="hr">funkcije</string>
+      <string language="hr">grafika</string>
+      <string language="hr">dinamičke strukture</string>
+      <string language="hr">main</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <contribute>
+      <role>
+        <source>LOMODSv1.0</source>
+        <value>author</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+N:Antišić;Slavojka
+FN:Slavojka Antišić
+END:VCARD]]></entity>
+    </contribute>
+  </lifeCycle>
+  <metaMetadata>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM11</entry>
+    </identifier>
+    <metadataSchema>LOMv1.0</metadataSchema>
+  </metaMetadata>
+  <technical>
+    <location>http://www.skole.hr/nastavni-materijali/materijal?nm_action=get_materijal_detaljno&amp;id=11</location>
+  </technical>
+  <educational>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>reference</value>
+    </learningResourceType>
+    <intendedEndUserRole>
+      <source>LOMODSv1.0</source>
+      <value>learner</value>
+    </intendedEndUserRole>
+    <context>
+      <source>LOMODSv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <typicalAgeRange>
+      <string language="en">15-16</string>
+      <string language="en">16-17</string>
+      <string language="en">17-18</string>
+    </typicalAgeRange>
+  </educational>
+  <rights>
+    <copyrightAndOtherRestrictions>
+      <source>LOMODSv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="hr">Ovaj objekt učenja je vlasništvo njegovog autora. Objekt učenja slobodan je za korištenje uz navođenje autora materijala.</string>
+      <string language="en">This learning object is owned by its respective author. The learning object is free for use, but it is necessary to attribute the author as its creator.</string>
+    </description>
+  </rights>
+  <relation />
+  <annotation />
+  <classification>
+    <purpose>
+      <source>LOMODSv1.0</source>
+      <value>discipline</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">ODS ICT Vocabulary</string>
+      </source>
+      <taxon />
+    </taxonPath>
+    <taxonPath>
+      <source>
+        <string language="en">ODS ICT Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Technology</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Computer science</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

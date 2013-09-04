@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_clemences.Volumedeau</entry>
+    </identifier>
+    <title>
+      <string language="fr">Volume d'eau</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">Introduction aux fonctions : le volume d’eau d’un cylindre est une fonction linéaire de sa hauteur.</string>
+    </description>
+    <keyword>
+      <string language="fr">volume cylindre cône de révolution géométrie dans l&amp;#8217;espace thalès</string>
+      <!-- ttac = #Know_volume_of_right_cylinder,#Function_r,#use_intercepttheorem_to_obtain_magnitudes,#Graph_of_a_function_r,#Simplecalculationofvolume_r,#Calculate_volume_of_cone -->
+      <string language="de">wissen, wie das  Volumen eines geraden Zylinders berechnet wird</string>
+      <string language="fr">connaître le volume du cylindre droit</string>
+      <string language="de">Funktion</string>
+      <string language="fr">Fonction</string>
+      <string language="fr">fonction</string>
+      <string language="fr">Fonction</string>
+      <string language="fr">fonction</string>
+      <string language="en">function</string>
+      <string language="nl">Functie</string>
+      <string language="cs">Funkce</string>
+      <string language="de">den Strahlensatz zur Berechnung von Größen verwenden</string>
+      <string language="fr">utiliser le théorème de Thalès</string>
+      <string language="en">use the intercept theorem to calculate magnitudes</string>
+      <string language="es">usar el teorema de Thales para obtener medidas</string>
+      <string language="de">Graph einer Funktion</string>
+      <string language="fr">représentation graphique d'une fonction</string>
+      <string language="es">Gráfica</string>
+      <string language="nl">Grafiek van een functie</string>
+      <string language="de">einfache Berechnung von Volumina</string>
+      <string language="fr">Calculs simples de volumes</string>
+      <string language="fr">calcul simple de volumeueur</string>
+      <string language="fr">Calculs simples de volumes</string>
+      <string language="fr">calcul simple de volumeueur</string>
+      <string language="en">simple volume calculation</string>
+      <string language="nl">Eenvoudige inhoudsberekening</string>
+      <string language="de">das Volumen eines Kegel berechnen</string>
+      <string language="fr">calculer le volume d'un cône à l'aide de la formule</string>
+      <string language="en">calculate the volume of a cones</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">5.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Sassenou  Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M&#xD;
+N: Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M;Sassenou;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-04-20T10:38:58.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Sassenou  Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M&#xD;
+N: Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M;Sassenou;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-04-20T10:47:04.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_clemences/Volumedeau</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_assignment
+    true    true         -->
+    <!-- educational annotations from Curriki's ICT activity_exercise
+    true    true         -->
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <!-- educational annotations from Curriki's ICT resource_animation
+        true    true     -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>exercise</value>
+    </learningResourceType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>exercise</value>
+    </learningResourceType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>demonstration</value>
+    </learningResourceType>
+    <interactivityLevel>
+      <source>LOMv1.0</source>
+      <value>medium</value>
+    </interactivityLevel>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#College_4</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Troisième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Troisième de Collège</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Troisième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Troisième de Collège</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 14 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 14 -->
+    <typicalAgeRange>
+      <string language="en">14-15</string>
+    </typicalAgeRange>
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Know_volume_of_right_cylinder</id>
+        <entry>
+          <string language="de">wissen, wie das  Volumen eines geraden Zylinders berechnet wird</string>
+          <string language="fr">connaître le volume du cylindre droit</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Function_r</id>
+        <entry>
+          <string language="de">Funktion</string>
+          <string language="fr">Fonction</string>
+          <string language="fr">fonction</string>
+          <string language="fr">Fonction</string>
+          <string language="fr">fonction</string>
+          <string language="en">function</string>
+          <string language="nl">Functie</string>
+          <string language="cs">Funkce</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#use_intercepttheorem_to_obtain_magnitudes</id>
+        <entry>
+          <string language="de">den Strahlensatz zur Berechnung von Größen verwenden</string>
+          <string language="fr">utiliser le théorème de Thalès</string>
+          <string language="en">use the intercept theorem to calculate magnitudes</string>
+          <string language="es">usar el teorema de Thales para obtener medidas</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Graph_of_a_function_r</id>
+        <entry>
+          <string language="de">Graph einer Funktion</string>
+          <string language="fr">représentation graphique d'une fonction</string>
+          <string language="es">Gráfica</string>
+          <string language="nl">Grafiek van een functie</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Simplecalculationofvolume_r</id>
+        <entry>
+          <string language="de">einfache Berechnung von Volumina</string>
+          <string language="fr">Calculs simples de volumes</string>
+          <string language="fr">calcul simple de volumeueur</string>
+          <string language="fr">Calculs simples de volumes</string>
+          <string language="fr">calcul simple de volumeueur</string>
+          <string language="en">simple volume calculation</string>
+          <string language="nl">Eenvoudige inhoudsberekening</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Calculate_volume_of_cone</id>
+        <entry>
+          <string language="de">das Volumen eines Kegel berechnen</string>
+          <string language="fr">calculer le volume d'un cône à l'aide de la formule</string>
+          <string language="en">calculate the volume of a cones</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

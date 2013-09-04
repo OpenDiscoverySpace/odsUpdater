@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_clemences.Pantographe2symetriecentrale</entry>
+    </identifier>
+    <title>
+      <string language="fr">Pantographe 2 : symétrie centrale</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">6 fichiers représentant des pantographes virtuels qui dessinent une image par symétrie axiale, symétrie centrale, rotation de 60°, translation, homothétie (agrandissement ou réduction).&lt;p/&gt;
+Ils ont été créés pour servir de "maquette virtuelle" avant une fabrication en bois avec les élèves. Ils peuvent servir pour enseigner les transformations du plan et/ou dans le cadre de projets avec la technologie ou les arts plastiques par exemple.</string>
+    </description>
+    <keyword>
+      <string language="fr">homotéthie translation rotation symétrie centrale symétrie axiale symétrie</string>
+      <!-- ttac = #Symmetry_center_r -->
+      <string language="de">Symmetriezentrum</string>
+      <string language="fr">centre de symétrie</string>
+      <string language="en">point of symmetry</string>
+      <string language="es">centro de simetría</string>
+      <string language="nl">Punt van symmetrie</string>
+      <string language="nl">Symmetriecentrum</string>
+      <string language="nl">Punt van symmetrie</string>
+      <string language="nl">Symmetriecentrum</string>
+      <string language="cs">Střed souměrnosti</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">2.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Sassenou  Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M&#xD;
+N: Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M;Sassenou;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-05-07T10:46:58.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Sassenou  Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M&#xD;
+N: Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M;Sassenou;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-05-07T10:48:00.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>ggb</format>
+    <size>1601</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_clemences/Pantographe2symetriecentrale</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#College_1</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Sixième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Sixième de Collège</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Sixième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Sixième de Collège</value>                </context>
+                                                    <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Ecole_Elementaire_5</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Cours Moyen 2</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Cours Moyen 2</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Cours Moyen 2</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Cours Moyen 2</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 11 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 10 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>primary education</value>
+    </context>
+    <!-- typicalAgeRange is: 11 -->
+    <typicalAgeRange>
+      <string language="en">11-12</string>
+    </typicalAgeRange>
+    <!-- typicalAgeRange is: 10 -->
+    <typicalAgeRange>
+      <string language="en">10-11</string>
+    </typicalAgeRange>
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Symmetry_center_r</id>
+        <entry>
+          <string language="de">Symmetriezentrum</string>
+          <string language="fr">centre de symétrie</string>
+          <string language="en">point of symmetry</string>
+          <string language="es">centro de simetría</string>
+          <string language="nl">Punt van symmetrie</string>
+          <string language="nl">Symmetriecentrum</string>
+          <string language="nl">Punt van symmetrie</string>
+          <string language="nl">Symmetriecentrum</string>
+          <string language="cs">Střed souměrnosti</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

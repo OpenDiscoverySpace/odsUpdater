@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_ChristianMercat.VariationsEtTableauDeVariations</entry>
+    </identifier>
+    <title>
+      <string language="fr">Variations et tableau de variations</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">Simulation graphique et tableau de variations d'une fonction réelle.</string>
+    </description>
+    <keyword>
+      <string language="fr" />
+      <!-- ttac = #Variation_r,#plot_a_function_table,#Graph_of_a_function_r,#Plot_r -->
+      <string language="de">Variation</string>
+      <string language="de">Abwandlung</string>
+      <string language="de">Variation</string>
+      <string language="de">Abwandlung</string>
+      <string language="fr">variation</string>
+      <string language="en">variation</string>
+      <string language="nl">Variatie</string>
+      <string language="de">eine Wertetabelle zeichnen</string>
+      <string language="fr">représenter graphiquement une fonction à partir d'un tableau de valeurs</string>
+      <string language="en">plot a function table</string>
+      <string language="es">representar gráficamente una tabla de valores</string>
+      <string language="nl">Een grafiek tekenen met behulp van een waardentabel</string>
+      <string language="de">Graph einer Funktion</string>
+      <string language="fr">représentation graphique d'une fonction</string>
+      <string language="es">Gráfica</string>
+      <string language="nl">Grafiek van een functie</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">1.02</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Christian Mercat IREM de Lyon, IUFM&#xD;
+N:IREM de Lyon, IUFM;Christian Mercat;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2008-11-10T15:34:45.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Christian Mercat IREM de Lyon, IUFM&#xD;
+N:IREM de Lyon, IUFM;Christian Mercat;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-11-04T14:49:32.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_ChristianMercat/VariationsEtTableauDeVariations</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Lycée_Général_et_Technologique_2</value>
+            </context>
+                                                <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Lycée_Général_et_Technologique_1</value>
+            </context>
+                                                <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Lycée_Général_et_Technologique_3</value>
+            </context>
+                                     -->
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Variation_r</id>
+        <entry>
+          <string language="de">Variation</string>
+          <string language="de">Abwandlung</string>
+          <string language="de">Variation</string>
+          <string language="de">Abwandlung</string>
+          <string language="fr">variation</string>
+          <string language="en">variation</string>
+          <string language="nl">Variatie</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#plot_a_function_table</id>
+        <entry>
+          <string language="de">eine Wertetabelle zeichnen</string>
+          <string language="fr">représenter graphiquement une fonction à partir d'un tableau de valeurs</string>
+          <string language="en">plot a function table</string>
+          <string language="es">representar gráficamente una tabla de valores</string>
+          <string language="nl">Een grafiek tekenen met behulp van een waardentabel</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Graph_of_a_function_r</id>
+        <entry>
+          <string language="de">Graph einer Funktion</string>
+          <string language="fr">représentation graphique d'une fonction</string>
+          <string language="es">Gráfica</string>
+          <string language="nl">Grafiek van een functie</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Plot_r</id>
+        <entry>
+          <string language="en">
+            <!-- fallback from URI -->
+            Plot r
+          </string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

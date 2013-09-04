@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_Gauvain.ResolutiongraphiquedinequationsNiveau1</entry>
+    </identifier>
+    <title>
+      <string language="fr">Résolution graphique d'inéquations (Niveau 1)</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">&lt;ul class="star"&gt;
+&lt;li&gt;Cette ressource du lycée Valin de La Rochelle est un exerciseur qui propose des équations ou des inéquations du type f(x)=m ou f(x) &gt;m etc.&lt;/li&gt;
+&lt;li&gt;La courbe de la fonction f est tracée, l'utilisateur déplace une droite d'équation y=m et peut colorier les demi-plan déterminés par cette droite. Il doit ainsi faire apparaître l'ensemble des solutions de l'équation ou de l'inéquation sur l'axe des abscisses.&lt;/li&gt;
+&lt;li&gt;Il doit aussi écrire l'ensemble des solutions de l'équation ou de l'inéquation.&lt;/li&gt;
+&lt;li&gt;Au bout de trois mauvaises réponses la solution est donnée.&lt;/li&gt;
+&lt;li&gt;Attention le zoom du navigateur utilisé doit être sur la position 100%.&lt;/li&gt;
+&lt;/ul&gt;</string>
+    </description>
+    <keyword>
+      <string language="fr">inéquations résolution graphique</string>
+      <!-- ttac = #Graphical_Representation_of_Function_r,#Solve_linear_inequation_with_whole_number_coefficients,#Interval_r -->
+      <string language="de">graphische Darstellung einer Funktion</string>
+      <string language="fr">représentation graphique de fonction</string>
+      <string language="en">graphical representation of a function</string>
+      <string language="nl">Grafische weergave van een functie</string>
+      <string language="de">lineare Ungleichungen mit ganzzahligen Koeffizienten lösen</string>
+      <string language="fr">résoudre graphiquement une inéquation</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">18.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Joel Gauvain&#xD;
+N:Gauvain;Joel;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2011-02-11T14:32:37.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Joel Gauvain&#xD;
+N:Gauvain;Joel;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2012-01-14T09:25:24.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_Gauvain/ResolutiongraphiquedinequationsNiveau1</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_exercise
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>exercise</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Lycee_General_et_Technologique_1</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Seconde</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Seconde</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Seconde</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Seconde</value>                </context>
+                                                    <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Lycee_General_et_Technologique_2_serie_ES</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Première générale ES</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Première générale ES</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Première générale ES</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Première générale ES</value>                </context>
+                                                    <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Lycee_General_et_Technologique_2_serie_S</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Première générale S</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Première générale S</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Première générale S</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Première générale S</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 15 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 16 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 16 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 15 -->
+    <typicalAgeRange>
+      <string language="en">15-16</string>
+    </typicalAgeRange>
+    <!-- typicalAgeRange is: 16 -->
+    <typicalAgeRange>
+      <string language="en">16-17</string>
+    </typicalAgeRange>
+    <!-- typicalAgeRange is: 16 -->
+    <typicalAgeRange>
+      <string language="en">16-17</string>
+    </typicalAgeRange>
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">CurrikiCode.AssetLicenseClass_licenseType_Licences.Licences.CreativeCommonsAttributionNon-CommercialNoDerivatives</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by-nc-nd/2.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Graphical_Representation_of_Function_r</id>
+        <entry>
+          <string language="de">graphische Darstellung einer Funktion</string>
+          <string language="fr">représentation graphique de fonction</string>
+          <string language="en">graphical representation of a function</string>
+          <string language="nl">Grafische weergave van een functie</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Solve_linear_inequation_with_whole_number_coefficients</id>
+        <entry>
+          <string language="de">lineare Ungleichungen mit ganzzahligen Koeffizienten lösen</string>
+          <string language="fr">résoudre graphiquement une inéquation</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Interval_r</id>
+        <entry>
+          <string language="en">
+            <!-- fallback from URI -->
+            Interval r
+          </string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

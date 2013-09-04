@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_clemences.TriangledeSierpinski</entry>
+    </identifier>
+    <title>
+      <string language="fr">Triangle de Sierpinski</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">On démarre d'un triangle équilatéral dont on ôte le triangle central fabriqué à partir des milieux des côtés. Il reste 3 triangles équilatéraux pour chacun desquels on réitère la construction. L'objet obtenu est une fractale, le triangle de Sierpinski. &lt;p/&gt;</string>
+    </description>
+    <keyword>
+      <string language="fr">fractales sierpinski</string>
+      <!-- ttac = #Unknown_r,#Triangle_r -->
+      <string language="de">Unbekannte</string>
+      <string language="fr">inconnue</string>
+      <string language="en">unknown</string>
+      <string language="nl">Onbekende</string>
+      <string language="de">Dreieck</string>
+      <string language="fr">triangle</string>
+      <string language="en">triangle</string>
+      <string language="es">Triángulo</string>
+      <string language="nl">Driehoek</string>
+      <string language="cs">trojúhelník</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">5.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Sassenou  Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M&#xD;
+N: Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M;Sassenou;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-05-05T10:21:34.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Sassenou  Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M&#xD;
+N: Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M;Sassenou;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-05-05T10:27:33.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format />
+    <size>57036</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_clemences/TriangledeSierpinski</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#College_1</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Sixième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Sixième de Collège</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Sixième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Sixième de Collège</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 11 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 11 -->
+    <typicalAgeRange>
+      <string language="en">11-12</string>
+    </typicalAgeRange>
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Unknown_r</id>
+        <entry>
+          <string language="de">Unbekannte</string>
+          <string language="fr">inconnue</string>
+          <string language="en">unknown</string>
+          <string language="nl">Onbekende</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Triangle_r</id>
+        <entry>
+          <string language="de">Dreieck</string>
+          <string language="fr">triangle</string>
+          <string language="en">triangle</string>
+          <string language="es">Triángulo</string>
+          <string language="nl">Driehoek</string>
+          <string language="cs">trojúhelník</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

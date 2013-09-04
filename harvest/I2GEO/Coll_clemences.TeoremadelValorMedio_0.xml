@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_clemences.TeoremadelValorMedio_0</entry>
+    </identifier>
+    <title>
+      <string language="es">Teorema del Valor Medio</string>
+    </title>
+    <language>es</language>
+    <description>
+      <string language="es">Figuras indicadas para la comprensión de los principales conceptos del Cálculo diferencial, esenciales en los estudios de Bachillerato y cuya explicación en la pizarra entraña serias dificultades y no poco tiempo. La posibilidad de utilizar el zoom es aquí muy ventajosa. Por ello se trata de unas figuras de especial interés para el profesorado que disponga de pizarra digital.</string>
+    </description>
+    <keyword>
+      <string language="es">Funciones Derivadas Integrales Teorema de Rolle Valor Medio</string>
+      <!-- ttac = #Function_r,#Graphical_Representation_of_Function_r -->
+      <string language="de">Funktion</string>
+      <string language="fr">Fonction</string>
+      <string language="fr">fonction</string>
+      <string language="fr">Fonction</string>
+      <string language="fr">fonction</string>
+      <string language="en">function</string>
+      <string language="nl">Functie</string>
+      <string language="cs">Funkce</string>
+      <string language="de">graphische Darstellung einer Funktion</string>
+      <string language="fr">représentation graphique de fonction</string>
+      <string language="en">graphical representation of a function</string>
+      <string language="nl">Grafische weergave van een functie</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">2.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Sassenou  Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M&#xD;
+N: Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M;Sassenou;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-04-29T10:55:41.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Sassenou  Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M&#xD;
+N: Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M;Sassenou;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-04-29T10:56:59.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>ggb</format>
+    <size>1944</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_clemences/TeoremadelValorMedio_0</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Lycee_General_et_Technologique_3_serie_S</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Terminale générale S</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Terminale générale S</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Terminale générale S</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Terminale générale S</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 17 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 17 -->
+    <typicalAgeRange>
+      <string language="en">17-18</string>
+    </typicalAgeRange>
+    <language>es</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Function_r</id>
+        <entry>
+          <string language="de">Funktion</string>
+          <string language="fr">Fonction</string>
+          <string language="fr">fonction</string>
+          <string language="fr">Fonction</string>
+          <string language="fr">fonction</string>
+          <string language="en">function</string>
+          <string language="nl">Functie</string>
+          <string language="cs">Funkce</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Graphical_Representation_of_Function_r</id>
+        <entry>
+          <string language="de">graphische Darstellung einer Funktion</string>
+          <string language="fr">représentation graphique de fonction</string>
+          <string language="en">graphical representation of a function</string>
+          <string language="nl">Grafische weergave van een functie</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

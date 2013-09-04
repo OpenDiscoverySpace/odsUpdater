@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_Kevin.MittelsenkrechteWiederholungLosung</entry>
+    </identifier>
+    <title>
+      <string language="de">Wiederholung Mittelsenkrechte Lösung</string>
+    </title>
+    <language>de</language>
+    <description>
+      <string language="de">Die Lösung der Anwendungsaufgabe</string>
+    </description>
+    <keyword>
+      <string language="de">Wiederholung Mittelsenkrechte Lösung</string>
+      <!-- ttac = #Orthogonal_r -->
+      <string language="de">senkrecht</string>
+      <string language="de">orthogonal</string>
+      <string language="de">lotrecht</string>
+      <string language="de">senkrecht</string>
+      <string language="de">orthogonal</string>
+      <string language="de">lotrecht</string>
+      <string language="de">senkrecht</string>
+      <string language="de">orthogonal</string>
+      <string language="de">lotrecht</string>
+      <string language="es">ortogonal</string>
+      <string language="nl">Orthogonaal</string>
+      <string language="cs">Kolmost</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">1.02</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Kevin Kümmerer&#xD;
+N:Kümmerer;Kevin;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-02-12T13:00:24.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Kevin Kümmerer&#xD;
+N:Kümmerer;Kevin;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-11-04T14:54:12.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_Kevin/MittelsenkrechteWiederholungLosung</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT resource_animation
+        true    true     -->
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>demonstration</value>
+    </learningResourceType>
+    <interactivityLevel>
+      <source>LOMv1.0</source>
+      <value>medium</value>
+    </interactivityLevel>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#England_and_Wales_Year6</value>
+            </context>
+                                     -->
+    <language>de</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">CurrikiCode.AssetLicenseClass_licenseType_Licences.Licences.CreativeCommonsAttributionNon-CommercialShareAlike</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by-nc-sa/2.0/</licenseURI>-->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Orthogonal_r</id>
+        <entry>
+          <string language="de">senkrecht</string>
+          <string language="de">orthogonal</string>
+          <string language="de">lotrecht</string>
+          <string language="de">senkrecht</string>
+          <string language="de">orthogonal</string>
+          <string language="de">lotrecht</string>
+          <string language="de">senkrecht</string>
+          <string language="de">orthogonal</string>
+          <string language="de">lotrecht</string>
+          <string language="es">ortogonal</string>
+          <string language="nl">Orthogonaal</string>
+          <string language="cs">Kolmost</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

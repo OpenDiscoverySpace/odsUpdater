@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_Gauvain.Intervallesuniondintervalles</entry>
+    </identifier>
+    <title>
+      <string language="fr">Intervalles, union d'intervalles (Niveau 2)</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">&lt;ul class="star"&gt;
+&lt;li&gt;Cette ressource du lycée Valin de La Rochelle est un exerciseur  qui génère aléatoirement des propositions dépendantes d'une variable x qu'il faut traduire par une proposition équivalente du type " x appartient à un ensemble de nombres réels (intervalle ou union d'intervalles)" .&lt;/li&gt;
+&lt;li&gt;Cet ensemble doit être représenté sur une droite graduée représentant les nombres réels.&lt;/li&gt;
+&lt;li&gt;Attention le zoom du navigateur utilisé doit être réglé sur 100%.&lt;/li&gt;
+&lt;/ul&gt;</string>
+    </description>
+    <keyword>
+      <string language="fr">intervalles union</string>
+      <!-- ttac = #Inequality_General_r,#Represent_solutions_of_inequation_on_a_line,#Interval_r -->
+      <string language="de">Ungleichung (die allgemein gilt)</string>
+      <string language="de">Ungleichung (die allgemein gilt)</string>
+      <string language="fr">Inégalité</string>
+      <string language="fr">Inégalité</string>
+      <string language="en">inequality (that holds generally)</string>
+      <string language="en">inequality (that holds generally)</string>
+      <string language="es">Desigualdad (that holds generally)</string>
+      <string language="es">Desigualdad (that holds generally)</string>
+      <string language="nl">Ongelijkheid (die algemeen geldig is)</string>
+      <string language="nl">Ongelijkheid (die algemeen geldig is)</string>
+      <string language="de">Ungleichung (die allgemein gilt)</string>
+      <string language="de">Ungleichung (die allgemein gilt)</string>
+      <string language="fr">Inégalité</string>
+      <string language="fr">Inégalité</string>
+      <string language="en">inequality (that holds generally)</string>
+      <string language="en">inequality (that holds generally)</string>
+      <string language="es">Desigualdad (that holds generally)</string>
+      <string language="es">Desigualdad (that holds generally)</string>
+      <string language="nl">Ongelijkheid (die algemeen geldig is)</string>
+      <string language="nl">Ongelijkheid (die algemeen geldig is)</string>
+      <string language="de">die Lösung einer Ungleichung auf einer Gerade darstellen</string>
+      <string language="fr">représenter les solutions d'une inéquation sur une droite graduée</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">14.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Joel Gauvain&#xD;
+N:Gauvain;Joel;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2011-02-11T09:01:30.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Joel Gauvain&#xD;
+N:Gauvain;Joel;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2012-01-14T09:24:21.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_Gauvain/Intervallesuniondintervalles</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_exercise
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>exercise</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Lycee_General_et_Technologique_1</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Seconde</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Seconde</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Seconde</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Seconde</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 15 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 15 -->
+    <typicalAgeRange>
+      <string language="en">15-16</string>
+    </typicalAgeRange>
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">CurrikiCode.AssetLicenseClass_licenseType_Licences.Licences.CreativeCommonsAttributionNon-CommercialNoDerivatives</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by-nc-nd/2.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Inequality_General_r</id>
+        <entry>
+          <string language="de">Ungleichung (die allgemein gilt)</string>
+          <string language="de">Ungleichung (die allgemein gilt)</string>
+          <string language="fr">Inégalité</string>
+          <string language="fr">Inégalité</string>
+          <string language="en">inequality (that holds generally)</string>
+          <string language="en">inequality (that holds generally)</string>
+          <string language="es">Desigualdad (that holds generally)</string>
+          <string language="es">Desigualdad (that holds generally)</string>
+          <string language="nl">Ongelijkheid (die algemeen geldig is)</string>
+          <string language="nl">Ongelijkheid (die algemeen geldig is)</string>
+          <string language="de">Ungleichung (die allgemein gilt)</string>
+          <string language="de">Ungleichung (die allgemein gilt)</string>
+          <string language="fr">Inégalité</string>
+          <string language="fr">Inégalité</string>
+          <string language="en">inequality (that holds generally)</string>
+          <string language="en">inequality (that holds generally)</string>
+          <string language="es">Desigualdad (that holds generally)</string>
+          <string language="es">Desigualdad (that holds generally)</string>
+          <string language="nl">Ongelijkheid (die algemeen geldig is)</string>
+          <string language="nl">Ongelijkheid (die algemeen geldig is)</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Represent_solutions_of_inequation_on_a_line</id>
+        <entry>
+          <string language="de">die Lösung einer Ungleichung auf einer Gerade darstellen</string>
+          <string language="fr">représenter les solutions d'une inéquation sur une droite graduée</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Interval_r</id>
+        <entry>
+          <string language="en">
+            <!-- fallback from URI -->
+            Interval r
+          </string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

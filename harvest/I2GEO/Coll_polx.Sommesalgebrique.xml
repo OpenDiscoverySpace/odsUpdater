@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_polx.Sommesalgebrique</entry>
+    </identifier>
+    <title>
+      <string language="fr">Sommes algébrique</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">Une page de drill pour le calcul des sommes de nombres positifs et négatifs.&lt;p/&gt;
+Une simple page HTML où le javascript pose un problème aléatoire, vérifie la réponse, et compte le score. Il vient des [activités de Daniel Mentrard sur les &lt;a href="http://i2geo.net/xwiki/bin/view/Coll_MD/Calculsnumeriques"&gt;Calculs numériques&lt;/a&gt;.&lt;p/&gt;
+Ce n'est jamais fini&amp;#8230; c'est sans doute à utiliser comme exercice de drill.&lt;p/&gt;
+On peut l'utiliser facilement en ouvrant le fichier index.html dans le zip, en cliquant simplement le bouton "démarrer", ou en suivant &lt;a href="http://i2geo.net/xwiki/bin/download/Coll_polx/Sommesalgebrique/sommesAlgebriques.zip/index.html"&gt;l'URL de ce bouton&lt;/a&gt;.</string>
+    </description>
+    <keyword>
+      <string language="fr">drill; sommes; différences; nombres relatifs; entiers; positifs; négatifs</string>
+      <!-- ttac = #Integer_r,#Calculate_sum_or_difference_of_integers_and_positive_and_negative_decimal_numbers -->
+      <string language="de">ganze Zahl</string>
+      <string language="fr">entier relatif</string>
+      <string language="en">integer</string>
+      <string language="nl">Geheel getal</string>
+      <string language="de">die Summe oder Differenz von ganzen Zahlen, negativen und positiven Zahlen und Dezimalzahlen berechnen</string>
+      <string language="fr">calculer la somme et la différence de deux nombres relatifs</string>
+      <string language="en">add subtract negative numbes in context</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">23.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Paul Libbrecht&#xD;
+N:Libbrecht;Paul;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2011-01-08T23:22:04.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Paul Libbrecht&#xD;
+N:Libbrecht;Paul;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2011-01-12T09:59:17.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>zip</format>
+    <size>41177</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_polx/Sommesalgebrique</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_problemset
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>exercise</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#College_1</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Sixième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Sixième de Collège</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Sixième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Sixième de Collège</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 11 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 11 -->
+    <typicalAgeRange>
+      <string language="en">11-12</string>
+    </typicalAgeRange>
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Integer_r</id>
+        <entry>
+          <string language="de">ganze Zahl</string>
+          <string language="fr">entier relatif</string>
+          <string language="en">integer</string>
+          <string language="nl">Geheel getal</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Calculate_sum_or_difference_of_integers_and_positive_and_negative_decimal_numbers</id>
+        <entry>
+          <string language="de">die Summe oder Differenz von ganzen Zahlen, negativen und positiven Zahlen und Dezimalzahlen berechnen</string>
+          <string language="fr">calculer la somme et la différence de deux nombres relatifs</string>
+          <string language="en">add subtract negative numbes in context</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

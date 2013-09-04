@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_jml.UnpuzzleenformedecarrA</entry>
+    </identifier>
+    <title>
+      <string language="fr">Un puzzle en forme de carrÃ©</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">Les Ã©lÃ¨ves ont Ã  construire avec Cabri les piÃ¨ces triangulaires d'un puzzle en forme de carrÃ© et Ã  vÃ©rifier ensuite que les piÃ¨ces se raccordent bien en un carrÃ©</string>
+    </description>
+    <keyword>
+      <string language="fr">carrÃ© puzzle triangle</string>
+      <!-- ttac = #Square_r,#Construct_square,#Construct_isosceles_triangle,#Triangle_r -->
+      <string language="de">Quadrat</string>
+      <string language="fr">carré</string>
+      <string language="en">square</string>
+      <string language="es">Cuadrado</string>
+      <string language="nl">Vierkant</string>
+      <string language="cs">Čtverec</string>
+      <string language="de">ein Quadrat konstruieren</string>
+      <string language="fr">construire un carré</string>
+      <string language="en">construct a square</string>
+      <string language="nl">Een vierkant construeren</string>
+      <string language="de">Dreieck</string>
+      <string language="fr">triangle</string>
+      <string language="en">triangle</string>
+      <string language="es">Triángulo</string>
+      <string language="nl">Driehoek</string>
+      <string language="cs">trojúhelník</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">1.02</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Jean-Marie (Cabri) Jean-Marie Laborde&#xD;
+N:Jean-Marie Laborde;Jean-Marie (Cabri);;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2008-10-15T10:14:07.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Jean-Marie (Cabri) Jean-Marie Laborde&#xD;
+N:Jean-Marie Laborde;Jean-Marie (Cabri);;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-11-04T14:50:54.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_jml/UnpuzzleenformedecarrA</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_exercise
+    true    true         -->
+    <!-- educational annotations from Curriki's ICT activity_worksheet
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>exercise</value>
+    </learningResourceType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>exercise</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#College_1</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Sixième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Sixième de Collège</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Sixième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Sixième de Collège</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 11 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 11 -->
+    <typicalAgeRange>
+      <string language="en">11-12</string>
+    </typicalAgeRange>
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">CurrikiCode.AssetLicenseClass_licenseType_Licences.Licences.CreativeCommonsAttributionNon-Commercial</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by-nc/2.0/</licenseURI>-->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Square_r</id>
+        <entry>
+          <string language="de">Quadrat</string>
+          <string language="fr">carré</string>
+          <string language="en">square</string>
+          <string language="es">Cuadrado</string>
+          <string language="nl">Vierkant</string>
+          <string language="cs">Čtverec</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Construct_square</id>
+        <entry>
+          <string language="de">ein Quadrat konstruieren</string>
+          <string language="fr">construire un carré</string>
+          <string language="en">construct a square</string>
+          <string language="nl">Een vierkant construeren</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Construct_isosceles_triangle</id>
+        <entry>
+          <string language="en">
+            <!-- fallback from URI -->
+            Construct isosceles triangle
+          </string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Triangle_r</id>
+        <entry>
+          <string language="de">Dreieck</string>
+          <string language="fr">triangle</string>
+          <string language="en">triangle</string>
+          <string language="es">Triángulo</string>
+          <string language="nl">Driehoek</string>
+          <string language="cs">trojúhelník</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

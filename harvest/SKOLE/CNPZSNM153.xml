@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM lomODS.xsd">
+  <general>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM153</entry>
+    </identifier>
+    <title>
+      <string language="hr">Sila trenja</string>
+    </title>
+    <language>hr</language>
+    <description>
+      <string language="hr">Stranica je namijenjena svim učenicima sedmih razreda. Na samom početku dostupni su ponavljanje, uvod i motivacija koji učenicima služe kako bi se pripremili za novu temu i kako bi uvidjeli zašto je važno da tu temu proučavamo. Na stranici se nalaze pokusi kojima učenici istražuju silu trenja. Zajedno s uputama za izradu pokusa i animacijom svakog pokusa, dolazi i svaki zaključak koji tim pokusom možemo donjeti. Zanimljivosti učenicima donose primjere iz svakodnevnog života koji ih okružuju i koji su povezani sa silom trenja. Na stranici su također dostupni zadaci i kviz koji učenicima pomažu da uvide što se od njih očekuje da znaju nakon obrade teme. Crtice su namjenjene za povezivanje teme sile trenja s ostalim nastavnim predmetima (npr. geografija).&lt;br /&gt;&lt;br /&gt;	&lt;br /&gt;	Rad je napravljen u sklopu natječaja "Primjena računala u nastavi" u organizaciji Agencije za odgoj i obrazovanje i Microsoft Hrvatska, te ocijenjen kao jedan od deset najboljih radova.</string>
+    </description>
+    <keyword>
+      <string language="hr">sila trenja</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <contribute>
+      <role>
+        <source>LOMODSv1.0</source>
+        <value>author</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+N:Antolković;Vlatka
+FN:Vlatka Antolković
+END:VCARD]]></entity>
+    </contribute>
+  </lifeCycle>
+  <metaMetadata>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM153</entry>
+    </identifier>
+    <metadataSchema>LOMv1.0</metadataSchema>
+  </metaMetadata>
+  <technical>
+    <location>http://www.skole.hr/nastavni-materijali/materijal?nm_action=get_materijal_detaljno&amp;id=153</location>
+  </technical>
+  <educational>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>tool</value>
+    </learningResourceType>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>exercise</value>
+    </learningResourceType>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>enquiry-oriented activity</value>
+    </learningResourceType>
+    <intendedEndUserRole>
+      <source>LOMODSv1.0</source>
+      <value>learner</value>
+    </intendedEndUserRole>
+    <context>
+      <source>LOMODSv1.0</source>
+      <value>primary education</value>
+    </context>
+    <typicalAgeRange>
+      <string language="en">12-13</string>
+    </typicalAgeRange>
+  </educational>
+  <rights>
+    <copyrightAndOtherRestrictions>
+      <source>LOMODSv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="hr">Ovaj objekt učenja je vlasništvo njegovog autora. Objekt učenja slobodan je za korištenje uz navođenje autora materijala.</string>
+      <string language="en">This learning object is owned by its respective author. The learning object is free for use, but it is necessary to attribute the author as its creator.</string>
+    </description>
+  </rights>
+  <relation />
+  <annotation />
+  <classification>
+    <purpose>
+      <source>LOMODSv1.0</source>
+      <value>discipline</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Science Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Physics</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

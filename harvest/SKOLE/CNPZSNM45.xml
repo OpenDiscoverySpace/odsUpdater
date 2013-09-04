@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM lomODS.xsd">
+  <general>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM45</entry>
+    </identifier>
+    <title>
+      <string language="hr">Kviz: što smo naučili iz prirode i društva u 1. razredu?</string>
+    </title>
+    <language>hr</language>
+    <description>
+      <string language="hr">Kviz je osmišljen kao provjera znanja na kraju 1. razreda (lipanj), ali može poslužiti i kao vježba, za ponavljanje gradiva na kraju školske godine ili kao ponavljanje na početku 2. razreda. Ako bi se koristio za provjeru znanja, trebalo bi za svakog učenika načiniti tablicu kao što je prikazana na zadnja 2 slajda prezentacije s tim da bi drugi stupac bio prazan, a učenici bi nakon svakog pitanja (slajda) upisali slovo koje se nalazi ispred jednog od ponuđenih odgovora.&lt;br /&gt;&lt;br /&gt;	&lt;br /&gt;	Nakon posljednjeg pitanja, učenici mogu u klupi zamijeniti tablice i jedan drugome "ispraviti pogreške" služeći se točnim odgovorima iz tablica u prezentaciji.&lt;br /&gt;	Pitanja su složena prema redoslijedu kako s obrađivana, svatko ga može prema svojim potrebama prilagoditi!&lt;br /&gt;&lt;br /&gt;	&lt;br /&gt;	Pored svakog pitanja stavljen je mali broj koji služi učiteljima da znaju koliko ponuđenih odgovora ima pitanje - da ne bi "kliknuli" koji put više i tako prešli na slijedeće pitanje prije nego što su učenici stigli upisati slovo točnog odgovora u tablicu. Za dodatna objašnjenja moguće je kontaktirati autoricu na e-mail.&lt;br /&gt;</string>
+    </description>
+    <keyword>
+      <string language="hr">razredna nastava</string>
+      <string language="hr">1. razred</string>
+      <string language="hr">priroda i društvo</string>
+      <string language="hr">kviz znanja</string>
+      <string language="hr">rekapitulacija gradiva</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <contribute>
+      <role>
+        <source>LOMODSv1.0</source>
+        <value>author</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+N:Bogdanović;Marlena
+FN:Marlena Bogdanović
+END:VCARD]]></entity>
+    </contribute>
+  </lifeCycle>
+  <metaMetadata>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM45</entry>
+    </identifier>
+    <metadataSchema>LOMv1.0</metadataSchema>
+  </metaMetadata>
+  <technical>
+    <location>http://www.skole.hr/nastavni-materijali/materijal?nm_action=get_materijal_detaljno&amp;id=45</location>
+  </technical>
+  <educational>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>enquiry-oriented activity</value>
+    </learningResourceType>
+    <intendedEndUserRole>
+      <source>LOMODSv1.0</source>
+      <value>learner</value>
+    </intendedEndUserRole>
+    <context>
+      <source>LOMODSv1.0</source>
+      <value>primary education</value>
+    </context>
+    <typicalAgeRange>
+      <string language="en">6-7</string>
+    </typicalAgeRange>
+  </educational>
+  <rights>
+    <copyrightAndOtherRestrictions>
+      <source>LOMODSv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="hr">Ovaj objekt učenja je vlasništvo njegovog autora. Objekt učenja slobodan je za korištenje uz navođenje autora materijala.</string>
+      <string language="en">This learning object is owned by its respective author. The learning object is free for use, but it is necessary to attribute the author as its creator.</string>
+    </description>
+  </rights>
+  <relation />
+  <annotation />
+  <classification>
+    <purpose>
+      <source>LOMODSv1.0</source>
+      <value>discipline</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Social Studies Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Nature and environment</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

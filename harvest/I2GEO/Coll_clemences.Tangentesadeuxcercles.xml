@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_clemences.Tangentesadeuxcercles</entry>
+    </identifier>
+    <title>
+      <string language="fr">Tangentes à deux cercles</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">Comment tracer les tangentes extérieures à deux cercles? C'est très simple&amp;#8230; Pour vous aider, vous pouvez cliquer sur le bouton "Refaire!" pour revoir la construction pas à pas...&lt;p/&gt;
+Vous n'y êtes pas arrivé??? Alors un petit mot d'explication! On trace la droite (AB) qui relie les deux rayons. On trace ensuite une droite passant par le centre du premier cercle, qui le coupe en E, puis la parallèle à cette droite, qui coupe le second cercle en M (situé du même côté de (AB) que E). Les droites (EM) et (AB) se coupent en I. Il suffit ensuite de tracer les cercles de diamètre &lt;a class="wikicreatelink" href="http://i2geo.net/xwiki/bin/edit/Coll_clemences/IA?parent=Coll_clemences.Tangentesadeuxcercles"&gt;&lt;span class="wikicreatelinktext"&gt;IA&lt;/span&gt;&lt;span class="wikicreatelinkqm"&gt;?&lt;/span&gt;&lt;/a&gt; ou &lt;a class="wikicreatelink" href="http://i2geo.net/xwiki/bin/edit/Coll_clemences/IB?parent=Coll_clemences.Tangentesadeuxcercles"&gt;&lt;span class="wikicreatelinktext"&gt;IB&lt;/span&gt;&lt;span class="wikicreatelinkqm"&gt;?&lt;/span&gt;&lt;/a&gt; pour avoir les points d'intersection des tangentes.&lt;p/&gt;
+Version originale : &lt;span class="nobr"&gt;&lt;a href="http://i2geo.net/xwiki/bin/view/Coll_cdording/TangentesADeuxCercles"&gt;http://i2geo.net/xwiki/bin/view/Coll_cdording/TangentesADeuxCercles&lt;/a&gt;&lt;/span&gt;</string>
+    </description>
+    <keyword>
+      <string language="fr">droites cercle tangente</string>
+      <!-- ttac = #Arc_r,#Circle_r,#Tangent_of_angle_r -->
+      <string language="de">Kreisbogen</string>
+      <string language="fr">arc</string>
+      <string language="en">arch</string>
+      <string language="es">arco de circumferéncia</string>
+      <string language="nl">Cirkelboog</string>
+      <string language="cs">Oblouk</string>
+      <string language="de">Kreis</string>
+      <string language="fr">cercle</string>
+      <string language="en">circle</string>
+      <string language="es">Círculo</string>
+      <string language="nl">Cirkel</string>
+      <string language="cs">Kružnice</string>
+      <string language="de">Tangens (Verhältnis in einem Dreieck)</string>
+      <string language="de">Tangens (Verhältnis in einem Dreieck)</string>
+      <string language="en">tangent (ratio in a triangle)</string>
+      <string language="en">tangent (ratio in a triangle)</string>
+      <string language="nl">Tangens (verhouding in een driehoek)</string>
+      <string language="nl">Tangens (verhouding in een driehoek)</string>
+      <string language="de">Tangens (Verhältnis in einem Dreieck)</string>
+      <string language="de">Tangens (Verhältnis in einem Dreieck)</string>
+      <string language="fr">tangente</string>
+      <string language="en">tangent (ratio in a triangle)</string>
+      <string language="en">tangent (ratio in a triangle)</string>
+      <string language="es">tangente</string>
+      <string language="nl">Tangens (verhouding in een driehoek)</string>
+      <string language="nl">Tangens (verhouding in een driehoek)</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">3.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Sassenou  Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M&#xD;
+N: Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M;Sassenou;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-05-04T08:52:12.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Sassenou  Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M&#xD;
+N: Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M;Sassenou;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-05-04T08:55:57.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format />
+    <size>6763</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_clemences/Tangentesadeuxcercles</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#College_3</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Quatrième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Quatrième de Collège</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Quatrième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Quatrième de Collège</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 13 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 13 -->
+    <typicalAgeRange>
+      <string language="en">13-14</string>
+    </typicalAgeRange>
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Arc_r</id>
+        <entry>
+          <string language="de">Kreisbogen</string>
+          <string language="fr">arc</string>
+          <string language="en">arch</string>
+          <string language="es">arco de circumferéncia</string>
+          <string language="nl">Cirkelboog</string>
+          <string language="cs">Oblouk</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Circle_r</id>
+        <entry>
+          <string language="de">Kreis</string>
+          <string language="fr">cercle</string>
+          <string language="en">circle</string>
+          <string language="es">Círculo</string>
+          <string language="nl">Cirkel</string>
+          <string language="cs">Kružnice</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Tangent_of_angle_r</id>
+        <entry>
+          <string language="de">Tangens (Verhältnis in einem Dreieck)</string>
+          <string language="de">Tangens (Verhältnis in einem Dreieck)</string>
+          <string language="en">tangent (ratio in a triangle)</string>
+          <string language="en">tangent (ratio in a triangle)</string>
+          <string language="nl">Tangens (verhouding in een driehoek)</string>
+          <string language="nl">Tangens (verhouding in een driehoek)</string>
+          <string language="de">Tangens (Verhältnis in einem Dreieck)</string>
+          <string language="de">Tangens (Verhältnis in einem Dreieck)</string>
+          <string language="fr">tangente</string>
+          <string language="en">tangent (ratio in a triangle)</string>
+          <string language="en">tangent (ratio in a triangle)</string>
+          <string language="es">tangente</string>
+          <string language="nl">Tangens (verhouding in een driehoek)</string>
+          <string language="nl">Tangens (verhouding in een driehoek)</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

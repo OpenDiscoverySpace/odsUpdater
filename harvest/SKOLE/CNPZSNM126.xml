@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM lomODS.xsd">
+  <general>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM126</entry>
+    </identifier>
+    <title>
+      <string language="hr">Digitalizirana biljna fiziologija</string>
+    </title>
+    <language>hr</language>
+    <description>
+      <string language="hr">Biljna fiziologija je nastavna cjelina iz biologije koja se obrađuje u 3. razredu gimnazije. Primijenjena je metoda praktičnog rada pomoću koje učenici samostalno i uz pomoć nastavnika obrađuju nastavne jedinice i pri tome se koriste digitalnom tehnologijom.&lt;br /&gt;&lt;br /&gt;	Osim pribora i materijala koji su potrebni za provođenje pokusa učenici su koristili digitalni fotoaparat, video flex kameru, kompjutor, LCD projektor, te stvarali snimke i prezentacije svojih pokusa. Koristeći prezentacije i izlaganja učenika, napravljene su pomoću Microsoft Publishera digitalne novine pod nazivom "Biljna fiziologija kroz pokuse 3. r. gim." koje su objavljene na www stranicama Srednje škole Pakrac.</string>
+    </description>
+    <keyword>
+      <string language="hr">digitalizirana biljna fiziologija</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <contribute>
+      <role>
+        <source>LOMODSv1.0</source>
+        <value>author</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+N:Ančić;Vesna
+FN:Vesna Ančić
+END:VCARD]]></entity>
+    </contribute>
+  </lifeCycle>
+  <metaMetadata>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM126</entry>
+    </identifier>
+    <metadataSchema>LOMv1.0</metadataSchema>
+  </metaMetadata>
+  <technical>
+    <location>http://www.skole.hr/nastavni-materijali/materijal?nm_action=get_materijal_detaljno&amp;id=126</location>
+  </technical>
+  <educational>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>presentation</value>
+    </learningResourceType>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>reference</value>
+    </learningResourceType>
+    <intendedEndUserRole>
+      <source>LOMODSv1.0</source>
+      <value>learner</value>
+    </intendedEndUserRole>
+    <context>
+      <source>LOMODSv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <typicalAgeRange>
+      <string language="en">16-17</string>
+    </typicalAgeRange>
+  </educational>
+  <rights>
+    <copyrightAndOtherRestrictions>
+      <source>LOMODSv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="hr">Ovaj objekt učenja je vlasništvo njegovog autora. Objekt učenja slobodan je za korištenje uz navođenje autora materijala.</string>
+      <string language="en">This learning object is owned by its respective author. The learning object is free for use, but it is necessary to attribute the author as its creator.</string>
+    </description>
+  </rights>
+  <relation />
+  <annotation />
+  <classification>
+    <purpose>
+      <source>LOMODSv1.0</source>
+      <value>discipline</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Science Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Biology</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

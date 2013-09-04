@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_popovicidan.ProblemedeTzitzeica</entry>
+    </identifier>
+    <title>
+      <string language="fr">Problème de Tzitzeica</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">« Problème de Tzitzeica » est une activité proposée pour les élèves du deuxième cycle, 3e ou 4e secondaire suivant le « Programme de formation de l’école Québécoise » du Canada. Le but de cette activité et d’exploiter les avantages des logiciels de géométrie dynamique comme GeoGebra afin d’observer les caractéristiques invariantes aux déplacements de certaines figures de la géométrie plane. À la fin de l’activité l’élève doit comprendre la validation conjecturale du problème de pièce de monnaie de Tzitzeica, qui est d’inspiration intra-mathématique réelle. La compétence disciplinaire envisagée est « Déployer un raisonnement mathématique » prévue dans le PFÉQ. La plus importante heuristique est la proposition des solutions envisageables et la validation subséquente de chaque option possible. L’activité doit se dérouler en classe, individuellement.&lt;p/&gt;
+Le problème de Tzitzeica a une histoire ludique et intéressante. Il permette d’appliquer pleinement les avantages dynamiques du logiciel et de « mimer » sa découverte : Tzitzeica manipulait les pièces de monnaie, l’élève déplace les cercles du logiciel. Le défie conjectural reste pareil. Cependant, le problème sollicitant la créativité et l’intuition géométrique de l’élève (la démonstration est pourtant inabordable à cette stage).&lt;p/&gt;</string>
+    </description>
+    <keyword>
+      <string language="fr">cercle circonscrit</string>
+      <!-- ttac = #Circle_r,#Circumcircle_r -->
+      <string language="de">Kreis</string>
+      <string language="fr">cercle</string>
+      <string language="en">circle</string>
+      <string language="es">Círculo</string>
+      <string language="nl">Cirkel</string>
+      <string language="cs">Kružnice</string>
+      <string language="de">Umkreis</string>
+      <string language="fr">cercle circonscrit</string>
+      <string language="en">circumscribed circle</string>
+      <string language="en">circumcircle</string>
+      <string language="en">circumscribed circle</string>
+      <string language="en">circumcircle</string>
+      <string language="es">Círculo circumscrito</string>
+      <string language="nl">Omgeschreven cirkel</string>
+      <string language="cs">Opsaná kružnice</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">9.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Dan Popovici&#xD;
+N:Popovici;Dan;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2011-10-03T17:16:09.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Dan Popovici&#xD;
+N:Popovici;Dan;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2011-10-04T13:48:50.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>zip</format>
+    <size>86586</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_popovicidan/ProblemedeTzitzeica</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_exercise
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>exercise</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills</value>
+            </context>
+                                     -->
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Circle_r</id>
+        <entry>
+          <string language="de">Kreis</string>
+          <string language="fr">cercle</string>
+          <string language="en">circle</string>
+          <string language="es">Círculo</string>
+          <string language="nl">Cirkel</string>
+          <string language="cs">Kružnice</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Circumcircle_r</id>
+        <entry>
+          <string language="de">Umkreis</string>
+          <string language="fr">cercle circonscrit</string>
+          <string language="en">circumscribed circle</string>
+          <string language="en">circumcircle</string>
+          <string language="en">circumscribed circle</string>
+          <string language="en">circumcircle</string>
+          <string language="es">Círculo circumscrito</string>
+          <string language="nl">Omgeschreven cirkel</string>
+          <string language="cs">Opsaná kružnice</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM lomODS.xsd">
+  <general>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM145</entry>
+    </identifier>
+    <title>
+      <string language="hr">Naše zdravlje</string>
+    </title>
+    <language>hr</language>
+    <description>
+      <string language="hr">PPT prezentacija prikazuje integrirani dan s temom Naše zdravlje. Ovakvim načinom rada učenici su samostalno, istraživačkim radom usvojili zadane ključne pojmove te bili vrlo angažirani i oduševljeni istim. To se vidi i na fotografijama koje ilustriraju etape rada. Vezano uz fotografije, škola daje CARNetu pravo da objavi materijal&lt;br /&gt;&lt;br /&gt;	i fotografije, te da se eventualna pitanja vezana uz fotografije trebaju postaviti školi.</string>
+    </description>
+    <keyword>
+      <string language="hr">Najčešće bolesti i nametnici školske djece</string>
+      <string language="hr">prva pomoć</string>
+      <string language="hr">zdravstvene ustanove u zavičaju</string>
+      <string language="hr">alkohol</string>
+      <string language="hr">droga i cigarete</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <contribute>
+      <role>
+        <source>LOMODSv1.0</source>
+        <value>author</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+N:Krtanjek;Đurđica
+FN:Đurđica Krtanjek
+END:VCARD]]></entity>
+    </contribute>
+  </lifeCycle>
+  <metaMetadata>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM145</entry>
+    </identifier>
+    <metadataSchema>LOMv1.0</metadataSchema>
+  </metaMetadata>
+  <technical>
+    <location>http://www.skole.hr/nastavni-materijali/materijal?nm_action=get_materijal_detaljno&amp;id=145</location>
+  </technical>
+  <educational>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>presentation</value>
+    </learningResourceType>
+    <intendedEndUserRole>
+      <source>LOMODSv1.0</source>
+      <value>learner</value>
+    </intendedEndUserRole>
+    <context>
+      <source>LOMODSv1.0</source>
+      <value>primary education</value>
+    </context>
+    <typicalAgeRange>
+      <string language="en">8-9</string>
+    </typicalAgeRange>
+  </educational>
+  <rights>
+    <copyrightAndOtherRestrictions>
+      <source>LOMODSv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="hr">Ovaj objekt učenja je vlasništvo njegovog autora. Objekt učenja slobodan je za korištenje uz navođenje autora materijala.</string>
+      <string language="en">This learning object is owned by its respective author. The learning object is free for use, but it is necessary to attribute the author as its creator.</string>
+    </description>
+  </rights>
+  <relation />
+  <annotation />
+  <classification>
+    <purpose>
+      <source>LOMODSv1.0</source>
+      <value>discipline</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Social Studies Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Nature and environment</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

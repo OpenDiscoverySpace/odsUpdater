@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_ChristianMercat.TheoremedeDesargues</entry>
+    </identifier>
+    <title>
+      <string language="fr">Théorème de Desargues</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">Girard Desargues (1591-1661), géomètre et architecte lyonnais, démontre que deux triangles (ABC) et (A'B'C') vérifient que les droites supportant les côtés se coupent en des points alignés, c'est à-dire,  C'' le point d'intersection de (AB) et (A'B') est aligné avec les points équivalents B'' et A'', &lt;p/&gt;
+si et seulement si &lt;p/&gt;
+les droites joignant les sommets (AA'), (BB') et (CC') sont concourantes.&lt;p/&gt;
+On peut manipuler les triangles (ABC) et (A'B'C') dans la limite de concourance.</string>
+    </description>
+    <keyword>
+      <string language="fr" />
+      <!-- ttac = #Perspective_projection_r,#Intersection_r,#Triangle_r,#Desargues_Theorem,#Projective_Geometry -->
+      <string language="de">Zentralprojektion</string>
+      <string language="en">Perspective projection</string>
+      <string language="nl">Centrale projectie</string>
+      <string language="de">Schnittmenge</string>
+      <string language="fr">intersection</string>
+      <string language="en">intersection</string>
+      <string language="nl">Doorsnede (van verzamelingen)</string>
+      <string language="cs">Průnik</string>
+      <string language="de">Dreieck</string>
+      <string language="fr">triangle</string>
+      <string language="en">triangle</string>
+      <string language="es">Triángulo</string>
+      <string language="nl">Driehoek</string>
+      <string language="cs">trojúhelník</string>
+      <string language="de">Der Satz von Desargues</string>
+      <string language="de">Der Satz von Desargues</string>
+      <string language="en">The theorem of Desargues</string>
+      <string language="en">The theorem of Desargues</string>
+      <string language="nl">De stelling van Desargues</string>
+      <string language="nl">De stelling van Desargues</string>
+      <string language="de">Der Satz von Desargues</string>
+      <string language="de">Der Satz von Desargues</string>
+      <string language="en">The theorem of Desargues</string>
+      <string language="en">The theorem of Desargues</string>
+      <string language="nl">De stelling van Desargues</string>
+      <string language="nl">De stelling van Desargues</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">5.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Christian Mercat IREM de Lyon, IUFM&#xD;
+N:IREM de Lyon, IUFM;Christian Mercat;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-12-01T22:27:56.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Maxim Hendriks&#xD;
+N:Hendriks;Maxim;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2011-01-20T11:32:40.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>ggb</format>
+    <size>7820</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_ChristianMercat/TheoremedeDesargues</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Lycee_General_et_Technologique_3_serie_L</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Terminale générale L</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Terminale générale L</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Terminale générale L</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Terminale générale L</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 17 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 17 -->
+    <typicalAgeRange>
+      <string language="en">17-18</string>
+    </typicalAgeRange>
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Perspective_projection_r</id>
+        <entry>
+          <string language="de">Zentralprojektion</string>
+          <string language="en">Perspective projection</string>
+          <string language="nl">Centrale projectie</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Intersection_r</id>
+        <entry>
+          <string language="de">Schnittmenge</string>
+          <string language="fr">intersection</string>
+          <string language="en">intersection</string>
+          <string language="nl">Doorsnede (van verzamelingen)</string>
+          <string language="cs">Průnik</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Triangle_r</id>
+        <entry>
+          <string language="de">Dreieck</string>
+          <string language="fr">triangle</string>
+          <string language="en">triangle</string>
+          <string language="es">Triángulo</string>
+          <string language="nl">Driehoek</string>
+          <string language="cs">trojúhelník</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Desargues_Theorem</id>
+        <entry>
+          <string language="de">Der Satz von Desargues</string>
+          <string language="de">Der Satz von Desargues</string>
+          <string language="en">The theorem of Desargues</string>
+          <string language="en">The theorem of Desargues</string>
+          <string language="nl">De stelling van Desargues</string>
+          <string language="nl">De stelling van Desargues</string>
+          <string language="de">Der Satz von Desargues</string>
+          <string language="de">Der Satz von Desargues</string>
+          <string language="en">The theorem of Desargues</string>
+          <string language="en">The theorem of Desargues</string>
+          <string language="nl">De stelling van Desargues</string>
+          <string language="nl">De stelling van Desargues</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Projective_Geometry</id>
+        <entry>
+          <string language="en">
+            <!-- fallback from URI -->
+            Projective Geometry
+          </string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

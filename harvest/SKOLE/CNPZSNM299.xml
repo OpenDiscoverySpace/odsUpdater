@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM lomODS.xsd">
+  <general>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM299</entry>
+    </identifier>
+    <title>
+      <string language="hr">Moodle tečaj ŽELIM ZNATI VIŠE1</string>
+    </title>
+    <language>hr</language>
+    <description>
+      <string language="hr">SVRHA: Tečaj je namijenjen učenicima prvog razreda osnovne škole.&lt;br /&gt;	â˘ Tečaju pristupaju učenici od kuće nakon boravka u školi i za vrijeme nastave&lt;br /&gt;	â˘ Učenici dobivaju dnevne i tjedne zadatke&lt;br /&gt;	&lt;br /&gt;		&lt;br /&gt;	&lt;br /&gt;		CILJ TEČAJA:&lt;br /&gt;	&lt;br /&gt;		&lt;br /&gt;			usvojiti, produbiti i sistematizirati gradivo 1. razreda osnovne škole,&lt;br /&gt;		&lt;br /&gt;			teorijska znanja sprovesti u praksu nizom malih projekata, kvizova, igrica,&lt;br /&gt;		&lt;br /&gt;			učenike upoznati s radom u Moodle sustavu,&lt;br /&gt;		&lt;br /&gt;			osposobiti sudionike za samostalno korištenje web alata u svrhu učenja,&lt;br /&gt;		&lt;br /&gt;			omogućiti kvalitetnu raspoloživost nastavnih materijala i bolju komunikaciju učenik - učitelj,&lt;br /&gt;		&lt;br /&gt;			potaknuti učenike na vrednovanje vlastitog rada kao i rada drugih&lt;br /&gt;	&lt;br /&gt;	&lt;br /&gt;		Sadržaj i opseg tečaja: hrvatski jezik, matematika, priroda i društvo&lt;br /&gt;		 - dodatni sadržaji (enciklopedijsko znanje)&lt;br /&gt;		&lt;br /&gt;		AKTIVNOSTI UČENIKA:&lt;br /&gt;	&lt;br /&gt;		- samostalno rješavanje kvizova, igara, ispita&lt;br /&gt;		- sudjelovanje na forumu&lt;br /&gt;		- samopraćenje vlastitog znanja&lt;br /&gt;		- unošenje podataka u Wiki&lt;br /&gt;		- čitanje lektire u tečaju&lt;br /&gt;	&lt;br /&gt;		&lt;br /&gt;	&lt;br /&gt;		POTREBNA PREDZNANJA&lt;br /&gt;		Za uspješno praćenje tečaja potrebno je predznanje:&lt;br /&gt;	&lt;br /&gt;		&lt;br /&gt;			osnova rada na računalu (uporaba miša i tipkovnice)&lt;br /&gt;		&lt;br /&gt;			rad s web preglednikom, uporaba elektroničke pošte i foruma.&lt;br /&gt;	&lt;br /&gt;	&lt;br /&gt;	EVALUACIJA ZNANJA&lt;br /&gt;	Evaluaciju ćemo sprovoditi na više nivoa:&lt;br /&gt;	&lt;br /&gt;		FORMATIVNA - evaluacija procesa&lt;br /&gt;	&lt;br /&gt;		Sustavno promatranje i praćenje - učitelj&lt;br /&gt;	&lt;br /&gt;		Pratiti ćemo uspješnost rješavanja zadataka&lt;br /&gt;	&lt;br /&gt;		Tijekom izrade zadataka mentor (učitelj) bilježit će online aktivnost kao što su međusobni dogovori, zainteresiranost, traženje pomoći, razumijevanje zadatka.&lt;br /&gt;	Smajlići , krivulja zadovoljstva - učenici&lt;br /&gt;	&lt;br /&gt;		SUMATIVNA - evaluacija postignuća&lt;br /&gt;		Individualizirano ocjenjivanje - zahtjevi prilagođeni mogućnostima&lt;br /&gt;		Praćenje postignuća vršimo grafički tako da se prate postignuća svakog učenika posebno, ne uspoređujući ih s drugima nego sa samim sobom.&lt;br /&gt;		Svaki učenik može neograničeno pristupati svakom kvizu, igri ispitu u našem tečaju. Samostalno prati svoj napredak.&lt;br /&gt;	&lt;br /&gt;		&lt;br /&gt;	&lt;br /&gt;		Vodič kroz tečaj dostupan je ovdje.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;</string>
+    </description>
+    <keyword>
+      <string language="hr">Želim znati više - Moodle - Carnet</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <contribute>
+      <role>
+        <source>LOMODSv1.0</source>
+        <value>author</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+N:Čuvidić;Mira
+FN:Mira Čuvidić
+END:VCARD]]></entity>
+    </contribute>
+  </lifeCycle>
+  <metaMetadata>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM299</entry>
+    </identifier>
+    <metadataSchema>LOMv1.0</metadataSchema>
+  </metaMetadata>
+  <technical>
+    <location>http://www.skole.hr/nastavni-materijali/materijal?nm_action=get_materijal_detaljno&amp;id=299</location>
+  </technical>
+  <educational>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <intendedEndUserRole>
+      <source>LOMODSv1.0</source>
+      <value>learner</value>
+    </intendedEndUserRole>
+    <context>
+      <source>LOMODSv1.0</source>
+      <value>primary education</value>
+    </context>
+    <typicalAgeRange>
+      <string language="en">6-7</string>
+    </typicalAgeRange>
+  </educational>
+  <rights>
+    <copyrightAndOtherRestrictions>
+      <source>LOMODSv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="hr">Ovaj objekt učenja je vlasništvo njegovog autora. Objekt učenja slobodan je za korištenje uz navođenje autora materijala.</string>
+      <string language="en">This learning object is owned by its respective author. The learning object is free for use, but it is necessary to attribute the author as its creator.</string>
+    </description>
+  </rights>
+  <relation />
+  <annotation />
+  <classification>
+    <purpose>
+      <source>LOMODSv1.0</source>
+      <value>discipline</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Social Studies Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Nature and environment</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Social Studies Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Culture and Cultural Theory</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Literacy</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Social Studies Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Discipline</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Linguistics</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Mathematics Vocabulary</string>
+      </source>
+      <taxon />
+    </taxonPath>
+  </classification>
+</lom>
+

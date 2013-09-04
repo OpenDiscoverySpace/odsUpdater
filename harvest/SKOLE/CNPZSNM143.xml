@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM lomODS.xsd">
+  <general>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM143</entry>
+    </identifier>
+    <title>
+      <string language="hr">Osnove elektrotehnike I</string>
+    </title>
+    <language>hr</language>
+    <description>
+      <string language="hr">Materijal je urađen u zadnje tri godine kao nastojanje da se napravi vjerna prezentacija na LCD projektoru.&lt;br /&gt;&lt;br /&gt;	Kompletiran je sadržaj predmeta Osnove elektrotehnike I za prvi razred cetverogodišnjih škola prema nastavnom planu i programu za strukovne elektrotehničke škole.&lt;br /&gt;&lt;br /&gt;	Laboratorijske vježbe su uglavnom zamišljene da se rade na računalu uz upotrebu programa EWB 5.12. koji se koristi u svim elektrotehničkim školama u RH. Također su vježbe djelomično usklađene s predmetom Računalstvo jer traže upotrebu alata Worda i Excela.&lt;br /&gt;&lt;br /&gt;	Predmet je podijeljen na poglavlja prema udžbeniku iz osnova elektrotehnike za prvi razred, autorice Nediljke Furcic, a u izdanju Neodidacte.&lt;br /&gt;&lt;br /&gt;	Odričem se svih autorskih prava na ovaj rad i želim da ga koriste svi učenici i Hrvatskoj. Nemam autorskih odgovornosti po pitanju intelektualnog vlasništva i sl. To je samo prezentacija za djecu, koja omogućuje nastavniku da lakše izlaže nastavno gradivo. Prezentacija je podesna za učenje na daljinu, za učenike na otocima i polaznike obrazovanja odraslih i slično.</string>
+    </description>
+  </general>
+  <lifeCycle>
+    <contribute>
+      <role>
+        <source>LOMODSv1.0</source>
+        <value>author</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+N:Škobo;Pero
+FN:Pero Škobo
+END:VCARD]]></entity>
+    </contribute>
+  </lifeCycle>
+  <metaMetadata>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM143</entry>
+    </identifier>
+    <metadataSchema>LOMv1.0</metadataSchema>
+  </metaMetadata>
+  <technical>
+    <location>http://www.skole.hr/nastavni-materijali/materijal?nm_action=get_materijal_detaljno&amp;id=143</location>
+  </technical>
+  <educational>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>presentation</value>
+    </learningResourceType>
+    <intendedEndUserRole>
+      <source>LOMODSv1.0</source>
+      <value>learner</value>
+    </intendedEndUserRole>
+    <context>
+      <source>LOMODSv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <typicalAgeRange>
+      <string language="en">14-15</string>
+    </typicalAgeRange>
+  </educational>
+  <rights>
+    <copyrightAndOtherRestrictions>
+      <source>LOMODSv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="hr">Ovaj objekt učenja je vlasništvo njegovog autora. Objekt učenja slobodan je za korištenje uz navođenje autora materijala.</string>
+      <string language="en">This learning object is owned by its respective author. The learning object is free for use, but it is necessary to attribute the author as its creator.</string>
+    </description>
+  </rights>
+  <relation />
+  <annotation />
+  <classification>
+    <purpose>
+      <source>LOMODSv1.0</source>
+      <value>discipline</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">ODS ICT Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Technology</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Engineering</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

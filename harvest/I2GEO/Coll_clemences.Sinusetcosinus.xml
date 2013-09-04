@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_clemences.Sinusetcosinus</entry>
+    </identifier>
+    <title>
+      <string language="fr">Sinus et cosinus</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">En déplaçant un point sur le cercle trigonométrique à l'aide du curseur, on peut observer l'évolution de ses coordonnées qui ne sont autres que le cosinus et le sinus. On comprend ainsi d'où proviennent ces notions.</string>
+    </description>
+    <keyword>
+      <string language="fr">sinus cosinus cercle trigionométrique trigonométrie</string>
+      <!-- ttac = #Cosine_r,#Use_cosine_definition,#Sine_r -->
+      <string language="de">Kosinus (Verhältnis in einem Dreieck)</string>
+      <string language="de">Kosinus (Verhältnis in einem Dreieck)</string>
+      <string language="nl">Cosinus (als verhouding in een driehoek)</string>
+      <string language="nl">Cosinus (als verhouding in een driehoek)</string>
+      <string language="de">Kosinus (Verhältnis in einem Dreieck)</string>
+      <string language="de">Kosinus (Verhältnis in einem Dreieck)</string>
+      <string language="fr">cosinus</string>
+      <string language="en">cosine (as ratio in a triangle)</string>
+      <string language="es">coseno</string>
+      <string language="nl">Cosinus (als verhouding in een driehoek)</string>
+      <string language="nl">Cosinus (als verhouding in een driehoek)</string>
+      <string language="de">die Definition des Kosinus verwenden</string>
+      <string language="fr">utiliser la définition du cosinus</string>
+      <string language="en">use cosine definition</string>
+      <string language="nl">De definitie van de cosinus toepassen</string>
+      <string language="de">Sinus (Verhältnis in einem Dreieck)</string>
+      <string language="de">Sinus (Verhältnis in einem Dreieck)</string>
+      <string language="en">sine (as ratio in a triangle)</string>
+      <string language="en">sine (as ratio in a triangle)</string>
+      <string language="nl">Sinus (als verhouding in een driehoek)</string>
+      <string language="nl">Sinus (als verhouding in een driehoek)</string>
+      <string language="de">Sinus (Verhältnis in einem Dreieck)</string>
+      <string language="de">Sinus (Verhältnis in einem Dreieck)</string>
+      <string language="fr">sinus</string>
+      <string language="en">sine (as ratio in a triangle)</string>
+      <string language="en">sine (as ratio in a triangle)</string>
+      <string language="es">seno</string>
+      <string language="nl">Sinus (als verhouding in een driehoek)</string>
+      <string language="nl">Sinus (als verhouding in een driehoek)</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">8.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Sassenou  Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M&#xD;
+N: Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M;Sassenou;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-04-03T21:48:19.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:caroline carolineaujoux&#xD;
+N:carolineaujoux;caroline;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2011-11-09T16:44:18.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>ggb</format>
+    <size>2829</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_clemences/Sinusetcosinus</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#College_4</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Troisième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Troisième de Collège</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Troisième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Troisième de Collège</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 14 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 14 -->
+    <typicalAgeRange>
+      <string language="en">14-15</string>
+    </typicalAgeRange>
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Cosine_r</id>
+        <entry>
+          <string language="de">Kosinus (Verhältnis in einem Dreieck)</string>
+          <string language="de">Kosinus (Verhältnis in einem Dreieck)</string>
+          <string language="nl">Cosinus (als verhouding in een driehoek)</string>
+          <string language="nl">Cosinus (als verhouding in een driehoek)</string>
+          <string language="de">Kosinus (Verhältnis in einem Dreieck)</string>
+          <string language="de">Kosinus (Verhältnis in einem Dreieck)</string>
+          <string language="fr">cosinus</string>
+          <string language="en">cosine (as ratio in a triangle)</string>
+          <string language="es">coseno</string>
+          <string language="nl">Cosinus (als verhouding in een driehoek)</string>
+          <string language="nl">Cosinus (als verhouding in een driehoek)</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Use_cosine_definition</id>
+        <entry>
+          <string language="de">die Definition des Kosinus verwenden</string>
+          <string language="fr">utiliser la définition du cosinus</string>
+          <string language="en">use cosine definition</string>
+          <string language="nl">De definitie van de cosinus toepassen</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Sine_r</id>
+        <entry>
+          <string language="de">Sinus (Verhältnis in einem Dreieck)</string>
+          <string language="de">Sinus (Verhältnis in einem Dreieck)</string>
+          <string language="en">sine (as ratio in a triangle)</string>
+          <string language="en">sine (as ratio in a triangle)</string>
+          <string language="nl">Sinus (als verhouding in een driehoek)</string>
+          <string language="nl">Sinus (als verhouding in een driehoek)</string>
+          <string language="de">Sinus (Verhältnis in einem Dreieck)</string>
+          <string language="de">Sinus (Verhältnis in einem Dreieck)</string>
+          <string language="fr">sinus</string>
+          <string language="en">sine (as ratio in a triangle)</string>
+          <string language="en">sine (as ratio in a triangle)</string>
+          <string language="es">seno</string>
+          <string language="nl">Sinus (als verhouding in een driehoek)</string>
+          <string language="nl">Sinus (als verhouding in een driehoek)</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

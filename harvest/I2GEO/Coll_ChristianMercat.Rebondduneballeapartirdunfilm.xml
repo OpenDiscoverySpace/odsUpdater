@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_ChristianMercat.Rebondduneballeapartirdunfilm</entry>
+    </identifier>
+    <title>
+      <string language="fr">Rebond d'une balle à partir d'un film</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">Le film du rebond d'une balle est tourné, les coordonnées de la balle sont tabulées, les paramètres des paraboles sont estimées, la suite des maximas est calculée. Les données brutes peuvent être données aux élèves pour qu'ils reconstruisent les différentes étapes de la modélisation. Cette figure est le résultat de 3 jours de travail avec des élèves de seconde dans le cadre MathC2+.  L'abscisse des points est à peu près une suite arithmétique (vitesse horizontale conservée). Les minima sont alignés. Une fois qu'on les remet à zéro, les maxima forment une suite géométrique.</string>
+    </description>
+    <keyword>
+      <string language="fr" />
+      <!-- ttac = #Parabola_r,#Equation_of_a_parabola_r,#Sequence_r,#Prove_that_collinearity_of_points_with_origin_implies_proportionnality_of_x_coordinates_and_y_coordinates,#Line_of_best_fit_r -->
+      <string language="de">Parabel</string>
+      <string language="fr">parabole</string>
+      <string language="en">parabola</string>
+      <string language="nl">Parabool</string>
+      <string language="cs">Parabola</string>
+      <string language="de">Parabelgleichung</string>
+      <string language="fr">équation d'une parabole</string>
+      <string language="en">equation of a parabola</string>
+      <string language="nl">Vergelijking van een parabool</string>
+      <string language="de">Folge</string>
+      <string language="fr">suite</string>
+      <string language="en">sequence</string>
+      <string language="nl">Rij</string>
+      <string language="cs">Posloupnost</string>
+      <string language="fr">démontrer que si des points sont alignés avec l'origine il y a proportionnalité entre les suites de leurs abscisses et de leurs ordonnées</string>
+      <string language="fr">démontrer que si des points sont alignés avec l'origine il y a proportionnalité entre les suites de leurs abscisses et de leurs ordonnées</string>
+      <string language="fr">démontrer que si des points sont alignés avec l'origine il y a proportionnalité entre les suites de leurs abscisses et de leurs ordonnées</string>
+      <string language="fr">démontrer que si des points sont alignés avec l'origine il y a proportionnalité entre les suites de leurs abscisses et de leurs ordonnées</string>
+      <string language="de">Ausgleichsgerade</string>
+      <string language="fr">droite de régression</string>
+      <string language="en">line of best fit</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">6.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Christian Mercat IREM de Lyon, IUFM&#xD;
+N:IREM de Lyon, IUFM;Christian Mercat;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2012-07-08T08:56:48.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Christian Mercat IREM de Lyon, IUFM&#xD;
+N:IREM de Lyon, IUFM;Christian Mercat;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2013-02-28T16:34:47.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>ggb</format>
+    <size>61358</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_ChristianMercat/Rebondduneballeapartirdunfilm</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Lycee_General_et_Technologique_3_serie_ES</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Terminale générale ES</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Terminale générale ES</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Terminale générale ES</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Terminale générale ES</value>                </context>
+                                                    <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Lycee_General_et_Technologique_2_serie_S</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Première générale S</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Première générale S</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Première générale S</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Première générale S</value>                </context>
+                                                    <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Lycee_General_et_Technologique_2_serie_STI</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Première technologique STI</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Première technologique STI</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Première technologique STI</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Première technologique STI</value>                </context>
+                                                    <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Lycee_General_et_Technologique_3_serie_S</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Terminale générale S</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Terminale générale S</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Terminale générale S</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Terminale générale S</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 17 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 16 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 16 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 17 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 17 -->
+    <typicalAgeRange>
+      <string language="en">17-18</string>
+    </typicalAgeRange>
+    <!-- typicalAgeRange is: 16 -->
+    <typicalAgeRange>
+      <string language="en">16-17</string>
+    </typicalAgeRange>
+    <!-- typicalAgeRange is: 16 -->
+    <typicalAgeRange>
+      <string language="en">16-17</string>
+    </typicalAgeRange>
+    <!-- typicalAgeRange is: 17 -->
+    <typicalAgeRange>
+      <string language="en">17-18</string>
+    </typicalAgeRange>
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Parabola_r</id>
+        <entry>
+          <string language="de">Parabel</string>
+          <string language="fr">parabole</string>
+          <string language="en">parabola</string>
+          <string language="nl">Parabool</string>
+          <string language="cs">Parabola</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Equation_of_a_parabola_r</id>
+        <entry>
+          <string language="de">Parabelgleichung</string>
+          <string language="fr">équation d'une parabole</string>
+          <string language="en">equation of a parabola</string>
+          <string language="nl">Vergelijking van een parabool</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Sequence_r</id>
+        <entry>
+          <string language="de">Folge</string>
+          <string language="fr">suite</string>
+          <string language="en">sequence</string>
+          <string language="nl">Rij</string>
+          <string language="cs">Posloupnost</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Prove_that_collinearity_of_points_with_origin_implies_proportionnality_of_x_coordinates_and_y_coordinates</id>
+        <entry>
+          <string language="fr">démontrer que si des points sont alignés avec l'origine il y a proportionnalité entre les suites de leurs abscisses et de leurs ordonnées</string>
+          <string language="fr">démontrer que si des points sont alignés avec l'origine il y a proportionnalité entre les suites de leurs abscisses et de leurs ordonnées</string>
+          <string language="fr">démontrer que si des points sont alignés avec l'origine il y a proportionnalité entre les suites de leurs abscisses et de leurs ordonnées</string>
+          <string language="fr">démontrer que si des points sont alignés avec l'origine il y a proportionnalité entre les suites de leurs abscisses et de leurs ordonnées</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Line_of_best_fit_r</id>
+        <entry>
+          <string language="de">Ausgleichsgerade</string>
+          <string language="fr">droite de régression</string>
+          <string language="en">line of best fit</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_gonzalelm.Desarrolloplanodeunprismarecto</entry>
+    </identifier>
+    <title>
+      <string language="en">Desarrollo plano de un prisma recto</string>
+    </title>
+    <language>en</language>
+    <description>
+      <string language="en">Recurso Geogebra en el que se muestra visualmente el desarrollo plano de un prisma recto.</string>
+    </description>
+    <keyword>
+      <string language="en" />
+      <!-- ttac = #Area_r,#Decompose_polyhedron,#Analyze_polyhedron,#Measure_area -->
+      <string language="de">Fläche</string>
+      <string language="fr">aire</string>
+      <string language="es">Área</string>
+      <string language="nl">Oppervlakte</string>
+      <string language="de">einen Polyeder zerlegen</string>
+      <string language="fr">décomposer un polyèdre en polyèdres</string>
+      <string language="en">break down a polyhedron</string>
+      <string language="es">descomponer un poliedro</string>
+      <string language="nl">Een lichaam in stukken verdelen</string>
+      <string language="nl">Een veelvlak in stukken verdelen</string>
+      <string language="nl">Een lichaam in stukken verdelen</string>
+      <string language="nl">Een veelvlak in stukken verdelen</string>
+      <string language="de">einen Polyeder untersuchen</string>
+      <string language="fr">analyser un polyèdre</string>
+      <string language="en">analyze a polyhedron</string>
+      <string language="es">analizar un poliedro</string>
+      <string language="de">die Oberfläche messen</string>
+      <string language="fr">mesurer l'aire d'une surface</string>
+      <string language="en">measure the area of a surface</string>
+      <string language="es">medir un área</string>
+      <string language="nl">De oppervlakte van een oppervlak meten</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">2.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Maria Jose Gonzalez&#xD;
+N:Gonzalez;Maria Jose;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-10-15T08:40:38.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Mireya GutiÃ©rrez&#xD;
+N:GutiÃ©rrez;Mireya;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2011-01-21T11:44:37.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>ggb</format>
+    <size>4442</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_gonzalelm/Desarrolloplanodeunprismarecto</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT resource_animation
+        true    true     -->
+    <!-- educational annotations from Curriki's ICT resource_diagram
+    true    true    true     -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>expositive</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>demonstration</value>
+    </learningResourceType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>image</value>
+    </learningResourceType>
+    <interactivityLevel>
+      <source>LOMv1.0</source>
+      <value>medium</value>
+    </interactivityLevel>
+    <interactivityLevel>
+      <source>LOMv1.0</source>
+      <value>very low</value>
+    </interactivityLevel>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Secundaria_2</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Segundo de ESO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Segundo de ESO</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Segundo de ESO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Segundo de ESO</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 13 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 13 -->
+    <typicalAgeRange>
+      <string language="en">13-14</string>
+    </typicalAgeRange>
+    <language>en</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Area_r</id>
+        <entry>
+          <string language="de">Fläche</string>
+          <string language="fr">aire</string>
+          <string language="es">Área</string>
+          <string language="nl">Oppervlakte</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Decompose_polyhedron</id>
+        <entry>
+          <string language="de">einen Polyeder zerlegen</string>
+          <string language="fr">décomposer un polyèdre en polyèdres</string>
+          <string language="en">break down a polyhedron</string>
+          <string language="es">descomponer un poliedro</string>
+          <string language="nl">Een lichaam in stukken verdelen</string>
+          <string language="nl">Een veelvlak in stukken verdelen</string>
+          <string language="nl">Een lichaam in stukken verdelen</string>
+          <string language="nl">Een veelvlak in stukken verdelen</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Analyze_polyhedron</id>
+        <entry>
+          <string language="de">einen Polyeder untersuchen</string>
+          <string language="fr">analyser un polyèdre</string>
+          <string language="en">analyze a polyhedron</string>
+          <string language="es">analizar un poliedro</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Measure_area</id>
+        <entry>
+          <string language="de">die Oberfläche messen</string>
+          <string language="fr">mesurer l'aire d'une surface</string>
+          <string language="en">measure the area of a surface</string>
+          <string language="es">medir un área</string>
+          <string language="nl">De oppervlakte van een oppervlak meten</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

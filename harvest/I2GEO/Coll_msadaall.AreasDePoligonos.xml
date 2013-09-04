@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_msadaall.AreasDePoligonos</entry>
+    </identifier>
+    <title>
+      <string language="en">Areas de polígonos</string>
+    </title>
+    <language>en</language>
+    <description>
+      <string language="en">Figuras interactivas para inducir a pensar de dónde provienen las fórmulas para el cálculo de las áreas de los diferentes tipos de polígonos.&lt;p/&gt;
+&lt;strong&gt;Este recurso ha sido copiado de una traza obtenida en los Primeros Pasos&lt;/strong&gt;&lt;p/&gt;
+Viene de la traza &lt;a class="wikicreatelink" href="http://i2geo.net/xwiki/bin/edit/Traces/Areas?parent=Coll_msadaall.AreasDePoligonos"&gt;&lt;span class="wikicreatelinktext"&gt;Areas&lt;/span&gt;&lt;span class="wikicreatelinkqm"&gt;?&lt;/span&gt;&lt;/a&gt; que mencionaba 18 construcciones&lt;p/&gt;
+&lt;ul class="minus"&gt;
+&lt;li&gt;Sistema de geometría: &lt;span class="wikilink"&gt;&lt;a href="http://i2geo.net/xwiki/bin/view/Softwares/GeoGebra"&gt;Geo Gebra&lt;/a&gt;&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;País: Espa&lt;/li&gt;
+&lt;li&gt;Nivel educativo: 12-14 años&lt;/li&gt;
+&lt;li&gt;Tema principal: Areas&lt;/li&gt;
+&lt;li&gt;Otros temas:Círculo, circunferencia&lt;/li&gt;
+&lt;/ul&gt;</string>
+    </description>
+    <keyword>
+      <string language="en">Círculo circunferencia</string>
+      <!-- ttac = #Area_r,#Polygon -->
+      <string language="de">Fläche</string>
+      <string language="fr">aire</string>
+      <string language="es">Área</string>
+      <string language="nl">Oppervlakte</string>
+      <string language="nl">Veelhoek</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">2.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Manuel  Sada&#xD;
+N:Sada;Manuel ;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-03-11T18:00:16.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Maxim Hendriks&#xD;
+N:Hendriks;Maxim;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2011-01-20T11:41:36.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_msadaall/AreasDePoligonos</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills</value>
+            </context>
+                                     -->
+    <language>en</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <!-- unrecognized license type: "cc-by-sa" -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Area_r</id>
+        <entry>
+          <string language="de">Fläche</string>
+          <string language="fr">aire</string>
+          <string language="es">Área</string>
+          <string language="nl">Oppervlakte</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Polygon</id>
+        <entry>
+          <string language="nl">Veelhoek</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

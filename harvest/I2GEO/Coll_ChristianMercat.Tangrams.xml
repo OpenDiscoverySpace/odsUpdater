@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_ChristianMercat.Tangrams</entry>
+    </identifier>
+    <title>
+      <string language="fr">Tangrams</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">Avec cet ensemble de trois tangrams (dissection est le terme mathématique), vous pouvez créer le tangram de n'importe quel polygone: Tout polygone peut-être triangulé, puis tout triangle peut être carré, et deux carrés peuvent décomposer un unique carré plus gros.  Il manque simplement l'idée que, de deux tangrams d'une même pièce, on peut faire un tangram plus fin, en intersectant les pièces de l'un des tangrams avec l'autre. Basé sur une conférence de Vincent Borrelli. Suivent plusieurs "tangrams de Pythagore".</string>
+    </description>
+    <keyword>
+      <string language="fr" />
+      <!-- ttac = #Triangle_r,#Right-Triangle_r,#Compare_areas,#Understand_Pythagoras_theorem -->
+      <string language="de">Dreieck</string>
+      <string language="fr">triangle</string>
+      <string language="en">triangle</string>
+      <string language="es">Triángulo</string>
+      <string language="nl">Driehoek</string>
+      <string language="cs">trojúhelník</string>
+      <string language="de">rechtwinkliges Dreieck</string>
+      <string language="fr">triangle rectangle</string>
+      <string language="en">right angled triangle</string>
+      <string language="es">triángulo rectángulo</string>
+      <string language="nl">Rechthoekige driehoek</string>
+      <string language="de">Flächen vergleichen</string>
+      <string language="fr">comparer des aires</string>
+      <string language="de">den Satz des Pythagoras verstehen</string>
+      <string language="fr">comprendre le théorème de Pythagore</string>
+      <string language="en">understand Pythagoras theorem</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">20.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Christian Mercat IREM de Lyon, IUFM&#xD;
+N:IREM de Lyon, IUFM;Christian Mercat;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-12-06T09:29:52.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Christian Mercat IREM de Lyon, IUFM&#xD;
+N:IREM de Lyon, IUFM;Christian Mercat;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2013-07-23T13:43:15.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_ChristianMercat/Tangrams</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#College_3</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Quatrième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Quatrième de Collège</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Quatrième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Quatrième de Collège</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 13 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 13 -->
+    <typicalAgeRange>
+      <string language="en">13-14</string>
+    </typicalAgeRange>
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Triangle_r</id>
+        <entry>
+          <string language="de">Dreieck</string>
+          <string language="fr">triangle</string>
+          <string language="en">triangle</string>
+          <string language="es">Triángulo</string>
+          <string language="nl">Driehoek</string>
+          <string language="cs">trojúhelník</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Right-Triangle_r</id>
+        <entry>
+          <string language="de">rechtwinkliges Dreieck</string>
+          <string language="fr">triangle rectangle</string>
+          <string language="en">right angled triangle</string>
+          <string language="es">triángulo rectángulo</string>
+          <string language="nl">Rechthoekige driehoek</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Compare_areas</id>
+        <entry>
+          <string language="de">Flächen vergleichen</string>
+          <string language="fr">comparer des aires</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Understand_Pythagoras_theorem</id>
+        <entry>
+          <string language="de">den Satz des Pythagoras verstehen</string>
+          <string language="fr">comprendre le théorème de Pythagore</string>
+          <string language="en">understand Pythagoras theorem</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_hanamahnelova.ObjeveniLudolfovacisla</entry>
+    </identifier>
+    <title>
+      <string language="cs">Objevení Ludolfova čísla</string>
+    </title>
+    <language>cs</language>
+    <description>
+      <string language="cs">Užitím dynamické geometrie a výpočtu žáci odhalí konstantní hodnotu podílu délky kružnice a jejího průměru.</string>
+    </description>
+    <keyword>
+      <string language="cs">Ludolfovo číslo kružnice poměr</string>
+      <!-- ttac = #Circle_r,#Circumference_r -->
+      <string language="de">Kreis</string>
+      <string language="fr">cercle</string>
+      <string language="en">circle</string>
+      <string language="es">Círculo</string>
+      <string language="nl">Cirkel</string>
+      <string language="cs">Kružnice</string>
+      <string language="de">Umfang</string>
+      <string language="fr">circonférence</string>
+      <string language="en">circumference</string>
+      <string language="es">Circumferencia</string>
+      <string language="nl">Omtrek</string>
+      <string language="cs">Obvod</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">1.02</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Hana Mahnelova&#xD;
+N:Mahnelova;Hana;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-09-28T14:19:09.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Hana Mahnelova&#xD;
+N:Mahnelova;Hana;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-11-04T14:52:29.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>cabri2File</format>
+    <size>2729</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_hanamahnelova/ObjeveniLudolfovacisla</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Zakladni_Skola_7</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Základní Škola - 7. třída</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Základní Škola - 7. třída</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Zakladni Skola - 7. trida</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Základní Škola - 7. třída</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Základní Škola - 7. třída</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Zakladni Skola - 7. trida</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Základní Škola - 7. třída</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Základní Škola - 7. třída</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Zakladni Skola - 7. trida</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 12 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 12 -->
+    <typicalAgeRange>
+      <string language="en">12-13</string>
+    </typicalAgeRange>
+    <language>cs</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Circle_r</id>
+        <entry>
+          <string language="de">Kreis</string>
+          <string language="fr">cercle</string>
+          <string language="en">circle</string>
+          <string language="es">Círculo</string>
+          <string language="nl">Cirkel</string>
+          <string language="cs">Kružnice</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Circumference_r</id>
+        <entry>
+          <string language="de">Umfang</string>
+          <string language="fr">circonférence</string>
+          <string language="en">circumference</string>
+          <string language="es">Circumferencia</string>
+          <string language="nl">Omtrek</string>
+          <string language="cs">Obvod</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

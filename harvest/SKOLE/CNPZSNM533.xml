@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM lomODS.xsd">
+  <general>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM533</entry>
+    </identifier>
+    <title>
+      <string language="hr">Courseware Povijest fizike</string>
+    </title>
+    <language>hr</language>
+    <description>
+      <string language="hr">Courseware je sadržajno, strukturno i grafički dizajniran kao edukacijski sadržaj namijenjen svim zainteresiranim učenicima i nastavnicima fizike. Prati razvoj fizike kroz vremenska razdoblja te kroz područja fizike. Vremenski je slijed organiziran u šest razdoblja: antika, srednji vijek, renesansu, novi vijek, 19., te 20. i 21. stoljeće. Područja fizike uključuju filozofiju prirode, mehaniku, astronomiju, optiku, toplinu, elektricitet, magnetizam i strukturu tvari, a od 19. stoljeća i područja suvremene fizike.&lt;br /&gt;	Uporabu coursewarea dinamiziraju slike i citati uključeni u tekst, vremenska os s najvažnijim povijesnim događajima, pojmovnik, upute, mapa mrežnih stranica, literatura i linkovi te studentske prezentacije s kolegija Povijest fizike. Na kraju svakog povijesnog razdoblja nalazi se kviz za provjeru znanja i nekoliko elemenata komunikacije s korisnikom. Posebno se vodilo računa o izradi elemenata za navigaciju kako bi se korisnicima olakšalo kretanje kroz sadržaj.&lt;br /&gt;&lt;br /&gt;	&lt;br /&gt;&lt;br /&gt;	Ovaj je edukacijski sadržaj rezultat zajedničkoga rada četvero studenata Sveučilišta u Rijeci i njihovih dviju profesorica.&lt;br /&gt;	Studenti četvrte godine Fizike i informatike na Filozofskom fakultetu u Rijeci Petar Jelača, Ana Lipošćak, Ana Maračić i Doris Šegota u akademskoj su godini 2007./2008. u sklopu informatičke grupe kolegija upisali kolegij Primjena hipermedije u obrazovanju koji vodi dr. sc. Nataša Hoić-Božić, doc. s Odjela za informatiku Sveučilišta u Rijeci. Ciljevi su toga kolegija upoznavanje studenata s pojmom i trendovima razvoja hipermedije u obrazovanju, njihovo osposobljavanje za korištenje i konfiguriranje hipermedijskih aplikacija te edukacija o izradi jedne takve internetske aplikacije za samostalno učenje tzv. coursewarea.&lt;br /&gt;	Grupa studenata je odlučila u sklopu svojih studentskih obveza zajednički izraditi veći edukacijski sadržaj, a za temu je toga rada odabran materijal iz povijesti fizike. U odabir sadržaja i materijala iz povijesti fizike uključila se dr. sc. Rajka Jurdana-Šepić, doc. kao nositelj kolegija Povijest fizike na Odjelu za fiziku Sveučilišta u Rijeci.</string>
+    </description>
+    <keyword>
+      <string language="hr">courseware</string>
+      <string language="hr">edukacijski sadržaj</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <contribute>
+      <role>
+        <source>LOMODSv1.0</source>
+        <value>author</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+N:Jurdana-Šepić;Rajka
+FN:Rajka Jurdana-Šepić
+END:VCARD]]></entity>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMODSv1.0</source>
+        <value>author</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+N:Hoić-Božić;Nataša
+FN:Nataša Hoić-Božić
+END:VCARD]]></entity>
+    </contribute>
+  </lifeCycle>
+  <metaMetadata>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM533</entry>
+    </identifier>
+    <metadataSchema>LOMv1.0</metadataSchema>
+  </metaMetadata>
+  <technical>
+    <location>http://www.skole.hr/nastavni-materijali/materijal?nm_action=get_materijal_detaljno&amp;id=533</location>
+  </technical>
+  <educational>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>website</value>
+    </learningResourceType>
+    <intendedEndUserRole>
+      <source>LOMODSv1.0</source>
+      <value>learner</value>
+    </intendedEndUserRole>
+    <context>
+      <source>LOMODSv1.0</source>
+      <value>primary education</value>
+    </context>
+    <context>
+      <source>LOMODSv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <typicalAgeRange>
+      <string language="en">12-13</string>
+      <string language="en">13-14</string>
+      <string language="en">14-15</string>
+      <string language="en">15-16</string>
+      <string language="en">16-17</string>
+      <string language="en">17-18</string>
+    </typicalAgeRange>
+  </educational>
+  <rights>
+    <copyrightAndOtherRestrictions>
+      <source>LOMODSv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="hr">Ovaj objekt učenja je vlasništvo njegovog autora. Objekt učenja slobodan je za korištenje uz navođenje autora materijala.</string>
+      <string language="en">This learning object is owned by its respective author. The learning object is free for use, but it is necessary to attribute the author as its creator.</string>
+    </description>
+  </rights>
+  <relation />
+  <annotation />
+  <classification>
+    <purpose>
+      <source>LOMODSv1.0</source>
+      <value>discipline</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Science Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Physics</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

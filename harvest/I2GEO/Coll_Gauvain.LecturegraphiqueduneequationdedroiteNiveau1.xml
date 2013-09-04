@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_Gauvain.LecturegraphiqueduneequationdedroiteNiveau1</entry>
+    </identifier>
+    <title>
+      <string language="fr">Lecture graphique d'une équation de droite (Niveau 1)</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">Cette ressource du lycée Valin de La Rochelle est un exerciseur qui propose des droites dont il faut déterminer une équation du type y=ax+b ou y=c.
+&lt;ul class="star"&gt;
+&lt;li&gt;Les droites sont générées aléatoirement.&lt;/li&gt;
+&lt;li&gt;En cas de mauvaise réponse, la droite dont l'équation est donnée par l'utilisateur est tracée.&lt;/li&gt;
+&lt;li&gt;Au bout de trois mauvaises réponses la solution commentée est donnée.&lt;/li&gt;
+&lt;li&gt;Le nombre d'exercices n'est pas limité.&lt;/li&gt;
+&lt;/ul&gt;</string>
+    </description>
+    <keyword>
+      <string language="fr">équation d’une droite</string>
+      <!-- ttac = #Straight_Line_r,#Line_in_coordinate_system_r,#Equation_of_a_straight_line_r,#Determine_affine_function_correspondign_to_a_line -->
+      <string language="de">Gerade</string>
+      <string language="fr">droite</string>
+      <string language="en">straight line</string>
+      <string language="es">línea recta</string>
+      <string language="nl">Rechte</string>
+      <string language="nl">Rechte lijn</string>
+      <string language="nl">Rechte</string>
+      <string language="nl">Rechte lijn</string>
+      <string language="cs">Přímka</string>
+      <string language="de">Gerade im Koordinatensystem</string>
+      <string language="fr">droite dans un repère</string>
+      <string language="en">straight line in a coordinate system</string>
+      <string language="nl">Rechte lijn in een coördinatenstelsel</string>
+      <string language="cs">Přímka v soustavě souřadnic</string>
+      <string language="de">Gleichung einer Geraden</string>
+      <string language="fr">équation d'une droite</string>
+      <string language="es">Ecuación de una recta</string>
+      <string language="nl">Vergelijking van een rechte lijn</string>
+      <string language="fr">déterminer la fonction affine associée à une droite</string>
+      <string language="fr">déterminer la fonction affine associée à une droite</string>
+      <string language="fr">déterminer la fonction affine associée à une droite</string>
+      <string language="fr">déterminer la fonction affine associée à une droite</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">7.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Joel Gauvain&#xD;
+N:Gauvain;Joel;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2011-02-22T18:09:46.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Joel Gauvain&#xD;
+N:Gauvain;Joel;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2011-02-24T18:03:54.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_Gauvain/LecturegraphiqueduneequationdedroiteNiveau1</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_exercise
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>exercise</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Lycee_General_et_Technologique_1</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Seconde</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Seconde</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Seconde</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Seconde</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 15 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 15 -->
+    <typicalAgeRange>
+      <string language="en">15-16</string>
+    </typicalAgeRange>
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">CurrikiCode.AssetLicenseClass_licenseType_Licences.Licences.CreativeCommonsAttributionNon-CommercialNoDerivatives</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by-nc-nd/2.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Straight_Line_r</id>
+        <entry>
+          <string language="de">Gerade</string>
+          <string language="fr">droite</string>
+          <string language="en">straight line</string>
+          <string language="es">línea recta</string>
+          <string language="nl">Rechte</string>
+          <string language="nl">Rechte lijn</string>
+          <string language="nl">Rechte</string>
+          <string language="nl">Rechte lijn</string>
+          <string language="cs">Přímka</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Line_in_coordinate_system_r</id>
+        <entry>
+          <string language="de">Gerade im Koordinatensystem</string>
+          <string language="fr">droite dans un repère</string>
+          <string language="en">straight line in a coordinate system</string>
+          <string language="nl">Rechte lijn in een coördinatenstelsel</string>
+          <string language="cs">Přímka v soustavě souřadnic</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Equation_of_a_straight_line_r</id>
+        <entry>
+          <string language="de">Gleichung einer Geraden</string>
+          <string language="fr">équation d'une droite</string>
+          <string language="es">Ecuación de una recta</string>
+          <string language="nl">Vergelijking van een rechte lijn</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Determine_affine_function_correspondign_to_a_line</id>
+        <entry>
+          <string language="fr">déterminer la fonction affine associée à une droite</string>
+          <string language="fr">déterminer la fonction affine associée à une droite</string>
+          <string language="fr">déterminer la fonction affine associée à une droite</string>
+          <string language="fr">déterminer la fonction affine associée à une droite</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

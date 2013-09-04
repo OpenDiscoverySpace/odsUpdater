@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_clemences.Lasectiondoree_0</entry>
+    </identifier>
+    <title>
+      <string language="fr">La section dorée</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">Conjecture et solution du problème suivant : Sur un segment AB se trouve un point C. Où doit-on placer C pour que les rapports AC/BC et AB/AC soient égaux ?</string>
+    </description>
+    <keyword>
+      <string language="fr">rapport distance</string>
+      <!-- ttac = #visualise-ratio-of-lengths -->
+      <string language="fr">visualiser-rapport-de-longueur</string>
+      <string language="fr">visualiser-rapport-de-longueur</string>
+      <string language="en">visualise-ratio-of-lengths</string>
+      <string language="en">visualise-ratio-of-lengths</string>
+      <string language="fr">visualiser-rapport-de-longueur</string>
+      <string language="fr">visualiser-rapport-de-longueur</string>
+      <string language="en">visualise-ratio-of-lengths</string>
+      <string language="en">visualise-ratio-of-lengths</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">2.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Sassenou  Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M&#xD;
+N: Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M;Sassenou;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-04-28T11:17:49.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Sassenou  Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M&#xD;
+N: Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M;Sassenou;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-04-28T11:20:58.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>tracenpocheFile</format>
+    <size>351</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_clemences/Lasectiondoree_0</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Lycee_General_et_Technologique_2_serie_S</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Première générale S</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Première générale S</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Première générale S</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Première générale S</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 16 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 16 -->
+    <typicalAgeRange>
+      <string language="en">16-17</string>
+    </typicalAgeRange>
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#visualise-ratio-of-lengths</id>
+        <entry>
+          <string language="fr">visualiser-rapport-de-longueur</string>
+          <string language="fr">visualiser-rapport-de-longueur</string>
+          <string language="en">visualise-ratio-of-lengths</string>
+          <string language="en">visualise-ratio-of-lengths</string>
+          <string language="fr">visualiser-rapport-de-longueur</string>
+          <string language="fr">visualiser-rapport-de-longueur</string>
+          <string language="en">visualise-ratio-of-lengths</string>
+          <string language="en">visualise-ratio-of-lengths</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

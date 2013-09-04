@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_ChristianMercat.IntegrationduneequationdifferentiellecomparaisondesmethodesdEuleretdeRunge-Kutta</entry>
+    </identifier>
+    <title>
+      <string language="fr">Intégration d'une équation différentielle, comparaison des méthodes d'Euler et de Runge-Kutta</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">Soit une fonction f(x,y) (&lt;span class="key"&gt;Ctrl-M&lt;/span&gt; puis f pour la modifier), qui définit l'équation différentielle y'=f(x,y). On trace le champ de vecteurs associés et on intègre numériquement l'équation, depuis un point de conditions initales données, par les méthodes d'Euler et de Runge-Kutta. On peut piloter les points définissant la condition initiale et les diagonales du champs de vecteur à la souris. On pilote le pas avec la touche D puis les flèches du clavier. On pilote un élément de la suite avec M et les flèches. On peut tracer avec la touche T, répéter la trace avec la touche R.</string>
+    </description>
+    <keyword>
+      <string language="fr" />
+      <!-- ttac = #Manipulate_equations,#Interpret_mathematics_presented_in_a_range_of_forms,#use_ITtools_to_analyse_functions -->
+      <string language="de">Gleichungen verändern</string>
+      <string language="fr">manipuler des équations</string>
+      <string language="en">manipulate equations</string>
+      <string language="de">verschiedene Formen der Darstellung mathematisch auswerten</string>
+      <string language="fr">interpréter mathématiquement différents types de représentation</string>
+      <string language="en">interpret mathematics presented in a range of forms</string>
+      <string language="de">IT Werkzeuge zum Analysieren von Funktionen nutzen</string>
+      <string language="fr">utiliser les outils informatiques pour analyser les variations d'une fonction</string>
+      <string language="en">use ITtools to analyse functions</string>
+      <string language="es">usar las tecnologías de la información para el análisis de funciones</string>
+      <string language="nl">ICT hulpmiddelen gebruiken voor het bestuderen van een functie</string>
+      <string language="nl">ICT hulpmiddelen gebruiken voor de analyse van een functie</string>
+      <string language="nl">ICT hulpmiddelen gebruiken voor functie-onderzoek</string>
+      <string language="nl">ICT hulpmiddelen gebruiken voor het bestuderen van een functie</string>
+      <string language="nl">ICT hulpmiddelen gebruiken voor de analyse van een functie</string>
+      <string language="nl">ICT hulpmiddelen gebruiken voor functie-onderzoek</string>
+      <string language="nl">ICT hulpmiddelen gebruiken voor het bestuderen van een functie</string>
+      <string language="nl">ICT hulpmiddelen gebruiken voor de analyse van een functie</string>
+      <string language="nl">ICT hulpmiddelen gebruiken voor functie-onderzoek</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">3.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Christian Mercat IREM de Lyon, IUFM&#xD;
+N:IREM de Lyon, IUFM;Christian Mercat;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2011-01-19T17:50:09.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Christian Mercat IREM de Lyon, IUFM&#xD;
+N:IREM de Lyon, IUFM;Christian Mercat;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2011-01-19T18:00:43.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>g2w</format>
+    <size>13764</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_ChristianMercat/IntegrationduneequationdifferentiellecomparaisondesmethodesdEuleretdeRunge-Kutta</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Lycee_General_et_Technologique_3_serie_S</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Terminale générale S</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Terminale générale S</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Terminale générale S</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Terminale générale S</value>                </context>
+                                                    <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#university</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Universität</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Universität</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >université</value>                </context>
+                                <context><source>i2g</source>
+                    <value >université</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >university</value>                </context>
+                                <context><source>i2g</source>
+                    <value >university</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >universiteit</value>                </context>
+                                <context><source>i2g</source>
+                    <value >universiteit</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Universität</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Universität</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >université</value>                </context>
+                                <context><source>i2g</source>
+                    <value >université</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >university</value>                </context>
+                                <context><source>i2g</source>
+                    <value >university</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >universiteit</value>                </context>
+                                <context><source>i2g</source>
+                    <value >universiteit</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 17 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 17 -->
+    <typicalAgeRange>
+      <string language="en">17-18</string>
+    </typicalAgeRange>
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Manipulate_equations</id>
+        <entry>
+          <string language="de">Gleichungen verändern</string>
+          <string language="fr">manipuler des équations</string>
+          <string language="en">manipulate equations</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Interpret_mathematics_presented_in_a_range_of_forms</id>
+        <entry>
+          <string language="de">verschiedene Formen der Darstellung mathematisch auswerten</string>
+          <string language="fr">interpréter mathématiquement différents types de représentation</string>
+          <string language="en">interpret mathematics presented in a range of forms</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#use_ITtools_to_analyse_functions</id>
+        <entry>
+          <string language="de">IT Werkzeuge zum Analysieren von Funktionen nutzen</string>
+          <string language="fr">utiliser les outils informatiques pour analyser les variations d'une fonction</string>
+          <string language="en">use ITtools to analyse functions</string>
+          <string language="es">usar las tecnologías de la información para el análisis de funciones</string>
+          <string language="nl">ICT hulpmiddelen gebruiken voor het bestuderen van een functie</string>
+          <string language="nl">ICT hulpmiddelen gebruiken voor de analyse van een functie</string>
+          <string language="nl">ICT hulpmiddelen gebruiken voor functie-onderzoek</string>
+          <string language="nl">ICT hulpmiddelen gebruiken voor het bestuderen van een functie</string>
+          <string language="nl">ICT hulpmiddelen gebruiken voor de analyse van een functie</string>
+          <string language="nl">ICT hulpmiddelen gebruiken voor functie-onderzoek</string>
+          <string language="nl">ICT hulpmiddelen gebruiken voor het bestuderen van een functie</string>
+          <string language="nl">ICT hulpmiddelen gebruiken voor de analyse van een functie</string>
+          <string language="nl">ICT hulpmiddelen gebruiken voor functie-onderzoek</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

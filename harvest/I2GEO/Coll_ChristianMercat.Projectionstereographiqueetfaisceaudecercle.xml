@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_ChristianMercat.Projectionstereographiqueetfaisceaudecercle</entry>
+    </identifier>
+    <title>
+      <string language="fr">Projection stéréographique et faisceau de cercle</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">Une droite de l'espace définit un faisceau de plans qui intersecte la sphère unité en un faisceau de cercles. Sa projection stéréographique sur le plan est un faisceau de cercles. On peut piloter la droite (AB) à la souris ou au clavier. Remarquer la différence de nature (à points base ou à points limite) suivant que la droite intersecte ou non la sphère.</string>
+    </description>
+    <keyword>
+      <string language="fr" />
+      <!-- ttac = #Sphere_r,#Plane_r,#Calculate_the_radius_of_the_circle_intersection_of_sphere_by_plane,#Projection_r -->
+      <string language="de">Kugel</string>
+      <string language="fr">sphère</string>
+      <string language="en">sphere</string>
+      <string language="es">esfera</string>
+      <string language="nl">Bol</string>
+      <string language="cs">Koule</string>
+      <string language="de">Ebene</string>
+      <string language="fr">plan</string>
+      <string language="en">plane</string>
+      <string language="es">plano</string>
+      <string language="nl">Vlak</string>
+      <string language="cs">Rovina</string>
+      <string language="de">den Radius des Schnittkreises einer Kugel und einer Ebene berechnen</string>
+      <string language="fr">calculer le rayon du cercle intersection d'une sphère par un plan connaissant le rayon de la sphère et la distance du centre au plan</string>
+      <string language="de">Projektion</string>
+      <string language="fr">projection</string>
+      <string language="en">projection</string>
+      <string language="nl">Projectie</string>
+      <string language="cs">Promítání</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">2.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Christian Mercat IREM de Lyon, IUFM&#xD;
+N:IREM de Lyon, IUFM;Christian Mercat;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2012-03-10T10:37:04.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Christian Mercat IREM de Lyon, IUFM&#xD;
+N:IREM de Lyon, IUFM;Christian Mercat;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2012-03-10T10:40:44.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>g3w</format>
+    <size>5017</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_ChristianMercat/Projectionstereographiqueetfaisceaudecercle</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#university</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Universität</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Universität</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >université</value>                </context>
+                                <context><source>i2g</source>
+                    <value >université</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >university</value>                </context>
+                                <context><source>i2g</source>
+                    <value >university</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >universiteit</value>                </context>
+                                <context><source>i2g</source>
+                    <value >universiteit</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Universität</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Universität</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >université</value>                </context>
+                                <context><source>i2g</source>
+                    <value >université</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >university</value>                </context>
+                                <context><source>i2g</source>
+                    <value >university</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >universiteit</value>                </context>
+                                <context><source>i2g</source>
+                    <value >universiteit</value>                </context>
+                                         -->
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Sphere_r</id>
+        <entry>
+          <string language="de">Kugel</string>
+          <string language="fr">sphère</string>
+          <string language="en">sphere</string>
+          <string language="es">esfera</string>
+          <string language="nl">Bol</string>
+          <string language="cs">Koule</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Plane_r</id>
+        <entry>
+          <string language="de">Ebene</string>
+          <string language="fr">plan</string>
+          <string language="en">plane</string>
+          <string language="es">plano</string>
+          <string language="nl">Vlak</string>
+          <string language="cs">Rovina</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Calculate_the_radius_of_the_circle_intersection_of_sphere_by_plane</id>
+        <entry>
+          <string language="de">den Radius des Schnittkreises einer Kugel und einer Ebene berechnen</string>
+          <string language="fr">calculer le rayon du cercle intersection d'une sphère par un plan connaissant le rayon de la sphère et la distance du centre au plan</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Projection_r</id>
+        <entry>
+          <string language="de">Projektion</string>
+          <string language="fr">projection</string>
+          <string language="en">projection</string>
+          <string language="nl">Projectie</string>
+          <string language="cs">Promítání</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

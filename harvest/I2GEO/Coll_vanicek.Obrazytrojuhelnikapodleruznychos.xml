@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_vanicek.Obrazytrojuhelnikapodleruznychos</entry>
+    </identifier>
+    <title>
+      <string language="cs">Obrazy trojúhelníka podle různých os</string>
+    </title>
+    <language>cs</language>
+    <description>
+      <string language="cs">Žáci vytvoří obrazy trojúhelníka podle jeho stran. Nastavují figuru do speciálních poloh a snaží se popsat podmínky pro splnění úlohy.
+&lt;ul class="minus"&gt;
+&lt;li class="innerlist"&gt;&lt;ul class="minus"&gt;
+&lt;li class="innerlist"&gt;&lt;ul class="minus"&gt;
+&lt;li&gt;Zadání: Je dán libovolný trojúhelník ABC. Pomocí nástroje Osová souměrnost vytvořte jeho obraz  podle jedné jeho stany (jako osu označíte stranu trojúhelníka). Vytvořte další jeho obrazy podle zbývajících stran (obr. A.18 vlevo). Pohybujte vrcholy trojúhelníka ABC a pozorujte jeho tři obrazy. Jsou všechny obrazy stále shodné se vzorem? Nejste-li si jisti, přeměřte délky stran. --- Další instrukce od učitele:&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;ol&gt;
+&lt;li class="innerlist"&gt;null&lt;li class="innerlist"&gt;null&lt;li class="innerlist"&gt;null&lt;li class="innerlist"&gt;&lt;ol class="alpha"&gt;
+&lt;li class="innerlist"&gt;null&lt;li class="innerlist"&gt;null&lt;li class="innerlist"&gt;&lt;ol class="alpha"&gt;
+&lt;li class="innerlist"&gt;null&lt;li class="innerlist"&gt;null&lt;li class="innerlist"&gt;null&lt;li&gt;trojúhelník ABC do takové pozice, aby dva jeho obrazy měly společnou jednu stranu (obr. A.18 uprostřed). Jakou vlastnost má nyní trojúhelník? --&lt;/li&gt;
+null&lt;/li&gt;
+null&lt;/li&gt;
+null&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+null&lt;/li&gt;
+null&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+null&lt;/li&gt;
+null&lt;/li&gt;
+null&lt;/li&gt;
+&lt;/ol&gt;2.	Nastavte situaci, aby vzor se všemi svými obrazy dohromady tvořil trojúhelník (obrázek vpravo). Jakou vlastnost má nyní trojúhelník ABC? --
+3.	Jaká podmínka musí platit pro vzor, aby se žádné dva jeho obrazy nepřekrývaly?</string>
+    </description>
+    <keyword>
+      <string language="cs">osová souměrnost trojúhelník</string>
+      <!-- ttac =  -->
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">1.02</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Jiří Vaníček&#xD;
+N:Vaníček;Jiří;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-04-27T15:38:59.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Jiří Vaníček&#xD;
+N:Vaníček;Jiří;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-11-04T01:12:22.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format />
+    <size>1022</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_vanicek/Obrazytrojuhelnikapodleruznychos</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_problemset
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>exercise</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills</value>
+            </context>
+                                     -->
+    <language>cs</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+</lom>
+

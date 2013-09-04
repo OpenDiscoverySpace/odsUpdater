@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_reixarch.Incentre</entry>
+    </identifier>
+    <title>
+      <string language="en">Incentre</string>
+    </title>
+    <language>en</language>
+    <description>
+      <string language="en">Definició y representació gràfica de l'incentre d'un triangle.</string>
+    </description>
+    <keyword>
+      <string language="en" />
+      <!-- ttac = #Triangle_r,#Circumcircle_r,#Angle_Bisector_r -->
+      <string language="de">Dreieck</string>
+      <string language="fr">triangle</string>
+      <string language="en">triangle</string>
+      <string language="es">Triángulo</string>
+      <string language="nl">Driehoek</string>
+      <string language="cs">trojúhelník</string>
+      <string language="de">Umkreis</string>
+      <string language="fr">cercle circonscrit</string>
+      <string language="en">circumscribed circle</string>
+      <string language="en">circumcircle</string>
+      <string language="en">circumscribed circle</string>
+      <string language="en">circumcircle</string>
+      <string language="es">Círculo circumscrito</string>
+      <string language="nl">Omgeschreven cirkel</string>
+      <string language="cs">Opsaná kružnice</string>
+      <string language="de">Winkelhalbierende</string>
+      <string language="fr">bissectrice d'un angle</string>
+      <string language="en">angle bisector</string>
+      <string language="es">bisectriz</string>
+      <string language="nl">Bissectrice</string>
+      <string language="cs">Osa úhlu</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">1.02</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Ramon Eixarch&#xD;
+N:Eixarch;Ramon;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-10-03T06:18:54.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Ramon Eixarch&#xD;
+N:Eixarch;Ramon;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-11-04T14:59:30.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_reixarch/Incentre</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#England_and_Wales_Year6</value>
+            </context>
+                                     -->
+    <language>en</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Triangle_r</id>
+        <entry>
+          <string language="de">Dreieck</string>
+          <string language="fr">triangle</string>
+          <string language="en">triangle</string>
+          <string language="es">Triángulo</string>
+          <string language="nl">Driehoek</string>
+          <string language="cs">trojúhelník</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Circumcircle_r</id>
+        <entry>
+          <string language="de">Umkreis</string>
+          <string language="fr">cercle circonscrit</string>
+          <string language="en">circumscribed circle</string>
+          <string language="en">circumcircle</string>
+          <string language="en">circumscribed circle</string>
+          <string language="en">circumcircle</string>
+          <string language="es">Círculo circumscrito</string>
+          <string language="nl">Omgeschreven cirkel</string>
+          <string language="cs">Opsaná kružnice</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Angle_Bisector_r</id>
+        <entry>
+          <string language="de">Winkelhalbierende</string>
+          <string language="fr">bissectrice d'un angle</string>
+          <string language="en">angle bisector</string>
+          <string language="es">bisectriz</string>
+          <string language="nl">Bissectrice</string>
+          <string language="cs">Osa úhlu</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

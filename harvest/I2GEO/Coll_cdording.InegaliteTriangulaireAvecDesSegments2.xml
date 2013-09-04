@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_cdording.InegaliteTriangulaireAvecDesSegments2</entry>
+    </identifier>
+    <title>
+      <string language="fr">Inégalité triangulaire : avec des segments</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">répertoire cl5
+fichier Inegtri1.fig
+Imagiciel : inégalité triangulaire, version où on définit le triangle par les segments de longueurs variables. Version avec les sommes des longueurs. &lt;p/&gt;
+&lt;strong&gt;Cette resource est la copie d'une trace de la première étape d'intergeo&lt;/strong&gt;&lt;p/&gt;
+Cette resource vient de &lt;a class="wikicreatelink" href="http://i2geo.net/xwiki/bin/edit/Traces/Inegalite+triangulaire+par+segments+avec+sommes?parent=Coll_cdording.InegaliteTriangulaireAvecDesSegments2"&gt;&lt;span class="wikicreatelinktext"&gt;Inegalite triangulaire par segments avec sommes&lt;/span&gt;&lt;span class="wikicreatelinkqm"&gt;?&lt;/span&gt;&lt;/a&gt; qui mentionne 1 constructions.&lt;p/&gt;
+&lt;ul class="minus"&gt;
+&lt;li&gt;Système de géométrie: &lt;span class="wikilink"&gt;&lt;a href="http://i2geo.net/xwiki/bin/view/Softwares/Cabri"&gt;Cabri&lt;/a&gt;&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;Pays: fr&lt;/li&gt;
+&lt;li&gt;Niveau d'enseignement: Collège 5e&lt;/li&gt;
+&lt;li&gt;Sujet principal: triangle-equalities&lt;/li&gt;
+&lt;li&gt;Autres thèmes&lt;/li&gt;
+&lt;/ul&gt;</string>
+    </description>
+    <keyword>
+      <string language="fr" />
+      <!-- ttac = #Reflection_r,#Rotation_r,#Translation_r,#Triangle_r -->
+      <string language="de">Spiegelung</string>
+      <string language="fr">symétrie</string>
+      <string language="en">reflection</string>
+      <string language="nl">Spiegeling</string>
+      <string language="cs">Souměrnost</string>
+      <string language="de">Rotation</string>
+      <string language="de">Drehung</string>
+      <string language="de">Rotation</string>
+      <string language="de">Drehung</string>
+      <string language="fr">rotation</string>
+      <string language="en">rotation</string>
+      <string language="es">rotación</string>
+      <string language="nl">Draaiing</string>
+      <string language="nl">Rotatie</string>
+      <string language="nl">Draaiing</string>
+      <string language="nl">Rotatie</string>
+      <string language="cs">Rotace</string>
+      <string language="cs">Otočení</string>
+      <string language="cs">Rotace</string>
+      <string language="cs">Otočení</string>
+      <string language="de">Translation</string>
+      <string language="de">Verschiebung</string>
+      <string language="de">Translation</string>
+      <string language="de">Verschiebung</string>
+      <string language="fr">translation</string>
+      <string language="en">shift</string>
+      <string language="es">translación</string>
+      <string language="nl">Translatie</string>
+      <string language="nl">Verschuiving</string>
+      <string language="nl">Translatie</string>
+      <string language="nl">Verschuiving</string>
+      <string language="cs">Translace</string>
+      <string language="cs">Posunutí</string>
+      <string language="cs">Translace</string>
+      <string language="cs">Posunutí</string>
+      <string language="de">Dreieck</string>
+      <string language="fr">triangle</string>
+      <string language="en">triangle</string>
+      <string language="es">Triángulo</string>
+      <string language="nl">Driehoek</string>
+      <string language="cs">trojúhelník</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">1.02</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Carole Dording&#xD;
+N:Dording;Carole;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-04-20T14:21:45.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Carole Dording&#xD;
+N:Dording;Carole;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-11-04T15:02:38.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_cdording/InegaliteTriangulaireAvecDesSegments2</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills</value>
+            </context>
+                                     -->
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <!-- unrecognized license type: "cc-by-sa" -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Reflection_r</id>
+        <entry>
+          <string language="de">Spiegelung</string>
+          <string language="fr">symétrie</string>
+          <string language="en">reflection</string>
+          <string language="nl">Spiegeling</string>
+          <string language="cs">Souměrnost</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Rotation_r</id>
+        <entry>
+          <string language="de">Rotation</string>
+          <string language="de">Drehung</string>
+          <string language="de">Rotation</string>
+          <string language="de">Drehung</string>
+          <string language="fr">rotation</string>
+          <string language="en">rotation</string>
+          <string language="es">rotación</string>
+          <string language="nl">Draaiing</string>
+          <string language="nl">Rotatie</string>
+          <string language="nl">Draaiing</string>
+          <string language="nl">Rotatie</string>
+          <string language="cs">Rotace</string>
+          <string language="cs">Otočení</string>
+          <string language="cs">Rotace</string>
+          <string language="cs">Otočení</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Translation_r</id>
+        <entry>
+          <string language="de">Translation</string>
+          <string language="de">Verschiebung</string>
+          <string language="de">Translation</string>
+          <string language="de">Verschiebung</string>
+          <string language="fr">translation</string>
+          <string language="en">shift</string>
+          <string language="es">translación</string>
+          <string language="nl">Translatie</string>
+          <string language="nl">Verschuiving</string>
+          <string language="nl">Translatie</string>
+          <string language="nl">Verschuiving</string>
+          <string language="cs">Translace</string>
+          <string language="cs">Posunutí</string>
+          <string language="cs">Translace</string>
+          <string language="cs">Posunutí</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Triangle_r</id>
+        <entry>
+          <string language="de">Dreieck</string>
+          <string language="fr">triangle</string>
+          <string language="en">triangle</string>
+          <string language="es">Triángulo</string>
+          <string language="nl">Driehoek</string>
+          <string language="cs">trojúhelník</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

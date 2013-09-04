@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_polx.Wasistdas2</entry>
+    </identifier>
+    <title>
+      <string language="en">Was ist das 2</string>
+    </title>
+    <language>en</language>
+    <description>
+      <string language="en">Guess the transformation.&lt;p/&gt;
+&lt;span class="wikiexternallink"&gt;&lt;a href="http://i2geo.net/xwiki/bin/download/Coll_polx/Wasistdas2/WasIstDas4P.zip/WasIstDas4P/WasIstDas4P.html"&gt;Start&lt;/a&gt;&lt;/span&gt;</string>
+    </description>
+    <keyword>
+      <string language="en">Cinderella</string>
+      <!-- ttac = #Transformation_r,#Symmetry_line_r,#Construct_symmetry_line -->
+      <string language="de">Transformation</string>
+      <string language="de">Abbildung</string>
+      <string language="de">Transformation</string>
+      <string language="de">Abbildung</string>
+      <string language="fr">transformation</string>
+      <string language="en">transformation</string>
+      <string language="es">transformación</string>
+      <string language="nl">Transformatie</string>
+      <string language="cs">Geometrické zobrazení</string>
+      <string language="de">Symmetrieachse</string>
+      <string language="fr">droite de symétrie</string>
+      <string language="en">symmetry axis</string>
+      <string language="es">eje de simetría</string>
+      <string language="nl">Symmetrie-as</string>
+      <string language="cs">Osa souměrnosti</string>
+      <string language="de">die Symmetrieachse konstruieren</string>
+      <string language="fr">construire l'axe de symétrie d'une figure</string>
+      <string language="en">construct the symmetry line</string>
+      <string language="nl">De symmetrie-as construeren</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">1.02</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Paul Libbrecht&#xD;
+N:Libbrecht;Paul;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2008-11-12T10:38:43.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Paul Libbrecht&#xD;
+N:Libbrecht;Paul;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-11-04T14:51:19.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>zip</format>
+    <size>1478074</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_polx/Wasistdas2</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Gymnasium_Saarland_7te_level</value>
+            </context>
+                                     -->
+    <language>en</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">Creative Commons Attribution Share Alike</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by-sa/2.0/</licenseURI>-->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Transformation_r</id>
+        <entry>
+          <string language="de">Transformation</string>
+          <string language="de">Abbildung</string>
+          <string language="de">Transformation</string>
+          <string language="de">Abbildung</string>
+          <string language="fr">transformation</string>
+          <string language="en">transformation</string>
+          <string language="es">transformación</string>
+          <string language="nl">Transformatie</string>
+          <string language="cs">Geometrické zobrazení</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Symmetry_line_r</id>
+        <entry>
+          <string language="de">Symmetrieachse</string>
+          <string language="fr">droite de symétrie</string>
+          <string language="en">symmetry axis</string>
+          <string language="es">eje de simetría</string>
+          <string language="nl">Symmetrie-as</string>
+          <string language="cs">Osa souměrnosti</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Construct_symmetry_line</id>
+        <entry>
+          <string language="de">die Symmetrieachse konstruieren</string>
+          <string language="fr">construire l'axe de symétrie d'une figure</string>
+          <string language="en">construct the symmetry line</string>
+          <string language="nl">De symmetrie-as construeren</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

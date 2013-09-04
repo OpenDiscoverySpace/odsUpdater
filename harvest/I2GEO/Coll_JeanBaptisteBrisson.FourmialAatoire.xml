@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_JeanBaptisteBrisson.FourmialAatoire</entry>
+    </identifier>
+    <title>
+      <string language="fr">Fourmi aléatoire</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">L'idée est de faire une simulation de déplacements aléatoires sur les arêtes d'un cube. 
+En général, dans les manuels, on se limite à 3 déplacements mais ici on laissera le choix du nombre des déplacements pour des simulations qui trouveront leur justification dans l'impossibilité de faire des arbres complets.
+Le modèle de départ est basé sur une équirépartition (p=1/3 à chaque sommet) mais à l'issue des d déplacements ce n'est plus le cas. Nous restons cependant dans le cadre des programmes du secondaire.
+Afin de visualiser la stabilisation des fréquences (nA/N....) vers une probabilité on construit des cylindres dont la hauteur correspond à cette fréquence relative.</string>
+    </description>
+    <keyword>
+      <string language="fr">cube arête mouvement aléatoire déplacement</string>
+      <!-- ttac = #Movement_r,#Random_process_r,#Edge_r,#Cube_r -->
+      <string language="de">Verschiebung</string>
+      <string language="fr">déplacement</string>
+      <string language="en">movement</string>
+      <string language="nl">Beweging</string>
+      <string language="de">Zufallsverfahren</string>
+      <string language="de">Zufallsprozess</string>
+      <string language="de">Zufallsverfahren</string>
+      <string language="de">Zufallsprozess</string>
+      <string language="fr">processus stochastique</string>
+      <string language="fr">Processus aléatoire</string>
+      <string language="fr">processus stochastique</string>
+      <string language="fr">Processus aléatoire</string>
+      <string language="en">random process</string>
+      <string language="es">fenómeno aleatorio</string>
+      <string language="nl">Stochastisch proces</string>
+      <string language="nl">Kansproces</string>
+      <string language="nl">Waarschijnlijkheidsproces</string>
+      <string language="nl">Stochastisch proces</string>
+      <string language="nl">Kansproces</string>
+      <string language="nl">Waarschijnlijkheidsproces</string>
+      <string language="nl">Stochastisch proces</string>
+      <string language="nl">Kansproces</string>
+      <string language="nl">Waarschijnlijkheidsproces</string>
+      <string language="de">Kante</string>
+      <string language="fr">arête</string>
+      <string language="en">edge</string>
+      <string language="es">arista</string>
+      <string language="nl">Kant</string>
+      <string language="nl">Zijde</string>
+      <string language="nl">Kant</string>
+      <string language="nl">Zijde</string>
+      <string language="cs">Úsečka</string>
+      <string language="de">Würfel</string>
+      <string language="fr">cube</string>
+      <string language="en">cube</string>
+      <string language="es">cubo</string>
+      <string language="nl">Kubus</string>
+      <string language="cs">Krychle</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">1.02</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Jean-Baptiste Brisson UM2&#xD;
+N:UM2;Jean-Baptiste Brisson;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2008-11-14T16:01:49.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Jean-Baptiste Brisson UM2&#xD;
+N:UM2;Jean-Baptiste Brisson;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-11-04T14:49:41.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>zip</format>
+    <size>14754</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_JeanBaptisteBrisson/FourmialAatoire</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_exercise
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>exercise</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#College_1</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Sixième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Sixième de Collège</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Sixième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Sixième de Collège</value>                </context>
+                                                    <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#College_2</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Cinquième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Cinquième de Collège</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Cinquième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Cinquième de Collège</value>                </context>
+                                                    <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#College_3</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Quatrième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Quatrième de Collège</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Quatrième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Quatrième de Collège</value>                </context>
+                                                    <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#College_4</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Troisième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Troisième de Collège</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Troisième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Troisième de Collège</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 11 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 12 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 13 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 14 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 11 -->
+    <typicalAgeRange>
+      <string language="en">11-12</string>
+    </typicalAgeRange>
+    <!-- typicalAgeRange is: 12 -->
+    <typicalAgeRange>
+      <string language="en">12-13</string>
+    </typicalAgeRange>
+    <!-- typicalAgeRange is: 13 -->
+    <typicalAgeRange>
+      <string language="en">13-14</string>
+    </typicalAgeRange>
+    <!-- typicalAgeRange is: 14 -->
+    <typicalAgeRange>
+      <string language="en">14-15</string>
+    </typicalAgeRange>
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">Creative Commons Attribution Share Alike</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by-sa/2.0/</licenseURI>-->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Movement_r</id>
+        <entry>
+          <string language="de">Verschiebung</string>
+          <string language="fr">déplacement</string>
+          <string language="en">movement</string>
+          <string language="nl">Beweging</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Random_process_r</id>
+        <entry>
+          <string language="de">Zufallsverfahren</string>
+          <string language="de">Zufallsprozess</string>
+          <string language="de">Zufallsverfahren</string>
+          <string language="de">Zufallsprozess</string>
+          <string language="fr">processus stochastique</string>
+          <string language="fr">Processus aléatoire</string>
+          <string language="fr">processus stochastique</string>
+          <string language="fr">Processus aléatoire</string>
+          <string language="en">random process</string>
+          <string language="es">fenómeno aleatorio</string>
+          <string language="nl">Stochastisch proces</string>
+          <string language="nl">Kansproces</string>
+          <string language="nl">Waarschijnlijkheidsproces</string>
+          <string language="nl">Stochastisch proces</string>
+          <string language="nl">Kansproces</string>
+          <string language="nl">Waarschijnlijkheidsproces</string>
+          <string language="nl">Stochastisch proces</string>
+          <string language="nl">Kansproces</string>
+          <string language="nl">Waarschijnlijkheidsproces</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Edge_r</id>
+        <entry>
+          <string language="de">Kante</string>
+          <string language="fr">arête</string>
+          <string language="en">edge</string>
+          <string language="es">arista</string>
+          <string language="nl">Kant</string>
+          <string language="nl">Zijde</string>
+          <string language="nl">Kant</string>
+          <string language="nl">Zijde</string>
+          <string language="cs">Úsečka</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Cube_r</id>
+        <entry>
+          <string language="de">Würfel</string>
+          <string language="fr">cube</string>
+          <string language="en">cube</string>
+          <string language="es">cubo</string>
+          <string language="nl">Kubus</string>
+          <string language="cs">Krychle</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

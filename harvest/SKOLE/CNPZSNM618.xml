@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM lomODS.xsd">
+  <general>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM618</entry>
+    </identifier>
+    <title>
+      <string language="hr">Utrka zečeva</string>
+    </title>
+    <language>hr</language>
+    <description>
+      <string language="hr">Pomoću PowerPointa moguće je pripremiti različite igre koje su učenicima zanimljive, a učiteljima praktične jer ih mogu koristiti na satovima različitih predmeta u svrhu ponavljanja i vježbanja bilo kojeg gradiva. Ako se pripremi natjecateljski po skupinama, postaje još zanimljiviji. Ova natjecateljska igra podrazumijeva 5 skupina, a učitelj, ovisno o tome što želi vježbati i ponavljati s učenicima, sastavlja pitanja koja učenici mogu izvlačiti iz "čarobne kutije" ili ih učitelj može čitati. Prije igre postavljaju se jasna pravila ponašanja što je za natjecanje jako važno.</string>
+    </description>
+    <keyword>
+      <string language="hr">natjecateljska igra</string>
+      <string language="hr">natjecanje u skupinama</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <contribute>
+      <role>
+        <source>LOMODSv1.0</source>
+        <value>author</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+N:Conjar;Bogdanka
+FN:Bogdanka Conjar
+END:VCARD]]></entity>
+    </contribute>
+  </lifeCycle>
+  <metaMetadata>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM618</entry>
+    </identifier>
+    <metadataSchema>LOMv1.0</metadataSchema>
+  </metaMetadata>
+  <technical>
+    <location>http://www.skole.hr/nastavni-materijali/materijal?nm_action=get_materijal_detaljno&amp;id=618</location>
+  </technical>
+  <educational>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>tool</value>
+    </learningResourceType>
+    <intendedEndUserRole>
+      <source>LOMODSv1.0</source>
+      <value>learner</value>
+    </intendedEndUserRole>
+    <context>
+      <source>LOMODSv1.0</source>
+      <value>primary education</value>
+    </context>
+    <typicalAgeRange>
+      <string language="en">6-7</string>
+      <string language="en">7-8</string>
+      <string language="en">8-9</string>
+      <string language="en">9-10</string>
+    </typicalAgeRange>
+  </educational>
+  <rights>
+    <copyrightAndOtherRestrictions>
+      <source>LOMODSv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="hr">Ovaj objekt učenja je vlasništvo njegovog autora. Objekt učenja slobodan je za korištenje uz navođenje autora materijala.</string>
+      <string language="en">This learning object is owned by its respective author. The learning object is free for use, but it is necessary to attribute the author as its creator.</string>
+    </description>
+  </rights>
+  <relation />
+  <annotation />
+  <classification>
+    <purpose>
+      <source>LOMODSv1.0</source>
+      <value>discipline</value>
+    </purpose>
+    <taxonPath />
+  </classification>
+</lom>
+

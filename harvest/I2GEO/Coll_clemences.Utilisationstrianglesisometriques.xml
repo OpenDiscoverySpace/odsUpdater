@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_clemences.Utilisationstrianglesisometriques</entry>
+    </identifier>
+    <title>
+      <string language="fr">Utilisations triangles isométriques</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">Activité de recherche d'une propriété et démonstration en utilisant les propriétés des triangles isométriques.&lt;p/&gt;
+Soit un triangle ABC.
+Sur le segment &lt;a class="wikicreatelink" href="http://i2geo.net/xwiki/bin/edit/Coll_clemences/AB?parent=Coll_clemences.Utilisationstrianglesisometriques"&gt;&lt;span class="wikicreatelinktext"&gt;AB&lt;/span&gt;&lt;span class="wikicreatelinkqm"&gt;?&lt;/span&gt;&lt;/a&gt; se déplace un point M.
+Sur la demi-droite &lt;a class="wikicreatelink" href="http://i2geo.net/xwiki/bin/edit/Coll_clemences/AC%29%2C+%C3%A0+l%27ext%C3%A9rieur+du+segment+%5BAC?parent=Coll_clemences.Utilisationstrianglesisometriques"&gt;&lt;span class="wikicreatelinktext"&gt;AC), à l'extérieur du segment &amp;#91;AC&lt;/span&gt;&lt;span class="wikicreatelinkqm"&gt;?&lt;/span&gt;&lt;/a&gt;, on lui associe un point N tel que CN = AM.&lt;p/&gt;
+En déplaçant M à la souris, on voit la médiatrice du segment &lt;a class="wikicreatelink" href="http://i2geo.net/xwiki/bin/edit/Coll_clemences/MN?parent=Coll_clemences.Utilisationstrianglesisometriques"&gt;&lt;span class="wikicreatelinktext"&gt;MN&lt;/span&gt;&lt;span class="wikicreatelinkqm"&gt;?&lt;/span&gt;&lt;/a&gt; tourner. Puis, on constate que les médiatrices de &lt;a class="wikicreatelink" href="http://i2geo.net/xwiki/bin/edit/Coll_clemences/AC?parent=Coll_clemences.Utilisationstrianglesisometriques"&gt;&lt;span class="wikicreatelinktext"&gt;AC&lt;/span&gt;&lt;span class="wikicreatelinkqm"&gt;?&lt;/span&gt;&lt;/a&gt; et &lt;a class="wikicreatelink" href="http://i2geo.net/xwiki/bin/edit/Coll_clemences/BD?parent=Coll_clemences.Utilisationstrianglesisometriques"&gt;&lt;span class="wikicreatelinktext"&gt;BD&lt;/span&gt;&lt;span class="wikicreatelinkqm"&gt;?&lt;/span&gt;&lt;/a&gt; sont sécantes en un point noté O. Les triangles OAB et OCD sont isométriques ainsi que les triangles OAM et OCN.&lt;p/&gt;
+Version originale :&lt;span class="nobr"&gt;&lt;a href="http://i2geo.net/xwiki/bin/view/Coll_NLambert/UtilisationsTrianglesIsometriques"&gt;http://i2geo.net/xwiki/bin/view/Coll_NLambert/UtilisationsTrianglesIsometriques&lt;/a&gt;&lt;/span&gt;</string>
+    </description>
+    <keyword>
+      <string language="fr">isométrie triangles isométriques médiatrice</string>
+      <!-- ttac = #Congruent_triangles_r -->
+      <string language="de">kongruente Dreiecke</string>
+      <string language="fr">triangles isométriques</string>
+      <string language="nl">Congruente driehoeken</string>
+      <string language="cs">Shodné trojúhelníky</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">7.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Sassenou  Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M&#xD;
+N: Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M;Sassenou;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-04-27T09:00:19.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Abdelkader benallou&#xD;
+N:benallou;Abdelkader;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-09-21T02:43:58.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>ggb</format>
+    <size>2184</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_clemences/Utilisationstrianglesisometriques</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Lycee_General_et_Technologique_1</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Seconde</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Seconde</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Seconde</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Seconde</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 15 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 15 -->
+    <typicalAgeRange>
+      <string language="en">15-16</string>
+    </typicalAgeRange>
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Congruent_triangles_r</id>
+        <entry>
+          <string language="de">kongruente Dreiecke</string>
+          <string language="fr">triangles isométriques</string>
+          <string language="nl">Congruente driehoeken</string>
+          <string language="cs">Shodné trojúhelníky</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

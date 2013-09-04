@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_ChristianMercat.Distributivitedelamultiplicationsurladdition</entry>
+    </identifier>
+    <title>
+      <string language="fr">Distributivité de la multiplication sur l'addition</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">Le produit de la somme de deux entiers est présenté sous la forme de l'aire d'un rectangle. Ce rectangle est décomposé en quatre plus petits rectangles, donnant un sens géométrique à la distributivité de la multiplication sur l'addition dans une expression littérale. Ces nombres sont pilotables par le déplacement des coins des rectangles.</string>
+    </description>
+    <keyword>
+      <string language="fr" />
+      <!-- ttac = #Rectangle_r,#Calculate_area,#Compare_areas,#Use_identities_on_distributivity,#Know_distributivity_of_multiplication_on_addition -->
+      <string language="de">Rechteck</string>
+      <string language="fr">rectangle</string>
+      <string language="en">rectangle</string>
+      <string language="es">rectángulo</string>
+      <string language="nl">Rechthoek</string>
+      <string language="cs">Obdélník</string>
+      <string language="cs">Pravoúhlý rovnoběžník</string>
+      <string language="cs">Pravoúhelník</string>
+      <string language="cs">Obdélník</string>
+      <string language="cs">Pravoúhlý rovnoběžník</string>
+      <string language="cs">Pravoúhelník</string>
+      <string language="cs">Obdélník</string>
+      <string language="cs">Pravoúhlý rovnoběžník</string>
+      <string language="cs">Pravoúhelník</string>
+      <string language="de">Flächen berechnen</string>
+      <string language="fr">calculer une aire</string>
+      <string language="en">calculate areas</string>
+      <string language="de">Flächen vergleichen</string>
+      <string language="fr">comparer des aires</string>
+      <string language="fr">utiliser les égalités k(a+b)=ka+kb et k(a-b)= ka-kb dans les deux sens sur des exemples littéraux</string>
+      <string language="fr">utiliser les égalités k(a+b)=ka+kb et k(a-b)= ka-kb dans les deux sens sur des exemples littéraux</string>
+      <string language="en">use identities making use of distributivity</string>
+      <string language="en">use identities making use of distributivity</string>
+      <string language="fr">utiliser les égalités k(a+b)=ka+kb et k(a-b)= ka-kb dans les deux sens sur des exemples littéraux</string>
+      <string language="fr">utiliser les égalités k(a+b)=ka+kb et k(a-b)= ka-kb dans les deux sens sur des exemples littéraux</string>
+      <string language="en">use identities making use of distributivity</string>
+      <string language="en">use identities making use of distributivity</string>
+      <string language="de">die Distibutivität der Multiplikation im Bezug auf die Addition kennen</string>
+      <string language="fr">connaître la distributivité de l'addition sur la multiplication</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">3.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Christian Mercat IREM de Lyon, IUFM&#xD;
+N:IREM de Lyon, IUFM;Christian Mercat;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2012-09-24T13:05:19.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Christian Mercat IREM de Lyon, IUFM&#xD;
+N:IREM de Lyon, IUFM;Christian Mercat;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2012-09-24T13:11:27.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>ggb</format>
+    <size>4553</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_ChristianMercat/Distributivitedelamultiplicationsurladdition</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Primary_School_Scotland_6</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Primary School - Year 6 (Scotland)</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Primary School - Year 6 (Scotland)</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Primary School - Year 6 (Scotland)</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Primary School - Year 6 (Scotland)</value>                </context>
+                                                    <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Primary_School_England_and_Wales_6</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Primary School - Year 6 (England and Wales)</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Primary School - Year 6 (England and Wales)</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Primary School - Year 6 (England and Wales)</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Primary School - Year 6 (England and Wales)</value>                </context>
+                                                    <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Ecole_Elementaire_5</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Cours Moyen 2</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Cours Moyen 2</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Cours Moyen 2</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Cours Moyen 2</value>                </context>
+                                                    <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#College_1</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Sixième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Sixième de Collège</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Sixième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Sixième de Collège</value>                </context>
+                                                    <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#College_2</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Cinquième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Cinquième de Collège</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Cinquième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Cinquième de Collège</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 10 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>primary education</value>
+    </context>
+    <!-- typicalAgeRange is: 10 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>primary education</value>
+    </context>
+    <!-- typicalAgeRange is: 10 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>primary education</value>
+    </context>
+    <!-- typicalAgeRange is: 11 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 12 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 10 -->
+    <typicalAgeRange>
+      <string language="en">10-11</string>
+    </typicalAgeRange>
+    <!-- typicalAgeRange is: 10 -->
+    <typicalAgeRange>
+      <string language="en">10-11</string>
+    </typicalAgeRange>
+    <!-- typicalAgeRange is: 10 -->
+    <typicalAgeRange>
+      <string language="en">10-11</string>
+    </typicalAgeRange>
+    <!-- typicalAgeRange is: 11 -->
+    <typicalAgeRange>
+      <string language="en">11-12</string>
+    </typicalAgeRange>
+    <!-- typicalAgeRange is: 12 -->
+    <typicalAgeRange>
+      <string language="en">12-13</string>
+    </typicalAgeRange>
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Rectangle_r</id>
+        <entry>
+          <string language="de">Rechteck</string>
+          <string language="fr">rectangle</string>
+          <string language="en">rectangle</string>
+          <string language="es">rectángulo</string>
+          <string language="nl">Rechthoek</string>
+          <string language="cs">Obdélník</string>
+          <string language="cs">Pravoúhlý rovnoběžník</string>
+          <string language="cs">Pravoúhelník</string>
+          <string language="cs">Obdélník</string>
+          <string language="cs">Pravoúhlý rovnoběžník</string>
+          <string language="cs">Pravoúhelník</string>
+          <string language="cs">Obdélník</string>
+          <string language="cs">Pravoúhlý rovnoběžník</string>
+          <string language="cs">Pravoúhelník</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Calculate_area</id>
+        <entry>
+          <string language="de">Flächen berechnen</string>
+          <string language="fr">calculer une aire</string>
+          <string language="en">calculate areas</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Compare_areas</id>
+        <entry>
+          <string language="de">Flächen vergleichen</string>
+          <string language="fr">comparer des aires</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Use_identities_on_distributivity</id>
+        <entry>
+          <string language="fr">utiliser les égalités k(a+b)=ka+kb et k(a-b)= ka-kb dans les deux sens sur des exemples littéraux</string>
+          <string language="fr">utiliser les égalités k(a+b)=ka+kb et k(a-b)= ka-kb dans les deux sens sur des exemples littéraux</string>
+          <string language="en">use identities making use of distributivity</string>
+          <string language="en">use identities making use of distributivity</string>
+          <string language="fr">utiliser les égalités k(a+b)=ka+kb et k(a-b)= ka-kb dans les deux sens sur des exemples littéraux</string>
+          <string language="fr">utiliser les égalités k(a+b)=ka+kb et k(a-b)= ka-kb dans les deux sens sur des exemples littéraux</string>
+          <string language="en">use identities making use of distributivity</string>
+          <string language="en">use identities making use of distributivity</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Know_distributivity_of_multiplication_on_addition</id>
+        <entry>
+          <string language="de">die Distibutivität der Multiplikation im Bezug auf die Addition kennen</string>
+          <string language="fr">connaître la distributivité de l'addition sur la multiplication</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

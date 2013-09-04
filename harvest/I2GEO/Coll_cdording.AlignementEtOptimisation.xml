@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_cdording.AlignementEtOptimisation</entry>
+    </identifier>
+    <title>
+      <string language="fr">Alignement et optimisation</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">L'activité est d'un niveau seconde-première : il s'agit d'une situation classique abordée dans un autre esprit mais qui conduit à démontrer l'alignement des points CEF lorsque les triangles DEA et ABF sont équilatéraux.
+Les deux triangles isocèles DEA et ABF ont des sommets E et F qui se déplacent sur les médiatrices de AD? et AB?
+L'aire variable du triangle CEF sera nulle lorsque les points sont alignés et on pourra conjecturer que cela se produit lorsque les triangles DEA et ABF sont équilatéraux.
+Le point M de coordonnées x=IE et y=S (aire de CEF) va permettre de visualiser (passer en mode Trace) les variations de cette aire (CEF) et d'enrichir la situation.
+Avec des méthodes élémentaires on peut aussi calculer l'aire de CEF (S(x)=6-(x²/2) si AD=4) puis la valeur x=2*rac(3) qui annule S(x) pour retrouver la valeur exacte pi/3 de l'angle DEA.&lt;p/&gt;
+&lt;strong&gt;Cette resource est la copie d'une trace de la première étape d'intergeo&lt;/strong&gt;&lt;p/&gt;
+Cette resource vient de &lt;a class="wikicreatelink" href="http://i2geo.net/xwiki/bin/edit/Traces/Alignement+et+optimisation?parent=Coll_cdording.AlignementEtOptimisation"&gt;&lt;span class="wikicreatelinktext"&gt;Alignement et optimisation&lt;/span&gt;&lt;span class="wikicreatelinkqm"&gt;?&lt;/span&gt;&lt;/a&gt; qui mentionne 1 constructions.&lt;p/&gt;
+&lt;ul class="minus"&gt;
+&lt;li&gt;Système de géométrie: &lt;a class="wikicreatelink" href="http://i2geo.net/xwiki/bin/edit/Softwares/GeoPlan+%2F+GeoSpace?parent=Coll_cdording.AlignementEtOptimisation"&gt;&lt;span class="wikicreatelinktext"&gt;Geo Plan / Geo Space&lt;/span&gt;&lt;span class="wikicreatelinkqm"&gt;?&lt;/span&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Pays: France&lt;/li&gt;
+&lt;li&gt;Niveau d'enseignement: Seconde/Première&lt;/li&gt;
+&lt;li&gt;Sujet principal: Triangles&lt;/li&gt;
+&lt;li&gt;Autres thèmesoptimisation - alignement - fonction - aire&lt;/li&gt;
+&lt;/ul&gt;</string>
+    </description>
+    <keyword>
+      <string language="fr">optimisation - alignement - fonction - aire</string>
+      <!-- ttac = #Triangle_r -->
+      <string language="de">Dreieck</string>
+      <string language="fr">triangle</string>
+      <string language="en">triangle</string>
+      <string language="es">Triángulo</string>
+      <string language="nl">Driehoek</string>
+      <string language="cs">trojúhelník</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">1.02</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Carole Dording&#xD;
+N:Dording;Carole;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-04-20T14:44:46.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Carole Dording&#xD;
+N:Dording;Carole;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-11-04T15:01:59.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_cdording/AlignementEtOptimisation</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills</value>
+            </context>
+                                     -->
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <!-- unrecognized license type: "cc-by-sa" -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Triangle_r</id>
+        <entry>
+          <string language="de">Dreieck</string>
+          <string language="fr">triangle</string>
+          <string language="en">triangle</string>
+          <string language="es">Triángulo</string>
+          <string language="nl">Driehoek</string>
+          <string language="cs">trojúhelník</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_Kohlerelena.MatheVital-MathematikundPflanzenBaumartigesWachstum</entry>
+    </identifier>
+    <title>
+      <string language="de">MatheVital - Mathematik und Pflanzen: Baumartiges Wachstum</string>
+    </title>
+    <language>de</language>
+    <description>
+      <string language="de">Wie man pflanzenartige Strukturen zeichnet.</string>
+    </description>
+    <keyword>
+      <string language="de" />
+      <!-- ttac = #Dynamic_interactive_geometry_environments_r,#Represent_a_problem_mathematically,#Express_math_dependencies,#improveToolUsageCapability,#Link_different_mathematical_concepts,#Problems_from_other_subjects_r,#Solve_similarity_problems,#Use_dynamic_images -->
+      <string language="de">dynamische Geometrie-Software</string>
+      <string language="fr">logiciel de géométrie dynamique</string>
+      <string language="en">dynamic geometry software</string>
+      <string language="nl">Dynamische meetkunde programma's</string>
+      <string language="de">eine Aufgabe mathematisch darstellen</string>
+      <string language="en">Represent_a_problem_mathematically</string>
+      <string language="de">erläutern mathematische Zusammenhänge</string>
+      <string language="de">erläutern mathematische Zusammenhänge</string>
+      <string language="fr">exprimer les relations entre les objets mathématiques</string>
+      <string language="fr">exprimer les relations entre les objets mathématiques</string>
+      <string language="en">express dependencies between mathematical objects</string>
+      <string language="en">express dependencies between mathematical objects</string>
+      <string language="de">erläutern mathematische Zusammenhänge</string>
+      <string language="de">erläutern mathematische Zusammenhänge</string>
+      <string language="fr">exprimer les relations entre les objets mathématiques</string>
+      <string language="fr">exprimer les relations entre les objets mathématiques</string>
+      <string language="en">express dependencies between mathematical objects</string>
+      <string language="en">express dependencies between mathematical objects</string>
+      <string language="de">die Fähigkeit mathematische Werkzeuge zu benutzen verbessern</string>
+      <string language="fr">améliorer les capacités d'usage d'un outil</string>
+      <string language="en">improve the ability of using a tool</string>
+      <string language="de">Verbindungen innerhalb der Mathematik herstellen</string>
+      <string language="en">make connections within mathematics</string>
+      <string language="de">Fächerübergreifende Aufgaben</string>
+      <string language="en">problems arising from other subjects</string>
+      <string language="nl">Problemen komend uit andere gebieden</string>
+      <string language="de">Ahnlichkeits- Aufgaben lösen</string>
+      <string language="fr">résoudre des problèmes mettant en jeu des formes</string>
+      <string language="en">solve similarity problems</string>
+      <string language="es">resolver problemas de figuras semejantes</string>
+      <string language="de">mit dynamischen Bildern arbeiten</string>
+      <string language="fr">utiliser des images dynamiques</string>
+      <string language="en">work with dynamic images</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">22.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Elena Kohler&#xD;
+N:Kohler;Elena;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-09-21T21:04:37.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Elena Kohler&#xD;
+N:Kohler;Elena;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-11-02T23:28:03.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_Kohlerelena/MatheVital-MathematikundPflanzenBaumartigesWachstum</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#university</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Universität</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Universität</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >université</value>                </context>
+                                <context><source>i2g</source>
+                    <value >université</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >university</value>                </context>
+                                <context><source>i2g</source>
+                    <value >university</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >universiteit</value>                </context>
+                                <context><source>i2g</source>
+                    <value >universiteit</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Universität</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Universität</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >université</value>                </context>
+                                <context><source>i2g</source>
+                    <value >université</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >university</value>                </context>
+                                <context><source>i2g</source>
+                    <value >university</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >universiteit</value>                </context>
+                                <context><source>i2g</source>
+                    <value >universiteit</value>                </context>
+                                         -->
+    <language>de</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">CurrikiCode.AssetLicenseClass_licenseType_Licences.Licences.CreativeCommonsAttributionNon-CommercialShareAlike</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by-nc-sa/2.0/</licenseURI>-->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Dynamic_interactive_geometry_environments_r</id>
+        <entry>
+          <string language="de">dynamische Geometrie-Software</string>
+          <string language="fr">logiciel de géométrie dynamique</string>
+          <string language="en">dynamic geometry software</string>
+          <string language="nl">Dynamische meetkunde programma's</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Represent_a_problem_mathematically</id>
+        <entry>
+          <string language="de">eine Aufgabe mathematisch darstellen</string>
+          <string language="en">Represent_a_problem_mathematically</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Express_math_dependencies</id>
+        <entry>
+          <string language="de">erläutern mathematische Zusammenhänge</string>
+          <string language="de">erläutern mathematische Zusammenhänge</string>
+          <string language="fr">exprimer les relations entre les objets mathématiques</string>
+          <string language="fr">exprimer les relations entre les objets mathématiques</string>
+          <string language="en">express dependencies between mathematical objects</string>
+          <string language="en">express dependencies between mathematical objects</string>
+          <string language="de">erläutern mathematische Zusammenhänge</string>
+          <string language="de">erläutern mathematische Zusammenhänge</string>
+          <string language="fr">exprimer les relations entre les objets mathématiques</string>
+          <string language="fr">exprimer les relations entre les objets mathématiques</string>
+          <string language="en">express dependencies between mathematical objects</string>
+          <string language="en">express dependencies between mathematical objects</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#improveToolUsageCapability</id>
+        <entry>
+          <string language="de">die Fähigkeit mathematische Werkzeuge zu benutzen verbessern</string>
+          <string language="fr">améliorer les capacités d'usage d'un outil</string>
+          <string language="en">improve the ability of using a tool</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Link_different_mathematical_concepts</id>
+        <entry>
+          <string language="de">Verbindungen innerhalb der Mathematik herstellen</string>
+          <string language="en">make connections within mathematics</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Problems_from_other_subjects_r</id>
+        <entry>
+          <string language="de">Fächerübergreifende Aufgaben</string>
+          <string language="en">problems arising from other subjects</string>
+          <string language="nl">Problemen komend uit andere gebieden</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Solve_similarity_problems</id>
+        <entry>
+          <string language="de">Ahnlichkeits- Aufgaben lösen</string>
+          <string language="fr">résoudre des problèmes mettant en jeu des formes</string>
+          <string language="en">solve similarity problems</string>
+          <string language="es">resolver problemas de figuras semejantes</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Use_dynamic_images</id>
+        <entry>
+          <string language="de">mit dynamischen Bildern arbeiten</string>
+          <string language="fr">utiliser des images dynamiques</string>
+          <string language="en">work with dynamic images</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

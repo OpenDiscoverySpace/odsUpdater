@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_Kohlerelena.MatheVital-MathematikundPflanzenDerGoldeneSchnittingeometrischenGrundformen_0</entry>
+    </identifier>
+    <title>
+      <string language="de">MatheVital - Mathematik und Pflanzen: Der Goldene Schnitt in geometrischen Grundformen</string>
+    </title>
+    <language>de</language>
+    <description>
+      <string language="de">Aufgrund seiner großen geometrischen Bedeutung gibt es auch zahlreiche geometrische Konstruktionen und geometrische Zusammenhänge, in denen der Goldene Schnitt auftaucht. Hier einige Beispiele:</string>
+    </description>
+    <keyword>
+      <string language="de">Goldener Schnitt Grundformen Symmetrue</string>
+      <!-- ttac = #Geometrie_r,#Reflection_r,#Rotation_r,#Symmetry_r,#Reflection_in_a_line_r,#Use_reflection_in_a_line_properties,#Know_invariant_properties_in_a_reflection_in_a_line,#Basic_geometric_topic_r,#Conjecture_in_geometry_activity,#Basic_planar_geometry_topics_r -->
+      <string language="de">Spiegelung</string>
+      <string language="fr">symétrie</string>
+      <string language="en">reflection</string>
+      <string language="nl">Spiegeling</string>
+      <string language="cs">Souměrnost</string>
+      <string language="de">Rotation</string>
+      <string language="de">Drehung</string>
+      <string language="de">Rotation</string>
+      <string language="de">Drehung</string>
+      <string language="fr">rotation</string>
+      <string language="en">rotation</string>
+      <string language="es">rotación</string>
+      <string language="nl">Draaiing</string>
+      <string language="nl">Rotatie</string>
+      <string language="nl">Draaiing</string>
+      <string language="nl">Rotatie</string>
+      <string language="cs">Rotace</string>
+      <string language="cs">Otočení</string>
+      <string language="cs">Rotace</string>
+      <string language="cs">Otočení</string>
+      <string language="de">Symmetrie</string>
+      <string language="fr">symétrie</string>
+      <string language="en">symmetry</string>
+      <string language="es">simetría</string>
+      <string language="nl">Symmetrie</string>
+      <string language="cs">Souměrné</string>
+      <string language="de">Achsenspiegelung</string>
+      <string language="fr">symétrie axiale</string>
+      <string language="en">Reflection in a line</string>
+      <string language="nl">Spiegeling in een lijn</string>
+      <string language="nl">Lijnspiegeling</string>
+      <string language="nl">Spiegeling in een lijn</string>
+      <string language="nl">Lijnspiegeling</string>
+      <string language="cs">Osová souměrnost</string>
+      <string language="de">die Eigenschaften der Achsenspiegelung verwenden</string>
+      <string language="fr">utiliser les propriétés des réflexion</string>
+      <string language="de">die gleichbleibenden Eigenschaften bei der Achsenspiegelung kennen</string>
+      <string language="fr">connaître les propriétés invariantes dans une symétrie orthogonale</string>
+      <string language="de">grundlegendes geometrisches Thema</string>
+      <string language="en">Basic geometric topic</string>
+      <string language="nl">Meetkundige basisbegrippen</string>
+      <string language="de">Vermutungen bei geometrischen Tätigkeiten anstellen</string>
+      <string language="fr">conjecturer dans les activités géométriques</string>
+      <string language="de">Grundthemen der ebenen Geometrie</string>
+      <string language="fr">Notions de base en géométrie plane</string>
+      <string language="es">elementos básicos de la geometría en el plano</string>
+      <string language="nl">Basisbegrippen van de vlakke meetkunde</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">16.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Elena Kohler&#xD;
+N:Kohler;Elena;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-09-10T16:21:57.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Elena Kohler&#xD;
+N:Kohler;Elena;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-11-02T23:51:50.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_Kohlerelena/MatheVital-MathematikundPflanzenDerGoldeneSchnittingeometrischenGrundformen_0</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_worksheet
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>exercise</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Gymnasium_Bayern_9te</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >neunte</value>                </context>
+                                <context><source>i2g</source>
+                    <value >neunte Gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >9</value>                </context>
+                                <context><source>i2g</source>
+                    <value >neunte Klasse</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >neunte</value>                </context>
+                                <context><source>i2g</source>
+                    <value >neunte Gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >9</value>                </context>
+                                <context><source>i2g</source>
+                    <value >neunte Klasse</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >neunte</value>                </context>
+                                <context><source>i2g</source>
+                    <value >neunte Gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >9</value>                </context>
+                                <context><source>i2g</source>
+                    <value >neunte Klasse</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >neunte</value>                </context>
+                                <context><source>i2g</source>
+                    <value >neunte Gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >9</value>                </context>
+                                <context><source>i2g</source>
+                    <value >neunte Klasse</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 14 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 14 -->
+    <typicalAgeRange>
+      <string language="en">14-15</string>
+    </typicalAgeRange>
+    <language>de</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">CurrikiCode.AssetLicenseClass_licenseType_Licences.Licences.CreativeCommonsAttributionNon-CommercialShareAlike</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by-nc-sa/2.0/</licenseURI>-->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Geometrie_r</id>
+        <entry>
+          <string language="en">
+            <!-- fallback from URI -->
+            Geometrie r
+          </string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Reflection_r</id>
+        <entry>
+          <string language="de">Spiegelung</string>
+          <string language="fr">symétrie</string>
+          <string language="en">reflection</string>
+          <string language="nl">Spiegeling</string>
+          <string language="cs">Souměrnost</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Rotation_r</id>
+        <entry>
+          <string language="de">Rotation</string>
+          <string language="de">Drehung</string>
+          <string language="de">Rotation</string>
+          <string language="de">Drehung</string>
+          <string language="fr">rotation</string>
+          <string language="en">rotation</string>
+          <string language="es">rotación</string>
+          <string language="nl">Draaiing</string>
+          <string language="nl">Rotatie</string>
+          <string language="nl">Draaiing</string>
+          <string language="nl">Rotatie</string>
+          <string language="cs">Rotace</string>
+          <string language="cs">Otočení</string>
+          <string language="cs">Rotace</string>
+          <string language="cs">Otočení</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Symmetry_r</id>
+        <entry>
+          <string language="de">Symmetrie</string>
+          <string language="fr">symétrie</string>
+          <string language="en">symmetry</string>
+          <string language="es">simetría</string>
+          <string language="nl">Symmetrie</string>
+          <string language="cs">Souměrné</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Reflection_in_a_line_r</id>
+        <entry>
+          <string language="de">Achsenspiegelung</string>
+          <string language="fr">symétrie axiale</string>
+          <string language="en">Reflection in a line</string>
+          <string language="nl">Spiegeling in een lijn</string>
+          <string language="nl">Lijnspiegeling</string>
+          <string language="nl">Spiegeling in een lijn</string>
+          <string language="nl">Lijnspiegeling</string>
+          <string language="cs">Osová souměrnost</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Use_reflection_in_a_line_properties</id>
+        <entry>
+          <string language="de">die Eigenschaften der Achsenspiegelung verwenden</string>
+          <string language="fr">utiliser les propriétés des réflexion</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Know_invariant_properties_in_a_reflection_in_a_line</id>
+        <entry>
+          <string language="de">die gleichbleibenden Eigenschaften bei der Achsenspiegelung kennen</string>
+          <string language="fr">connaître les propriétés invariantes dans une symétrie orthogonale</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Basic_geometric_topic_r</id>
+        <entry>
+          <string language="de">grundlegendes geometrisches Thema</string>
+          <string language="en">Basic geometric topic</string>
+          <string language="nl">Meetkundige basisbegrippen</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Conjecture_in_geometry_activity</id>
+        <entry>
+          <string language="de">Vermutungen bei geometrischen Tätigkeiten anstellen</string>
+          <string language="fr">conjecturer dans les activités géométriques</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Basic_planar_geometry_topics_r</id>
+        <entry>
+          <string language="de">Grundthemen der ebenen Geometrie</string>
+          <string language="fr">Notions de base en géométrie plane</string>
+          <string language="es">elementos básicos de la geometría en el plano</string>
+          <string language="nl">Basisbegrippen van de vlakke meetkunde</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

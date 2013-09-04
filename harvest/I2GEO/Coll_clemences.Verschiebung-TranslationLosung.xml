@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_clemences.Verschiebung-TranslationLosung</entry>
+    </identifier>
+    <title>
+      <string language="fr">Verschiebung- Translation Lösung</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">Die Lösungen zu den Aufgaben&lt;p/&gt;
+Originale version : &lt;span class="nobr"&gt;&lt;a href="http://i2geo.net/xwiki/bin/view/Coll_Kevin/Verschiebung-TranslationLosung"&gt;http://i2geo.net/xwiki/bin/view/Coll_Kevin/Verschiebung-TranslationLosung&lt;/a&gt;&lt;/span&gt;</string>
+    </description>
+    <keyword>
+      <string language="fr">Kongruenzabbildungen Lösung Verschiebung Lösung Translation Lösung Verschiebung Translation Lösung</string>
+      <!-- ttac = #Congruent_r,#Translation_r -->
+      <string language="nl">Congruent (van figuren)</string>
+      <string language="nl">Congruent (van figuren)</string>
+      <string language="de">deckungsgleich</string>
+      <string language="de">kongruent</string>
+      <string language="de">deckungsgleich</string>
+      <string language="de">kongruent</string>
+      <string language="fr">isométrique</string>
+      <string language="en">congruent</string>
+      <string language="nl">Congruent (van figuren)</string>
+      <string language="nl">Congruent (van figuren)</string>
+      <string language="cs">Shodnost</string>
+      <string language="de">Translation</string>
+      <string language="de">Verschiebung</string>
+      <string language="de">Translation</string>
+      <string language="de">Verschiebung</string>
+      <string language="fr">translation</string>
+      <string language="en">shift</string>
+      <string language="es">translación</string>
+      <string language="nl">Translatie</string>
+      <string language="nl">Verschuiving</string>
+      <string language="nl">Translatie</string>
+      <string language="nl">Verschuiving</string>
+      <string language="cs">Translace</string>
+      <string language="cs">Posunutí</string>
+      <string language="cs">Translace</string>
+      <string language="cs">Posunutí</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">3.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Sassenou  Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M&#xD;
+N: Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M;Sassenou;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-04-21T10:24:19.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Sassenou  Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M&#xD;
+N: Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M;Sassenou;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-04-21T10:31:07.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>cdy</format>
+    <size>4008</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_clemences/Verschiebung-TranslationLosung</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT resource_animation
+        true    true     -->
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>demonstration</value>
+    </learningResourceType>
+    <interactivityLevel>
+      <source>LOMv1.0</source>
+      <value>medium</value>
+    </interactivityLevel>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills</value>
+            </context>
+                                     -->
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Congruent_r</id>
+        <entry>
+          <string language="nl">Congruent (van figuren)</string>
+          <string language="nl">Congruent (van figuren)</string>
+          <string language="de">deckungsgleich</string>
+          <string language="de">kongruent</string>
+          <string language="de">deckungsgleich</string>
+          <string language="de">kongruent</string>
+          <string language="fr">isométrique</string>
+          <string language="en">congruent</string>
+          <string language="nl">Congruent (van figuren)</string>
+          <string language="nl">Congruent (van figuren)</string>
+          <string language="cs">Shodnost</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Translation_r</id>
+        <entry>
+          <string language="de">Translation</string>
+          <string language="de">Verschiebung</string>
+          <string language="de">Translation</string>
+          <string language="de">Verschiebung</string>
+          <string language="fr">translation</string>
+          <string language="en">shift</string>
+          <string language="es">translación</string>
+          <string language="nl">Translatie</string>
+          <string language="nl">Verschuiving</string>
+          <string language="nl">Translatie</string>
+          <string language="nl">Verschuiving</string>
+          <string language="cs">Translace</string>
+          <string language="cs">Posunutí</string>
+          <string language="cs">Translace</string>
+          <string language="cs">Posunutí</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

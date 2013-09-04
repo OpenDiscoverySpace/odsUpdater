@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_clemences.Lamethodedesmoindrescarres</entry>
+    </identifier>
+    <title>
+      <string language="fr">La méthode des moindres carrés</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">Activité d'approche de la méthode des moindres carrés.&lt;p/&gt;
+L'objectif n'est pas d'arriver à de bonnes approximations mais davantage de faire comprendre les interactions entre la somme des résidus et les équations des droites de régression.&lt;p/&gt;
+Observer les variations de la somme des résidus de deux façons : par un affichage numérique par l’intermédiaire d’une courbe qui donne ces variations en fonction de a pour une valeur fixée de b&lt;p/&gt;
+Le pilotage au clavier permettra de piloter a ou b (a' et b' pour l'autre droite) et le jeu consistera à amener le petit disque rouge au minimum de la courbe. Plusieurs ajustements sont possibles : Droites particulières (A1A4) et (A1G) Droite de régression de y en x Droite de régression de x en y.&lt;p/&gt;
+Version originale : &lt;span class="nobr"&gt;&lt;a href="http://i2geo.net/xwiki/bin/view/Coll_cdording/LaMethodeDesMoindresCarres?bc=&amp;viewer=info"&gt;http://i2geo.net/xwiki/bin/view/Coll_cdording/LaMethodeDesMoindresCarres?bc=&amp;viewer=info&lt;/a&gt;&lt;/span&gt;</string>
+    </description>
+    <keyword>
+      <string language="fr">droite des moindres carrés</string>
+      <!-- ttac = #Line_of_best_fit_r -->
+      <string language="de">Ausgleichsgerade</string>
+      <string language="fr">droite de régression</string>
+      <string language="en">line of best fit</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">5.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Sassenou  Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M&#xD;
+N: Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M;Sassenou;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-05-20T09:37:48.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Sassenou  Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M&#xD;
+N: Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M;Sassenou;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-05-20T09:44:22.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_clemences/Lamethodedesmoindrescarres</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Lycee_General_et_Technologique_3_serie_ES</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Terminale générale ES</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Terminale générale ES</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Terminale générale ES</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Terminale générale ES</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 17 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 17 -->
+    <typicalAgeRange>
+      <string language="en">17-18</string>
+    </typicalAgeRange>
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Line_of_best_fit_r</id>
+        <entry>
+          <string language="de">Ausgleichsgerade</string>
+          <string language="fr">droite de régression</string>
+          <string language="en">line of best fit</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

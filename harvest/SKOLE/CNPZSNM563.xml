@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM lomODS.xsd">
+  <general>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM563</entry>
+    </identifier>
+    <title>
+      <string language="hr">Obračun plaće</string>
+    </title>
+    <language>hr</language>
+    <description>
+      <string language="hr">Obračun plaće napravljen je u programu za izradu prezentacija pod nazivom Prezi. Ovaj nastavni materijal može poslužiti i učenicima i profesorima u obradi ove nastavne cjeline koja se obrađuje u 3. razredu srednjih strukovnih škola.&lt;br /&gt;&lt;br /&gt;	Prezenzaciju možete pogledati na sljedećoj poveznici&lt;br /&gt;&lt;br /&gt;	http://prezi.com/d6cnr35tdsho/obracun-place-prezi/?auth_key=504d7971ba46d8f09a963097ca564bbc1fc2a9f9&amp;kw=view-d6cnr35tdsho&amp;rc=ref-10926003</string>
+    </description>
+  </general>
+  <lifeCycle>
+    <contribute>
+      <role>
+        <source>LOMODSv1.0</source>
+        <value>author</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+N:Buturac;Mirjana
+FN:Mirjana Buturac
+END:VCARD]]></entity>
+    </contribute>
+  </lifeCycle>
+  <metaMetadata>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM563</entry>
+    </identifier>
+    <metadataSchema>LOMv1.0</metadataSchema>
+  </metaMetadata>
+  <technical>
+    <location>http://www.skole.hr/nastavni-materijali/materijal?nm_action=get_materijal_detaljno&amp;id=563</location>
+  </technical>
+  <educational>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <intendedEndUserRole>
+      <source>LOMODSv1.0</source>
+      <value>learner</value>
+    </intendedEndUserRole>
+    <context>
+      <source>LOMODSv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <typicalAgeRange>
+      <string language="en">16-17</string>
+    </typicalAgeRange>
+  </educational>
+  <rights>
+    <copyrightAndOtherRestrictions>
+      <source>LOMODSv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="hr">Ovaj objekt učenja je vlasništvo njegovog autora. Objekt učenja slobodan je za korištenje uz navođenje autora materijala.</string>
+      <string language="en">This learning object is owned by its respective author. The learning object is free for use, but it is necessary to attribute the author as its creator.</string>
+    </description>
+  </rights>
+  <relation />
+  <annotation />
+  <classification>
+    <purpose>
+      <source>LOMODSv1.0</source>
+      <value>discipline</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Mathematics Vocabulary</string>
+      </source>
+      <taxon />
+    </taxonPath>
+  </classification>
+</lom>
+

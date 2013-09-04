@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_vladimir.Sectionsofaparallelepipedbyaplane</entry>
+    </identifier>
+    <title>
+      <string language="en">Sections of a parallelepiped by a plane</string>
+    </title>
+    <language>en</language>
+    <description>
+      <string language="en">Move the red points and observe the triangular, quadrilateral, pentagonal and hexagonal sections.&lt;p/&gt;
+Please install GInMA from Deoma website: &lt;span class="nobr"&gt;&lt;a href="http://deoma-cmd.ru/Products/"&gt;http://deoma-cmd.ru/Products/&lt;/a&gt;&lt;/span&gt;</string>
+    </description>
+    <keyword>
+      <string language="en" />
+      <!-- ttac = #Section,#Plane_section,#Pentagon,#Hexagon -->
+      <string language="nl">Doorsnede (van lichamen)</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">3.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Vladimir Murmansk&#xD;
+N:Murmansk;Vladimir;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-07-01T09:08:46.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Christian Mercat IREM de Lyon, IUFM&#xD;
+N:IREM de Lyon, IUFM;Christian Mercat;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-07-01T09:23:38.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format />
+    <size>4279</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_vladimir/Sectionsofaparallelepipedbyaplane</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Northern_Ireland_Year7</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Year 7 (DEPRECATED)</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Year 7 (DEPRECATED)</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Year 7 (DEPRECATED)</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Year 7 (DEPRECATED)</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 10 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>primary education</value>
+    </context>
+    <!-- typicalAgeRange is: 10 -->
+    <typicalAgeRange>
+      <string language="en">10-11</string>
+    </typicalAgeRange>
+    <language>en</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Section</id>
+        <entry>
+          <string language="nl">Doorsnede (van lichamen)</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Plane_section</id>
+        <entry>
+          <string language="en">
+            <!-- fallback from URI -->
+            Plane section
+          </string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Pentagon</id>
+        <entry>
+          <string language="en">
+            <!-- fallback from URI -->
+            Pentagon
+          </string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Hexagon</id>
+        <entry>
+          <string language="en">
+            <!-- fallback from URI -->
+            Hexagon
+          </string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

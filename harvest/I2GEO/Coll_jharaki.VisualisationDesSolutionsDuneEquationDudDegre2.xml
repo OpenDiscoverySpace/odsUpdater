@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_jharaki.VisualisationDesSolutionsDuneEquationDudDegre2</entry>
+    </identifier>
+    <title>
+      <string language="fr">Visualisation des solutions d'une équation du 2d degré</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">Activité de visualisation des solutions d'une équation du second degré comme abscisses des points d'intersection d'une parabole et de l'axe des abscisses.&lt;p/&gt;
+&lt;strong&gt;Cette resource est la copie d'une trace de la première étape d'intergeo&lt;/strong&gt;&lt;p/&gt;
+Cette resource vient de &lt;a class="wikicreatelink" href="http://i2geo.net/xwiki/bin/edit/Traces/Visualisation+des+solutions+d+une+equation+du+2d+degre?parent=Coll_jharaki.VisualisationDesSolutionsDuneEquationDudDegre2"&gt;&lt;span class="wikicreatelinktext"&gt;Visualisation des solutions d une equation du 2d degre&lt;/span&gt;&lt;span class="wikicreatelinkqm"&gt;?&lt;/span&gt;&lt;/a&gt; qui mentionne 1 constructions.&lt;p/&gt;
+&lt;ul class="minus"&gt;
+&lt;li&gt;Système de géométrie: &lt;span class="wikilink"&gt;&lt;a href="http://i2geo.net/xwiki/bin/view/Softwares/TracEnPoche"&gt;Trac En Poche&lt;/a&gt;&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;Pays: fr&lt;/li&gt;
+&lt;li&gt;Niveau d'enseignement: 1S&lt;/li&gt;
+&lt;li&gt;Sujet principal: 2D coordinates&lt;/li&gt;
+&lt;li&gt;Autres thèmes&lt;/li&gt;
+&lt;/ul&gt;</string>
+    </description>
+    <keyword>
+      <string language="fr">Equation du second degré Solutions courbe</string>
+      <!-- ttac = #Cartesian_coordinates_r,#Equation_of_curve_r,#Quadratic_Equation_r,#ApproximationProcess_for_roots_r -->
+      <string language="de">Kartesische Koordinaten</string>
+      <string language="fr">coordonnées cartésiennes</string>
+      <string language="en">Cartesian coordinates</string>
+      <string language="es">coordenadas cartesianas</string>
+      <string language="nl">Cartesische coördinaten</string>
+      <string language="cs">Kartézské souřadnice</string>
+      <string language="de">Gleichung einer Kurve</string>
+      <string language="fr">equation d'une courbe</string>
+      <string language="en">equation of a curve</string>
+      <string language="es">ecuación</string>
+      <string language="nl">Vergelijking van een kromme</string>
+      <string language="de">Quadratische Gleichung</string>
+      <string language="fr">équation du second degré</string>
+      <string language="en">quadratic equation</string>
+      <string language="es">ecuación de segundo grado</string>
+      <string language="nl">Kwadratische vergelijking</string>
+      <string language="de">schrittweises Näherungsverfahren zur Wurzelberechnung</string>
+      <string language="fr">processus d'approximation de solutions d'équations</string>
+      <string language="en">iteration approximation process for roots</string>
+      <string language="nl">Iteratief benaderingsproces voor wortels</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">2.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:jharaki jalil&#xD;
+N:jalil;jharaki;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-04-07T13:05:54.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Sassenou  Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M&#xD;
+N: Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M;Sassenou;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-05-26T11:24:31.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_jharaki/VisualisationDesSolutionsDuneEquationDudDegre2</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_exercise
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>exercise</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Lycee_General_et_Technologique_2_serie_S</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Première générale S</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Première générale S</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Première générale S</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Première générale S</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 16 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 16 -->
+    <typicalAgeRange>
+      <string language="en">16-17</string>
+    </typicalAgeRange>
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">CurrikiCode.AssetLicenseClass_licenseType_Licences.GFDL</string>
+    </description>
+    <!-- <licenseURI>http://www.gnu.org/copyleft/fdl.html</licenseURI>-->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Cartesian_coordinates_r</id>
+        <entry>
+          <string language="de">Kartesische Koordinaten</string>
+          <string language="fr">coordonnées cartésiennes</string>
+          <string language="en">Cartesian coordinates</string>
+          <string language="es">coordenadas cartesianas</string>
+          <string language="nl">Cartesische coördinaten</string>
+          <string language="cs">Kartézské souřadnice</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Equation_of_curve_r</id>
+        <entry>
+          <string language="de">Gleichung einer Kurve</string>
+          <string language="fr">equation d'une courbe</string>
+          <string language="en">equation of a curve</string>
+          <string language="es">ecuación</string>
+          <string language="nl">Vergelijking van een kromme</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Quadratic_Equation_r</id>
+        <entry>
+          <string language="de">Quadratische Gleichung</string>
+          <string language="fr">équation du second degré</string>
+          <string language="en">quadratic equation</string>
+          <string language="es">ecuación de segundo grado</string>
+          <string language="nl">Kwadratische vergelijking</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#ApproximationProcess_for_roots_r</id>
+        <entry>
+          <string language="de">schrittweises Näherungsverfahren zur Wurzelberechnung</string>
+          <string language="fr">processus d'approximation de solutions d'équations</string>
+          <string language="en">iteration approximation process for roots</string>
+          <string language="nl">Iteratief benaderingsproces voor wortels</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

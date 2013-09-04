@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM lomODS.xsd">
+  <general>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM536</entry>
+    </identifier>
+    <title>
+      <string language="en">Nature Guardians</string>
+    </title>
+    <language>en</language>
+    <description>
+      <string language="hr">U školskoj 2005./2006. godini bila sam predstavnica Hrvatske i član myEurope tima u projektu "Linking and Learning Europe". Tim je bio sastavljen od 40 iskusnih učitelja iz svih država članica EU i 4 države kandidatkinje. Organizator projekta je European Schoolnet sa sjedištem u Bruxellesu, Belgija uz potporu Europske komisije. Cilj projekta je bio izrada objekata učenja ( Learning objects and WebQuests) - online materijala za poučavanje i učenje o europskom građanstvu i kulturalnim različitostima. Ovi objekti učenja imaju svoje pedagoške vrijednosti te se mogu prilagoditi svakom nastavnom planu i programu. Izrađeni su na 25 europskih jezika i pohranjeni u myEurope repozitoriju.&lt;br /&gt;&lt;br /&gt;	&lt;br /&gt;	Nature Guardians je vođena web aktivnost / projekt u kojoj učenici u paru i skupinama istražuju biološku raznolikost u školskom dvorištu te kreativno i timski izrađuju multimedijsku prezentaciju. Ovo je model timskoga suradničkog učenja na projektu, istraživanje i učenje sudjelovanjem u aktivnostima, učenikovo praktično djelovanje, užitak u učenju, korelacijsko - integracijski nastavni pristup, a koristi se i izvanučionička nastava.&lt;br /&gt;&lt;br /&gt;	&lt;br /&gt;	Preporučujem integriranu nastavu, integrirani dan, projektni dan u 6. razredu (Engleski jezik, Priroda, Tehnička kultura, Informatika)&lt;br /&gt;	Moguća je integrirana nastava, integrirani dan, projektni dan u 7. razredu (Engleski jezik, Tehnička kultura, Informatika) i u 8. razredu (Engleski jezik, Tehnička kultura, Informatika).&lt;br /&gt;&lt;br /&gt;	&lt;br /&gt;	Ovaj webquest izrađen je na engleskome jeziku i pohranjen u myEurope repozitoriju. Tu se nalazi i sadržaj, ciljevi i zadaće, ključne riječi, te dobna skupina.&lt;br /&gt;&lt;br /&gt;	&lt;br /&gt;	Preporučujem korištenje myEurope repozitorija: http://myeurope.eun.org/ww/en/pub/myeurope/home/resources/los.cfm</string>
+    </description>
+    <keyword>
+      <string language="hr">istraživanje</string>
+      <string language="hr">školsko dvorište</string>
+      <string language="hr">priroda</string>
+      <string language="hr">okoliš</string>
+      <string language="hr">biljke</string>
+      <string language="hr">životinje</string>
+      <string language="hr">zaštita prirode i okoliša</string>
+      <string language="hr">čuvari prirode</string>
+      <string language="hr">multimedijska prezentacija</string>
+      <string language="hr">timski rad</string>
+      <string language="hr">umna mapa</string>
+      <string language="hr">evaluacija</string>
+      <string language="hr">korelacija</string>
+      <string language="hr">integrirana nastava</string>
+      <string language="hr">izvanučionička nastava</string>
+      <string language="hr">IKT</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <contribute>
+      <role>
+        <source>LOMODSv1.0</source>
+        <value>author</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+N:Dusparić;Biserka
+FN:Biserka Dusparić
+END:VCARD]]></entity>
+    </contribute>
+  </lifeCycle>
+  <metaMetadata>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM536</entry>
+    </identifier>
+    <metadataSchema>LOMv1.0</metadataSchema>
+  </metaMetadata>
+  <technical>
+    <location>http://www.skole.hr/nastavni-materijali/materijal?nm_action=get_materijal_detaljno&amp;id=536</location>
+  </technical>
+  <educational>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>website</value>
+    </learningResourceType>
+    <intendedEndUserRole>
+      <source>LOMODSv1.0</source>
+      <value>learner</value>
+    </intendedEndUserRole>
+    <context>
+      <source>LOMODSv1.0</source>
+      <value>primary education</value>
+    </context>
+    <typicalAgeRange>
+      <string language="en">11-12</string>
+      <string language="en">12-13</string>
+      <string language="en">13-14</string>
+    </typicalAgeRange>
+  </educational>
+  <rights>
+    <copyrightAndOtherRestrictions>
+      <source>LOMODSv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="hr">Ovaj objekt učenja je vlasništvo njegovog autora. Objekt učenja slobodan je za korištenje uz navođenje autora materijala.</string>
+      <string language="en">This learning object is owned by its respective author. The learning object is free for use, but it is necessary to attribute the author as its creator.</string>
+    </description>
+  </rights>
+  <relation />
+  <annotation />
+  <classification>
+    <purpose>
+      <source>LOMODSv1.0</source>
+      <value>discipline</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Language Learning Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Reading</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Language Learning Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Writing</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Language Learning Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Speaking</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Language Learning Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Vocabulary</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

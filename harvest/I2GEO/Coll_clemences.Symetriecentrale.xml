@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_clemences.Symetriecentrale</entry>
+    </identifier>
+    <title>
+      <string language="fr">Symétrie centrale</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">En déplaçant un point M à l'aide du curseur, on peut observer le déplacement simultané de son image M' par rapport à O. Ainsi, on découvre la définition et les propriétés de conservation de la symétrie.</string>
+    </description>
+    <keyword>
+      <string language="fr">symétrie symétrie centrale centre de symétrie</string>
+      <!-- ttac = #Reflection_r,#Symmetry_center_r,#Reflection_in_a_point_r -->
+      <string language="de">Spiegelung</string>
+      <string language="fr">symétrie</string>
+      <string language="en">reflection</string>
+      <string language="nl">Spiegeling</string>
+      <string language="cs">Souměrnost</string>
+      <string language="de">Symmetriezentrum</string>
+      <string language="fr">centre de symétrie</string>
+      <string language="en">point of symmetry</string>
+      <string language="es">centro de simetría</string>
+      <string language="nl">Punt van symmetrie</string>
+      <string language="nl">Symmetriecentrum</string>
+      <string language="nl">Punt van symmetrie</string>
+      <string language="nl">Symmetriecentrum</string>
+      <string language="cs">Střed souměrnosti</string>
+      <string language="de">Punktspiegelung</string>
+      <string language="fr">symétrie par rapport à un point</string>
+      <string language="en">reflection in a point</string>
+      <string language="nl">Puntspiegeling</string>
+      <string language="nl">Spiegeling in een punt</string>
+      <string language="nl">Puntspiegeling</string>
+      <string language="nl">Spiegeling in een punt</string>
+      <string language="cs">Středová souměrnost</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">8.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Sassenou  Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M&#xD;
+N: Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M;Sassenou;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-04-03T21:08:49.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Sassenou  Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M&#xD;
+N: Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M;Sassenou;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-04-08T10:53:38.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>ggb</format>
+    <size>1674</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_clemences/Symetriecentrale</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#College_2</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Cinquième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Cinquième de Collège</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Cinquième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Cinquième de Collège</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 12 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 12 -->
+    <typicalAgeRange>
+      <string language="en">12-13</string>
+    </typicalAgeRange>
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Reflection_r</id>
+        <entry>
+          <string language="de">Spiegelung</string>
+          <string language="fr">symétrie</string>
+          <string language="en">reflection</string>
+          <string language="nl">Spiegeling</string>
+          <string language="cs">Souměrnost</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Symmetry_center_r</id>
+        <entry>
+          <string language="de">Symmetriezentrum</string>
+          <string language="fr">centre de symétrie</string>
+          <string language="en">point of symmetry</string>
+          <string language="es">centro de simetría</string>
+          <string language="nl">Punt van symmetrie</string>
+          <string language="nl">Symmetriecentrum</string>
+          <string language="nl">Punt van symmetrie</string>
+          <string language="nl">Symmetriecentrum</string>
+          <string language="cs">Střed souměrnosti</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Reflection_in_a_point_r</id>
+        <entry>
+          <string language="de">Punktspiegelung</string>
+          <string language="fr">symétrie par rapport à un point</string>
+          <string language="en">reflection in a point</string>
+          <string language="nl">Puntspiegeling</string>
+          <string language="nl">Spiegeling in een punt</string>
+          <string language="nl">Puntspiegeling</string>
+          <string language="nl">Spiegeling in een punt</string>
+          <string language="cs">Středová souměrnost</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

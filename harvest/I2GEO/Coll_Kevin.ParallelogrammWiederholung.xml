@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_Kevin.ParallelogrammWiederholung</entry>
+    </identifier>
+    <title>
+      <string language="de">Parallelogramm Wiederholung</string>
+    </title>
+    <language>de</language>
+    <description>
+      <string language="de">Aus einem beliebig verschiebbaren Paralellogramm sollen (mithilfe des AB) verschiedene spezielle Parallelogramme hergestellt werden (Raute,Quadrat,Rechteck)</string>
+    </description>
+    <keyword>
+      <string language="de">Parallelogramm Parallelogramm Wiederholung</string>
+      <!-- ttac = #Parallelogram_r,#Square_r,#Rectangle_r,#Rhombus_r -->
+      <string language="de">Parallelogramm</string>
+      <string language="fr">parallélogramme</string>
+      <string language="en">parallelogram</string>
+      <string language="es">paralelogramo</string>
+      <string language="nl">Parallellogram</string>
+      <string language="cs">Rovnoběžník</string>
+      <string language="de">Quadrat</string>
+      <string language="fr">carré</string>
+      <string language="en">square</string>
+      <string language="es">Cuadrado</string>
+      <string language="nl">Vierkant</string>
+      <string language="cs">Čtverec</string>
+      <string language="de">Rechteck</string>
+      <string language="fr">rectangle</string>
+      <string language="en">rectangle</string>
+      <string language="es">rectángulo</string>
+      <string language="nl">Rechthoek</string>
+      <string language="cs">Obdélník</string>
+      <string language="cs">Pravoúhlý rovnoběžník</string>
+      <string language="cs">Pravoúhelník</string>
+      <string language="cs">Obdélník</string>
+      <string language="cs">Pravoúhlý rovnoběžník</string>
+      <string language="cs">Pravoúhelník</string>
+      <string language="cs">Obdélník</string>
+      <string language="cs">Pravoúhlý rovnoběžník</string>
+      <string language="cs">Pravoúhelník</string>
+      <string language="de">Raute</string>
+      <string language="fr">losange</string>
+      <string language="en">rhombus</string>
+      <string language="es">rombo</string>
+      <string language="nl">Ruit</string>
+      <string language="cs">Kosočtverec</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">2.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Kevin Kümmerer&#xD;
+N:Kümmerer;Kevin;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-02-11T14:46:35.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Michael Mikula&#xD;
+N:Mikula;Michael;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-09-27T20:22:27.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_Kevin/ParallelogrammWiederholung</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT resource_animation
+        true    true     -->
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>demonstration</value>
+    </learningResourceType>
+    <interactivityLevel>
+      <source>LOMv1.0</source>
+      <value>medium</value>
+    </interactivityLevel>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#England_and_Wales_Year6</value>
+            </context>
+                                     -->
+    <language>de</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">CurrikiCode.AssetLicenseClass_licenseType_Licences.Licences.CreativeCommonsAttributionNon-CommercialShareAlike</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by-nc-sa/2.0/</licenseURI>-->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Parallelogram_r</id>
+        <entry>
+          <string language="de">Parallelogramm</string>
+          <string language="fr">parallélogramme</string>
+          <string language="en">parallelogram</string>
+          <string language="es">paralelogramo</string>
+          <string language="nl">Parallellogram</string>
+          <string language="cs">Rovnoběžník</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Square_r</id>
+        <entry>
+          <string language="de">Quadrat</string>
+          <string language="fr">carré</string>
+          <string language="en">square</string>
+          <string language="es">Cuadrado</string>
+          <string language="nl">Vierkant</string>
+          <string language="cs">Čtverec</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Rectangle_r</id>
+        <entry>
+          <string language="de">Rechteck</string>
+          <string language="fr">rectangle</string>
+          <string language="en">rectangle</string>
+          <string language="es">rectángulo</string>
+          <string language="nl">Rechthoek</string>
+          <string language="cs">Obdélník</string>
+          <string language="cs">Pravoúhlý rovnoběžník</string>
+          <string language="cs">Pravoúhelník</string>
+          <string language="cs">Obdélník</string>
+          <string language="cs">Pravoúhlý rovnoběžník</string>
+          <string language="cs">Pravoúhelník</string>
+          <string language="cs">Obdélník</string>
+          <string language="cs">Pravoúhlý rovnoběžník</string>
+          <string language="cs">Pravoúhelník</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Rhombus_r</id>
+        <entry>
+          <string language="de">Raute</string>
+          <string language="fr">losange</string>
+          <string language="en">rhombus</string>
+          <string language="es">rombo</string>
+          <string language="nl">Ruit</string>
+          <string language="cs">Kosočtverec</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

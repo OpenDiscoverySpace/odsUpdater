@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_segido.AnalisisDeObrasDeArte</entry>
+    </identifier>
+    <title>
+      <string language="en">Análisis de obras de arte</string>
+    </title>
+    <language>en</language>
+    <description>
+      <string language="en">Se utiliza el software de Geometría Dinámica para el análisis de obras de arte. Se coloca una imagen en la pantalla de dibujo para estudiarla, marcar líneas y polígonos, trazar paralelas y perpendiculares, medir y realizar transformaciones para observar pautas, simetrías y relaciones. Esto permite conectar dos áreas de conocimiento que en muchos momentos de la historia han ido unidas: el arte y las matemáticas, y que esa conexión esté al alcance de los estudiantes. En palabras de Alberto Durero: las matemáticas, las más precisas lógicas y gráficamente constructivas de todas las ciencias, deben ser un ingrediente importante del arte.&lt;p/&gt;
+&lt;strong&gt;This Resource is Copied from a First-Steps Trace&lt;/strong&gt;&lt;p/&gt;
+Coming from trace &lt;a class="wikicreatelink" href="http://i2geo.net/xwiki/bin/edit/Traces/Analisis+de+obras+de+arte?parent=Coll_segido.AnalisisDeObrasDeArte"&gt;&lt;span class="wikicreatelinktext"&gt;Analisis de obras de arte&lt;/span&gt;&lt;span class="wikicreatelinkqm"&gt;?&lt;/span&gt;&lt;/a&gt; which mentioned 25 constructions.&lt;p/&gt;
+&lt;ul class="minus"&gt;
+&lt;li&gt;Geometry system: &lt;span class="wikilink"&gt;&lt;a href="http://i2geo.net/xwiki/bin/view/Softwares/GeoGebra"&gt;Geo Gebra&lt;/a&gt;&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;Country: es&lt;/li&gt;
+&lt;li&gt;Educational level: 12-18&lt;/li&gt;
+&lt;li&gt;Main topic: Arts&lt;/li&gt;
+&lt;li&gt;Other themesPolygons, transformations&lt;/li&gt;
+&lt;/ul&gt;</string>
+    </description>
+    <keyword>
+      <string language="en">Polygons transformations</string>
+      <!-- ttac = #Real_world_representation_r,#Identify_symmetries_of_2D_shapes,#Basic_planar_geometry_topics_r -->
+      <string language="de">Modellieren</string>
+      <string language="fr">représentation du monde réel</string>
+      <string language="en">real world representation</string>
+      <string language="es">representaciones de la realidad</string>
+      <string language="nl">Representatie in de echte wereld</string>
+      <string language="nl">Model</string>
+      <string language="nl">Representatie in de echte wereld</string>
+      <string language="nl">Model</string>
+      <string language="fr">identifier les symétries de figures planes</string>
+      <string language="en">identify symmetries of 2D shapes</string>
+      <string language="de">Grundthemen der ebenen Geometrie</string>
+      <string language="fr">Notions de base en géométrie plane</string>
+      <string language="es">elementos básicos de la geometría en el plano</string>
+      <string language="nl">Basisbegrippen van de vlakke meetkunde</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">1.02</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Santiago Egido&#xD;
+N:Egido;Santiago;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-04-20T15:46:08.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Santiago Egido&#xD;
+N:Egido;Santiago;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-11-04T14:51:41.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_segido/AnalisisDeObrasDeArte</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#England_and_Wales_Year6</value>
+            </context>
+                                     -->
+    <language>en</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <!-- unrecognized license type: "cc-by-sa" -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Real_world_representation_r</id>
+        <entry>
+          <string language="de">Modellieren</string>
+          <string language="fr">représentation du monde réel</string>
+          <string language="en">real world representation</string>
+          <string language="es">representaciones de la realidad</string>
+          <string language="nl">Representatie in de echte wereld</string>
+          <string language="nl">Model</string>
+          <string language="nl">Representatie in de echte wereld</string>
+          <string language="nl">Model</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Identify_symmetries_of_2D_shapes</id>
+        <entry>
+          <string language="fr">identifier les symétries de figures planes</string>
+          <string language="en">identify symmetries of 2D shapes</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Basic_planar_geometry_topics_r</id>
+        <entry>
+          <string language="de">Grundthemen der ebenen Geometrie</string>
+          <string language="fr">Notions de base en géométrie plane</string>
+          <string language="es">elementos básicos de la geometría en el plano</string>
+          <string language="nl">Basisbegrippen van de vlakke meetkunde</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM lomODS.xsd">
+  <general>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM293</entry>
+    </identifier>
+    <title>
+      <string language="hr">Turizam Afrike</string>
+    </title>
+    <language>hr</language>
+    <description>
+      <string language="hr">Digitalni materijal izrađen je u wikiju (Wikispaces.com), a korišteni su videisječci (YouTube), internetske karte (Google Karte, Umapper), alati za kviz (Zoho Challenge), ankete (Zoomerang) . &lt;br /&gt;&lt;br /&gt;	&lt;br /&gt;&lt;br /&gt;	Rad tematski obrađuje turističke mogućnosti Afrike.&lt;br /&gt;&lt;br /&gt;	&lt;br /&gt;&lt;br /&gt;	Očekivani ishodi učenja su:&lt;br /&gt;&lt;br /&gt;	&lt;br /&gt;		objasniti što je turizam&lt;br /&gt;	&lt;br /&gt;		opisati što uključuje safari turizam&lt;br /&gt;	&lt;br /&gt;		imenovati koji su poznati nacionalni parkovi i prirodni rezervati Afrike i opisati njihove posebnosti&lt;br /&gt;	&lt;br /&gt;		imenovati koja su poznata povijesna i graditeljska nasljeđa Afrike i opisati njihove posebnosti&lt;br /&gt;	&lt;br /&gt;		pokazati navedena turistička odredišta na karti&lt;br /&gt;	&lt;br /&gt;		planirati putovanje uz pomoć karte&lt;br /&gt;	&lt;br /&gt;		pisati sastavke, razvijati kreativnost i maštu&lt;br /&gt;	&lt;br /&gt;		pravilno pisati geografska imena&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;	&lt;br /&gt;&lt;br /&gt;	Aktivnosti učenika:&lt;br /&gt;&lt;br /&gt;	&lt;br /&gt;&lt;br /&gt;	Učenici proučavaju turistička odredišta Afrike pomoću Google karata i videoisječaka s YouTube-a. Nakon toga planiraju putovanje i pišu sastavak zamišljenog putovanja kroz Afriku na wiki stranicama.&lt;br /&gt;&lt;br /&gt;	Osim toga, učenicima je na raspolaganju kviz i igra na geografskoj karti za samovrjednovanje znanja i postignuća.&lt;br /&gt;&lt;br /&gt;	&lt;br /&gt;&lt;br /&gt;	Rad je osvojio prvu nagradu na natjecanju portala Škole.hr Rođendanska petica.</string>
+    </description>
+    <keyword>
+      <string language="hr">Afrika</string>
+      <string language="hr">turizam</string>
+      <string language="hr">graditeljstvo</string>
+      <string language="hr">kultura</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <contribute>
+      <role>
+        <source>LOMODSv1.0</source>
+        <value>author</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+N:Janko;Vesna
+FN:Vesna Janko
+END:VCARD]]></entity>
+    </contribute>
+  </lifeCycle>
+  <metaMetadata>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM293</entry>
+    </identifier>
+    <metadataSchema>LOMv1.0</metadataSchema>
+  </metaMetadata>
+  <technical>
+    <location>http://www.skole.hr/nastavni-materijali/materijal?nm_action=get_materijal_detaljno&amp;id=293</location>
+  </technical>
+  <educational>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>lecture</value>
+    </learningResourceType>
+    <intendedEndUserRole>
+      <source>LOMODSv1.0</source>
+      <value>learner</value>
+    </intendedEndUserRole>
+    <context>
+      <source>LOMODSv1.0</source>
+      <value>primary education</value>
+    </context>
+    <typicalAgeRange>
+      <string language="en">11-12</string>
+    </typicalAgeRange>
+  </educational>
+  <rights>
+    <copyrightAndOtherRestrictions>
+      <source>LOMODSv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="hr">Ovaj objekt učenja je vlasništvo njegovog autora. Objekt učenja slobodan je za korištenje uz navođenje autora materijala.</string>
+      <string language="en">This learning object is owned by its respective author. The learning object is free for use, but it is necessary to attribute the author as its creator.</string>
+    </description>
+  </rights>
+  <relation />
+  <annotation />
+  <classification>
+    <purpose>
+      <source>LOMODSv1.0</source>
+      <value>discipline</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Science Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Geography and Earth Science</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Geography</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

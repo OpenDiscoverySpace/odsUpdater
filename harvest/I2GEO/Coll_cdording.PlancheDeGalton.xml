@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_cdording.PlancheDeGalton</entry>
+    </identifier>
+    <title>
+      <string language="fr">Planche de Galton</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">On ne présente plus la planche de Galton, expérience aléatoire qui est régie par une loi binomiale. &lt;p/&gt;
+La simulation proposée est basée sur un modèle équiréparti (la bille a une chance sur 2 de tomber à gauche ou à droite d'un plot) &lt;p/&gt;
+L'accumulation des billes au bas de la planche permet de bien visualiser la distribution des fréquences. &lt;p/&gt;
+&lt;strong&gt;Cette resource est la copie d'une trace de la première étape d'intergeo&lt;/strong&gt;&lt;p/&gt;
+Cette resource vient de &lt;a class="wikicreatelink" href="http://i2geo.net/xwiki/bin/edit/Traces/Planche+de+Galton?parent=Coll_cdording.PlancheDeGalton"&gt;&lt;span class="wikicreatelinktext"&gt;Planche de Galton&lt;/span&gt;&lt;span class="wikicreatelinkqm"&gt;?&lt;/span&gt;&lt;/a&gt; qui mentionne  constructions.&lt;p/&gt;
+&lt;ul class="minus"&gt;
+&lt;li&gt;Système de géométrie: &lt;span class="wikilink"&gt;&lt;a href="http://i2geo.net/xwiki/bin/view/Softwares/GeoPlan-GeoSpace"&gt;Geo Plan&amp;#45;Geo Space&lt;/a&gt;&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;Pays: fr&lt;/li&gt;
+&lt;li&gt;Niveau d'enseignement: Première - Terminale&lt;/li&gt;
+&lt;li&gt;Sujet principal: Probability&lt;/li&gt;
+&lt;li&gt;Autres thèmesLoi binomiale&lt;/li&gt;
+&lt;/ul&gt;</string>
+    </description>
+    <keyword>
+      <string language="fr">Loi binomiale</string>
+      <!-- ttac = #Probability_r -->
+      <string language="de">Wahrscheinlichkeit</string>
+      <string language="fr">probabilité</string>
+      <string language="en">probability</string>
+      <string language="es">probabilidad</string>
+      <string language="nl">Waarschijnlijkheid</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">3.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Carole Dording&#xD;
+N:Dording;Carole;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-04-20T14:46:43.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Isa. Leyraud INRP-IREM Lyon&#xD;
+N:INRP-IREM Lyon;Isa. Leyraud;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-04-30T22:50:23.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_cdording/PlancheDeGalton</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills</value>
+            </context>
+                                     -->
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <!-- unrecognized license type: "cc-public-domain" -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Probability_r</id>
+        <entry>
+          <string language="de">Wahrscheinlichkeit</string>
+          <string language="fr">probabilité</string>
+          <string language="en">probability</string>
+          <string language="es">probabilidad</string>
+          <string language="nl">Waarschijnlijkheid</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_haaner.Reflectionaboutanaxis</entry>
+    </identifier>
+    <title>
+      <string language="de">Reflection about an axis</string>
+    </title>
+    <language>de</language>
+    <description>
+      <string language="de">This resource contains several interactive examples (written in german), which deal with the reflection of a figure about the y-axis of a given coordinate system.</string>
+    </description>
+    <keyword>
+      <string language="de">reflection symmetry GEONExT</string>
+      <!-- ttac = #Reflection_in_a_line_r,#Symmetry_line_r -->
+      <string language="de">Achsenspiegelung</string>
+      <string language="fr">symétrie axiale</string>
+      <string language="en">Reflection in a line</string>
+      <string language="nl">Spiegeling in een lijn</string>
+      <string language="nl">Lijnspiegeling</string>
+      <string language="nl">Spiegeling in een lijn</string>
+      <string language="nl">Lijnspiegeling</string>
+      <string language="cs">Osová souměrnost</string>
+      <string language="de">Symmetrieachse</string>
+      <string language="fr">droite de symétrie</string>
+      <string language="en">symmetry axis</string>
+      <string language="es">eje de simetría</string>
+      <string language="nl">Symmetrie-as</string>
+      <string language="cs">Osa souměrnosti</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">1.02</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Heiko Vogel&#xD;
+N:Vogel;Heiko;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2008-11-20T17:26:28.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Heiko Vogel&#xD;
+N:Vogel;Heiko;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-11-04T14:50:48.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>zip</format>
+    <size>1076581</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_haaner/Reflectionaboutanaxis</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_worksheet
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>exercise</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Gymnasium_Saarland_5te_level</value>
+            </context>
+                                                <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#England_and_Wales_Year5</value>
+            </context>
+                                     -->
+    <language>de</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Reflection_in_a_line_r</id>
+        <entry>
+          <string language="de">Achsenspiegelung</string>
+          <string language="fr">symétrie axiale</string>
+          <string language="en">Reflection in a line</string>
+          <string language="nl">Spiegeling in een lijn</string>
+          <string language="nl">Lijnspiegeling</string>
+          <string language="nl">Spiegeling in een lijn</string>
+          <string language="nl">Lijnspiegeling</string>
+          <string language="cs">Osová souměrnost</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Symmetry_line_r</id>
+        <entry>
+          <string language="de">Symmetrieachse</string>
+          <string language="fr">droite de symétrie</string>
+          <string language="en">symmetry axis</string>
+          <string language="es">eje de simetría</string>
+          <string language="nl">Symmetrie-as</string>
+          <string language="cs">Osa souměrnosti</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

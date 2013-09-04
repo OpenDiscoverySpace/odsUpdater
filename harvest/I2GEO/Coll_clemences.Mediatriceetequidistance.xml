@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_clemences.Mediatriceetequidistance</entry>
+    </identifier>
+    <title>
+      <string language="fr">Médiatrice et équidistance</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">Points équidistants et médiatrice.&lt;p/&gt;
+Figure mettant en évidence la propriété :
+"Si un point est équidistant des deux extrémités d'un segment, &amp;#8230;
+ alors il est sur la médiatrice de ce segment."
+Sur la figure, MA=MB=NA=NB.&lt;p/&gt;
+Commandes :
+&lt;ul class="minus"&gt;
+&lt;li&gt;les flèches permettent de déplacer M et N (modification du rayon commun des cercles) ;&lt;/li&gt;
+&lt;li&gt;la touche 0 permet d'afficher/masquer successivement:&lt;/li&gt;
+&lt;/ul&gt;  les cercles, M, &lt;a class="wikicreatelink" href="http://i2geo.net/xwiki/bin/edit/Coll_clemences/AM?parent=Coll_clemences.Mediatriceetequidistance"&gt;&lt;span class="wikicreatelinktext"&gt;AM&lt;/span&gt;&lt;span class="wikicreatelinkqm"&gt;?&lt;/span&gt;&lt;/a&gt;, &lt;a class="wikicreatelink" href="http://i2geo.net/xwiki/bin/edit/Coll_clemences/MB?parent=Coll_clemences.Mediatriceetequidistance"&gt;&lt;span class="wikicreatelinktext"&gt;MB&lt;/span&gt;&lt;span class="wikicreatelinkqm"&gt;?&lt;/span&gt;&lt;/a&gt;, N, &lt;a class="wikicreatelink" href="http://i2geo.net/xwiki/bin/edit/Coll_clemences/AN?parent=Coll_clemences.Mediatriceetequidistance"&gt;&lt;span class="wikicreatelinktext"&gt;AN&lt;/span&gt;&lt;span class="wikicreatelinkqm"&gt;?&lt;/span&gt;&lt;/a&gt;, &lt;a class="wikicreatelink" href="http://i2geo.net/xwiki/bin/edit/Coll_clemences/NB?parent=Coll_clemences.Mediatriceetequidistance"&gt;&lt;span class="wikicreatelinktext"&gt;NB&lt;/span&gt;&lt;span class="wikicreatelinkqm"&gt;?&lt;/span&gt;&lt;/a&gt;, ainsi que les textes de description ;
+&lt;ul class="minus"&gt;
+&lt;li&gt;la touche 1 permet d'afficher/masquer le problème posé ;&lt;/li&gt;
+&lt;li&gt;la touche 2 permet d'afficher la trace des points M et N ;&lt;/li&gt;
+&lt;li&gt;la touche 3 permet de sortir du mode trace ;&lt;/li&gt;
+&lt;li&gt;la touche 4 permet d'afficher/masquer la médiatrice de &lt;a class="wikicreatelink" href="http://i2geo.net/xwiki/bin/edit/Coll_clemences/AB?parent=Coll_clemences.Mediatriceetequidistance"&gt;&lt;span class="wikicreatelinktext"&gt;AB&lt;/span&gt;&lt;span class="wikicreatelinkqm"&gt;?&lt;/span&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;Version originale : &lt;span class="nobr"&gt;&lt;a href="http://i2geo.net/xwiki/bin/view/Coll_cdording/MediatriceEtEquidistance2"&gt;http://i2geo.net/xwiki/bin/view/Coll_cdording/MediatriceEtEquidistance2&lt;/a&gt;&lt;/span&gt;</string>
+    </description>
+    <keyword>
+      <string language="fr">médiatrice équidistance</string>
+      <!-- ttac = #Straight_Line_r,#Perpendicular_Bisector_r,#Equidistant_r -->
+      <string language="de">Gerade</string>
+      <string language="fr">droite</string>
+      <string language="en">straight line</string>
+      <string language="es">línea recta</string>
+      <string language="nl">Rechte</string>
+      <string language="nl">Rechte lijn</string>
+      <string language="nl">Rechte</string>
+      <string language="nl">Rechte lijn</string>
+      <string language="cs">Přímka</string>
+      <string language="de">Mittelsenkrechte</string>
+      <string language="fr">médiatrice d'un segment</string>
+      <string language="en">Perpendicular bisector</string>
+      <string language="es">mediatriz</string>
+      <string language="nl">Middelloodlijn</string>
+      <string language="cs">Osa úsečky</string>
+      <string language="de">im gleichen Abstand</string>
+      <string language="de">abstandsgleich</string>
+      <string language="de">äquidistant</string>
+      <string language="de">im gleichen Abstand</string>
+      <string language="de">abstandsgleich</string>
+      <string language="de">äquidistant</string>
+      <string language="de">im gleichen Abstand</string>
+      <string language="de">abstandsgleich</string>
+      <string language="de">äquidistant</string>
+      <string language="fr">équidistant</string>
+      <string language="nl">Op gelijke afstand</string>
+      <string language="nl">Equidistant</string>
+      <string language="nl">Op gelijke afstand</string>
+      <string language="nl">Equidistant</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">3.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Sassenou  Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M&#xD;
+N: Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M;Sassenou;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-04-29T11:35:26.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Sassenou  Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M&#xD;
+N: Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M;Sassenou;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-04-29T11:49:40.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>g2w</format>
+    <size>3345</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_clemences/Mediatriceetequidistance</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#College_1</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Sixième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Sixième de Collège</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Sixième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Sixième de Collège</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 11 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 11 -->
+    <typicalAgeRange>
+      <string language="en">11-12</string>
+    </typicalAgeRange>
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Straight_Line_r</id>
+        <entry>
+          <string language="de">Gerade</string>
+          <string language="fr">droite</string>
+          <string language="en">straight line</string>
+          <string language="es">línea recta</string>
+          <string language="nl">Rechte</string>
+          <string language="nl">Rechte lijn</string>
+          <string language="nl">Rechte</string>
+          <string language="nl">Rechte lijn</string>
+          <string language="cs">Přímka</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Perpendicular_Bisector_r</id>
+        <entry>
+          <string language="de">Mittelsenkrechte</string>
+          <string language="fr">médiatrice d'un segment</string>
+          <string language="en">Perpendicular bisector</string>
+          <string language="es">mediatriz</string>
+          <string language="nl">Middelloodlijn</string>
+          <string language="cs">Osa úsečky</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Equidistant_r</id>
+        <entry>
+          <string language="de">im gleichen Abstand</string>
+          <string language="de">abstandsgleich</string>
+          <string language="de">äquidistant</string>
+          <string language="de">im gleichen Abstand</string>
+          <string language="de">abstandsgleich</string>
+          <string language="de">äquidistant</string>
+          <string language="de">im gleichen Abstand</string>
+          <string language="de">abstandsgleich</string>
+          <string language="de">äquidistant</string>
+          <string language="fr">équidistant</string>
+          <string language="nl">Op gelijke afstand</string>
+          <string language="nl">Equidistant</string>
+          <string language="nl">Op gelijke afstand</string>
+          <string language="nl">Equidistant</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

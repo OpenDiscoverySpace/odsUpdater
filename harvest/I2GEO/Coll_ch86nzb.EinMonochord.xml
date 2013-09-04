@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_ch86nzb.EinMonochord</entry>
+    </identifier>
+    <title>
+      <string language="de">Ein Monochord</string>
+    </title>
+    <language>de</language>
+    <description>
+      <string language="de">Ein Monochord ist eine Art einfachst mögliches Musikinstrumment. Es besteht aus einer einzigen Saite, die über einen Klangkörper gespannt ist. Durch Keile, sie man gezielt unter die Saite legt, kann man die Saitenlänge verkürzen und somit die Tonhöhe verändern. Zumeist wird die Zeite angezupft, manchmal auch mit einem Bogen gestrichen. In gewisser Weise ist das Monochord Vorläufer der Laute, Gitarre, Harfe, Geige, Klavier, etc.</string>
+    </description>
+    <keyword>
+      <string language="de">Monochord Sinuswelle Frequenz Amplitude</string>
+      <!-- ttac = #Trigonometric_function_r,#Sine_r,#use_ITtools_to_interpret_plots,#Interpret_graphs_of_sine_cosine_tangent_functions -->
+      <string language="de">trigonometrische Funktion</string>
+      <string language="fr">fonction trigonométrique</string>
+      <string language="en">trigonometric function</string>
+      <string language="nl">Trigonometrische functie</string>
+      <string language="cs">Goniometrické funkce</string>
+      <string language="de">Sinus (Verhältnis in einem Dreieck)</string>
+      <string language="de">Sinus (Verhältnis in einem Dreieck)</string>
+      <string language="en">sine (as ratio in a triangle)</string>
+      <string language="en">sine (as ratio in a triangle)</string>
+      <string language="nl">Sinus (als verhouding in een driehoek)</string>
+      <string language="nl">Sinus (als verhouding in een driehoek)</string>
+      <string language="de">Sinus (Verhältnis in einem Dreieck)</string>
+      <string language="de">Sinus (Verhältnis in einem Dreieck)</string>
+      <string language="fr">sinus</string>
+      <string language="en">sine (as ratio in a triangle)</string>
+      <string language="en">sine (as ratio in a triangle)</string>
+      <string language="es">seno</string>
+      <string language="nl">Sinus (als verhouding in een driehoek)</string>
+      <string language="nl">Sinus (als verhouding in een driehoek)</string>
+      <string language="de">IT Werkzeuge zum Interpretieren von Graphen nutzen</string>
+      <string language="fr">utiliser les outils informatiques pour interpréter des graphiques</string>
+      <string language="en">use ITtools to interpret plots</string>
+      <string language="es">utilizar calculadoras gráficas y programas de ordenador para la interpretación de gráficas</string>
+      <string language="nl">ICT hulpmiddelen gebruiken voor de interpretatie van een grafiek</string>
+      <string language="de">die Graphen von trigonometrischen Funktionen interpretieren</string>
+      <string language="fr">interpréter les graphes des fonctions sinus cosinus et tangente</string>
+      <string language="en">interpret_graphs_of_sine_cosine_tangent_functions</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">4.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Christopher Heck&#xD;
+N:Heck;Christopher;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-09-13T11:54:35.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Chris Dohrmann&#xD;
+N:Dohrmann;Chris;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-09-13T13:02:22.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_ch86nzb/EinMonochord</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills</value>
+            </context>
+                                     -->
+    <language>de</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">CurrikiCode.AssetLicenseClass_licenseType_Licences.Licences.CreativeCommonsAttributionNon-CommercialShareAlike</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by-nc-sa/2.0/</licenseURI>-->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Trigonometric_function_r</id>
+        <entry>
+          <string language="de">trigonometrische Funktion</string>
+          <string language="fr">fonction trigonométrique</string>
+          <string language="en">trigonometric function</string>
+          <string language="nl">Trigonometrische functie</string>
+          <string language="cs">Goniometrické funkce</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Sine_r</id>
+        <entry>
+          <string language="de">Sinus (Verhältnis in einem Dreieck)</string>
+          <string language="de">Sinus (Verhältnis in einem Dreieck)</string>
+          <string language="en">sine (as ratio in a triangle)</string>
+          <string language="en">sine (as ratio in a triangle)</string>
+          <string language="nl">Sinus (als verhouding in een driehoek)</string>
+          <string language="nl">Sinus (als verhouding in een driehoek)</string>
+          <string language="de">Sinus (Verhältnis in einem Dreieck)</string>
+          <string language="de">Sinus (Verhältnis in einem Dreieck)</string>
+          <string language="fr">sinus</string>
+          <string language="en">sine (as ratio in a triangle)</string>
+          <string language="en">sine (as ratio in a triangle)</string>
+          <string language="es">seno</string>
+          <string language="nl">Sinus (als verhouding in een driehoek)</string>
+          <string language="nl">Sinus (als verhouding in een driehoek)</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#use_ITtools_to_interpret_plots</id>
+        <entry>
+          <string language="de">IT Werkzeuge zum Interpretieren von Graphen nutzen</string>
+          <string language="fr">utiliser les outils informatiques pour interpréter des graphiques</string>
+          <string language="en">use ITtools to interpret plots</string>
+          <string language="es">utilizar calculadoras gráficas y programas de ordenador para la interpretación de gráficas</string>
+          <string language="nl">ICT hulpmiddelen gebruiken voor de interpretatie van een grafiek</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Interpret_graphs_of_sine_cosine_tangent_functions</id>
+        <entry>
+          <string language="de">die Graphen von trigonometrischen Funktionen interpretieren</string>
+          <string language="fr">interpréter les graphes des fonctions sinus cosinus et tangente</string>
+          <string language="en">interpret_graphs_of_sine_cosine_tangent_functions</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

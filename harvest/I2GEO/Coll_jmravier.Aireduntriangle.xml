@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_jmravier.Aireduntriangle</entry>
+    </identifier>
+    <title>
+      <string language="fr">Aire d'un triangle</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">Le fichier est composé de trois figures&lt;p/&gt;
+Pour la figure 1 :&lt;p/&gt;
+Intention: Découvrir la propriété suivante : des triangles ayant un côté commun, ont la même aire lorsque les troisièmes côtés se trouvent sur une parallèle au côté commun.&lt;p/&gt;
+La figure représente un triangle ABC et trois points E, F et G. L'aire du triangle ABC est affichée.&lt;p/&gt;
+•	points libres : tous les points de la figure.
+•	curseurs : ils permettent de faire apparaître les triangles EBC, FBC et GBC ainsi que leur aire. Un autre curseur pourra servir à vérifier la propriété.&lt;p/&gt;
+Pour la figure 2 :
+Intention :découvrir la formule de l'aire d'un triangle, introduire la hauteur.&lt;p/&gt;
+La figure représente une droite (NP) et un point M sur une parallèle à (NP). L'aire du triangle MNP est affichée.&lt;p/&gt;
+•	point libre : le point D qui permet de déplacer la droite (d) en gardant la même direction ; la direction peut être modifiée en saisissant la droite ailleurs qu'en D.
+•	points mobiles : les points N et P sur la droite (d), le point M sur la parallèle à (d).
+•	curseur : il permet de faire apparaître la longueur NP, la hauteur relative à &lt;a class="wikicreatelink" href="http://i2geo.net/xwiki/bin/edit/Coll_jmravier/NP?parent=Coll_jmravier.Aireduntriangle"&gt;&lt;span class="wikicreatelinktext"&gt;NP&lt;/span&gt;&lt;span class="wikicreatelinkqm"&gt;?&lt;/span&gt;&lt;/a&gt; ainsi que sa longueur.&lt;p/&gt;
+Pour la figure 3:
+Intentions : Introduire la médiane.&lt;p/&gt;
+La figure représente un triangle ABC et un point M sur le côté &lt;a class="wikicreatelink" href="http://i2geo.net/xwiki/bin/edit/Coll_jmravier/BC?parent=Coll_jmravier.Aireduntriangle"&gt;&lt;span class="wikicreatelinktext"&gt;BC&lt;/span&gt;&lt;span class="wikicreatelinkqm"&gt;?&lt;/span&gt;&lt;/a&gt;. Les aires des triangles ABM et ACM sont affichées.&lt;p/&gt;
+•	points libres : les trois sommets du triangle.
+•	point mobile : le point M sur le segment &lt;a class="wikicreatelink" href="http://i2geo.net/xwiki/bin/edit/Coll_jmravier/BC?parent=Coll_jmravier.Aireduntriangle"&gt;&lt;span class="wikicreatelinktext"&gt;BC&lt;/span&gt;&lt;span class="wikicreatelinkqm"&gt;?&lt;/span&gt;&lt;/a&gt;.
+•	curseur : il permet de confirmer la position du point M sur le segment &lt;a class="wikicreatelink" href="http://i2geo.net/xwiki/bin/edit/Coll_jmravier/BC?parent=Coll_jmravier.Aireduntriangle"&gt;&lt;span class="wikicreatelinktext"&gt;BC&lt;/span&gt;&lt;span class="wikicreatelinkqm"&gt;?&lt;/span&gt;&lt;/a&gt;.</string>
+    </description>
+    <keyword>
+      <string language="fr">gÃ©omÃ©trie aire triangle hauteur mÃ©diane</string>
+      <!-- ttac = #Express_math_dependencies -->
+      <string language="de">erläutern mathematische Zusammenhänge</string>
+      <string language="de">erläutern mathematische Zusammenhänge</string>
+      <string language="fr">exprimer les relations entre les objets mathématiques</string>
+      <string language="fr">exprimer les relations entre les objets mathématiques</string>
+      <string language="en">express dependencies between mathematical objects</string>
+      <string language="en">express dependencies between mathematical objects</string>
+      <string language="de">erläutern mathematische Zusammenhänge</string>
+      <string language="de">erläutern mathematische Zusammenhänge</string>
+      <string language="fr">exprimer les relations entre les objets mathématiques</string>
+      <string language="fr">exprimer les relations entre les objets mathématiques</string>
+      <string language="en">express dependencies between mathematical objects</string>
+      <string language="en">express dependencies between mathematical objects</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">1.02</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Jean-Marc Ravier&#xD;
+N:Ravier;Jean-Marc;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2008-11-21T18:26:09.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Jean-Marc Ravier&#xD;
+N:Ravier;Jean-Marc;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-11-04T14:50:57.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>cabri2plusFile</format>
+    <size>23432</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_jmravier/Aireduntriangle</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_exercise
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>exercise</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills11-13 ans</value>
+            </context>
+                                     -->
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Express_math_dependencies</id>
+        <entry>
+          <string language="de">erläutern mathematische Zusammenhänge</string>
+          <string language="de">erläutern mathematische Zusammenhänge</string>
+          <string language="fr">exprimer les relations entre les objets mathématiques</string>
+          <string language="fr">exprimer les relations entre les objets mathématiques</string>
+          <string language="en">express dependencies between mathematical objects</string>
+          <string language="en">express dependencies between mathematical objects</string>
+          <string language="de">erläutern mathematische Zusammenhänge</string>
+          <string language="de">erläutern mathematische Zusammenhänge</string>
+          <string language="fr">exprimer les relations entre les objets mathématiques</string>
+          <string language="fr">exprimer les relations entre les objets mathématiques</string>
+          <string language="en">express dependencies between mathematical objects</string>
+          <string language="en">express dependencies between mathematical objects</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

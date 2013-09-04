@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_Kohlerelena.MatheVital-MathematikundPflanzenWiemanGrenzpunktmengenberechnet</entry>
+    </identifier>
+    <title>
+      <string language="en">MatheVital - Mathematik und Pflanzen: Wie man Grenzpunktmengen berechnet</string>
+    </title>
+    <language>en</language>
+    <description>
+      <string language="en">Das folgende Applet demonstriert am Beispiel "Eine IFS Pflanze" die Erzeugung des IFS.</string>
+    </description>
+    <keyword>
+      <string language="en" />
+      <!-- ttac = #IterationApproximationProcess_r,#Transformation_r -->
+      <string language="de">Schrittweise Nährerungsverfahren</string>
+      <string language="fr">processus itératif d'approximation</string>
+      <string language="en">iteration approximation process</string>
+      <string language="nl">Iteratief benaderingsproces</string>
+      <string language="de">Transformation</string>
+      <string language="de">Abbildung</string>
+      <string language="de">Transformation</string>
+      <string language="de">Abbildung</string>
+      <string language="fr">transformation</string>
+      <string language="en">transformation</string>
+      <string language="es">transformación</string>
+      <string language="nl">Transformatie</string>
+      <string language="cs">Geometrické zobrazení</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">3.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Elena Kohler&#xD;
+N:Kohler;Elena;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-09-21T20:50:17.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Elena Kohler&#xD;
+N:Kohler;Elena;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-09-22T21:56:42.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_Kohlerelena/MatheVital-MathematikundPflanzenWiemanGrenzpunktmengenberechnet</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_worksheet
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>exercise</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills</value>
+            </context>
+                                     -->
+    <language>en</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">CurrikiCode.AssetLicenseClass_licenseType_Licences.Licences.CreativeCommonsAttributionNon-CommercialShareAlike</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by-nc-sa/2.0/</licenseURI>-->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#IterationApproximationProcess_r</id>
+        <entry>
+          <string language="de">Schrittweise Nährerungsverfahren</string>
+          <string language="fr">processus itératif d'approximation</string>
+          <string language="en">iteration approximation process</string>
+          <string language="nl">Iteratief benaderingsproces</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Transformation_r</id>
+        <entry>
+          <string language="de">Transformation</string>
+          <string language="de">Abbildung</string>
+          <string language="de">Transformation</string>
+          <string language="de">Abbildung</string>
+          <string language="fr">transformation</string>
+          <string language="en">transformation</string>
+          <string language="es">transformación</string>
+          <string language="nl">Transformatie</string>
+          <string language="cs">Geometrické zobrazení</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

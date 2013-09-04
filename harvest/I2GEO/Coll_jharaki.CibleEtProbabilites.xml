@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_jharaki.CibleEtProbabilites</entry>
+    </identifier>
+    <title>
+      <string language="fr">Cible et probabilités</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">&lt;ul class="minus"&gt;
+&lt;li&gt; Cette animation illustre exactement le texte de l'exercice et la modélisation retenue est celle qui est proposée. C'est justement la mise en place de cette modélisation qui nous conduit à réfléchir à la meilleure façon de choisir aléatoirement un point dans un disque avec une probabilité de présence uniforme.&lt;/li&gt;
+&lt;li&gt; Activité ayant pour premier objectif de faire comprendre l'intérêt des variables aléatoires, en particulier ici où il est impossible de raisonner sur les événements élémentaires qui nous placent dans un univers non fini.&lt;/li&gt;
+&lt;/ul&gt;&lt;strong&gt;Cette resource est la copie d'une trace de la première étape d'intergeo&lt;/strong&gt;&lt;p/&gt;
+Cette resource vient de &lt;a class="wikicreatelink" href="http://i2geo.net/xwiki/bin/edit/Traces/La+cible?parent=Coll_jharaki.CibleEtProbabilites"&gt;&lt;span class="wikicreatelinktext"&gt;La cible&lt;/span&gt;&lt;span class="wikicreatelinkqm"&gt;?&lt;/span&gt;&lt;/a&gt; qui mentionne  constructions.&lt;p/&gt;
+&lt;ul class="minus"&gt;
+&lt;li&gt;Système de géométrie: &lt;span class="wikilink"&gt;&lt;a href="http://i2geo.net/xwiki/bin/view/Softwares/GeoPlan-GeoSpace"&gt;Geo Plan&amp;#45;Geo Space&lt;/a&gt;&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;Pays: fr&lt;/li&gt;
+&lt;li&gt;Niveau d'enseignement: Première - Terminale&lt;/li&gt;
+&lt;li&gt;Sujet principal: Probability&lt;/li&gt;
+&lt;li&gt;Autres thèmesAire d'un disque - Proportionnalité&lt;/li&gt;
+&lt;/ul&gt;</string>
+    </description>
+    <keyword>
+      <string language="fr">Aire d’un disque - Proportionnalité</string>
+      <!-- ttac = #Probability_r,#Choose_model_to_use,#Use_probability,#Probability_distribution_r,#Disc_r -->
+      <string language="de">Wahrscheinlichkeit</string>
+      <string language="fr">probabilité</string>
+      <string language="en">probability</string>
+      <string language="es">probabilidad</string>
+      <string language="nl">Waarschijnlijkheid</string>
+      <string language="de">ein zu verwendendes Model auswählen</string>
+      <string language="fr">choisir les modèles à utiliser</string>
+      <string language="en">select models to use</string>
+      <string language="de">das Wahrscheinlichkeitsmaß (von 0 bis 1) gebrauchen</string>
+      <string language="fr">utiliser les probabilités</string>
+      <string language="en">use probability scale from 0 to 1</string>
+      <string language="de">Wahrscheinlichkeitsverteilung</string>
+      <string language="fr">distribution</string>
+      <string language="en">probability distribution</string>
+      <string language="es">distribución de probabilidad</string>
+      <string language="nl">Kansverdeling</string>
+      <string language="de">Scheibe</string>
+      <string language="fr">disque</string>
+      <string language="en">disc</string>
+      <string language="nl">Schijf</string>
+      <string language="cs">Kruh</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">1.02</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:jharaki jalil&#xD;
+N:jalil;jharaki;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-04-07T16:10:30.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:jharaki jalil&#xD;
+N:jalil;jharaki;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-11-04T14:59:02.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_jharaki/CibleEtProbabilites</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Lycee_General_et_Technologique_2_serie_S</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Première générale S</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Première générale S</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Première générale S</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Première générale S</value>                </context>
+                                                    <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Lycee_General_et_Technologique_3_serie_S</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Terminale générale S</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Terminale générale S</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Terminale générale S</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Terminale générale S</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 16 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 17 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 16 -->
+    <typicalAgeRange>
+      <string language="en">16-17</string>
+    </typicalAgeRange>
+    <!-- typicalAgeRange is: 17 -->
+    <typicalAgeRange>
+      <string language="en">17-18</string>
+    </typicalAgeRange>
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <!-- unrecognized license type: "cc-public-domain" -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Probability_r</id>
+        <entry>
+          <string language="de">Wahrscheinlichkeit</string>
+          <string language="fr">probabilité</string>
+          <string language="en">probability</string>
+          <string language="es">probabilidad</string>
+          <string language="nl">Waarschijnlijkheid</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Choose_model_to_use</id>
+        <entry>
+          <string language="de">ein zu verwendendes Model auswählen</string>
+          <string language="fr">choisir les modèles à utiliser</string>
+          <string language="en">select models to use</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Use_probability</id>
+        <entry>
+          <string language="de">das Wahrscheinlichkeitsmaß (von 0 bis 1) gebrauchen</string>
+          <string language="fr">utiliser les probabilités</string>
+          <string language="en">use probability scale from 0 to 1</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Probability_distribution_r</id>
+        <entry>
+          <string language="de">Wahrscheinlichkeitsverteilung</string>
+          <string language="fr">distribution</string>
+          <string language="en">probability distribution</string>
+          <string language="es">distribución de probabilidad</string>
+          <string language="nl">Kansverdeling</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Disc_r</id>
+        <entry>
+          <string language="de">Scheibe</string>
+          <string language="fr">disque</string>
+          <string language="en">disc</string>
+          <string language="nl">Schijf</string>
+          <string language="cs">Kruh</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

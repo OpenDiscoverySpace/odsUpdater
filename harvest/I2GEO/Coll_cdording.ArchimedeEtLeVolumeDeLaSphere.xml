@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_cdording.ArchimedeEtLeVolumeDeLaSphere</entry>
+    </identifier>
+    <title>
+      <string language="fr">Archimède et le volume de la sphère</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">Illustration de la démonstration (proposée par Archimède il y a quelques années) de la formule donnant le volume d'une boule V=4/3piR3 : c'est la différence entre le volume du cylindre de même rayon et de hauteur 2R et du volume du double cône inscrit dans ce cylindre. &lt;p/&gt;
+Cette activité permet de mettre en évidence le principe de Cavalieri ou des indivisibles : l'égalité des volumes résulte de l'égalité des aires de la couronne (à gauche) et du disque de section de la sphère à chaque niveau du plan de section mobile. &lt;p/&gt;
+Il est possible d'illustrer cela par les représentations graphiques des trois fonctions qui à la hauteur h de l'eau feraient correspondre les volumes du cylindre, du double cône et de la boule&lt;p/&gt;
+&lt;strong&gt;Cette resource est la copie d'une trace de la première étape d'intergeo&lt;/strong&gt;&lt;p/&gt;
+Cette resource vient de &lt;a class="wikicreatelink" href="http://i2geo.net/xwiki/bin/edit/Traces/Volume+de+la+sphere?parent=Coll_cdording.ArchimedeEtLeVolumeDeLaSphere"&gt;&lt;span class="wikicreatelinktext"&gt;Volume de la sphere&lt;/span&gt;&lt;span class="wikicreatelinkqm"&gt;?&lt;/span&gt;&lt;/a&gt; qui mentionne  constructions.&lt;p/&gt;
+&lt;ul class="minus"&gt;
+&lt;li&gt;Système de géométrie: &lt;span class="wikilink"&gt;&lt;a href="http://i2geo.net/xwiki/bin/view/Softwares/GeoPlan-GeoSpace"&gt;Geo Plan&amp;#45;Geo Space&lt;/a&gt;&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;Pays: fr&lt;/li&gt;
+&lt;li&gt;Niveau d'enseignement: Troisième à Terminale&lt;/li&gt;
+&lt;li&gt;Sujet principal: Geometry (other topics)&lt;/li&gt;
+&lt;li&gt;Autres thèmesvolumes - aires - sections - indivisibles&lt;/li&gt;
+&lt;/ul&gt;</string>
+    </description>
+    <keyword>
+      <string language="fr">volumes - aires - sections - indivisibles</string>
+      <!-- ttac = #Unknown_r -->
+      <string language="de">Unbekannte</string>
+      <string language="fr">inconnue</string>
+      <string language="en">unknown</string>
+      <string language="nl">Onbekende</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">1.02</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Carole Dording&#xD;
+N:Dording;Carole;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-04-20T14:48:02.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Carole Dording&#xD;
+N:Dording;Carole;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-11-04T15:02:05.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_cdording/ArchimedeEtLeVolumeDeLaSphere</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills</value>
+            </context>
+                                     -->
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <!-- unrecognized license type: "cc-by-sa" -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Unknown_r</id>
+        <entry>
+          <string language="de">Unbekannte</string>
+          <string language="fr">inconnue</string>
+          <string language="en">unknown</string>
+          <string language="nl">Onbekende</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

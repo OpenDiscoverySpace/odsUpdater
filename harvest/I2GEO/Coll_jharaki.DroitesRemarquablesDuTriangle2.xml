@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_jharaki.DroitesRemarquablesDuTriangle2</entry>
+    </identifier>
+    <title>
+      <string language="en">Droites remarquables du triangle</string>
+    </title>
+    <language>en</language>
+    <description>
+      <string language="en">Il s'agit de construire, en utilisant le logiciel tracenpoche, un triangle dont les hauteurs sont 3 droites concourantes données.
+Idem pour les autres catégories de droites remarquables du triangle.&lt;p/&gt;
+&lt;strong&gt;Cette ressource est la copie d'une trace de la première étape d'intergeo&lt;/strong&gt;&lt;p/&gt;
+Cette ressource vient de &lt;a class="wikicreatelink" href="http://i2geo.net/xwiki/bin/edit/Traces/Droites+remarquables+du+triangle?parent=Coll_jharaki.DroitesRemarquablesDuTriangle2"&gt;&lt;span class="wikicreatelinktext"&gt;Droites remarquables du triangle&lt;/span&gt;&lt;span class="wikicreatelinkqm"&gt;?&lt;/span&gt;&lt;/a&gt; qui mentionne 8 constructions.&lt;p/&gt;
+&lt;ul class="minus"&gt;
+&lt;li&gt;Système de géométrie: &lt;span class="wikilink"&gt;&lt;a href="http://i2geo.net/xwiki/bin/view/Softwares/TracEnPoche"&gt;Trac En Poche&lt;/a&gt;&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;Pays: fr&lt;/li&gt;
+&lt;li&gt;Niveau d'enseignement: 5me-4me...&lt;/li&gt;
+&lt;li&gt;Sujet principal: Triangles&lt;/li&gt;
+&lt;li&gt;Autres thèmes&lt;/li&gt;
+&lt;/ul&gt;</string>
+    </description>
+    <keyword>
+      <string language="en">Hauteurs médiatrices bissectrice médianes d’un triangle</string>
+      <!-- ttac = #Triangle_r,#Use_perpendicular_bisector_definition,#Use_height_definition,#Use_definition_of_median_in_triangle,#Know_angle_bisector_definition,#Tracenpoche -->
+      <string language="de">Dreieck</string>
+      <string language="fr">triangle</string>
+      <string language="en">triangle</string>
+      <string language="es">Triángulo</string>
+      <string language="nl">Driehoek</string>
+      <string language="cs">trojúhelník</string>
+      <string language="de">die Definition der Mittelsenkrechten einer Strecke verwenden</string>
+      <string language="fr">utiliser la définition de la médiatrice</string>
+      <string language="en">use the definition of the perpendicular bisector of a segment</string>
+      <string language="de">die Definition der Höhe in einem Dreieck verwenden</string>
+      <string language="fr">utiliser la définition d'une hauteur d'un triangle</string>
+      <string language="en">use the definition of a height in a triangle</string>
+      <string language="de">die Definition der Seitenhalbierenden in einem Dreieck verwenden</string>
+      <string language="fr">utiliser la définition d'une médiane d'un triangle</string>
+      <string language="en">use the definition of a median in a triangle</string>
+      <string language="de">die Definition der Winkelhalbierenden kennen</string>
+      <string language="fr">connaître la définition de la bissectrice</string>
+      <string language="en">Tracenpoche</string>
+      <string language="en">Tracenpoche</string>
+      <string language="en">Tracenpoche</string>
+      <string language="en">Tracenpoche</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">3.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:jharaki jalil&#xD;
+N:jalil;jharaki;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-04-06T17:25:17.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Paul Libbrecht&#xD;
+N:Libbrecht;Paul;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2012-04-22T16:00:08.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_jharaki/DroitesRemarquablesDuTriangle2</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_problemset
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>exercise</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#College_3</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Quatrième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Quatrième de Collège</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Quatrième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Quatrième de Collège</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 13 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 13 -->
+    <typicalAgeRange>
+      <string language="en">13-14</string>
+    </typicalAgeRange>
+    <language>en</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">CurrikiCode.AssetLicenseClass_licenseType_Licences.GFDL</string>
+    </description>
+    <!-- <licenseURI>http://www.gnu.org/copyleft/fdl.html</licenseURI>-->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Triangle_r</id>
+        <entry>
+          <string language="de">Dreieck</string>
+          <string language="fr">triangle</string>
+          <string language="en">triangle</string>
+          <string language="es">Triángulo</string>
+          <string language="nl">Driehoek</string>
+          <string language="cs">trojúhelník</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Use_perpendicular_bisector_definition</id>
+        <entry>
+          <string language="de">die Definition der Mittelsenkrechten einer Strecke verwenden</string>
+          <string language="fr">utiliser la définition de la médiatrice</string>
+          <string language="en">use the definition of the perpendicular bisector of a segment</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Use_height_definition</id>
+        <entry>
+          <string language="de">die Definition der Höhe in einem Dreieck verwenden</string>
+          <string language="fr">utiliser la définition d'une hauteur d'un triangle</string>
+          <string language="en">use the definition of a height in a triangle</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Use_definition_of_median_in_triangle</id>
+        <entry>
+          <string language="de">die Definition der Seitenhalbierenden in einem Dreieck verwenden</string>
+          <string language="fr">utiliser la définition d'une médiane d'un triangle</string>
+          <string language="en">use the definition of a median in a triangle</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Know_angle_bisector_definition</id>
+        <entry>
+          <string language="de">die Definition der Winkelhalbierenden kennen</string>
+          <string language="fr">connaître la définition de la bissectrice</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Tracenpoche</id>
+        <entry>
+          <string language="en">Tracenpoche</string>
+          <string language="en">Tracenpoche</string>
+          <string language="en">Tracenpoche</string>
+          <string language="en">Tracenpoche</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

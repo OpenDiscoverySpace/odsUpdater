@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM lomODS.xsd">
+  <general>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM141</entry>
+    </identifier>
+    <title>
+      <string language="hr">Graf kvadratne funkcije</string>
+    </title>
+    <language>hr</language>
+    <description>
+      <string language="hr">Kvadratna funkcija ključna je cjelina u nastavi matematike srednje škole, kako za razumijevanje i izgradnju matematičkih sadržaja tako i zbog mnogobrojnih primjena u drugim znanostima i pojavama u stvarnom životu.&lt;br /&gt;&lt;br /&gt;	&lt;br /&gt;&lt;br /&gt;	Mogućnost jednostavnog prikaza parabole na zaslonu računala jest onaj presudan moment zbog kojeg mnogi nastavnici baš na ovoj nastavnoj jedinici posežu za računalom. Međutim nije svaka u-krivulja nužno parabola, pa nije ni dobro bilo kako dobiveni graf samo nalijepiti u prezentaciju i reći to je graf kvadratne funkcije. Potrebno je posegnuti za specijaliziranim računalnim programom koji striktno prikazuje svaku, pa i najmanji promjenu u jednadžbi funkcije.&lt;br /&gt;&lt;br /&gt;	&lt;br /&gt;&lt;br /&gt;	Ali i tu se odmah pojavljuje problem. Ako računalo sve servira pa učenika te promjene ne "koštaju" odveć, neće ih ni postati svjestan. Lako se može dogoditi da se prebrzo zaključi da je najbolje učiti matematiku na klasičan način crtajući točku po točku, a njih se prethodno izračuna preko formule i prikaže u tablici. Takav pristup je doista dobar, ali obično se zanemaruje činjenica da se u frontalnom radu neki učenici "šlepaju" ili u izračunima rade banalne greške zbog kojih ispadaju svakakvi rezultati, a nastavnik najčešće ne stigne svugdje intervenirati.&lt;br /&gt;&lt;br /&gt;	&lt;br /&gt;&lt;br /&gt;	U ovom materijalu napravljena je imitacija klasičnog pristupa izračuna vrijednosti funkcije i crtanje točku po točku uz kontrolu neumoljivog i neumornog računala, koji neće puštati dalje dok sve nije u redu. Ovdje će učenik zaista crtati parabolu kao da je crta u svoju bilježnicu olovkom. Nakon toga slijedi otkrivanje činjenica, provjera usvojenog na grafovima koji se generiraju slučajno. Naposljetku tu je i domaća zadaća uz online alat koji mnogo puta kasnije može zatrebati.&lt;br /&gt;&lt;br /&gt;	&lt;br /&gt;&lt;br /&gt;	Svi ugrađeni apleti izrađeni su besplatnim programom GeoGebra (www.geogebra.org), koji je jednostavan za uporabu i može biti od velike koristi učenicima i nastavnicima. GeoGebra osim dinamičnih konstrukcija generira i slike u više različitih formata, a i samu web-stranicu s apletom.&lt;br /&gt;&lt;br /&gt;	Materijal je isproban u nekoliko srednjih škola u Hrvatskoj i bilježi pozitivnu reakciju učenika i nastavnika.</string>
+    </description>
+    <keyword>
+      <string language="hr">graf kvadratne funkcije</string>
+      <string language="hr">graf polinoma drugog stupnja</string>
+      <string language="hr">parabola</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <contribute>
+      <role>
+        <source>LOMODSv1.0</source>
+        <value>author</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+N:Šuljić;Šime
+FN:Šime Šuljić
+END:VCARD]]></entity>
+    </contribute>
+  </lifeCycle>
+  <metaMetadata>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM141</entry>
+    </identifier>
+    <metadataSchema>LOMv1.0</metadataSchema>
+  </metaMetadata>
+  <technical>
+    <location>http://www.skole.hr/nastavni-materijali/materijal?nm_action=get_materijal_detaljno&amp;id=141</location>
+  </technical>
+  <educational>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>demonstration</value>
+    </learningResourceType>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>exercise</value>
+    </learningResourceType>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>enquiry-oriented activity</value>
+    </learningResourceType>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>lecture</value>
+    </learningResourceType>
+    <intendedEndUserRole>
+      <source>LOMODSv1.0</source>
+      <value>learner</value>
+    </intendedEndUserRole>
+    <context>
+      <source>LOMODSv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <typicalAgeRange>
+      <string language="en">15-16</string>
+    </typicalAgeRange>
+  </educational>
+  <rights>
+    <copyrightAndOtherRestrictions>
+      <source>LOMODSv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="hr">Ovaj objekt učenja je vlasništvo njegovog autora. Objekt učenja slobodan je za korištenje uz navođenje autora materijala.</string>
+      <string language="en">This learning object is owned by its respective author. The learning object is free for use, but it is necessary to attribute the author as its creator.</string>
+    </description>
+  </rights>
+  <relation />
+  <annotation />
+  <classification>
+    <purpose>
+      <source>LOMODSv1.0</source>
+      <value>discipline</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Mathematics Vocabulary</string>
+      </source>
+      <taxon />
+    </taxonPath>
+  </classification>
+</lom>
+

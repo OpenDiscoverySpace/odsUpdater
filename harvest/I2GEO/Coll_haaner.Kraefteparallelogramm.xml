@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_haaner.Kraefteparallelogramm</entry>
+    </identifier>
+    <title>
+      <string language="de">Kraefteparallelogramm</string>
+    </title>
+    <language>de</language>
+    <description>
+      <string language="de">Am Beispiel einer Strassenbeleuchtung, die zwischen zwei Häuserreihen befestigt ist, wird das physikalische Prinzip des Kräfte-Gleichgewichts veranschaulicht.
+&lt;br&gt;&lt;br&gt;
+&lt;span class="nobr"&gt;&lt;a href="http://i2geo.net/xwiki/bin/download/Coll_haaner/Kraefteparallelogramm/physik.zip/physik/kraft.html"&gt;http://i2geo.net/xwiki/bin/download/Coll_haaner/Kraefteparallelogramm/physik.zip/physik/kraft.html&lt;/a&gt;&lt;/span&gt;</string>
+    </description>
+    <keyword>
+      <string language="de">Vektoraddition Parallelogramm GEONExT</string>
+      <!-- ttac = #Vector_r,#Addition_r,#Parallelogram_r -->
+      <string language="de">Vektor</string>
+      <string language="fr">vecteur</string>
+      <string language="en">Vector</string>
+      <string language="es">vector</string>
+      <string language="nl">Vector</string>
+      <string language="cs">Vektor</string>
+      <string language="de">Addition</string>
+      <string language="fr">addition</string>
+      <string language="en">addition</string>
+      <string language="es">adición</string>
+      <string language="nl">Optellen</string>
+      <string language="de">Parallelogramm</string>
+      <string language="fr">parallélogramme</string>
+      <string language="en">parallelogram</string>
+      <string language="es">paralelogramo</string>
+      <string language="nl">Parallellogram</string>
+      <string language="cs">Rovnoběžník</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">1.02</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Heiko Vogel&#xD;
+N:Vogel;Heiko;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2008-10-09T12:01:45.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Heiko Vogel&#xD;
+N:Vogel;Heiko;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-11-04T15:00:25.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>zip</format>
+    <size>1065150</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_haaner/Kraefteparallelogramm</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_worksheet
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>exercise</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Northern_Ireland_Year11</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Year 11 (DEPRECATED)</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Year 11 (DEPRECATED)</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Year 11 (DEPRECATED)</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Year 11 (DEPRECATED)</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 14 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 14 -->
+    <typicalAgeRange>
+      <string language="en">14-15</string>
+    </typicalAgeRange>
+    <language>de</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Vector_r</id>
+        <entry>
+          <string language="de">Vektor</string>
+          <string language="fr">vecteur</string>
+          <string language="en">Vector</string>
+          <string language="es">vector</string>
+          <string language="nl">Vector</string>
+          <string language="cs">Vektor</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Addition_r</id>
+        <entry>
+          <string language="de">Addition</string>
+          <string language="fr">addition</string>
+          <string language="en">addition</string>
+          <string language="es">adición</string>
+          <string language="nl">Optellen</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Parallelogram_r</id>
+        <entry>
+          <string language="de">Parallelogramm</string>
+          <string language="fr">parallélogramme</string>
+          <string language="en">parallelogram</string>
+          <string language="es">paralelogramo</string>
+          <string language="nl">Parallellogram</string>
+          <string language="cs">Rovnoběžník</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_vanicek.Vzoraobrazvosovesoumernosti</entry>
+    </identifier>
+    <title>
+      <string language="cs">Vzor a obraz v osové souměrnosti</string>
+    </title>
+    <language>cs</language>
+    <description>
+      <string language="cs">Žák má manipulací s obrázkem získat zkušenosti s tím, jak „se chová“ osová souměrnost s rozmanitou polohou osy a jak se chová obraz, pokud se mění poloha osy a vzoru. ---
+Zadání: V souboru  jsou dva trojúhelníky (místo trojúhelníků lze zobrazit ovály), vzor a obraz v osové souměrnosti. Pohrajte si s obrázkem: najděte vzor a pohybujte s ním, měňte jeho tvar. Uchopte osu a otáčejte s ní. Uchopte osu za bod na této ose – osa se bude posouvat. Pozorujte, jak se mění obraz.
+(1)	Nastavte osu do takové polohy, aby se oba útvary protínaly.
+(2)	Nastavte osu do takové polohy, aby se vzor a obraz dotýkaly jednou společnou stranou.
+(3)	Umístěte jeden vrchol vzoru do zvýrazněného bodu na ose. Otáčejte osou a pozorujte.
+Jsou vzor a obraz vždy shodné?</string>
+    </description>
+    <keyword>
+      <string language="cs">osová souměrnost trojúhelník</string>
+      <!-- ttac =  -->
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">1.02</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Jiří Vaníček&#xD;
+N:Vaníček;Jiří;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-04-19T15:00:34.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Jiří Vaníček&#xD;
+N:Vaníček;Jiří;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-11-04T01:12:16.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format />
+    <size>3838</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_vanicek/Vzoraobrazvosovesoumernosti</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_exercise
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>exercise</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills</value>
+            </context>
+                                     -->
+    <language>cs</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+</lom>
+

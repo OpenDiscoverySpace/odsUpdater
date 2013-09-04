@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_Cayou.Lestriangles</entry>
+    </identifier>
+    <title>
+      <string language="fr">Les triangles</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">Cette activité utilise les propriétés des triangles semblables. Elle a été conçue pour les élèves en 2ème année du premier cycle du secondaire au Québec. Celle-ci se fera en équipe de 2 dans une salle informatique. La durée sera d'une période de 75 minutes. Les élève devront être capables d'utiliser le logiciel Cabri.&lt;p/&gt;
+Il s'agit d'une activité de géométrie qui demande aux élèves de connaître le concept géométrique de figures planes qui concerne les triangles, ainsi que les propriétés des triangles semblables. Le concept d’angles créés par deux droites sécantes (opposés par le sommet, adjacents) et créés par une droite sécante à deux autres droites (alternes-internes, alternes-externes, correspondants). Aucun processus n’est nécessaire pour résoudre ce problème.&lt;p/&gt;
+Compétences et composantes:&lt;p/&gt;
+Résoudre une situation-problème&lt;p/&gt;
+Décoder les éléments qui se prêtent à un traitement mathématique : Les élèves doivent ressortir les informations qui sont contenues dans la représentation graphique. Par exemple, les élèves doivent reconnaître les angles correspondants, alternes-internes, alternes-externes et opposés par le sommet.&lt;p/&gt;
+Élaborer une solution mathématique : Les élèves doivent utiliser des stratégies appropriées pour déterminer quand les triangles sont semblables et quand ils ne le sont pas. Ils doivent notamment utiliser les propriétés des triangles semblables.&lt;p/&gt;
+Valider la solution : Les élèves doivent valider si les triangles sont toujours semblables sauf lorsqu’ils n’existent pas à l’aide des propriétés des triangles semblables.&lt;p/&gt;
+Partager l’information relative à la solution : Les élèves doivent discuter avec leur coéquipier de leurs réponses. De plus, leurs réponses doivent être structurées et compréhensibles. &lt;p/&gt;
+Déployer un raisonnement mathématique&lt;p/&gt;
+Former et appliquer des réseaux de concepts et de processus mathématiques : Les élèves doivent dégager des règles et des propriétés géométriques concernant les triangles semblables.&lt;p/&gt;
+Établir une conjecture : Les élèves doivent se former une opinion probable ou vraisemblable afin d'expliquer que les triangles sont semblables dans tous les cas sauf lorsqu’ils n’existent pas.</string>
+    </description>
+    <keyword>
+      <string language="fr">Triangles semblables Droites parallèles Droites perpendiculaires</string>
+      <!-- ttac =  -->
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">30.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Karine Cayouette&#xD;
+N:Cayouette;Karine;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-09-28T19:56:27.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Ulrich Kortenkamp&#xD;
+N:Kortenkamp;Ulrich;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-11-19T13:50:23.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>zip</format>
+    <size>303387</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_Cayou/Lestriangles</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills</value>
+            </context>
+                                     -->
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+</lom>
+

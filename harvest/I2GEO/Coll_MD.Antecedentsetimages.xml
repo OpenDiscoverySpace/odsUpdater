@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_MD.Antecedentsetimages</entry>
+    </identifier>
+    <title>
+      <string language="fr">Antécedents et images</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">Rien</string>
+    </description>
+    <keyword>
+      <string language="fr" />
+      <!-- ttac = #FunctionTopic_r -->
+      <string language="de">Funktionen und verwandte Themen</string>
+      <string language="fr">fonctions et notions connexes</string>
+      <string language="fr">Notions en lien avec les fonctions</string>
+      <string language="fr">fonctions et notions connexes</string>
+      <string language="fr">Notions en lien avec les fonctions</string>
+      <string language="en">functions and related topics</string>
+      <string language="nl">Functies en aanverwante onderwerpen</string>
+      <string language="cs">Funkce a příbuzné pojmy</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">2.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Daniel Mentrard&#xD;
+N:Mentrard;Daniel;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-02-06T12:20:31.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Daniel Mentrard&#xD;
+N:Mentrard;Daniel;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-02-06T12:21:41.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_MD/Antecedentsetimages</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_exercise
+    true    true         -->
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>exercise</value>
+    </learningResourceType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#College_4</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Troisième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Troisième de Collège</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Troisième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Troisième de Collège</value>                </context>
+                                                    <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Lycee_General_et_Technologique_1</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Seconde</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Seconde</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Seconde</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Seconde</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 14 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 15 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 14 -->
+    <typicalAgeRange>
+      <string language="en">14-15</string>
+    </typicalAgeRange>
+    <!-- typicalAgeRange is: 15 -->
+    <typicalAgeRange>
+      <string language="en">15-16</string>
+    </typicalAgeRange>
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#FunctionTopic_r</id>
+        <entry>
+          <string language="de">Funktionen und verwandte Themen</string>
+          <string language="fr">fonctions et notions connexes</string>
+          <string language="fr">Notions en lien avec les fonctions</string>
+          <string language="fr">fonctions et notions connexes</string>
+          <string language="fr">Notions en lien avec les fonctions</string>
+          <string language="en">functions and related topics</string>
+          <string language="nl">Functies en aanverwante onderwerpen</string>
+          <string language="cs">Funkce a příbuzné pojmy</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

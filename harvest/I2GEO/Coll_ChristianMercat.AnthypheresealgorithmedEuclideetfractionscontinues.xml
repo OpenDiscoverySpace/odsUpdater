@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_ChristianMercat.AnthypheresealgorithmedEuclideetfractionscontinues</entry>
+    </identifier>
+    <title>
+      <string language="fr">Anthyphérèse: algorithme d'Euclide et fractions continues</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">Un rectangle de côtés a et b est découpé en carrés, le reste est lui-même découpé en carrés, implémentant l'algorithme d'Euclide. Avec des longueurs entières, on obtient le plus grand commun diviseur, avec des longueurs non entières, on obtient une approximation du rapport par des fractions continues.&lt;p/&gt;
+&lt;a href="http://cinderella.de/files/HTMLDemos/3D04_Kettenbruch.html"&gt;En ligne&lt;/a&gt;</string>
+    </description>
+    <keyword>
+      <string language="fr">anthyphérèse algorithme Euclide plus grand commun diviseur itération approxiamtion fraction continue</string>
+      <!-- ttac = #Fraction_r,#Interpret_the_result_of_a_division_in_context,#Division_r,#Remainder_r,#Divisor_r,#Use_vocabulary_attached_to_division,#Recognise_divisor_or_multiple_of_a_natural_number,#IterationApproximationProcess_r -->
+      <string language="de">Bruch</string>
+      <string language="fr">fraction</string>
+      <string language="en">Fraction</string>
+      <string language="nl">Breuk</string>
+      <string language="de">Das Ergebnis einer Division (kontextabhängig) interpretieren</string>
+      <string language="fr">interpréter les résultats d'une division euclidienne en contexte</string>
+      <string language="de">Division</string>
+      <string language="fr">division</string>
+      <string language="en">division</string>
+      <string language="es">división</string>
+      <string language="nl">Delen</string>
+      <string language="de">Rest bei der Division</string>
+      <string language="fr">reste</string>
+      <string language="en">remainder</string>
+      <string language="nl">Rest</string>
+      <string language="de">Divisor</string>
+      <string language="de">Teiler</string>
+      <string language="de">Divisor</string>
+      <string language="de">Teiler</string>
+      <string language="fr">diviseur</string>
+      <string language="en">divisor</string>
+      <string language="nl">Deler</string>
+      <string language="de">das mit der Division verbundene Vokabular verwenden</string>
+      <string language="fr">utiliser le vocabulaire associé à la division : dividende, diviseur, quotient et reste</string>
+      <string language="en">use the vocabulary attached to division</string>
+      <string language="fr">reconnaître si un nombre entier est multiple ou diviseur d'un nombre entier positif</string>
+      <string language="fr">reconnaître si un nombre entier est multiple ou diviseur d'un nombre entier positif</string>
+      <string language="fr">reconnaître si un nombre entier est multiple ou diviseur d'un nombre entier positif</string>
+      <string language="fr">reconnaître si un nombre entier est multiple ou diviseur d'un nombre entier positif</string>
+      <string language="de">Schrittweise Nährerungsverfahren</string>
+      <string language="fr">processus itératif d'approximation</string>
+      <string language="en">iteration approximation process</string>
+      <string language="nl">Iteratief benaderingsproces</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">3.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Christian Mercat IREM de Lyon, IUFM&#xD;
+N:IREM de Lyon, IUFM;Christian Mercat;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-06-10T13:01:31.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Paul Libbrecht&#xD;
+N:Libbrecht;Paul;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2011-10-10T15:39:46.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>cdy</format>
+    <size>2286</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_ChristianMercat/AnthypheresealgorithmedEuclideetfractionscontinues</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Lycee_General_et_Technologique_1</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Seconde</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Seconde</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Seconde</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Seconde</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 15 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 15 -->
+    <typicalAgeRange>
+      <string language="en">15-16</string>
+    </typicalAgeRange>
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">Creative Commons Attribution Share Alike</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by-sa/2.0/</licenseURI>-->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Fraction_r</id>
+        <entry>
+          <string language="de">Bruch</string>
+          <string language="fr">fraction</string>
+          <string language="en">Fraction</string>
+          <string language="nl">Breuk</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Interpret_the_result_of_a_division_in_context</id>
+        <entry>
+          <string language="de">Das Ergebnis einer Division (kontextabhängig) interpretieren</string>
+          <string language="fr">interpréter les résultats d'une division euclidienne en contexte</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Division_r</id>
+        <entry>
+          <string language="de">Division</string>
+          <string language="fr">division</string>
+          <string language="en">division</string>
+          <string language="es">división</string>
+          <string language="nl">Delen</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Remainder_r</id>
+        <entry>
+          <string language="de">Rest bei der Division</string>
+          <string language="fr">reste</string>
+          <string language="en">remainder</string>
+          <string language="nl">Rest</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Divisor_r</id>
+        <entry>
+          <string language="de">Divisor</string>
+          <string language="de">Teiler</string>
+          <string language="de">Divisor</string>
+          <string language="de">Teiler</string>
+          <string language="fr">diviseur</string>
+          <string language="en">divisor</string>
+          <string language="nl">Deler</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Use_vocabulary_attached_to_division</id>
+        <entry>
+          <string language="de">das mit der Division verbundene Vokabular verwenden</string>
+          <string language="fr">utiliser le vocabulaire associé à la division : dividende, diviseur, quotient et reste</string>
+          <string language="en">use the vocabulary attached to division</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Recognise_divisor_or_multiple_of_a_natural_number</id>
+        <entry>
+          <string language="fr">reconnaître si un nombre entier est multiple ou diviseur d'un nombre entier positif</string>
+          <string language="fr">reconnaître si un nombre entier est multiple ou diviseur d'un nombre entier positif</string>
+          <string language="fr">reconnaître si un nombre entier est multiple ou diviseur d'un nombre entier positif</string>
+          <string language="fr">reconnaître si un nombre entier est multiple ou diviseur d'un nombre entier positif</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#IterationApproximationProcess_r</id>
+        <entry>
+          <string language="de">Schrittweise Nährerungsverfahren</string>
+          <string language="fr">processus itératif d'approximation</string>
+          <string language="en">iteration approximation process</string>
+          <string language="nl">Iteratief benaderingsproces</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

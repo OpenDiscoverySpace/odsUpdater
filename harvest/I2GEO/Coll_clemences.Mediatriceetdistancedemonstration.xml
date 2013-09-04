@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_clemences.Mediatriceetdistancedemonstration</entry>
+    </identifier>
+    <title>
+      <string language="fr">Médiatrice et distance (démonstration)</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">Figure servant de support à la démonstration de la propriété : "Si un point appartient à la médiatrice d'un segment, alors il est à égale distance des deux extrémités de ce segment."&lt;p/&gt;
+Version originale : &lt;span class="nobr"&gt;&lt;a href="http://i2geo.net/xwiki/bin/view/Coll_cdording/MediatriceEtDistancedemonstration"&gt;http://i2geo.net/xwiki/bin/view/Coll_cdording/MediatriceEtDistancedemonstration&lt;/a&gt;&lt;/span&gt;</string>
+    </description>
+    <keyword>
+      <string language="fr">médiatrice démonstration distance triangles isométriques</string>
+      <!-- ttac = #Length_r,#Congruent_triangles_r,#Length_unit_r,#Perpendicular_Bisector_r -->
+      <string language="de">Länge</string>
+      <string language="fr">Longueur</string>
+      <string language="en">length</string>
+      <string language="es">Longitud</string>
+      <string language="nl">Lengte</string>
+      <string language="cs">Délka</string>
+      <string language="de">kongruente Dreiecke</string>
+      <string language="fr">triangles isométriques</string>
+      <string language="nl">Congruente driehoeken</string>
+      <string language="cs">Shodné trojúhelníky</string>
+      <string language="de">Längeneinheit</string>
+      <string language="fr">unité de longueur</string>
+      <string language="en">length unit</string>
+      <string language="nl">Lengte-eenheid</string>
+      <string language="cs">Jednotka délky</string>
+      <string language="de">Mittelsenkrechte</string>
+      <string language="fr">médiatrice d'un segment</string>
+      <string language="en">Perpendicular bisector</string>
+      <string language="es">mediatriz</string>
+      <string language="nl">Middelloodlijn</string>
+      <string language="cs">Osa úsečky</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">4.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Sassenou  Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M&#xD;
+N: Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M;Sassenou;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-05-10T08:16:02.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Sassenou  Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M&#xD;
+N: Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M;Sassenou;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-05-10T08:35:18.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>tracenpocheFile</format>
+    <size>625</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_clemences/Mediatriceetdistancedemonstration</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#College_4</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Troisième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Troisième de Collège</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Troisième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Troisième de Collège</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 14 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 14 -->
+    <typicalAgeRange>
+      <string language="en">14-15</string>
+    </typicalAgeRange>
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Length_r</id>
+        <entry>
+          <string language="de">Länge</string>
+          <string language="fr">Longueur</string>
+          <string language="en">length</string>
+          <string language="es">Longitud</string>
+          <string language="nl">Lengte</string>
+          <string language="cs">Délka</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Congruent_triangles_r</id>
+        <entry>
+          <string language="de">kongruente Dreiecke</string>
+          <string language="fr">triangles isométriques</string>
+          <string language="nl">Congruente driehoeken</string>
+          <string language="cs">Shodné trojúhelníky</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Length_unit_r</id>
+        <entry>
+          <string language="de">Längeneinheit</string>
+          <string language="fr">unité de longueur</string>
+          <string language="en">length unit</string>
+          <string language="nl">Lengte-eenheid</string>
+          <string language="cs">Jednotka délky</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Perpendicular_Bisector_r</id>
+        <entry>
+          <string language="de">Mittelsenkrechte</string>
+          <string language="fr">médiatrice d'un segment</string>
+          <string language="en">Perpendicular bisector</string>
+          <string language="es">mediatriz</string>
+          <string language="nl">Middelloodlijn</string>
+          <string language="cs">Osa úsečky</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM lomODS.xsd">
+  <general>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM48</entry>
+    </identifier>
+    <title>
+      <string language="hr">Metodičke sintagme i paradigme</string>
+    </title>
+    <language>hr</language>
+    <description>
+      <string language="hr">Metodičke sintagme i paradigme su osmišljene u okviru metodičkog usavršavanja srednjoškolskih nastavnika. Pripremljeno je oko 500 vježbi s cjelokupnim vizualnim materijalom (oko 4000 slika) potrebnim da se vježbe izvedu. Nastavnici trebaju samo odabrati, kliknuti i printati ili direktno projicirati vježbe s računala. Svaka vježba sadrži verbalni opis i cjelokupni vizualni materijal.&lt;br /&gt;	&lt;br /&gt;&lt;br /&gt;	Teme su univerzalne, vizualno/likovne i prema tome primjenljive bez obzira na promjene školskih programa i udžbenika. Vježbe su poredane u mreži sintagmi (crtež, slika, skulptura, grad i graditeljstvo, fotografija) i paradigmi (elementarni znak, kadar, sintaksa, značenje, kako gledamo, što vidimo, kako sagledavamo, svi mediji zajedno) ili pak na razini povijesnih razdoblja, gdje paradigmatsku os čine stilska razdoblja. Zamisao je da se sintagme na temelju ponuđenog materijala slažu uvijek i nanovo, prema potrebi jer za svaku univerzalnu temu postoji veliki broj paradigmi dakle varijacija, inačica.&lt;br /&gt;&lt;br /&gt;	&lt;br /&gt;	Veliki broj vježbi je preuzet iz knjige Jadranka Damjanov: Umjetnost Avantura, bilježnica, Hermes, Zagreb, 1999. Knjiga sadrži materijal 80 radionica izvedenih u Slobodnoj školi radioničkog tipa (Centar za kulturu i obrazovanje Zagreb, Zagreb) između 1992. i 1997. godine. Materijal radionica je atomiziran, vježbe su osamostaljene i na taj je način ponuđeno njihovo korištenje u različitim situacijama, za ostvarenje različitih namjera svakog nastavnika ponaosob (iz razloga što knjiga više nije dostupna stavljena je kao elektronska verzija na web).&lt;br /&gt;	&lt;br /&gt;	Vježbe su predstavljene putem verbalnog objašnjenja postupka i vizualnog materijala. Pripremljen je i pojmovnik. Klikne li se na bilo koji temeljni likovni pojam npr. linija, boja, otvara se stranica verbalnog i vizualnog tumačenja (temeljeno na knjizi Jadranka Damjanov: Vizualni jezik i likovna umjetnost. ŠK Zagreb 1991.). Planiramo u buduće da nove pristigle vježbe postavljamo jednom godišnje.&lt;br /&gt;&lt;br /&gt;	&lt;br /&gt;	Od 2005. g. započet je novi niz neposrednih vježbi-igara (integrativne likovne igre). Može se koristiti bilo samostalno na osobnom računalu bilo zajednički (u frontalnom radu ili u radionicama).&lt;br /&gt;&lt;br /&gt;	Stranica ima i otvorenu vezu: surađujte s nama, gdje se očekuju primjedbe, iskustva, prijedlozi svakog tko osjeti potrebu za tim.</string>
+    </description>
+    <keyword>
+      <string language="hr">likovna umjetnost</string>
+      <string language="hr">metodika</string>
+      <string language="hr">vizualni jezik</string>
+      <string language="hr">istraživanje</string>
+      <string language="hr">integrativne likovne igre</string>
+      <string language="hr">avangarda</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <contribute>
+      <role>
+        <source>LOMODSv1.0</source>
+        <value>author</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+N:Damjanov, prof. dr.;Jadranka
+FN:Jadranka Damjanov, prof. dr.
+END:VCARD]]></entity>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMODSv1.0</source>
+        <value>author</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+N:Salamon;Jasna
+FN:Jasna Salamon
+END:VCARD]]></entity>
+    </contribute>
+  </lifeCycle>
+  <metaMetadata>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM48</entry>
+    </identifier>
+    <metadataSchema>LOMv1.0</metadataSchema>
+  </metaMetadata>
+  <technical>
+    <location>http://www.skole.hr/nastavni-materijali/materijal?nm_action=get_materijal_detaljno&amp;id=48</location>
+  </technical>
+  <educational>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>exercise</value>
+    </learningResourceType>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>lecture</value>
+    </learningResourceType>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>reference</value>
+    </learningResourceType>
+    <intendedEndUserRole>
+      <source>LOMODSv1.0</source>
+      <value>learner</value>
+    </intendedEndUserRole>
+    <context>
+      <source>LOMODSv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <typicalAgeRange>
+      <string language="en">14-15</string>
+      <string language="en">15-16</string>
+      <string language="en">16-17</string>
+      <string language="en">17-18</string>
+    </typicalAgeRange>
+  </educational>
+  <rights>
+    <copyrightAndOtherRestrictions>
+      <source>LOMODSv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="hr">Ovaj objekt učenja je vlasništvo njegovog autora. Objekt učenja slobodan je za korištenje uz navođenje autora materijala.</string>
+      <string language="en">This learning object is owned by its respective author. The learning object is free for use, but it is necessary to attribute the author as its creator.</string>
+    </description>
+  </rights>
+  <relation />
+  <annotation />
+  <classification>
+    <purpose>
+      <source>LOMODSv1.0</source>
+      <value>discipline</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Social Studies Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Culture and Cultural Theory</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

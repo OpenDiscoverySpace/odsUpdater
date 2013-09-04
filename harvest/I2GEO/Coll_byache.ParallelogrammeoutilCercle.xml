@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_byache.ParallelogrammeoutilCercle</entry>
+    </identifier>
+    <title>
+      <string language="fr">Parallélogramme (outil cercle)</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">Un exercice implémenté dans wims mais basé sur une figure GeoGebra.
+Il s'agit de construire un parallélogramme en utilisant seulement les outils "droite" et "cercle".</string>
+    </description>
+    <keyword>
+      <string language="fr">parallelogramme</string>
+      <!-- ttac = #Quadrilateral_r,#Construct_parallelogram,#Parallelogram_r,#Use_characteristic_properties_of_parallelogram,#Use_parallelogram_properties -->
+      <string language="de">Viereck</string>
+      <string language="fr">quadrilatère</string>
+      <string language="en">quadrilateral</string>
+      <string language="es">cuadrilátero</string>
+      <string language="nl">Vierhoek</string>
+      <string language="cs">Čtyřúhelník</string>
+      <string language="de">ein Parallelogramm konstruieren</string>
+      <string language="fr">construire un parallélogramme</string>
+      <string language="en">construct a parallelogram</string>
+      <string language="nl">Een paralellogram construeren</string>
+      <string language="de">Parallelogramm</string>
+      <string language="fr">parallélogramme</string>
+      <string language="en">parallelogram</string>
+      <string language="es">paralelogramo</string>
+      <string language="nl">Parallellogram</string>
+      <string language="cs">Rovnoběžník</string>
+      <string language="de">die charakteristischen Eigenschaften des Parallelogramms verwenden</string>
+      <string language="fr">utiliser les propriétés caractéristiques du parallélogramme</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">1.02</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Paul  Byache&#xD;
+N:Byache;Paul ;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-03-13T00:22:25.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Paul  Byache&#xD;
+N:Byache;Paul ;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-11-04T15:01:51.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_byache/ParallelogrammeoutilCercle</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#College_2</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Cinquième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Cinquième de Collège</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Cinquième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Cinquième de Collège</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 12 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 12 -->
+    <typicalAgeRange>
+      <string language="en">12-13</string>
+    </typicalAgeRange>
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <!-- unrecognized license type: "cc-by-nc-sa" -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Quadrilateral_r</id>
+        <entry>
+          <string language="de">Viereck</string>
+          <string language="fr">quadrilatère</string>
+          <string language="en">quadrilateral</string>
+          <string language="es">cuadrilátero</string>
+          <string language="nl">Vierhoek</string>
+          <string language="cs">Čtyřúhelník</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Construct_parallelogram</id>
+        <entry>
+          <string language="de">ein Parallelogramm konstruieren</string>
+          <string language="fr">construire un parallélogramme</string>
+          <string language="en">construct a parallelogram</string>
+          <string language="nl">Een paralellogram construeren</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Parallelogram_r</id>
+        <entry>
+          <string language="de">Parallelogramm</string>
+          <string language="fr">parallélogramme</string>
+          <string language="en">parallelogram</string>
+          <string language="es">paralelogramo</string>
+          <string language="nl">Parallellogram</string>
+          <string language="cs">Rovnoběžník</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Use_characteristic_properties_of_parallelogram</id>
+        <entry>
+          <string language="de">die charakteristischen Eigenschaften des Parallelogramms verwenden</string>
+          <string language="fr">utiliser les propriétés caractéristiques du parallélogramme</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Use_parallelogram_properties</id>
+        <entry>
+          <string language="en">
+            <!-- fallback from URI -->
+            Use parallelogram properties
+          </string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

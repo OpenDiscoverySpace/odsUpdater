@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_truppeldanielsg.Taylorpolynomevoncosx</entry>
+    </identifier>
+    <title>
+      <string language="en">Taylorpolynome von cos(x)</string>
+    </title>
+    <language>en</language>
+    <description>
+      <string language="en">Hier wird eine Taylorreihe gezeigt. Taylorpolynome von cos(x). Das Applet veranschaulicht wieder die Annäherung der Taylorpolynome an die eigentliche Funktion.</string>
+    </description>
+    <keyword>
+      <string language="en" />
+      <!-- ttac = #Data_analysis_r -->
+      <string language="de">Datenanalyse</string>
+      <string language="fr">Traitement de données</string>
+      <string language="fr">anayse de données</string>
+      <string language="fr">Traitement de données</string>
+      <string language="fr">anayse de données</string>
+      <string language="en">data analysis</string>
+      <string language="nl">Data-analyse</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">2.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Daniel Truppel&#xD;
+N:Truppel;Daniel;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-03-23T10:38:05.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Sassenou  Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M&#xD;
+N: Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M;Sassenou;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-04-26T09:38:10.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_truppeldanielsg/Taylorpolynomevoncosx</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT resource_animation
+        true    true     -->
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>demonstration</value>
+    </learningResourceType>
+    <interactivityLevel>
+      <source>LOMv1.0</source>
+      <value>medium</value>
+    </interactivityLevel>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills</value>
+            </context>
+                                     -->
+    <language>en</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Data_analysis_r</id>
+        <entry>
+          <string language="de">Datenanalyse</string>
+          <string language="fr">Traitement de données</string>
+          <string language="fr">anayse de données</string>
+          <string language="fr">Traitement de données</string>
+          <string language="fr">anayse de données</string>
+          <string language="en">data analysis</string>
+          <string language="nl">Data-analyse</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

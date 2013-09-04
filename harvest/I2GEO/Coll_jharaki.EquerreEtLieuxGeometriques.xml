@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_jharaki.EquerreEtLieuxGeometriques</entry>
+    </identifier>
+    <title>
+      <string language="fr">Equerre et lieux géométriques</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">L'équerre nous livre une configuration géométrique classique mais intéressante avec la recherche de trois lieux géométriques (segment - arc de cercle - arc d'ellipse) et des réciproques tout aussi intéressantes. &lt;p/&gt;
+L'animation permet de faire découvrir rapidement la situation à une classe puis de conjecturer facilement la nature des lieux géométriques.&lt;p/&gt;
+&lt;strong&gt;Cette resource est la copie d'une trace de la première étape d'intergeo&lt;/strong&gt;&lt;p/&gt;
+Cette resource vient de &lt;a class="wikicreatelink" href="http://i2geo.net/xwiki/bin/edit/Traces/Equerre+et+lieux?parent=Coll_jharaki.EquerreEtLieuxGeometriques"&gt;&lt;span class="wikicreatelinktext"&gt;Equerre et lieux&lt;/span&gt;&lt;span class="wikicreatelinkqm"&gt;?&lt;/span&gt;&lt;/a&gt; qui mentionne  constructions.&lt;p/&gt;
+&lt;ul class="minus"&gt;
+&lt;li&gt;Système de géométrie: &lt;span class="wikilink"&gt;&lt;a href="http://i2geo.net/xwiki/bin/view/Softwares/WebPreferences"&gt;Web Preferences&lt;/a&gt;&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;Pays: fr&lt;/li&gt;
+&lt;li&gt;Niveau d'enseignement: Première/Terminale&lt;/li&gt;
+&lt;li&gt;Sujet principal: Lines&lt;/li&gt;
+&lt;li&gt;Autres thèmeslieux géométriques - ellipse&lt;/li&gt;
+&lt;/ul&gt;</string>
+    </description>
+    <keyword>
+      <string language="fr">lieux géométriques - ellipse</string>
+      <!-- ttac = #Straight_Line_r,#Locus_r,#Circle_r,#Ellipse_r,#Conjecture_in_problem_solving -->
+      <string language="de">Gerade</string>
+      <string language="fr">droite</string>
+      <string language="en">straight line</string>
+      <string language="es">línea recta</string>
+      <string language="nl">Rechte</string>
+      <string language="nl">Rechte lijn</string>
+      <string language="nl">Rechte</string>
+      <string language="nl">Rechte lijn</string>
+      <string language="cs">Přímka</string>
+      <string language="de">Geometrischer Ort</string>
+      <string language="fr">lieu géométrique</string>
+      <string language="es">Lugar geométrico</string>
+      <string language="nl">Locus</string>
+      <string language="nl">Meetkundige plaats</string>
+      <string language="nl">Locus</string>
+      <string language="nl">Meetkundige plaats</string>
+      <string language="cs">Geometrické místo bodů</string>
+      <string language="cs">Množina bodů dané vlastnosti</string>
+      <string language="cs">Geometrické místo bodů</string>
+      <string language="cs">Množina bodů dané vlastnosti</string>
+      <string language="de">Kreis</string>
+      <string language="fr">cercle</string>
+      <string language="en">circle</string>
+      <string language="es">Círculo</string>
+      <string language="nl">Cirkel</string>
+      <string language="cs">Kružnice</string>
+      <string language="de">Ellipse</string>
+      <string language="fr">ellipse</string>
+      <string language="en">Ellipse</string>
+      <string language="nl">Ellips</string>
+      <string language="cs">Elipsa</string>
+      <string language="de">spekulieren</string>
+      <string language="de">vermuten</string>
+      <string language="de">mutmaßen</string>
+      <string language="de">spekulieren</string>
+      <string language="de">vermuten</string>
+      <string language="de">mutmaßen</string>
+      <string language="de">spekulieren</string>
+      <string language="de">vermuten</string>
+      <string language="de">mutmaßen</string>
+      <string language="fr">faire des conjectures</string>
+      <string language="en">make conjectures</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">1.02</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:jharaki jalil&#xD;
+N:jalil;jharaki;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-04-07T16:05:23.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:jharaki jalil&#xD;
+N:jalil;jharaki;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-11-04T14:59:02.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_jharaki/EquerreEtLieuxGeometriques</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_exercise
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>exercise</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Lycee_General_et_Technologique_2_serie_S</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Première générale S</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Première générale S</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Première générale S</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Première générale S</value>                </context>
+                                                    <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Lycee_General_et_Technologique_3_serie_S</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Terminale générale S</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Terminale générale S</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Terminale générale S</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Terminale générale S</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 16 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 17 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 16 -->
+    <typicalAgeRange>
+      <string language="en">16-17</string>
+    </typicalAgeRange>
+    <!-- typicalAgeRange is: 17 -->
+    <typicalAgeRange>
+      <string language="en">17-18</string>
+    </typicalAgeRange>
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <!-- unrecognized license type: "cc-by-sa" -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Straight_Line_r</id>
+        <entry>
+          <string language="de">Gerade</string>
+          <string language="fr">droite</string>
+          <string language="en">straight line</string>
+          <string language="es">línea recta</string>
+          <string language="nl">Rechte</string>
+          <string language="nl">Rechte lijn</string>
+          <string language="nl">Rechte</string>
+          <string language="nl">Rechte lijn</string>
+          <string language="cs">Přímka</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Locus_r</id>
+        <entry>
+          <string language="de">Geometrischer Ort</string>
+          <string language="fr">lieu géométrique</string>
+          <string language="es">Lugar geométrico</string>
+          <string language="nl">Locus</string>
+          <string language="nl">Meetkundige plaats</string>
+          <string language="nl">Locus</string>
+          <string language="nl">Meetkundige plaats</string>
+          <string language="cs">Geometrické místo bodů</string>
+          <string language="cs">Množina bodů dané vlastnosti</string>
+          <string language="cs">Geometrické místo bodů</string>
+          <string language="cs">Množina bodů dané vlastnosti</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Circle_r</id>
+        <entry>
+          <string language="de">Kreis</string>
+          <string language="fr">cercle</string>
+          <string language="en">circle</string>
+          <string language="es">Círculo</string>
+          <string language="nl">Cirkel</string>
+          <string language="cs">Kružnice</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Ellipse_r</id>
+        <entry>
+          <string language="de">Ellipse</string>
+          <string language="fr">ellipse</string>
+          <string language="en">Ellipse</string>
+          <string language="nl">Ellips</string>
+          <string language="cs">Elipsa</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Conjecture_in_problem_solving</id>
+        <entry>
+          <string language="de">spekulieren</string>
+          <string language="de">vermuten</string>
+          <string language="de">mutmaßen</string>
+          <string language="de">spekulieren</string>
+          <string language="de">vermuten</string>
+          <string language="de">mutmaßen</string>
+          <string language="de">spekulieren</string>
+          <string language="de">vermuten</string>
+          <string language="de">mutmaßen</string>
+          <string language="fr">faire des conjectures</string>
+          <string language="en">make conjectures</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

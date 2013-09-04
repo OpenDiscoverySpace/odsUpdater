@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_clemences.TangentenundderSatzdesThales</entry>
+    </identifier>
+    <title>
+      <string language="en">Tangenten und der Satz des Thales</string>
+    </title>
+    <language>en</language>
+    <description>
+      <string language="en">Es soll gelernt werden, dass man für die Konstruktion einer Tangente von einem Punkt an den Kreis, den Satz des Thales verwendet.</string>
+    </description>
+    <keyword>
+      <string language="en">Satz des Thales Thales Tangenten und Satz des Thales Tangenten Thales</string>
+      <!-- ttac = #Tangent_of_angle_r,#exploreThalesCircleTheorem -->
+      <string language="de">Tangens (Verhältnis in einem Dreieck)</string>
+      <string language="de">Tangens (Verhältnis in einem Dreieck)</string>
+      <string language="en">tangent (ratio in a triangle)</string>
+      <string language="en">tangent (ratio in a triangle)</string>
+      <string language="nl">Tangens (verhouding in een driehoek)</string>
+      <string language="nl">Tangens (verhouding in een driehoek)</string>
+      <string language="de">Tangens (Verhältnis in einem Dreieck)</string>
+      <string language="de">Tangens (Verhältnis in einem Dreieck)</string>
+      <string language="fr">tangente</string>
+      <string language="en">tangent (ratio in a triangle)</string>
+      <string language="en">tangent (ratio in a triangle)</string>
+      <string language="es">tangente</string>
+      <string language="nl">Tangens (verhouding in een driehoek)</string>
+      <string language="nl">Tangens (verhouding in een driehoek)</string>
+      <string language="de">den Satz des Thales untersuchen</string>
+      <string language="fr">explorer le théorème de l'angle droit inscrit dans un demi-cercle</string>
+      <string language="en">explore the Thales theorem in a circle</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">6.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Sassenou  Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M&#xD;
+N: Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M;Sassenou;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-04-19T13:06:26.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Paul Libbrecht&#xD;
+N:Libbrecht;Paul;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2011-01-22T12:34:38.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>cdy</format>
+    <size>2764</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_clemences/TangentenundderSatzdesThales</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT resource_animation
+        true    true     -->
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>demonstration</value>
+    </learningResourceType>
+    <interactivityLevel>
+      <source>LOMv1.0</source>
+      <value>medium</value>
+    </interactivityLevel>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Northern_Ireland_Year9</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Year 9 (DEPRECATED)</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Year 9 (DEPRECATED)</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Year 9 (DEPRECATED)</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Year 9 (DEPRECATED)</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 12 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 12 -->
+    <typicalAgeRange>
+      <string language="en">12-13</string>
+    </typicalAgeRange>
+    <language>en</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Tangent_of_angle_r</id>
+        <entry>
+          <string language="de">Tangens (Verhältnis in einem Dreieck)</string>
+          <string language="de">Tangens (Verhältnis in einem Dreieck)</string>
+          <string language="en">tangent (ratio in a triangle)</string>
+          <string language="en">tangent (ratio in a triangle)</string>
+          <string language="nl">Tangens (verhouding in een driehoek)</string>
+          <string language="nl">Tangens (verhouding in een driehoek)</string>
+          <string language="de">Tangens (Verhältnis in einem Dreieck)</string>
+          <string language="de">Tangens (Verhältnis in einem Dreieck)</string>
+          <string language="fr">tangente</string>
+          <string language="en">tangent (ratio in a triangle)</string>
+          <string language="en">tangent (ratio in a triangle)</string>
+          <string language="es">tangente</string>
+          <string language="nl">Tangens (verhouding in een driehoek)</string>
+          <string language="nl">Tangens (verhouding in een driehoek)</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#exploreThalesCircleTheorem</id>
+        <entry>
+          <string language="de">den Satz des Thales untersuchen</string>
+          <string language="fr">explorer le théorème de l'angle droit inscrit dans un demi-cercle</string>
+          <string language="en">explore the Thales theorem in a circle</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

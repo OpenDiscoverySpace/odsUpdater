@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_cdording.GenerationDhyperboloides</entry>
+    </identifier>
+    <title>
+      <string language="fr">Génération d'hyperboloïdes</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">Le fichier est né du texte d' un sujet de l'oral 2 du CAPES, il avait d'abord pour ambition d'illustrer le corrigé (ci-joint) et de valider certains résultats. 
+Les différentes animations proposées mettent en évidence trois façons de générer l'hyperboloïde de révolution :&lt;p/&gt;
+A l'aide des deux familles de droites génératrices 
+Avec les cercles obtenus par intersection de l'hyperboloïde et d'un plan horizontal 
+Avec les hyperboles obtenues par intersection de l'hyperboloïde avec un plan contenant l'axe (oz) de révolution. &lt;p/&gt;
+Les différentes animations proposées (voir ci-dessous) répondent au besoin d'illustration des différentes questions du sujet. &lt;p/&gt;
+&lt;strong&gt;Cette resource est la copie d'une trace de la première étape d'intergeo&lt;/strong&gt;&lt;p/&gt;
+Cette resource vient de &lt;a class="wikicreatelink" href="http://i2geo.net/xwiki/bin/edit/Traces/hyperboloides?parent=Coll_cdording.GenerationDhyperboloides"&gt;&lt;span class="wikicreatelinktext"&gt;hyperboloides&lt;/span&gt;&lt;span class="wikicreatelinkqm"&gt;?&lt;/span&gt;&lt;/a&gt; qui mentionne 3 constructions.&lt;p/&gt;
+&lt;ul class="minus"&gt;
+&lt;li&gt;Système de géométrie: &lt;span class="wikilink"&gt;&lt;a href="http://i2geo.net/xwiki/bin/view/Softwares/GeoPlan-GeoSpace"&gt;Geo Plan&amp;#45;Geo Space&lt;/a&gt;&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;Pays: fr&lt;/li&gt;
+&lt;li&gt;Niveau d'enseignement: Terminale et après&lt;/li&gt;
+&lt;li&gt;Sujet principal: Solids&lt;/li&gt;
+&lt;li&gt;Autres thèmesSurfaces réglées - Intrsections de plans et d'hyperboloïdes&lt;/li&gt;
+&lt;/ul&gt;</string>
+    </description>
+    <keyword>
+      <string language="fr">Surfaces réglées - Intrsections de plans et d&amp;#8217;hyperboloïdes</string>
+      <!-- ttac = #Solidobjects_r -->
+      <string language="de">Körper</string>
+      <string language="fr">solide</string>
+      <string language="en">solid object</string>
+      <string language="es">cuerpo geométrico</string>
+      <string language="nl">Lichaam</string>
+      <string language="cs">Těleso</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">2.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Carole Dording&#xD;
+N:Dording;Carole;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-04-20T14:48:24.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Sassenou  Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M&#xD;
+N: Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M;Sassenou;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-05-17T12:48:46.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_cdording/GenerationDhyperboloides</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills</value>
+            </context>
+                                     -->
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <!-- unrecognized license type: "cc-by-sa" -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Solidobjects_r</id>
+        <entry>
+          <string language="de">Körper</string>
+          <string language="fr">solide</string>
+          <string language="en">solid object</string>
+          <string language="es">cuerpo geométrico</string>
+          <string language="nl">Lichaam</string>
+          <string language="cs">Těleso</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

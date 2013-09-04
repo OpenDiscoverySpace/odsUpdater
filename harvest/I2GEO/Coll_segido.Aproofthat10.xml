@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_segido.Aproofthat10</entry>
+    </identifier>
+    <title>
+      <string language="en">A proof that 1=0</string>
+    </title>
+    <language>en</language>
+    <description>
+      <string language="en">A fallacious proof that 1 = 0 involving constants of integration</string>
+    </description>
+    <keyword>
+      <string language="en">1 integration constants fallacy</string>
+      <!-- ttac = #fallacy_r,#Algebraic_calculation_r,#Manipulate_equations -->
+      <string language="de">algebraische Berechnung</string>
+      <string language="fr">Calculs algébriques</string>
+      <string language="fr">calcul littéral</string>
+      <string language="fr">Calculs algébriques</string>
+      <string language="fr">calcul littéral</string>
+      <string language="en">algebraic calculation</string>
+      <string language="nl">Algebraïsche berekening</string>
+      <string language="de">Gleichungen verändern</string>
+      <string language="fr">manipuler des équations</string>
+      <string language="en">manipulate equations</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">1.02</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Santiago Egido&#xD;
+N:Egido;Santiago;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2008-11-14T12:25:22.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Santiago Egido&#xD;
+N:Egido;Santiago;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-11-04T14:51:24.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>doc</format>
+    <size>42496</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_segido/Aproofthat10</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills</value>
+            </context>
+                                     -->
+    <language>en</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#fallacy_r</id>
+        <entry>
+          <string language="en">
+            <!-- fallback from URI -->
+            fallacy r
+          </string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Algebraic_calculation_r</id>
+        <entry>
+          <string language="de">algebraische Berechnung</string>
+          <string language="fr">Calculs algébriques</string>
+          <string language="fr">calcul littéral</string>
+          <string language="fr">Calculs algébriques</string>
+          <string language="fr">calcul littéral</string>
+          <string language="en">algebraic calculation</string>
+          <string language="nl">Algebraïsche berekening</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Manipulate_equations</id>
+        <entry>
+          <string language="de">Gleichungen verändern</string>
+          <string language="fr">manipuler des équations</string>
+          <string language="en">manipulate equations</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

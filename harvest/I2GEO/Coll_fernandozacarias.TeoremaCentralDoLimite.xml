@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_fernandozacarias.TeoremaCentralDoLimite</entry>
+    </identifier>
+    <title>
+      <string language="es">Teorema Central do Límite</string>
+    </title>
+    <language>es</language>
+    <description>
+      <string language="es">A seguinte figura permite a interpretación gráfica do teorema central do límite e das súas aplicacións inmediatas. Visualiza e calcula as probabilidades, tanto na distribución referida á poboación, como na das medias mostrais.
+?	Os deslizadores de ?, ? e n, nos situán na distribución da poboación e no tamaño da mostra. Con estes valores poderase inferi-la distribución das medias mostrais.
+?	Tomando o deslizador de ? como o correspondente á media das mostras, poderase obter un intervalo de confianza para a media da poboación cun nivel de confianza determinado.
+?	Os deslizadores a e b determinarán o intervalo de confianza.
+?	Pódense calcular probabilidades nas dúas distribucións simultaneamente.
+?	Fixada a media e a desviación típica, pódese obte-lo tamaño mónimo da mostra para un intervalo e un nivel de confianza determinados.&lt;p/&gt;</string>
+    </description>
+    <keyword>
+      <string language="es">Distribucións de probabilidade</string>
+      <!-- ttac = #Probability_r -->
+      <string language="de">Wahrscheinlichkeit</string>
+      <string language="fr">probabilité</string>
+      <string language="en">probability</string>
+      <string language="es">probabilidad</string>
+      <string language="nl">Waarschijnlijkheid</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">11.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Fernando Zacarias&#xD;
+N:Zacarias;Fernando;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-04-02T21:50:56.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Paul Libbrecht&#xD;
+N:Libbrecht;Paul;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2012-04-23T01:05:05.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>ggb</format>
+    <size>8219</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_fernandozacarias/TeoremaCentralDoLimite</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills</value>
+            </context>
+                                     -->
+    <language>es</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <!-- unrecognized license type: "cc-by-sa" -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Probability_r</id>
+        <entry>
+          <string language="de">Wahrscheinlichkeit</string>
+          <string language="fr">probabilité</string>
+          <string language="en">probability</string>
+          <string language="es">probabilidad</string>
+          <string language="nl">Waarschijnlijkheid</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

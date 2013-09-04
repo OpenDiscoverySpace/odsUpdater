@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_clemences.TheoremedeNapoleon</entry>
+    </identifier>
+    <title>
+      <string language="fr">Théorème de Napoléon</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">Faire sur papier ou avec un logiciel de géométrie dynamique une construction géométrique basée sur des triangles équilatéraux&lt;p/&gt;
+(Fichier Thm de Napoleon.ggb = correction de cette construction ; il suffit de bouger le point du curseur.)&lt;p/&gt;
+&lt;ul class="star"&gt;
+&lt;li&gt;Reconnaître la nature d'un triangle&lt;/li&gt;
+&lt;li&gt;Conjecturer une propriété originale&lt;/li&gt;
+&lt;/ul&gt;Version originale : &lt;span class="nobr"&gt;&lt;a href="http://i2geo.net/xwiki/bin/view/Coll_cdording/TheoremedeNapoleon"&gt;http://i2geo.net/xwiki/bin/view/Coll_cdording/TheoremedeNapoleon&lt;/a&gt;&lt;/span&gt;</string>
+    </description>
+    <keyword>
+      <string language="fr">théorème de Napoléon triangle équilatéral</string>
+      <!-- ttac = #Recognise_equilateral_triangle,#Conjecture_in_geometry_activity,#Equilateral-Triangle_r,#Construct_equilateral_triangle_using_graduated_ruler_and_compass -->
+      <string language="fr">reconnaître un triangle équilatéral</string>
+      <string language="fr">reconnaître un triangle équilatéral</string>
+      <string language="fr">reconnaître un triangle équilatéral</string>
+      <string language="fr">reconnaître un triangle équilatéral</string>
+      <string language="de">Vermutungen bei geometrischen Tätigkeiten anstellen</string>
+      <string language="fr">conjecturer dans les activités géométriques</string>
+      <string language="de">gleichseitiges Dreieck</string>
+      <string language="fr">triangle équiatéral</string>
+      <string language="en">equilateral triangle</string>
+      <string language="es">triángulo equilátero</string>
+      <string language="nl">Gelijkzijdige driehoek</string>
+      <string language="de">ein gleichseitiges Dreieck konstruieren (mit Zirkel und Lineal)</string>
+      <string language="fr">construire un triangle équilatéral à la règle graduée et au compas</string>
+      <string language="en">construct an equilateral triangle using graduated ruler and compass</string>
+      <string language="nl">Een gelijkzijdige driehoek construeren met passer en liniaal</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">7.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Sassenou  Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M&#xD;
+N: Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M;Sassenou;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-04-27T09:20:33.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Sassenou  Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M&#xD;
+N: Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M;Sassenou;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-04-27T15:23:42.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_clemences/TheoremedeNapoleon</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_exercise
+    true    true         -->
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>exercise</value>
+    </learningResourceType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#College_1</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Sixième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Sixième de Collège</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Sixième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Sixième de Collège</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 11 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 11 -->
+    <typicalAgeRange>
+      <string language="en">11-12</string>
+    </typicalAgeRange>
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Recognise_equilateral_triangle</id>
+        <entry>
+          <string language="fr">reconnaître un triangle équilatéral</string>
+          <string language="fr">reconnaître un triangle équilatéral</string>
+          <string language="fr">reconnaître un triangle équilatéral</string>
+          <string language="fr">reconnaître un triangle équilatéral</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Conjecture_in_geometry_activity</id>
+        <entry>
+          <string language="de">Vermutungen bei geometrischen Tätigkeiten anstellen</string>
+          <string language="fr">conjecturer dans les activités géométriques</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Equilateral-Triangle_r</id>
+        <entry>
+          <string language="de">gleichseitiges Dreieck</string>
+          <string language="fr">triangle équiatéral</string>
+          <string language="en">equilateral triangle</string>
+          <string language="es">triángulo equilátero</string>
+          <string language="nl">Gelijkzijdige driehoek</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Construct_equilateral_triangle_using_graduated_ruler_and_compass</id>
+        <entry>
+          <string language="de">ein gleichseitiges Dreieck konstruieren (mit Zirkel und Lineal)</string>
+          <string language="fr">construire un triangle équilatéral à la règle graduée et au compas</string>
+          <string language="en">construct an equilateral triangle using graduated ruler and compass</string>
+          <string language="nl">Een gelijkzijdige driehoek construeren met passer en liniaal</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

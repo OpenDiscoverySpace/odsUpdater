@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_byache.ThalesGeolaboTableur</entry>
+    </identifier>
+    <title>
+      <string language="fr">Thales Geolabo tableur</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">Figure très classique de la configuration de Thalès dans un triangle.
+Utilisation de la figure de géométrie dynamique insérée dans une page de tableur, en lien avec la proportionnalité :
+Copier les mesures de la figure dans le tableau ci-dessous.
+Effectuer les calculs permettant de vérifier qu'on obtient un tableau de proportionnalité.
+Quel est le théorème qui permettait de prévoir que le tableau serait un tableau de proportionnalité ?</string>
+    </description>
+    <keyword>
+      <string language="fr">proportionality thales parallels</string>
+      <!-- ttac = #Proportional_r,#Constant_of_proportionality_r,#InterceptTheorem,#identify-ratio,#Use_proportionality_of_sidelengths_of_triangles_in_particular_configuration -->
+      <string language="de">proportional</string>
+      <string language="de">direkt proportional</string>
+      <string language="de">proportional</string>
+      <string language="de">direkt proportional</string>
+      <string language="fr">proportionnel</string>
+      <string language="fr">relation de proportionnalité directe</string>
+      <string language="fr">proportionnel</string>
+      <string language="fr">relation de proportionnalité directe</string>
+      <string language="en">proportional</string>
+      <string language="es">proporcional</string>
+      <string language="es">relación de proporcionalidad directa</string>
+      <string language="es">proporcional</string>
+      <string language="es">relación de proporcionalidad directa</string>
+      <string language="nl">Recht evenredig</string>
+      <string language="nl">Proportioneel</string>
+      <string language="nl">Evenredig</string>
+      <string language="nl">Recht evenredig</string>
+      <string language="nl">Proportioneel</string>
+      <string language="nl">Evenredig</string>
+      <string language="nl">Recht evenredig</string>
+      <string language="nl">Proportioneel</string>
+      <string language="nl">Evenredig</string>
+      <string language="de">Proportionalitätskonstante</string>
+      <string language="de">Proportionalitätsfaktor</string>
+      <string language="de">Proportionalitätskonstante</string>
+      <string language="de">Proportionalitätsfaktor</string>
+      <string language="fr">coefficient de proportionnalité</string>
+      <string language="es">constante de proporc</string>
+      <string language="nl">Evenredigheidsconstante</string>
+      <string language="de">Vierstreckensatz</string>
+      <string language="de">Strahlensatz</string>
+      <string language="de">Vierstreckensatz</string>
+      <string language="de">Strahlensatz</string>
+      <string language="fr">Théorème de Thalès</string>
+      <string language="en">Intercept-Theorem</string>
+      <string language="en">Intercepting lines theorem</string>
+      <string language="en">Intercept-Theorem</string>
+      <string language="en">Intercepting lines theorem</string>
+      <string language="es">Teorema de Tales</string>
+      <string language="nl">Stelling van Thales</string>
+      <string language="fr">identifier les rapports invariants dans la configuration de Thales</string>
+      <string language="en">identify invariant ratios in Thales configuration</string>
+      <string language="de">den Strahlensatz verwenden</string>
+      <string language="de">die Proportionalität der Seitenlängen von zwei ähnlichen Dreiecken nutzen( wenn ein Seitenpaar parallel ist)</string>
+      <string language="fr">utiliser la proportionnalité des longueurs des côtés de deux triangles en configuration de Thales</string>
+      <string language="en">use the proportionality of sidelengths of similar triangles in a particular configuration (a pair of parallel sides)</string>
+      <string language="de">den Strahlensatz verwenden</string>
+      <string language="de">die Proportionalität der Seitenlängen von zwei ähnlichen Dreiecken nutzen( wenn ein Seitenpaar parallel ist)</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">1.02</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Paul  Byache&#xD;
+N:Byache;Paul ;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-03-18T17:01:21.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Paul  Byache&#xD;
+N:Byache;Paul ;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-11-04T15:01:52.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_byache/ThalesGeolaboTableur</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#College_3</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Quatrième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Quatrième de Collège</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Quatrième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Quatrième de Collège</value>                </context>
+                                                    <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#College_4</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Troisième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Troisième de Collège</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Troisième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Troisième de Collège</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 13 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 14 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 13 -->
+    <typicalAgeRange>
+      <string language="en">13-14</string>
+    </typicalAgeRange>
+    <!-- typicalAgeRange is: 14 -->
+    <typicalAgeRange>
+      <string language="en">14-15</string>
+    </typicalAgeRange>
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <!-- unrecognized license type: "cc-by-nc-sa" -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Proportional_r</id>
+        <entry>
+          <string language="de">proportional</string>
+          <string language="de">direkt proportional</string>
+          <string language="de">proportional</string>
+          <string language="de">direkt proportional</string>
+          <string language="fr">proportionnel</string>
+          <string language="fr">relation de proportionnalité directe</string>
+          <string language="fr">proportionnel</string>
+          <string language="fr">relation de proportionnalité directe</string>
+          <string language="en">proportional</string>
+          <string language="es">proporcional</string>
+          <string language="es">relación de proporcionalidad directa</string>
+          <string language="es">proporcional</string>
+          <string language="es">relación de proporcionalidad directa</string>
+          <string language="nl">Recht evenredig</string>
+          <string language="nl">Proportioneel</string>
+          <string language="nl">Evenredig</string>
+          <string language="nl">Recht evenredig</string>
+          <string language="nl">Proportioneel</string>
+          <string language="nl">Evenredig</string>
+          <string language="nl">Recht evenredig</string>
+          <string language="nl">Proportioneel</string>
+          <string language="nl">Evenredig</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Constant_of_proportionality_r</id>
+        <entry>
+          <string language="de">Proportionalitätskonstante</string>
+          <string language="de">Proportionalitätsfaktor</string>
+          <string language="de">Proportionalitätskonstante</string>
+          <string language="de">Proportionalitätsfaktor</string>
+          <string language="fr">coefficient de proportionnalité</string>
+          <string language="es">constante de proporc</string>
+          <string language="nl">Evenredigheidsconstante</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#InterceptTheorem</id>
+        <entry>
+          <string language="de">Vierstreckensatz</string>
+          <string language="de">Strahlensatz</string>
+          <string language="de">Vierstreckensatz</string>
+          <string language="de">Strahlensatz</string>
+          <string language="fr">Théorème de Thalès</string>
+          <string language="en">Intercept-Theorem</string>
+          <string language="en">Intercepting lines theorem</string>
+          <string language="en">Intercept-Theorem</string>
+          <string language="en">Intercepting lines theorem</string>
+          <string language="es">Teorema de Tales</string>
+          <string language="nl">Stelling van Thales</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#identify-ratio</id>
+        <entry>
+          <string language="fr">identifier les rapports invariants dans la configuration de Thales</string>
+          <string language="en">identify invariant ratios in Thales configuration</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Use_proportionality_of_sidelengths_of_triangles_in_particular_configuration</id>
+        <entry>
+          <string language="de">den Strahlensatz verwenden</string>
+          <string language="de">die Proportionalität der Seitenlängen von zwei ähnlichen Dreiecken nutzen( wenn ein Seitenpaar parallel ist)</string>
+          <string language="fr">utiliser la proportionnalité des longueurs des côtés de deux triangles en configuration de Thales</string>
+          <string language="en">use the proportionality of sidelengths of similar triangles in a particular configuration (a pair of parallel sides)</string>
+          <string language="de">den Strahlensatz verwenden</string>
+          <string language="de">die Proportionalität der Seitenlängen von zwei ähnlichen Dreiecken nutzen( wenn ein Seitenpaar parallel ist)</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

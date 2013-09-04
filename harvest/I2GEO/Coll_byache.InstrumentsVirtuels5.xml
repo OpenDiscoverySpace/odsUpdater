@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_byache.InstrumentsVirtuels5</entry>
+    </identifier>
+    <title>
+      <string language="fr">Compas virtuel</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">Des fichiers GeoGebra représentant des instruments virtuels : un compas.
+Il y a aussi une règle non graduée, une règle graduée, un rapporteur, une équerre, une équerre glissant sur une règle.</string>
+    </description>
+    <keyword>
+      <string language="fr">Lines Angles Circles droites parallèles perpendiculaires cercles angles</string>
+      <!-- ttac = #Compass_r,#Length_r -->
+      <string language="de">Zirkel</string>
+      <string language="fr">compas</string>
+      <string language="en">compass</string>
+      <string language="nl">Passer</string>
+      <string language="cs">Kružítko</string>
+      <string language="de">Länge</string>
+      <string language="fr">Longueur</string>
+      <string language="en">length</string>
+      <string language="es">Longitud</string>
+      <string language="nl">Lengte</string>
+      <string language="cs">Délka</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">1.02</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Paul  Byache&#xD;
+N:Byache;Paul ;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-03-12T23:48:01.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Paul  Byache&#xD;
+N:Byache;Paul ;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-11-04T15:01:45.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_byache/InstrumentsVirtuels5</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#College_1</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Sixième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Sixième de Collège</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Sixième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Sixième de Collège</value>                </context>
+                                                    <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Ecole_Elementaire_5</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Cours Moyen 2</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Cours Moyen 2</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Cours Moyen 2</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Cours Moyen 2</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 11 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 10 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>primary education</value>
+    </context>
+    <!-- typicalAgeRange is: 11 -->
+    <typicalAgeRange>
+      <string language="en">11-12</string>
+    </typicalAgeRange>
+    <!-- typicalAgeRange is: 10 -->
+    <typicalAgeRange>
+      <string language="en">10-11</string>
+    </typicalAgeRange>
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <!-- unrecognized license type: "cc-by-nc-sa" -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Compass_r</id>
+        <entry>
+          <string language="de">Zirkel</string>
+          <string language="fr">compas</string>
+          <string language="en">compass</string>
+          <string language="nl">Passer</string>
+          <string language="cs">Kružítko</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Length_r</id>
+        <entry>
+          <string language="de">Länge</string>
+          <string language="fr">Longueur</string>
+          <string language="en">length</string>
+          <string language="es">Longitud</string>
+          <string language="nl">Lengte</string>
+          <string language="cs">Délka</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

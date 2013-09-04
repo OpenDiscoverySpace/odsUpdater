@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_ChristianMercat.Airedunparallelogrammeavecpieceenplus</entry>
+    </identifier>
+    <title>
+      <string language="fr">Aire d'un parallélogramme avec pièce en plus</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">Un parallélogramme est défini par deux points mobiles. Des pièces peuvent être déplacées pour recouvrir soit le parallélogramme (avec un rectangle noir en plus), soit un grand rectangle complet, prouvant la formule de l'aire du parallélogramme x_A y_B - x_B y_A</string>
+    </description>
+    <keyword>
+      <string language="fr" />
+      <!-- ttac = #Area_r,#Compare_areas,#Rectangle_r,#Use_parallelogram_definition,#Understand_formula_of_area_of_rectangle -->
+      <string language="de">Fläche</string>
+      <string language="fr">aire</string>
+      <string language="es">Área</string>
+      <string language="nl">Oppervlakte</string>
+      <string language="de">Flächen vergleichen</string>
+      <string language="fr">comparer des aires</string>
+      <string language="de">Rechteck</string>
+      <string language="fr">rectangle</string>
+      <string language="en">rectangle</string>
+      <string language="es">rectángulo</string>
+      <string language="nl">Rechthoek</string>
+      <string language="cs">Obdélník</string>
+      <string language="cs">Pravoúhlý rovnoběžník</string>
+      <string language="cs">Pravoúhelník</string>
+      <string language="cs">Obdélník</string>
+      <string language="cs">Pravoúhlý rovnoběžník</string>
+      <string language="cs">Pravoúhelník</string>
+      <string language="cs">Obdélník</string>
+      <string language="cs">Pravoúhlý rovnoběžník</string>
+      <string language="cs">Pravoúhelník</string>
+      <string language="de">die Definition des Parallelogramms verwenden</string>
+      <string language="fr">utiliser la définition du parallélogramme</string>
+      <string language="en">use the definition of a parallelogram</string>
+      <string language="de">die Formel für den Flächeninhalt eines Rechtecks verstehen</string>
+      <string language="fr">donner sens à la formule de l'aire d'un rectangle</string>
+      <string language="en">understand the formula of area of rectangle</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">2.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Christian Mercat IREM de Lyon, IUFM&#xD;
+N:IREM de Lyon, IUFM;Christian Mercat;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2013-06-04T13:43:56.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Christian Mercat IREM de Lyon, IUFM&#xD;
+N:IREM de Lyon, IUFM;Christian Mercat;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2013-06-04T13:46:25.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>ggb</format>
+    <size>16058</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_ChristianMercat/Airedunparallelogrammeavecpieceenplus</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Lycee_General_et_Technologique_1</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Seconde</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Seconde</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Seconde</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Seconde</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 15 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 15 -->
+    <typicalAgeRange>
+      <string language="en">15-16</string>
+    </typicalAgeRange>
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Area_r</id>
+        <entry>
+          <string language="de">Fläche</string>
+          <string language="fr">aire</string>
+          <string language="es">Área</string>
+          <string language="nl">Oppervlakte</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Compare_areas</id>
+        <entry>
+          <string language="de">Flächen vergleichen</string>
+          <string language="fr">comparer des aires</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Rectangle_r</id>
+        <entry>
+          <string language="de">Rechteck</string>
+          <string language="fr">rectangle</string>
+          <string language="en">rectangle</string>
+          <string language="es">rectángulo</string>
+          <string language="nl">Rechthoek</string>
+          <string language="cs">Obdélník</string>
+          <string language="cs">Pravoúhlý rovnoběžník</string>
+          <string language="cs">Pravoúhelník</string>
+          <string language="cs">Obdélník</string>
+          <string language="cs">Pravoúhlý rovnoběžník</string>
+          <string language="cs">Pravoúhelník</string>
+          <string language="cs">Obdélník</string>
+          <string language="cs">Pravoúhlý rovnoběžník</string>
+          <string language="cs">Pravoúhelník</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Use_parallelogram_definition</id>
+        <entry>
+          <string language="de">die Definition des Parallelogramms verwenden</string>
+          <string language="fr">utiliser la définition du parallélogramme</string>
+          <string language="en">use the definition of a parallelogram</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Understand_formula_of_area_of_rectangle</id>
+        <entry>
+          <string language="de">die Formel für den Flächeninhalt eines Rechtecks verstehen</string>
+          <string language="fr">donner sens à la formule de l'aire d'un rectangle</string>
+          <string language="en">understand the formula of area of rectangle</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_clemences.Sectionsducubeetpatrons2</entry>
+    </identifier>
+    <title>
+      <string language="fr">Sections du cube et patrons 2</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">On fera des sections planes d'un cube perpendiculairement à une droite variable issue d'un sommet du cube.&lt;p/&gt;
+On utilisera une figure auxiliaire dans un plan pour visualiser non seulement le patron du cube mais aussi les traces de la section du cube sur le patron en vraie grandeur et en interaction.&lt;p/&gt;
+Nous calculerons différentes grandeurs (périmètre, aire, volume) liées à la section plane et nous en observerons les variations dans un graphique auxiliaire de façon dynamique (il suffit alors de remplacer la figure de gauche)</string>
+    </description>
+    <keyword>
+      <string language="fr">volumes - patrons - vraie grandeur</string>
+      <!-- ttac = #Plane_section_r,#Manipulate_nets_of_solid_objects -->
+      <string language="de">Ebenenschnitt</string>
+      <string language="fr">section plane</string>
+      <string language="en">plane section</string>
+      <string language="nl">Vlakke doorsnede (van lichamen)</string>
+      <string language="cs">Rovinný řez</string>
+      <string language="de">das Netz eines Körpers bearbeiten</string>
+      <string language="fr">manipuler un patron d'un cube</string>
+      <string language="en">manipulate nets of solid objects</string>
+      <string language="nl">Uitslagen van lichamen manipuleren</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">2.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Sassenou  Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M&#xD;
+N: Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M;Sassenou;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-05-03T14:40:48.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Sassenou  Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M&#xD;
+N: Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M;Sassenou;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-05-03T14:41:59.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>g3w</format>
+    <size>1550</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_clemences/Sectionsducubeetpatrons2</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Lycee_General_et_Technologique_1</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Seconde</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Seconde</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Seconde</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Seconde</value>                </context>
+                                                    <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Lycee_General_et_Technologique_2_serie_S</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Première générale S</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Première générale S</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Première générale S</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Première générale S</value>                </context>
+                                                    <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Lycee_General_et_Technologique_2_serie_ES</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Première générale ES</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Première générale ES</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Première générale ES</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Première générale ES</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 15 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 16 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 16 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 15 -->
+    <typicalAgeRange>
+      <string language="en">15-16</string>
+    </typicalAgeRange>
+    <!-- typicalAgeRange is: 16 -->
+    <typicalAgeRange>
+      <string language="en">16-17</string>
+    </typicalAgeRange>
+    <!-- typicalAgeRange is: 16 -->
+    <typicalAgeRange>
+      <string language="en">16-17</string>
+    </typicalAgeRange>
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Plane_section_r</id>
+        <entry>
+          <string language="de">Ebenenschnitt</string>
+          <string language="fr">section plane</string>
+          <string language="en">plane section</string>
+          <string language="nl">Vlakke doorsnede (van lichamen)</string>
+          <string language="cs">Rovinný řez</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Manipulate_nets_of_solid_objects</id>
+        <entry>
+          <string language="de">das Netz eines Körpers bearbeiten</string>
+          <string language="fr">manipuler un patron d'un cube</string>
+          <string language="en">manipulate nets of solid objects</string>
+          <string language="nl">Uitslagen van lichamen manipuleren</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

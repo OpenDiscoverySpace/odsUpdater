@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_jbartrol.Actividadessobrevectoresenelplano</entry>
+    </identifier>
+    <title>
+      <string language="es">Actividades sobre vectores en el plano</string>
+    </title>
+    <language>es</language>
+    <description>
+      <string language="es">Cinco unidades didácticas con el objetivo de: trabajar con vectores dados gráficamente (flechas), trabajar con vectores utilizando coordenadas y componentes, trabajar con módulos y argumentos de vectores (vectores en forma polar), aplicar los vectores a resolver problemas de geometría plana y introducir el producto escalar de dos vectores y hacer algunas aplicaciones.&lt;p/&gt;
+Constituye un material puente entre la ESO y el Bachillerato pues es utilizable tanto en 4º curso de ESO (por ejemplo, en un crédito variable para alumnos con intenciones de cursar un Bachillerato científico-tecnológico), como en el propio Bachillerato científico-tecnológico por hacer una introducción a los vectores.</string>
+    </description>
+    <keyword>
+      <string language="es">vectores geometría Cinderella</string>
+      <!-- ttac =  -->
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">6.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Jaume BartrolÃ­ BruguÃ©s&#xD;
+N:BartrolÃ­ BruguÃ©s;Jaume;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-11-14T18:57:42.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Jaume BartrolÃ­ BruguÃ©s&#xD;
+N:BartrolÃ­ BruguÃ©s;Jaume;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-11-14T19:19:03.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_jbartrol/Actividadessobrevectoresenelplano</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_assignment
+    true    true         -->
+    <!-- educational annotations from Curriki's ICT activity_exercise
+    true    true         -->
+    <!-- educational annotations from Curriki's ICT curriculum_lp
+        true         -->
+    <!-- educational annotations from Curriki's ICT curriculum_studyguide
+    true    true    true     -->
+    <!-- educational annotations from Curriki's ICT curriculum_tutorial
+    true    true         -->
+    <!-- educational annotations from Curriki's ICT curriculum_unit
+        true         -->
+    <!-- educational annotations from Curriki's ICT other
+                 -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>expositive</value>
+    </interactivityType>
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>expositive</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>exercise</value>
+    </learningResourceType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>exercise</value>
+    </learningResourceType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>lesson plan</value>
+    </learningResourceType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>guide</value>
+    </learningResourceType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>lesson plan</value>
+    </learningResourceType>
+    <interactivityLevel>
+      <source>LOMv1.0</source>
+      <value>very low</value>
+    </interactivityLevel>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills</value>
+            </context>
+                                     -->
+    <language>es</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+</lom>
+

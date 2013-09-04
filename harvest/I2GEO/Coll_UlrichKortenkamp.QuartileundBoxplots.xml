@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_UlrichKortenkamp.QuartileundBoxplots</entry>
+    </identifier>
+    <title>
+      <string language="de">Quartile und Boxplots</string>
+    </title>
+    <language>de</language>
+    <description>
+      <string language="de">Eine Konstruktion zur Visualisierung von Boxplots für Daten.</string>
+    </description>
+    <keyword>
+      <string language="de">boxplot daten</string>
+      <!-- ttac = #Statistical_data_r,#Analyze_data,#Interpret_results_of_data_analysis -->
+      <string language="de">statistische Daten</string>
+      <string language="fr">Données statistiques</string>
+      <string language="fr">données statistiques</string>
+      <string language="fr">Données statistiques</string>
+      <string language="fr">données statistiques</string>
+      <string language="en">statistical data</string>
+      <string language="es">datos estadísticos</string>
+      <string language="de">Daten analysieren</string>
+      <string language="fr">analyser des données</string>
+      <string language="en">analyse data</string>
+      <string language="de">Die Ergebnise einer Datenanalyse interpretieren</string>
+      <string language="fr">interpréter les résultats d'une analyse de données</string>
+      <string language="en">interpret_results_of_data_analysis</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">12.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Ulrich Kortenkamp&#xD;
+N:Kortenkamp;Ulrich;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2008-10-22T14:16:00.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Ulrich Kortenkamp&#xD;
+N:Kortenkamp;Ulrich;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2013-03-19T09:31:27.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>cdy</format>
+    <size>3981</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_UlrichKortenkamp/QuartileundBoxplots</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Gymnasium_Saarland_9te_level</value>
+            </context>
+                                     -->
+    <language>de</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">CurrikiCode.AssetLicenseClass_licenseType_Licences.Licences.CreativeCommonsAttributionNon-CommercialShareAlike</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by-nc-sa/2.0/</licenseURI>-->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Statistical_data_r</id>
+        <entry>
+          <string language="de">statistische Daten</string>
+          <string language="fr">Données statistiques</string>
+          <string language="fr">données statistiques</string>
+          <string language="fr">Données statistiques</string>
+          <string language="fr">données statistiques</string>
+          <string language="en">statistical data</string>
+          <string language="es">datos estadísticos</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Analyze_data</id>
+        <entry>
+          <string language="de">Daten analysieren</string>
+          <string language="fr">analyser des données</string>
+          <string language="en">analyse data</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Interpret_results_of_data_analysis</id>
+        <entry>
+          <string language="de">Die Ergebnise einer Datenanalyse interpretieren</string>
+          <string language="fr">interpréter les résultats d'une analyse de données</string>
+          <string language="en">interpret_results_of_data_analysis</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

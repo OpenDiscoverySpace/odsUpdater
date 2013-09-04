@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_sbourdal.DefinitionSymetrieAxiale</entry>
+    </identifier>
+    <title>
+      <string language="fr">Définition Symétrie axiale</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">Activité complète composée de sept figures, d'un scénario, de fiches élève et professeur pour la définition de deux points symétriques par rapport à une droite.&lt;p/&gt;
+&lt;strong&gt;Cette ressource est la copie d'une trace de la première étape d'Intergeo&lt;/strong&gt;&lt;p/&gt;
+Cette ressource vient de &lt;a class="wikicreatelink" href="http://i2geo.net/xwiki/bin/edit/Traces/Definition+Symetrie+axiale?parent=Coll_sbourdal.DefinitionSymetrieAxiale"&gt;&lt;span class="wikicreatelinktext"&gt;Definition Symetrie axiale&lt;/span&gt;&lt;span class="wikicreatelinkqm"&gt;?&lt;/span&gt;&lt;/a&gt; qui mentionne 7 constructions.&lt;p/&gt;
+&lt;ul class="minus"&gt;
+&lt;li&gt;Système de géométrie: &lt;span class="wikilink"&gt;&lt;a href="http://i2geo.net/xwiki/bin/view/Softwares/TracEnPoche"&gt;Trac En Poche&lt;/a&gt;&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;Pays: fr&lt;/li&gt;
+&lt;li&gt;Niveau d'enseignement: Collège 6e&lt;/li&gt;
+&lt;li&gt;Sujet principal: Transformations&lt;/li&gt;
+&lt;li&gt;Autres thèmesSymétrie axiale&lt;/li&gt;
+&lt;/ul&gt;</string>
+    </description>
+    <keyword>
+      <string language="fr">Symétrie axiale axe pliage</string>
+      <!-- ttac = #Transformation_r,#Symmetry_r,#Symmetry_line_r,#Reflection_in_a_line_r -->
+      <string language="de">Transformation</string>
+      <string language="de">Abbildung</string>
+      <string language="de">Transformation</string>
+      <string language="de">Abbildung</string>
+      <string language="fr">transformation</string>
+      <string language="en">transformation</string>
+      <string language="es">transformación</string>
+      <string language="nl">Transformatie</string>
+      <string language="cs">Geometrické zobrazení</string>
+      <string language="de">Symmetrie</string>
+      <string language="fr">symétrie</string>
+      <string language="en">symmetry</string>
+      <string language="es">simetría</string>
+      <string language="nl">Symmetrie</string>
+      <string language="cs">Souměrné</string>
+      <string language="de">Symmetrieachse</string>
+      <string language="fr">droite de symétrie</string>
+      <string language="en">symmetry axis</string>
+      <string language="es">eje de simetría</string>
+      <string language="nl">Symmetrie-as</string>
+      <string language="cs">Osa souměrnosti</string>
+      <string language="de">Achsenspiegelung</string>
+      <string language="fr">symétrie axiale</string>
+      <string language="en">Reflection in a line</string>
+      <string language="nl">Spiegeling in een lijn</string>
+      <string language="nl">Lijnspiegeling</string>
+      <string language="nl">Spiegeling in een lijn</string>
+      <string language="nl">Lijnspiegeling</string>
+      <string language="cs">Osová souměrnost</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">1.02</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Sylvain Bourdal&amp;eacute&#xD;
+N:Bourdal&amp;eacute;Sylvain;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-03-03T20:39:35.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Sylvain Bourdal&amp;eacute&#xD;
+N:Bourdal&amp;eacute;Sylvain;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-11-04T14:55:48.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_sbourdal/DefinitionSymetrieAxiale</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#College_1</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Sixième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Sixième de Collège</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Sixième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Sixième de Collège</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 11 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 11 -->
+    <typicalAgeRange>
+      <string language="en">11-12</string>
+    </typicalAgeRange>
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">CurrikiCode.AssetLicenseClass_licenseType_Licences.Licences.CreativeCommonsAttributionNon-CommercialShareAlike</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by-nc-sa/2.0/</licenseURI>-->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Transformation_r</id>
+        <entry>
+          <string language="de">Transformation</string>
+          <string language="de">Abbildung</string>
+          <string language="de">Transformation</string>
+          <string language="de">Abbildung</string>
+          <string language="fr">transformation</string>
+          <string language="en">transformation</string>
+          <string language="es">transformación</string>
+          <string language="nl">Transformatie</string>
+          <string language="cs">Geometrické zobrazení</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Symmetry_r</id>
+        <entry>
+          <string language="de">Symmetrie</string>
+          <string language="fr">symétrie</string>
+          <string language="en">symmetry</string>
+          <string language="es">simetría</string>
+          <string language="nl">Symmetrie</string>
+          <string language="cs">Souměrné</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Symmetry_line_r</id>
+        <entry>
+          <string language="de">Symmetrieachse</string>
+          <string language="fr">droite de symétrie</string>
+          <string language="en">symmetry axis</string>
+          <string language="es">eje de simetría</string>
+          <string language="nl">Symmetrie-as</string>
+          <string language="cs">Osa souměrnosti</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Reflection_in_a_line_r</id>
+        <entry>
+          <string language="de">Achsenspiegelung</string>
+          <string language="fr">symétrie axiale</string>
+          <string language="en">Reflection in a line</string>
+          <string language="nl">Spiegeling in een lijn</string>
+          <string language="nl">Lijnspiegeling</string>
+          <string language="nl">Spiegeling in een lijn</string>
+          <string language="nl">Lijnspiegeling</string>
+          <string language="cs">Osová souměrnost</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

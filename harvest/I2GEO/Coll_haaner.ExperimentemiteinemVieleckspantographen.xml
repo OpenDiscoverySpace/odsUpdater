@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_haaner.ExperimentemiteinemVieleckspantographen</entry>
+    </identifier>
+    <title>
+      <string language="de">Experimente mit einem Vieleckspantographen</string>
+    </title>
+    <language>de</language>
+    <description>
+      <string language="de">Ein Pantograph ist ein Werkzeug zum Verkleinern / Vergrössern und Drehen geometrischer Figuren. Die vielfältigen Möglichkeiten werden in 5 Lernumgebungen demonstriert.
+&lt;br&gt;&lt;br&gt;
+&lt;span class="nobr"&gt;&lt;a href="http://i2geo.net/xwiki/bin/download/Coll_haaner/ExperimentemiteinemVieleckspantographen/panto.zip/panto/index.html"&gt;http://i2geo.net/xwiki/bin/download/Coll_haaner/ExperimentemiteinemVieleckspantographen/panto.zip/panto/index.html&lt;/a&gt;&lt;/span&gt;</string>
+    </description>
+    <keyword>
+      <string language="de">Skalierung Drehung zentr. Streckung GEONExT</string>
+      <!-- ttac = #Scale_factor_r,#Rotation_r,#Ampliation_r -->
+      <string language="de">Skalierungsfaktor</string>
+      <string language="de">Streckungsfaktor</string>
+      <string language="de">Skalierungsfaktor</string>
+      <string language="de">Streckungsfaktor</string>
+      <string language="fr">coefficient d'agrandissement réduction</string>
+      <string language="es">razón de semejanza</string>
+      <string language="nl">Schaalfactor</string>
+      <string language="de">Rotation</string>
+      <string language="de">Drehung</string>
+      <string language="de">Rotation</string>
+      <string language="de">Drehung</string>
+      <string language="fr">rotation</string>
+      <string language="en">rotation</string>
+      <string language="es">rotación</string>
+      <string language="nl">Draaiing</string>
+      <string language="nl">Rotatie</string>
+      <string language="nl">Draaiing</string>
+      <string language="nl">Rotatie</string>
+      <string language="cs">Rotace</string>
+      <string language="cs">Otočení</string>
+      <string language="cs">Rotace</string>
+      <string language="cs">Otočení</string>
+      <string language="de">Vergrößerung</string>
+      <string language="de">Streckung</string>
+      <string language="de">Vergrößerung</string>
+      <string language="de">Streckung</string>
+      <string language="fr">homothétie</string>
+      <string language="en">enlargement</string>
+      <string language="es">ampliación</string>
+      <string language="nl">Vergroting</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">1.02</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Heiko Vogel&#xD;
+N:Vogel;Heiko;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2008-10-09T13:23:38.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Heiko Vogel&#xD;
+N:Vogel;Heiko;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-11-04T15:00:24.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>zip</format>
+    <size>1027632</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_haaner/ExperimentemiteinemVieleckspantographen</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_worksheet
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>exercise</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Gymnasium_Saarland_9te_level</value>
+            </context>
+                                     -->
+    <language>de</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Scale_factor_r</id>
+        <entry>
+          <string language="de">Skalierungsfaktor</string>
+          <string language="de">Streckungsfaktor</string>
+          <string language="de">Skalierungsfaktor</string>
+          <string language="de">Streckungsfaktor</string>
+          <string language="fr">coefficient d'agrandissement réduction</string>
+          <string language="es">razón de semejanza</string>
+          <string language="nl">Schaalfactor</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Rotation_r</id>
+        <entry>
+          <string language="de">Rotation</string>
+          <string language="de">Drehung</string>
+          <string language="de">Rotation</string>
+          <string language="de">Drehung</string>
+          <string language="fr">rotation</string>
+          <string language="en">rotation</string>
+          <string language="es">rotación</string>
+          <string language="nl">Draaiing</string>
+          <string language="nl">Rotatie</string>
+          <string language="nl">Draaiing</string>
+          <string language="nl">Rotatie</string>
+          <string language="cs">Rotace</string>
+          <string language="cs">Otočení</string>
+          <string language="cs">Rotace</string>
+          <string language="cs">Otočení</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Ampliation_r</id>
+        <entry>
+          <string language="de">Vergrößerung</string>
+          <string language="de">Streckung</string>
+          <string language="de">Vergrößerung</string>
+          <string language="de">Streckung</string>
+          <string language="fr">homothétie</string>
+          <string language="en">enlargement</string>
+          <string language="es">ampliación</string>
+          <string language="nl">Vergroting</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

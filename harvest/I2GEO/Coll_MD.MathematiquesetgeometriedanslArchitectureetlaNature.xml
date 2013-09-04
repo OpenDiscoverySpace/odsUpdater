@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_MD.MathematiquesetgeometriedanslArchitectureetlaNature</entry>
+    </identifier>
+    <title>
+      <string language="fr">Mathématiques et géométrie dans l' Architecture et la Nature</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">Collection d'activité :Une centaine de fichiers</string>
+    </description>
+    <keyword>
+      <string language="fr" />
+      <!-- ttac = #GeometricObject_r,#Construct_enlargement_of_a_figure,#Sequence_r -->
+      <string language="de">geometrisches Objekt</string>
+      <string language="fr">objet géométrique</string>
+      <string language="en">geometric object</string>
+      <string language="nl">Meetkundig object</string>
+      <string language="cs">Geometrický objekt</string>
+      <string language="de">eine Figur zentrisch strecken oder stauchen</string>
+      <string language="fr">agrandir ou réduire une figure</string>
+      <string language="en">Construct an enlargement of a figure</string>
+      <string language="en">enlarge shape by a scale factor</string>
+      <string language="en">Construct an enlargement of a figure</string>
+      <string language="en">enlarge shape by a scale factor</string>
+      <string language="nl">Een geschaalde figuur construeren</string>
+      <string language="nl">Een schaling van een figuur construeren</string>
+      <string language="nl">Een geschaalde figuur construeren</string>
+      <string language="nl">Een schaling van een figuur construeren</string>
+      <string language="de">Folge</string>
+      <string language="fr">suite</string>
+      <string language="en">sequence</string>
+      <string language="nl">Rij</string>
+      <string language="cs">Posloupnost</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">2.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Daniel Mentrard&#xD;
+N:Mentrard;Daniel;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-04-30T20:51:41.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Daniel Mentrard&#xD;
+N:Mentrard;Daniel;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-04-30T20:55:07.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_MD/MathematiquesetgeometriedanslArchitectureetlaNature</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_assignment
+    true    true         -->
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <!-- educational annotations from Curriki's ICT activity_game
+    true    true    true     -->
+    <!-- educational annotations from Curriki's ICT activity_worksheet
+    true    true         -->
+    <!-- educational annotations from Curriki's ICT resource_animation
+        true    true     -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>exercise</value>
+    </learningResourceType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>drill and practice</value>
+    </learningResourceType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>exercise</value>
+    </learningResourceType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>demonstration</value>
+    </learningResourceType>
+    <interactivityLevel>
+      <source>LOMv1.0</source>
+      <value>high</value>
+    </interactivityLevel>
+    <interactivityLevel>
+      <source>LOMv1.0</source>
+      <value>medium</value>
+    </interactivityLevel>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Enseignement_Primaire_6</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Enseignement Primaire 6</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Enseignement Primaire 6</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Enseignement Primaire 6</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Enseignement Primaire 6</value>                </context>
+                                                    <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#College_2</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Cinquième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Cinquième de Collège</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Cinquième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Cinquième de Collège</value>                </context>
+                                                    <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#College_4</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Troisième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Troisième de Collège</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Troisième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Troisième de Collège</value>                </context>
+                                                    <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#College_3</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Quatrième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Quatrième de Collège</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Quatrième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Quatrième de Collège</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 11 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 12 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 14 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 13 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 11 -->
+    <typicalAgeRange>
+      <string language="en">11-12</string>
+    </typicalAgeRange>
+    <!-- typicalAgeRange is: 12 -->
+    <typicalAgeRange>
+      <string language="en">12-13</string>
+    </typicalAgeRange>
+    <!-- typicalAgeRange is: 14 -->
+    <typicalAgeRange>
+      <string language="en">14-15</string>
+    </typicalAgeRange>
+    <!-- typicalAgeRange is: 13 -->
+    <typicalAgeRange>
+      <string language="en">13-14</string>
+    </typicalAgeRange>
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#GeometricObject_r</id>
+        <entry>
+          <string language="de">geometrisches Objekt</string>
+          <string language="fr">objet géométrique</string>
+          <string language="en">geometric object</string>
+          <string language="nl">Meetkundig object</string>
+          <string language="cs">Geometrický objekt</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Construct_enlargement_of_a_figure</id>
+        <entry>
+          <string language="de">eine Figur zentrisch strecken oder stauchen</string>
+          <string language="fr">agrandir ou réduire une figure</string>
+          <string language="en">Construct an enlargement of a figure</string>
+          <string language="en">enlarge shape by a scale factor</string>
+          <string language="en">Construct an enlargement of a figure</string>
+          <string language="en">enlarge shape by a scale factor</string>
+          <string language="nl">Een geschaalde figuur construeren</string>
+          <string language="nl">Een schaling van een figuur construeren</string>
+          <string language="nl">Een geschaalde figuur construeren</string>
+          <string language="nl">Een schaling van een figuur construeren</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Sequence_r</id>
+        <entry>
+          <string language="de">Folge</string>
+          <string language="fr">suite</string>
+          <string language="en">sequence</string>
+          <string language="nl">Rij</string>
+          <string language="cs">Posloupnost</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

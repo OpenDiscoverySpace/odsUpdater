@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_polx.Travaillerlechellesurlepentagone</entry>
+    </identifier>
+    <title>
+      <string language="fr">Travailler l'échelle sur le pentagone</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">Une activité en salle d'informatique pour travailler les tableaux de proportionnalité et la notion d'échelle adaptée de la &lt;span class="wikiexternallink"&gt;&lt;a href="http://i2geo.net/xwiki/bin/view/Coll_Group_IREM-INRP-AcademiedeLyon/UtilisationdelanotiondechelleetlePentagone"&gt;ressource de Marina Digeon&lt;/a&gt;&lt;/span&gt; pour le contexte de l'atelier math (au CDI du lycée franco-allemand).&lt;p/&gt;
+Les choses suivantes restent à faire:
+&lt;ul class="star"&gt;
+&lt;li&gt;imprimer et utiliser avec une poignées d'élèves à l'atelier maths, évaluer&lt;/li&gt;
+&lt;li&gt;traduire en allemand&lt;/li&gt;
+&lt;li&gt;traduire les compétences en allemand (et rejeter l'entier des clips b2i?)&lt;/li&gt;
+&lt;/ul&gt;</string>
+    </description>
+    <keyword>
+      <string language="fr" />
+      <!-- ttac = #Proportional_r,#Use_scale_of_drawing -->
+      <string language="de">proportional</string>
+      <string language="de">direkt proportional</string>
+      <string language="de">proportional</string>
+      <string language="de">direkt proportional</string>
+      <string language="fr">proportionnel</string>
+      <string language="fr">relation de proportionnalité directe</string>
+      <string language="fr">proportionnel</string>
+      <string language="fr">relation de proportionnalité directe</string>
+      <string language="en">proportional</string>
+      <string language="es">proporcional</string>
+      <string language="es">relación de proporcionalidad directa</string>
+      <string language="es">proporcional</string>
+      <string language="es">relación de proporcionalidad directa</string>
+      <string language="nl">Recht evenredig</string>
+      <string language="nl">Proportioneel</string>
+      <string language="nl">Evenredig</string>
+      <string language="nl">Recht evenredig</string>
+      <string language="nl">Proportioneel</string>
+      <string language="nl">Evenredig</string>
+      <string language="nl">Recht evenredig</string>
+      <string language="nl">Proportioneel</string>
+      <string language="nl">Evenredig</string>
+      <string language="de">den Streckungsfaktor verwenden</string>
+      <string language="fr">utiliser l'échelle d'un dessin</string>
+      <string language="en">use of scale</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">20.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Paul Libbrecht&#xD;
+N:Libbrecht;Paul;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-07-09T17:21:32.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Paul Libbrecht&#xD;
+N:Libbrecht;Paul;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2012-11-14T11:06:29.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>zip</format>
+    <size>1042336</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_polx/Travaillerlechellesurlepentagone</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills</value>
+            </context>
+                                     -->
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Proportional_r</id>
+        <entry>
+          <string language="de">proportional</string>
+          <string language="de">direkt proportional</string>
+          <string language="de">proportional</string>
+          <string language="de">direkt proportional</string>
+          <string language="fr">proportionnel</string>
+          <string language="fr">relation de proportionnalité directe</string>
+          <string language="fr">proportionnel</string>
+          <string language="fr">relation de proportionnalité directe</string>
+          <string language="en">proportional</string>
+          <string language="es">proporcional</string>
+          <string language="es">relación de proporcionalidad directa</string>
+          <string language="es">proporcional</string>
+          <string language="es">relación de proporcionalidad directa</string>
+          <string language="nl">Recht evenredig</string>
+          <string language="nl">Proportioneel</string>
+          <string language="nl">Evenredig</string>
+          <string language="nl">Recht evenredig</string>
+          <string language="nl">Proportioneel</string>
+          <string language="nl">Evenredig</string>
+          <string language="nl">Recht evenredig</string>
+          <string language="nl">Proportioneel</string>
+          <string language="nl">Evenredig</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Use_scale_of_drawing</id>
+        <entry>
+          <string language="de">den Streckungsfaktor verwenden</string>
+          <string language="fr">utiliser l'échelle d'un dessin</string>
+          <string language="en">use of scale</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

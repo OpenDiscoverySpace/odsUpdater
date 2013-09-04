@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_ChristianMercat.Triskele_1</entry>
+    </identifier>
+    <title>
+      <string language="fr">Triskèle</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">Un triskèle à six et un à sept divisions sur un triangle équilatéral. Ce sont des figures à reproduire au compas pour acquérir de la dextérité et faire de belles figures.</string>
+    </description>
+    <keyword>
+      <string language="fr" />
+      <!-- ttac = #Compass_r,#Construct_figure_with_ruler_and_compass,#Reproduce_complex_figure -->
+      <string language="de">Zirkel</string>
+      <string language="fr">compas</string>
+      <string language="en">compass</string>
+      <string language="nl">Passer</string>
+      <string language="cs">Kružítko</string>
+      <string language="de">eine Figur mit Zirkel und Lineal konstruieren</string>
+      <string language="fr">construire une figure à la règle et au compas</string>
+      <string language="en">construct mathematical figure with straight edge and compasses</string>
+      <string language="nl">Een figuur construeren met passer en liniaal</string>
+      <string language="nl">Een figuur construeren met passer en latje</string>
+      <string language="nl">Een figuur construeren met passer en liniaal</string>
+      <string language="nl">Een figuur construeren met passer en latje</string>
+      <string language="de">eine komplexe Figur abbilden</string>
+      <string language="de">eine komplexe Figur reproduzieren</string>
+      <string language="de">eine komplexe Figur abbilden</string>
+      <string language="de">eine komplexe Figur reproduzieren</string>
+      <string language="fr">reproduction d'une figure complexe</string>
+      <string language="en">reproduce a complex figure</string>
+      <string language="nl">Een ingewikkelde figuur reproduceren</string>
+      <string language="nl">Een complexe figuur reproduceren</string>
+      <string language="nl">Een ingewikkelde figuur reproduceren</string>
+      <string language="nl">Een complexe figuur reproduceren</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">6.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Christian Mercat IREM de Lyon, IUFM&#xD;
+N:IREM de Lyon, IUFM;Christian Mercat;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-12-11T10:38:17.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Christian Mercat IREM de Lyon, IUFM&#xD;
+N:IREM de Lyon, IUFM;Christian Mercat;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-12-12T18:32:36.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_ChristianMercat/Triskele_1</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_exercise
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>exercise</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#College_1</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Sixième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Sixième de Collège</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Sixième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Sixième de Collège</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 11 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 11 -->
+    <typicalAgeRange>
+      <string language="en">11-12</string>
+    </typicalAgeRange>
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Compass_r</id>
+        <entry>
+          <string language="de">Zirkel</string>
+          <string language="fr">compas</string>
+          <string language="en">compass</string>
+          <string language="nl">Passer</string>
+          <string language="cs">Kružítko</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Construct_figure_with_ruler_and_compass</id>
+        <entry>
+          <string language="de">eine Figur mit Zirkel und Lineal konstruieren</string>
+          <string language="fr">construire une figure à la règle et au compas</string>
+          <string language="en">construct mathematical figure with straight edge and compasses</string>
+          <string language="nl">Een figuur construeren met passer en liniaal</string>
+          <string language="nl">Een figuur construeren met passer en latje</string>
+          <string language="nl">Een figuur construeren met passer en liniaal</string>
+          <string language="nl">Een figuur construeren met passer en latje</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Reproduce_complex_figure</id>
+        <entry>
+          <string language="de">eine komplexe Figur abbilden</string>
+          <string language="de">eine komplexe Figur reproduzieren</string>
+          <string language="de">eine komplexe Figur abbilden</string>
+          <string language="de">eine komplexe Figur reproduzieren</string>
+          <string language="fr">reproduction d'une figure complexe</string>
+          <string language="en">reproduce a complex figure</string>
+          <string language="nl">Een ingewikkelde figuur reproduceren</string>
+          <string language="nl">Een complexe figuur reproduceren</string>
+          <string language="nl">Een ingewikkelde figuur reproduceren</string>
+          <string language="nl">Een complexe figuur reproduceren</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

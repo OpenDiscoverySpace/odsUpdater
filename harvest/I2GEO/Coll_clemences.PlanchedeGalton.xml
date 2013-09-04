@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_clemences.PlanchedeGalton</entry>
+    </identifier>
+    <title>
+      <string language="fr">Planche de Galton</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">On ne présente plus la planche de Galton, expérience aléatoire qui est régie par une loi binomiale.&lt;p/&gt;
+La simulation proposée est basée sur un modèle équiréparti (la bille a une chance sur 2 de tomber à gauche ou à droite d'un plot)&lt;p/&gt;
+L'accumulation des billes au bas de la planche permet de bien visualiser la distribution des fréquences. &lt;p/&gt;
+Version interne de la ressource originale disponible à l'adresse suivante : &lt;span class="nobr"&gt;&lt;a href="http://i2geo.net/xwiki/bin/view/Coll_cdording/PlancheDeGalton"&gt;http://i2geo.net/xwiki/bin/view/Coll_cdording/PlancheDeGalton&lt;/a&gt;&lt;/span&gt;</string>
+    </description>
+    <keyword>
+      <string language="fr">loi binomiale loi discrète statistiques probabilités</string>
+      <!-- ttac = #Probability_r,#Express_general_law_connecting_data -->
+      <string language="de">Wahrscheinlichkeit</string>
+      <string language="fr">probabilité</string>
+      <string language="en">probability</string>
+      <string language="es">probabilidad</string>
+      <string language="nl">Waarschijnlijkheid</string>
+      <string language="de">ein allgemeingültiges Gesetz in symolischer Form ausdrücken</string>
+      <string language="fr">exprimer sous forme symbolique une loi générale approchant un ensemble de valeurs discrètes</string>
+      <string language="en">express general law in symbolic form that approximately connect data</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">4.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Sassenou  Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M&#xD;
+N: Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M;Sassenou;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-04-19T11:50:53.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Sassenou  Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M&#xD;
+N: Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M;Sassenou;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-04-19T11:57:34.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>g2w</format>
+    <size>18160</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_clemences/PlanchedeGalton</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Lycee_General_et_Technologique_3_serie_ES</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Terminale générale ES</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Terminale générale ES</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Terminale générale ES</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Terminale générale ES</value>                </context>
+                                                    <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Lycee_General_et_Technologique_3_serie_L</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Terminale générale L</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Terminale générale L</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Terminale générale L</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Terminale générale L</value>                </context>
+                                                    <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Lycee_General_et_Technologique_3_serie_S</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Terminale générale S</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Terminale générale S</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Terminale générale S</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Terminale générale S</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 17 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 17 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 17 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 17 -->
+    <typicalAgeRange>
+      <string language="en">17-18</string>
+    </typicalAgeRange>
+    <!-- typicalAgeRange is: 17 -->
+    <typicalAgeRange>
+      <string language="en">17-18</string>
+    </typicalAgeRange>
+    <!-- typicalAgeRange is: 17 -->
+    <typicalAgeRange>
+      <string language="en">17-18</string>
+    </typicalAgeRange>
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Probability_r</id>
+        <entry>
+          <string language="de">Wahrscheinlichkeit</string>
+          <string language="fr">probabilité</string>
+          <string language="en">probability</string>
+          <string language="es">probabilidad</string>
+          <string language="nl">Waarschijnlijkheid</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Express_general_law_connecting_data</id>
+        <entry>
+          <string language="de">ein allgemeingültiges Gesetz in symolischer Form ausdrücken</string>
+          <string language="fr">exprimer sous forme symbolique une loi générale approchant un ensemble de valeurs discrètes</string>
+          <string language="en">express general law in symbolic form that approximately connect data</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

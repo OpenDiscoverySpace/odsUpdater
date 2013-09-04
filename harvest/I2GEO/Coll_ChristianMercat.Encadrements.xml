@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_ChristianMercat.Encadrements</entry>
+    </identifier>
+    <title>
+      <string language="fr">Encadrements</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">La somme, la différence, le produit et le quotient de deux nombres encadrés sont dessinés. Les bornes de deux intervalles sont modifiables ainsi que les valeurs. Commencer par quatre valeurs positives, puis varier les signes et attirer l'attention sur les difficultés rencontrées quand il y a changement de signe.</string>
+    </description>
+    <keyword>
+      <string language="fr" />
+      <!-- ttac = #Use_invariance_of_inequality_when_multiplying_the_two_members_by_the_same_positive_number,#Use_invariance_of_inequality_by_adding_or_subtracting_same_number_to_two_members_of_inequality,#Linear_Equation_r -->
+      <string language="de">die Beständigkeit des Ungleicheitszeichens bei der Multiplikation der zwei Teile der Ungleichung mit der gleichen positiven Zahl</string>
+      <string language="fr">utiliser le fait que les nombres ac et bc sont dans le même ordre que a et  b si c est strictement positif</string>
+      <string language="fr">utiliser le fait que les nombres ac et bc sont dans le même ordre que a et
+    b si c est strictement positif</string>
+      <string language="fr">utiliser le fait que les nombres ac et bc sont dans le même ordre que a et  b si c est strictement positif</string>
+      <string language="fr">utiliser le fait que les nombres ac et bc sont dans le même ordre que a et
+    b si c est strictement positif</string>
+      <string language="en">use the invariance of the inequality sign when multiplying the two members 
+    of an inequality by the same positive number</string>
+      <string language="de">die Beständigkeit des Ungleicheitszeichens bei der Addition oder Subtraktion der gleichen Zahl zu den zwei Teilen der Ungleichung</string>
+      <string language="fr">utiliser le fait que a+c et b+c, a-c et b-c sont rangés dans le même ordre que a et b</string>
+      <string language="en">use the invariance of the inequality sign when adding or subtracting the 
+    same number to two members of an inequality</string>
+      <string language="de">lineare Gleichung</string>
+      <string language="fr">équation du premier degré</string>
+      <string language="en">linear equation</string>
+      <string language="es">ecuación de primer grado</string>
+      <string language="nl">Lineaire vergelijking</string>
+      <string language="nl">Affiene vergelijking</string>
+      <string language="nl">Lineaire vergelijking</string>
+      <string language="nl">Affiene vergelijking</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">3.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Christian Mercat IREM de Lyon, IUFM&#xD;
+N:IREM de Lyon, IUFM;Christian Mercat;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2012-09-25T21:21:01.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Christian Mercat IREM de Lyon, IUFM&#xD;
+N:IREM de Lyon, IUFM;Christian Mercat;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2012-09-25T21:34:05.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>ggb</format>
+    <size>3256</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_ChristianMercat/Encadrements</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#College_2</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Cinquième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Cinquième de Collège</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Cinquième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Cinquième de Collège</value>                </context>
+                                                    <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#College_4</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Troisième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Troisième de Collège</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Troisième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Troisième de Collège</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 12 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 14 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 12 -->
+    <typicalAgeRange>
+      <string language="en">12-13</string>
+    </typicalAgeRange>
+    <!-- typicalAgeRange is: 14 -->
+    <typicalAgeRange>
+      <string language="en">14-15</string>
+    </typicalAgeRange>
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Use_invariance_of_inequality_when_multiplying_the_two_members_by_the_same_positive_number</id>
+        <entry>
+          <string language="de">die Beständigkeit des Ungleicheitszeichens bei der Multiplikation der zwei Teile der Ungleichung mit der gleichen positiven Zahl</string>
+          <string language="fr">utiliser le fait que les nombres ac et bc sont dans le même ordre que a et  b si c est strictement positif</string>
+          <string language="fr">utiliser le fait que les nombres ac et bc sont dans le même ordre que a et
+    b si c est strictement positif</string>
+          <string language="fr">utiliser le fait que les nombres ac et bc sont dans le même ordre que a et  b si c est strictement positif</string>
+          <string language="fr">utiliser le fait que les nombres ac et bc sont dans le même ordre que a et
+    b si c est strictement positif</string>
+          <string language="en">use the invariance of the inequality sign when multiplying the two members 
+    of an inequality by the same positive number</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Use_invariance_of_inequality_by_adding_or_subtracting_same_number_to_two_members_of_inequality</id>
+        <entry>
+          <string language="de">die Beständigkeit des Ungleicheitszeichens bei der Addition oder Subtraktion der gleichen Zahl zu den zwei Teilen der Ungleichung</string>
+          <string language="fr">utiliser le fait que a+c et b+c, a-c et b-c sont rangés dans le même ordre que a et b</string>
+          <string language="en">use the invariance of the inequality sign when adding or subtracting the 
+    same number to two members of an inequality</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Linear_Equation_r</id>
+        <entry>
+          <string language="de">lineare Gleichung</string>
+          <string language="fr">équation du premier degré</string>
+          <string language="en">linear equation</string>
+          <string language="es">ecuación de primer grado</string>
+          <string language="nl">Lineaire vergelijking</string>
+          <string language="nl">Affiene vergelijking</string>
+          <string language="nl">Lineaire vergelijking</string>
+          <string language="nl">Affiene vergelijking</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM lomODS.xsd">
+  <general>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM262</entry>
+    </identifier>
+    <title>
+      <string language="hr">Gorski krajevi Republike Hrvatske</string>
+    </title>
+    <language>hr</language>
+    <description>
+      <string language="hr">U četvrtom razredu osnovne škole, između ostalog, usvajaju se i sadržaji o zemljopisnim obilježjima Republike Hrvatske raspoređeni u okviru istoimene cjeline u četiri teme, a to su Nizinska Hrvatska, Primorska Hrvatska, Brežuljkasta Hrvatska i Gorska Hrvatska. Usvajanje novih sadržaja i znanja bazira se na prethodnom iskustvu učenika koja podrazumijevaju znanja stjecana tijekom dosadašnjeg školovanja putem redovne i terenske nastave te edukativnih izleta. Ovaj materijal polazi od pojedinačnog k općem te omogućuje razvoj misaonih aktivnosti i izvođenje zaključaka na temelju povezivanja činjenica. Tako strukturiran pruža mogućnost usvajanja novih sadržaja te ponavljanje.&lt;br /&gt;	&lt;br /&gt;		&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;</string>
+    </description>
+    <keyword>
+      <string language="hr">Gorska Hrvatska</string>
+      <string language="hr">prirodno-zemljopisni uvjeti</string>
+      <string language="hr">gosodarstvo</string>
+      <string language="hr">naselja</string>
+      <string language="hr">povijesne i kulturne znamenitosti</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <contribute>
+      <role>
+        <source>LOMODSv1.0</source>
+        <value>author</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+N:Conjar;Bogdanka
+FN:Bogdanka Conjar
+END:VCARD]]></entity>
+    </contribute>
+  </lifeCycle>
+  <metaMetadata>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM262</entry>
+    </identifier>
+    <metadataSchema>LOMv1.0</metadataSchema>
+  </metaMetadata>
+  <technical>
+    <location>http://www.skole.hr/nastavni-materijali/materijal?nm_action=get_materijal_detaljno&amp;id=262</location>
+  </technical>
+  <educational>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>presentation</value>
+    </learningResourceType>
+    <intendedEndUserRole>
+      <source>LOMODSv1.0</source>
+      <value>learner</value>
+    </intendedEndUserRole>
+    <context>
+      <source>LOMODSv1.0</source>
+      <value>primary education</value>
+    </context>
+    <typicalAgeRange>
+      <string language="en">9-10</string>
+    </typicalAgeRange>
+  </educational>
+  <rights>
+    <copyrightAndOtherRestrictions>
+      <source>LOMODSv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="hr">Ovaj objekt učenja je vlasništvo njegovog autora. Objekt učenja slobodan je za korištenje uz navođenje autora materijala.</string>
+      <string language="en">This learning object is owned by its respective author. The learning object is free for use, but it is necessary to attribute the author as its creator.</string>
+    </description>
+  </rights>
+  <relation />
+  <annotation />
+  <classification>
+    <purpose>
+      <source>LOMODSv1.0</source>
+      <value>discipline</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Social Studies Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Nature and environment</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

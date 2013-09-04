@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM lomODS.xsd">
+  <general>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM51</entry>
+    </identifier>
+    <title>
+      <string language="hr">Nekoliko lakih komada na temu " Električna struja"</string>
+    </title>
+    <language>hr</language>
+    <description>
+      <string language="hr">Koji je sadržaj materijala?&lt;br /&gt;	Prezentacija objedinjuje temeljne fizikalne modele koji se obrađuju u sklopu redovne nastave fizike u osmom razredu osnovne škole.&lt;br /&gt;&lt;br /&gt;	&lt;br /&gt;&lt;br /&gt;	Kako su materijali nastali?&lt;br /&gt;	Materijali su nastali temeljem učeničkih diskusija koje smo imali pod satovima obrade određene nastavne jedinice. Plod diskusija s učenicima su konstrukcije fizikalnih modela o građi atoma, elektriziranja tijela dodirom, električne sile, elektriziranja tijela elektrostatskom indukcijom, vođenja električne struje u metalima i vodljivim tekućinama.&lt;br /&gt;&lt;br /&gt;	&lt;br /&gt;&lt;br /&gt;	Kome su materijali namijenjeni?&lt;br /&gt;	Materijali su namijenjeni prvenstveno učenicima osmog razreda osnovne škole kao pomoć u razumijevanju navedenih fizikalnih koncepata, a prezentirani su pod satom ponavljanja.&lt;br /&gt;&lt;br /&gt;	&lt;br /&gt;&lt;br /&gt;	Što se materijalom željelo postići?&lt;br /&gt;	- zorno prezentirati ( vizualizirati ) pojave koje smo obrađivali,&lt;br /&gt;	- motivirati učenike za dublje i šire proučavanje električnih pojava fizike,&lt;br /&gt;	- motivirati učenike za samostalne učeničke radove u svrhu samoobrazovanja,&lt;br /&gt;	- aktualizirati temu elektriciteta&lt;br /&gt;	- poticati na razmišljanje o pojavama iz elektriciteta u svakodnevnom životu&lt;br /&gt;</string>
+    </description>
+    <keyword>
+      <string language="hr">fizika</string>
+      <string language="hr">električna struja</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <contribute>
+      <role>
+        <source>LOMODSv1.0</source>
+        <value>author</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+N:Brlić;Ivica
+FN:Ivica Brlić
+END:VCARD]]></entity>
+    </contribute>
+  </lifeCycle>
+  <metaMetadata>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM51</entry>
+    </identifier>
+    <metadataSchema>LOMv1.0</metadataSchema>
+  </metaMetadata>
+  <technical>
+    <location>http://www.skole.hr/nastavni-materijali/materijal?nm_action=get_materijal_detaljno&amp;id=51</location>
+  </technical>
+  <educational>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>presentation</value>
+    </learningResourceType>
+    <intendedEndUserRole>
+      <source>LOMODSv1.0</source>
+      <value>learner</value>
+    </intendedEndUserRole>
+    <context>
+      <source>LOMODSv1.0</source>
+      <value>primary education</value>
+    </context>
+    <typicalAgeRange>
+      <string language="en">13-14</string>
+    </typicalAgeRange>
+  </educational>
+  <rights>
+    <copyrightAndOtherRestrictions>
+      <source>LOMODSv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="hr">Ovaj objekt učenja je vlasništvo njegovog autora. Objekt učenja slobodan je za korištenje uz navođenje autora materijala.</string>
+      <string language="en">This learning object is owned by its respective author. The learning object is free for use, but it is necessary to attribute the author as its creator.</string>
+    </description>
+  </rights>
+  <relation />
+  <annotation />
+  <classification>
+    <purpose>
+      <source>LOMODSv1.0</source>
+      <value>discipline</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Science Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Physics</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

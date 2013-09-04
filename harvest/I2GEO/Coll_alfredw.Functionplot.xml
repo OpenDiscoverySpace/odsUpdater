@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_alfredw.Functionplot</entry>
+    </identifier>
+    <title>
+      <string language="en">Function plot</string>
+    </title>
+    <language>en</language>
+    <description>
+      <string language="en">Plotting of function graphs with JSXGraph</string>
+    </description>
+    <keyword>
+      <string language="en">Graph Function Plot JSXGraph</string>
+      <!-- ttac = #Plots_r,#use_ITtools_to_make_plots,#plot_a_function_formula,#Function_r,#Function_Plotter_r -->
+      <string language="de">Graph</string>
+      <string language="fr">graphe d'une fonction</string>
+      <string language="en">plot</string>
+      <string language="es">gráfica</string>
+      <string language="nl">Grafiek</string>
+      <string language="de">IT Werkzeuge zum Zeichnen von Graphen nutzen</string>
+      <string language="fr">utiliser les outils informatiques pour construire des graphiques</string>
+      <string language="en">use_ITtools_to_make_plots</string>
+      <string language="es">utilizar calculadoras gráficas y programas de ordenador para la construcción de gráficas</string>
+      <string language="nl">ICT hulpmiddelen gebruiken om een grafiek te tekenen</string>
+      <string language="de">einen Funktionsterm graphisch darstellen</string>
+      <string language="fr">représenter graphiquement une fonction représentée par son expression algébrique</string>
+      <string language="en">represent mappings expressed algebraically</string>
+      <string language="es">representar gráficamente una fórmula</string>
+      <string language="nl">Een grafiek tekenen voor een algebraïsche uitdrukking</string>
+      <string language="de">Funktion</string>
+      <string language="fr">Fonction</string>
+      <string language="fr">fonction</string>
+      <string language="fr">Fonction</string>
+      <string language="fr">fonction</string>
+      <string language="en">function</string>
+      <string language="nl">Functie</string>
+      <string language="cs">Funkce</string>
+      <string language="de">Funktionsplotter</string>
+      <string language="fr">grapheur de fonctions</string>
+      <string language="en">function plotter</string>
+      <string language="nl">Tekenprogramma voor functies</string>
+      <string language="nl">Plotprogramma voor functies</string>
+      <string language="nl">Functieplotter</string>
+      <string language="nl">Tekenprogramma voor functies</string>
+      <string language="nl">Plotprogramma voor functies</string>
+      <string language="nl">Functieplotter</string>
+      <string language="nl">Tekenprogramma voor functies</string>
+      <string language="nl">Plotprogramma voor functies</string>
+      <string language="nl">Functieplotter</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">1.02</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Alfred Wassermann&#xD;
+N:Wassermann;Alfred;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-05-27T11:53:02.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Alfred Wassermann&#xD;
+N:Wassermann;Alfred;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-11-04T14:52:54.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_alfredw/Functionplot</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT resource_animation
+        true    true     -->
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>demonstration</value>
+    </learningResourceType>
+    <interactivityLevel>
+      <source>LOMv1.0</source>
+      <value>medium</value>
+    </interactivityLevel>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#England_and_Wales_Year6</value>
+            </context>
+                                     -->
+    <language>en</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Plots_r</id>
+        <entry>
+          <string language="de">Graph</string>
+          <string language="fr">graphe d'une fonction</string>
+          <string language="en">plot</string>
+          <string language="es">gráfica</string>
+          <string language="nl">Grafiek</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#use_ITtools_to_make_plots</id>
+        <entry>
+          <string language="de">IT Werkzeuge zum Zeichnen von Graphen nutzen</string>
+          <string language="fr">utiliser les outils informatiques pour construire des graphiques</string>
+          <string language="en">use_ITtools_to_make_plots</string>
+          <string language="es">utilizar calculadoras gráficas y programas de ordenador para la construcción de gráficas</string>
+          <string language="nl">ICT hulpmiddelen gebruiken om een grafiek te tekenen</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#plot_a_function_formula</id>
+        <entry>
+          <string language="de">einen Funktionsterm graphisch darstellen</string>
+          <string language="fr">représenter graphiquement une fonction représentée par son expression algébrique</string>
+          <string language="en">represent mappings expressed algebraically</string>
+          <string language="es">representar gráficamente una fórmula</string>
+          <string language="nl">Een grafiek tekenen voor een algebraïsche uitdrukking</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Function_r</id>
+        <entry>
+          <string language="de">Funktion</string>
+          <string language="fr">Fonction</string>
+          <string language="fr">fonction</string>
+          <string language="fr">Fonction</string>
+          <string language="fr">fonction</string>
+          <string language="en">function</string>
+          <string language="nl">Functie</string>
+          <string language="cs">Funkce</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Function_Plotter_r</id>
+        <entry>
+          <string language="de">Funktionsplotter</string>
+          <string language="fr">grapheur de fonctions</string>
+          <string language="en">function plotter</string>
+          <string language="nl">Tekenprogramma voor functies</string>
+          <string language="nl">Plotprogramma voor functies</string>
+          <string language="nl">Functieplotter</string>
+          <string language="nl">Tekenprogramma voor functies</string>
+          <string language="nl">Plotprogramma voor functies</string>
+          <string language="nl">Functieplotter</string>
+          <string language="nl">Tekenprogramma voor functies</string>
+          <string language="nl">Plotprogramma voor functies</string>
+          <string language="nl">Functieplotter</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_ChristianMercat.Parallelesexterieuresauntriangle</entry>
+    </identifier>
+    <title>
+      <string language="fr">Parallèles extérieures à un triangle</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">dans un triangle ABC, on construit la parallèle à (BC) passant par A, et de même pour chaque sommet. On constate ou on démontre suivant le niveau que ça crée trois nouveaux triangles semblables au premier.</string>
+    </description>
+    <keyword>
+      <string language="fr" />
+      <!-- ttac = #Midpoint_segment_in_triangle,#Use_proportionality_of_sidelengths_of_triangles_in_particular_configuration,#Construct_simple_figure -->
+      <string language="fr">dans un triangle la longueur du segment joignant les milieux de deux côtés est égale à la moitié de celle du troisième côté</string>
+      <string language="fr">dans un triangle la longueur du segment joignant les milieux de deux côtés est égale à la moitié de celle du troisième côté</string>
+      <string language="en">the line segment connecting the midpoints of the sides of a triangle is      parallel to the third side and congruent to one half of it</string>
+      <string language="en">the line segment connecting the midpoints of the sides of a triangle is      parallel to the third side and congruent to one half of it</string>
+      <string language="fr">dans un triangle la longueur du segment joignant les milieux de deux côtés est égale à la moitié de celle du troisième côté</string>
+      <string language="fr">dans un triangle la longueur du segment joignant les milieux de deux côtés est égale à la moitié de celle du troisième côté</string>
+      <string language="en">the line segment connecting the midpoints of the sides of a triangle is      parallel to the third side and congruent to one half of it</string>
+      <string language="en">the line segment connecting the midpoints of the sides of a triangle is      parallel to the third side and congruent to one half of it</string>
+      <string language="de">den Strahlensatz verwenden</string>
+      <string language="de">die Proportionalität der Seitenlängen von zwei ähnlichen Dreiecken nutzen( wenn ein Seitenpaar parallel ist)</string>
+      <string language="fr">utiliser la proportionnalité des longueurs des côtés de deux triangles en configuration de Thales</string>
+      <string language="en">use the proportionality of sidelengths of similar triangles in a particular configuration (a pair of parallel sides)</string>
+      <string language="de">den Strahlensatz verwenden</string>
+      <string language="de">die Proportionalität der Seitenlängen von zwei ähnlichen Dreiecken nutzen( wenn ein Seitenpaar parallel ist)</string>
+      <string language="de">eine einfache Figur konstruieren</string>
+      <string language="fr">construire des figures simples</string>
+      <string language="en">construct a simple figure</string>
+      <string language="nl">Een eenvoudige figuur construeren</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">2.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Christian Mercat IREM de Lyon, IUFM&#xD;
+N:IREM de Lyon, IUFM;Christian Mercat;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-10-13T07:46:00.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Christian Mercat IREM de Lyon, IUFM&#xD;
+N:IREM de Lyon, IUFM;Christian Mercat;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-10-13T07:51:51.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>ggb</format>
+    <size>5282</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_ChristianMercat/Parallelesexterieuresauntriangle</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#College_1</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Sixième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Sixième de Collège</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Sixième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Sixième de Collège</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 11 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 11 -->
+    <typicalAgeRange>
+      <string language="en">11-12</string>
+    </typicalAgeRange>
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Midpoint_segment_in_triangle</id>
+        <entry>
+          <string language="fr">dans un triangle la longueur du segment joignant les milieux de deux côtés est égale à la moitié de celle du troisième côté</string>
+          <string language="fr">dans un triangle la longueur du segment joignant les milieux de deux côtés est égale à la moitié de celle du troisième côté</string>
+          <string language="en">the line segment connecting the midpoints of the sides of a triangle is      parallel to the third side and congruent to one half of it</string>
+          <string language="en">the line segment connecting the midpoints of the sides of a triangle is      parallel to the third side and congruent to one half of it</string>
+          <string language="fr">dans un triangle la longueur du segment joignant les milieux de deux côtés est égale à la moitié de celle du troisième côté</string>
+          <string language="fr">dans un triangle la longueur du segment joignant les milieux de deux côtés est égale à la moitié de celle du troisième côté</string>
+          <string language="en">the line segment connecting the midpoints of the sides of a triangle is      parallel to the third side and congruent to one half of it</string>
+          <string language="en">the line segment connecting the midpoints of the sides of a triangle is      parallel to the third side and congruent to one half of it</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Use_proportionality_of_sidelengths_of_triangles_in_particular_configuration</id>
+        <entry>
+          <string language="de">den Strahlensatz verwenden</string>
+          <string language="de">die Proportionalität der Seitenlängen von zwei ähnlichen Dreiecken nutzen( wenn ein Seitenpaar parallel ist)</string>
+          <string language="fr">utiliser la proportionnalité des longueurs des côtés de deux triangles en configuration de Thales</string>
+          <string language="en">use the proportionality of sidelengths of similar triangles in a particular configuration (a pair of parallel sides)</string>
+          <string language="de">den Strahlensatz verwenden</string>
+          <string language="de">die Proportionalität der Seitenlängen von zwei ähnlichen Dreiecken nutzen( wenn ein Seitenpaar parallel ist)</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Construct_simple_figure</id>
+        <entry>
+          <string language="de">eine einfache Figur konstruieren</string>
+          <string language="fr">construire des figures simples</string>
+          <string language="en">construct a simple figure</string>
+          <string language="nl">Een eenvoudige figuur construeren</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

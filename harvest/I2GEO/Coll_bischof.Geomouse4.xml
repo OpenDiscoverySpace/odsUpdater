@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_bischof.Geomouse4</entry>
+    </identifier>
+    <title>
+      <string language="it">Sperimentare e costruire geometricamente nella rete</string>
+    </title>
+    <language>it</language>
+    <description>
+      <string language="it">Experiments and Constructions for grades 7-9 (Switzerland).&lt;p/&gt;
+&lt;strong&gt;Diese Resource ist eine Kopie von einer Trace von der erste Intergeo Phase&lt;/strong&gt;&lt;p/&gt;
+Diese Resource stammt aus &lt;a class="wikicreatelink" href="http://i2geo.net/xwiki/bin/edit/Traces/Geomouse?parent=Coll_bischof.Geomouse4"&gt;&lt;span class="wikicreatelinktext"&gt;Geomouse&lt;/span&gt;&lt;span class="wikicreatelinkqm"&gt;?&lt;/span&gt;&lt;/a&gt; wo 120 Konstruktionen berichtet wurden.&lt;p/&gt;
+&lt;ul class="minus"&gt;
+&lt;li&gt;Geometriesystem: &lt;span class="wikilink"&gt;&lt;a href="http://i2geo.net/xwiki/bin/view/Softwares/Cinderella"&gt;Cinderella&lt;/a&gt;&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;Land : ch&lt;/li&gt;
+&lt;li&gt;Bildungsstufe: Klasse 7-9  (Schweiz)&lt;/li&gt;
+&lt;li&gt;Hauptthemengebiet: Geometry (other topics)&lt;/li&gt;
+&lt;li&gt;Andere Themengebiete&lt;/li&gt;
+&lt;/ul&gt;Geomouse.ch si rivolge in prima linea a scolari e adulti che vogliono apprendere la geometria in modo indipendente e che vogliono consolidare le proprie cognizioni con degli esericizi.&lt;p/&gt;
+Le parti d’apprendimento possono essere impiegate a casa o a scuola indipendentemente dal sistema operativo e dalle installazioni.&lt;p/&gt;
+Gli esperimenti e le costruzioni sono anche adatte per l’insegnamento. Gli esercizi sono sistemati così da permettere l’impiego in classe, nel lavoro singolo o in coppia. Inoltre gli scolari che hanno accesso a internet possono lavorare a casa indipendentemente da orario o luogo.&lt;p/&gt;
+Tutti possono prendersi il tempo che vogliono per risolvere un compito. Gli esercizi sulle costruzioni sono interattive. Il programma all’inizio pone un problema. Tramite il punto di domanda si può ottenere supporto. Il sistema riconosce passi e soluzioni corrette e contribuisce con un commento complementare, sino a che è stata trovata la soluzione. Chi usufruisce spesso del supporto, viene invitato a rifare compiti di capitoli precedenti.&lt;p/&gt;
+In quanto strumento di ripetizione, questo programma può offrire un supporto prezioso anche a scuole di seguito e a scuole di avviamento professionale (livello secondario II).&lt;p/&gt;
+Geomouse.ch non rappresenta un materiale didattico interattivo tradizionale. Non è stato concepito per controllare gli scolari, o per impedire loro di guardare le soluzioni in anticipo. Geomouse.ch offre una vasta opportunità per vivere e testare la geometria nella sua dinamica e validità generale. In questo modo si ottiene un plusvalore a nozioni che non sarebbe stato possibile senza l’ausilio del computer.&lt;p/&gt;
+Su richiesta degli insegnanti responsabili per i test, abbiamo creato i fogli d’esercizi nel formato pdf. Possono essere stampati, per poi approfondire la materia didattica con schizzi e commenti. Allo stesso tempo gli insegnanti hanno la possibilità di verificare – in base a questi fogli d’esercizi – quali compiti sono stati risolti e se sono stati compresi.&lt;p/&gt;
+Per scuole e scolari senza accesso a internet a larga banda, la versione interattiva non è adatta. Abbiamo l’intenzione di mettere a disposizione una versione offline che può essere scaricata. Avrà una grandezza di 20-30 MB.</string>
+    </description>
+    <keyword>
+      <string language="it">Sperimentare costruire geometricamente</string>
+      <!-- ttac = #Unknown_r -->
+      <string language="de">Unbekannte</string>
+      <string language="fr">inconnue</string>
+      <string language="en">unknown</string>
+      <string language="nl">Onbekende</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">1.02</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Gerhard Bischof&#xD;
+N:Bischof;Gerhard;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-03-10T18:33:02.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Gerhard Bischof&#xD;
+N:Bischof;Gerhard;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-11-04T15:01:36.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_bischof/Geomouse4</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#England_and_Wales_Year6</value>
+            </context>
+                                     -->
+    <language>it</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <!-- unrecognized license type: "cc-by-nc-sa" -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Unknown_r</id>
+        <entry>
+          <string language="de">Unbekannte</string>
+          <string language="fr">inconnue</string>
+          <string language="en">unknown</string>
+          <string language="nl">Onbekende</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

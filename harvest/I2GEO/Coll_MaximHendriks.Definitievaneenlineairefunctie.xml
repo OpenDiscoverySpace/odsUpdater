@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_MaximHendriks.Definitievaneenlineairefunctie</entry>
+    </identifier>
+    <title>
+      <string language="en">Definitie van een lineaire functie</string>
+    </title>
+    <language>en</language>
+    <description>
+      <string language="en">Het begrip lineaire functie wordt ingevoerd, evenals het begrip richtingscoördinaat</string>
+    </description>
+    <keyword>
+      <string language="en" />
+      <!-- ttac = #Gradient,#Linear_function -->
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">3.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Maxim Hendriks&#xD;
+N:Hendriks;Maxim;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-08-16T16:59:15.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Maxim Hendriks&#xD;
+N:Hendriks;Maxim;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-08-16T17:03:07.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_MaximHendriks/Definitievaneenlineairefunctie</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_assignment
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>exercise</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#VWO_1</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >VWO - klas 1</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 1 gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >eerste klas gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 1 VWO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >VWO - klas 1</value>                </context>
+                                <context><source>i2g</source>
+                    <value >brugklas</value>                </context>
+                                <context><source>i2g</source>
+                    <value >eerste klas VWO</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >VWO - klas 1</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 1 gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >eerste klas gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 1 VWO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >VWO - klas 1</value>                </context>
+                                <context><source>i2g</source>
+                    <value >brugklas</value>                </context>
+                                <context><source>i2g</source>
+                    <value >eerste klas VWO</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >VWO - klas 1</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 1 gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >eerste klas gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 1 VWO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >VWO - klas 1</value>                </context>
+                                <context><source>i2g</source>
+                    <value >brugklas</value>                </context>
+                                <context><source>i2g</source>
+                    <value >eerste klas VWO</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >VWO - klas 1</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 1 gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >eerste klas gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 1 VWO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >VWO - klas 1</value>                </context>
+                                <context><source>i2g</source>
+                    <value >brugklas</value>                </context>
+                                <context><source>i2g</source>
+                    <value >eerste klas VWO</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >VWO - klas 1</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 1 gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >eerste klas gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 1 VWO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >VWO - klas 1</value>                </context>
+                                <context><source>i2g</source>
+                    <value >brugklas</value>                </context>
+                                <context><source>i2g</source>
+                    <value >eerste klas VWO</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >VWO - klas 1</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 1 gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >eerste klas gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 1 VWO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >VWO - klas 1</value>                </context>
+                                <context><source>i2g</source>
+                    <value >brugklas</value>                </context>
+                                <context><source>i2g</source>
+                    <value >eerste klas VWO</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >VWO - klas 1</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 1 gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >eerste klas gymnasium</value>                </context>
+                                <context><source>i2g</source>
+                    <value >klas 1 VWO</value>                </context>
+                                <context><source>i2g</source>
+                    <value >VWO - klas 1</value>                </context>
+                                <context><source>i2g</source>
+                    <value >brugklas</value>                </context>
+                                <context><source>i2g</source>
+                    <value >eerste klas VWO</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 12 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 12 -->
+    <typicalAgeRange>
+      <string language="en">12-13</string>
+    </typicalAgeRange>
+    <language>en</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Gradient</id>
+        <entry>
+          <string language="en">
+            <!-- fallback from URI -->
+            Gradient
+          </string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Linear_function</id>
+        <entry>
+          <string language="en">
+            <!-- fallback from URI -->
+            Linear function
+          </string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

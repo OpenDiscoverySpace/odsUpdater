@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_cdording.FonctionsAffines</entry>
+    </identifier>
+    <title>
+      <string language="fr">Fonctions affines</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">C'est la représentation graphique d'une fonction affine. 
+L'ordonnée à l'origine et le coefficient directeur sont pilotables par des curseurs.
+La figure permet de faire varier l'ordonnée à l'origine et le coefficient directeur  à l'aide des boutons rouge et vert, et de comprendre la signification de ces coefficients. &lt;p/&gt;
+&lt;ul class="minus"&gt;
+&lt;li&gt;Geometry system: &lt;span class="wikilink"&gt;&lt;a href="http://i2geo.net/xwiki/bin/view/Softwares/Geolabo"&gt;Geolabo&lt;/a&gt;&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;Country: fr&lt;/li&gt;
+&lt;li&gt;Educational level: 3e&lt;/li&gt;
+&lt;li&gt;Main topic: 2D-Plots&lt;/li&gt;
+&lt;li&gt;Other themesfonction affine, ordonnée à l'origine, coefficient directeur, pente&lt;/li&gt;
+&lt;/ul&gt;</string>
+    </description>
+    <keyword>
+      <string language="fr">fonction affine ordonnée à l’origine coefficient directeur pente</string>
+      <!-- ttac = #Graphical_display_of_data_r,#Graphical_Representation_of_Function_r,#Affine_function_r -->
+      <string language="de">graphische Darstellung von Daten</string>
+      <string language="fr">représentation graphique de données</string>
+      <string language="en">graphical display of data</string>
+      <string language="nl">Grafische weergave van gegevens</string>
+      <string language="de">graphische Darstellung einer Funktion</string>
+      <string language="fr">représentation graphique de fonction</string>
+      <string language="en">graphical representation of a function</string>
+      <string language="nl">Grafische weergave van een functie</string>
+      <string language="de">affine Funktion</string>
+      <string language="fr">fonction affine</string>
+      <string language="en">affine function</string>
+      <string language="nl">affiene functie</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">1.02</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Carole Dording&#xD;
+N:Dording;Carole;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-04-16T20:06:09.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Sophie Soury-Lavergne INRP&#xD;
+N:INRP;Sophie Soury-Lavergne;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-11-04T15:02:33.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_cdording/FonctionsAffines</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#England_and_Wales_Year6</value>
+            </context>
+                                     -->
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">CurrikiCode.AssetLicenseClass_licenseType_Licences.GFDL</string>
+    </description>
+    <!-- <licenseURI>http://www.gnu.org/copyleft/fdl.html</licenseURI>-->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Graphical_display_of_data_r</id>
+        <entry>
+          <string language="de">graphische Darstellung von Daten</string>
+          <string language="fr">représentation graphique de données</string>
+          <string language="en">graphical display of data</string>
+          <string language="nl">Grafische weergave van gegevens</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Graphical_Representation_of_Function_r</id>
+        <entry>
+          <string language="de">graphische Darstellung einer Funktion</string>
+          <string language="fr">représentation graphique de fonction</string>
+          <string language="en">graphical representation of a function</string>
+          <string language="nl">Grafische weergave van een functie</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Affine_function_r</id>
+        <entry>
+          <string language="de">affine Funktion</string>
+          <string language="fr">fonction affine</string>
+          <string language="en">affine function</string>
+          <string language="nl">affiene functie</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

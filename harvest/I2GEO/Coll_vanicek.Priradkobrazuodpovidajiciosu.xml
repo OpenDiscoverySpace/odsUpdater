@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_vanicek.Priradkobrazuodpovidajiciosu</entry>
+    </identifier>
+    <title>
+      <string language="cs">Přiřaď k obrazu odpovídající osu</string>
+    </title>
+    <language>cs</language>
+    <description>
+      <string language="cs">Problémová úloha. V této úloze má žák mezi pěti mnohoúhelníky rozeznat, který je vzorem (ostatní jsou jeho obrazem podle některé ze čtyř os na obr. A.12). Následným úkolem je přiřadit zbylé obrazy k osám, podle kterých byly zobrazeny.
+&lt;ul class="minus"&gt;
+&lt;li class="innerlist"&gt;&lt;ul class="minus"&gt;
+&lt;li class="innerlist"&gt;&lt;ul class="minus"&gt;
+&lt;li&gt;Zadání: Na obrázku je pět shodných mnohoúhelníků tvaru písmene F. Jeden z nich je vzor a ostatní jeho obrazy v osové souměrnosti. Najděte tento vzor.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;Podle každé z os 1, 2, 3, 4 vznikl jeden obraz mnohoúhelníka – vzoru. Přiřaďte k sobě dvojice osa – obraz vzniklý podle této osy. Ověřte manipulací s osami.
+&lt;ul class="minus"&gt;
+&lt;li class="innerlist"&gt;&lt;ul class="minus"&gt;
+&lt;li class="innerlist"&gt;&lt;ul class="minus"&gt;
+&lt;li&gt;Správné řešení: B – vzor, 1 – E, 2 – D, 3 – A, 4 – C&lt;/li&gt;
+&lt;li&gt;Metodická poznámka: Úloha je vhodná k projekci před třídou. Protože je figura dynamická, při otáčení s osou kolem průsečíku os se bude otáčet i obraz, vytvořený podle této osy. Každý z obrazů může být odvezen na místo, kam podle polohy osy a vzoru správně patří. Kontrola žákovských předpovědí je tak provedena před celou třídou a umožňuje následnou besedu.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;Aby byla úloha ztížena a zadání přehlednější, jsou obrazy oproti skutečné poloze vůči ose posunuty. Obrazci lze pohybovat uchopením za popsané vrcholy.&lt;p/&gt;</string>
+    </description>
+    <keyword>
+      <string language="cs">osová souměrnost vzor obraz</string>
+      <!-- ttac =  -->
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">1.02</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Jiří Vaníček&#xD;
+N:Vaníček;Jiří;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-04-20T11:09:46.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Jiří Vaníček&#xD;
+N:Vaníček;Jiří;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-11-04T01:12:18.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format />
+    <size>8804</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_vanicek/Priradkobrazuodpovidajiciosu</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_exercise
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>exercise</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills</value>
+            </context>
+                                     -->
+    <language>cs</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+</lom>
+

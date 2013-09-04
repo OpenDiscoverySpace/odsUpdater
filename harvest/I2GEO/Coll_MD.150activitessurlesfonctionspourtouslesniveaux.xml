@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_MD.150activitessurlesfonctionspourtouslesniveaux</entry>
+    </identifier>
+    <title>
+      <string language="fr">200 activités sur les fonctions pour tous les niveaux</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">Démarches d'investigation et conjectures,situations problèmes ,............</string>
+    </description>
+    <keyword>
+      <string language="fr" />
+      <!-- ttac = #FunctionTopic_r,#Function_Plotter_r,#Function_r,#Linear_function_r,#Polynomial_function_r -->
+      <string language="de">Funktionen und verwandte Themen</string>
+      <string language="fr">fonctions et notions connexes</string>
+      <string language="fr">Notions en lien avec les fonctions</string>
+      <string language="fr">fonctions et notions connexes</string>
+      <string language="fr">Notions en lien avec les fonctions</string>
+      <string language="en">functions and related topics</string>
+      <string language="nl">Functies en aanverwante onderwerpen</string>
+      <string language="cs">Funkce a příbuzné pojmy</string>
+      <string language="de">Funktionsplotter</string>
+      <string language="fr">grapheur de fonctions</string>
+      <string language="en">function plotter</string>
+      <string language="nl">Tekenprogramma voor functies</string>
+      <string language="nl">Plotprogramma voor functies</string>
+      <string language="nl">Functieplotter</string>
+      <string language="nl">Tekenprogramma voor functies</string>
+      <string language="nl">Plotprogramma voor functies</string>
+      <string language="nl">Functieplotter</string>
+      <string language="nl">Tekenprogramma voor functies</string>
+      <string language="nl">Plotprogramma voor functies</string>
+      <string language="nl">Functieplotter</string>
+      <string language="de">Funktion</string>
+      <string language="fr">Fonction</string>
+      <string language="fr">fonction</string>
+      <string language="fr">Fonction</string>
+      <string language="fr">fonction</string>
+      <string language="en">function</string>
+      <string language="nl">Functie</string>
+      <string language="cs">Funkce</string>
+      <string language="de">lineare Funktion</string>
+      <string language="fr">fonction linéaire</string>
+      <string language="en">linear function</string>
+      <string language="nl">Lineaire functie</string>
+      <string language="cs">Lineární funkce</string>
+      <string language="de">Polynomfunktion</string>
+      <string language="fr">fonction polynomiale</string>
+      <string language="en">polynomial function</string>
+      <string language="nl">Polynomiale functie</string>
+      <string language="cs">Polynomická funkce</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">5.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Daniel Mentrard&#xD;
+N:Mentrard;Daniel;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-02-19T18:56:56.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Paul Libbrecht&#xD;
+N:Libbrecht;Paul;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2013-02-28T16:44:20.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_MD/150activitessurlesfonctionspourtouslesniveaux</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_problemset
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>exercise</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Lycee_General_et_Technologique_2_serie_S</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Première générale S</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Première générale S</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Première générale S</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Première générale S</value>                </context>
+                                                    <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Lycee_General_et_Technologique_3_serie_STL</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Terminale STL</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Terminale STL</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Terminale STL</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Terminale STL</value>                </context>
+                                                    <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#university</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Universität</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Universität</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >université</value>                </context>
+                                <context><source>i2g</source>
+                    <value >université</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >university</value>                </context>
+                                <context><source>i2g</source>
+                    <value >university</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >universiteit</value>                </context>
+                                <context><source>i2g</source>
+                    <value >universiteit</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Universität</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Universität</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >université</value>                </context>
+                                <context><source>i2g</source>
+                    <value >université</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >university</value>                </context>
+                                <context><source>i2g</source>
+                    <value >university</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >universiteit</value>                </context>
+                                <context><source>i2g</source>
+                    <value >universiteit</value>                </context>
+                                                    <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#College_3</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Quatrième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Quatrième de Collège</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Quatrième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Quatrième de Collège</value>                </context>
+                                                    <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Lycee_General_et_Technologique_1</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Seconde</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Seconde</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Seconde</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Seconde</value>                </context>
+                                                    <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#College_4</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Troisième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Troisième de Collège</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Troisième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Troisième de Collège</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 16 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 17 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 13 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 15 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 14 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 16 -->
+    <typicalAgeRange>
+      <string language="en">16-17</string>
+    </typicalAgeRange>
+    <!-- typicalAgeRange is: 17 -->
+    <typicalAgeRange>
+      <string language="en">17-18</string>
+    </typicalAgeRange>
+    <!-- typicalAgeRange is: 13 -->
+    <typicalAgeRange>
+      <string language="en">13-14</string>
+    </typicalAgeRange>
+    <!-- typicalAgeRange is: 15 -->
+    <typicalAgeRange>
+      <string language="en">15-16</string>
+    </typicalAgeRange>
+    <!-- typicalAgeRange is: 14 -->
+    <typicalAgeRange>
+      <string language="en">14-15</string>
+    </typicalAgeRange>
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#FunctionTopic_r</id>
+        <entry>
+          <string language="de">Funktionen und verwandte Themen</string>
+          <string language="fr">fonctions et notions connexes</string>
+          <string language="fr">Notions en lien avec les fonctions</string>
+          <string language="fr">fonctions et notions connexes</string>
+          <string language="fr">Notions en lien avec les fonctions</string>
+          <string language="en">functions and related topics</string>
+          <string language="nl">Functies en aanverwante onderwerpen</string>
+          <string language="cs">Funkce a příbuzné pojmy</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Function_Plotter_r</id>
+        <entry>
+          <string language="de">Funktionsplotter</string>
+          <string language="fr">grapheur de fonctions</string>
+          <string language="en">function plotter</string>
+          <string language="nl">Tekenprogramma voor functies</string>
+          <string language="nl">Plotprogramma voor functies</string>
+          <string language="nl">Functieplotter</string>
+          <string language="nl">Tekenprogramma voor functies</string>
+          <string language="nl">Plotprogramma voor functies</string>
+          <string language="nl">Functieplotter</string>
+          <string language="nl">Tekenprogramma voor functies</string>
+          <string language="nl">Plotprogramma voor functies</string>
+          <string language="nl">Functieplotter</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Function_r</id>
+        <entry>
+          <string language="de">Funktion</string>
+          <string language="fr">Fonction</string>
+          <string language="fr">fonction</string>
+          <string language="fr">Fonction</string>
+          <string language="fr">fonction</string>
+          <string language="en">function</string>
+          <string language="nl">Functie</string>
+          <string language="cs">Funkce</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Linear_function_r</id>
+        <entry>
+          <string language="de">lineare Funktion</string>
+          <string language="fr">fonction linéaire</string>
+          <string language="en">linear function</string>
+          <string language="nl">Lineaire functie</string>
+          <string language="cs">Lineární funkce</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Polynomial_function_r</id>
+        <entry>
+          <string language="de">Polynomfunktion</string>
+          <string language="fr">fonction polynomiale</string>
+          <string language="en">polynomial function</string>
+          <string language="nl">Polynomiale functie</string>
+          <string language="cs">Polynomická funkce</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

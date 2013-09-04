@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM lomODS.xsd">
+  <general>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM134</entry>
+    </identifier>
+    <title>
+      <string language="hr">Coulombov zakon</string>
+    </title>
+    <language>hr</language>
+    <description>
+      <string language="hr">Materijal sadrži simulaciju pokusa kojim se istražuje sila između dviju nabijenih kuglica. Jedna od kuglica je na stalku, a druga na jednom kraju poluge. Na drugom kraju iste poluge je zdjelica. Kuglice se elektriziraju pri dodiru sa štapom natrljanim u tkanini. Budući da je na kuglicama ista vrsta naboja, sila međi njima je odbojna, a uravnotežuje se težinom utega koji se smještaju u zdjelicu.&lt;br /&gt;&lt;br /&gt;	&lt;br /&gt;	U prvom dijelu pokusa (prvi slajd) istražuje se ovisnost sile o naboju na kuglicama, pri čemu se razmak među njima održava stalnim. Početna sila je najjača i uravnotežena je s težinom četiriju utega u zdjelici. Kada se kuglica na stalku dodirne jednakom nenabijenom kuglicom, količina naboja kuglice na stalku smanji se na polovicu početne vrijednosti. Da bi se uspostavila ravnoteža sila, iz zdjelice je potrebno izvaditi dva utega. Dakle, smanjenjem količine naboja na polovicu početne vrijednosti i sila među kuglicama se smanji na polovicu početne vrijednosti. Ponovnim dodirom s nenabijenom kuglicom, naboj kuglice na stalku smanji se na četvrtinu početne vrijednosti. Za uspostavljanje ravnoteže sila potreban je samo jedan uteg. Dakle, četvrtini početnog naboja na kuglici odgovara četvrtina početne vrijednosti sile kojom na nju djeluje druga kuglica.&lt;br /&gt;&lt;br /&gt;	&lt;br /&gt;	Na drugom slajdu je prikazan izvod zaključka da je sila kojom međusobno djeluju dvije nabijene kuglice upravno razmjerna umnošku količina naboja na njima.&lt;br /&gt;&lt;br /&gt;	&lt;br /&gt;	U drugom dijelu pokusa (treći slajd) istražuje se ovisnost sile o razmaku među kuglicama. Pri početnom razmaku (6 jedinica), sila među kuglicama uravnotežena je težinom jednog utega. Kada se razmak smanji na polovicu početne vrijednosti (3 jedinice) sila se poveća 4 puta (u zdjelici je 4 utega). Smanji li se razmak među kuglicama na trećinu početne vrijednosti (2 jedinice), sila se poveća 9 puta (u zdjelici je 9 utega). Zaključak je da je sila obrnuto razmjerna kvadratu udaljenosti među kuglicama.&lt;br /&gt;	Na četvrtom slajdu je u obliku formula zapisan konačni zaključak da je sila kojom uzajamno djeluju dvije nabijene kuglice upravno razmjerna umnošku naboja na njima i obrnuto razmjerna kvadratu njihove međusobne udaljenosti. To je Coulombov zakon.</string>
+    </description>
+  </general>
+  <lifeCycle>
+    <contribute>
+      <role>
+        <source>LOMODSv1.0</source>
+        <value>author</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+N:Labor;Jakov
+FN:Jakov Labor
+END:VCARD]]></entity>
+    </contribute>
+  </lifeCycle>
+  <metaMetadata>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM134</entry>
+    </identifier>
+    <metadataSchema>LOMv1.0</metadataSchema>
+  </metaMetadata>
+  <technical>
+    <location>http://www.skole.hr/nastavni-materijali/materijal?nm_action=get_materijal_detaljno&amp;id=134</location>
+  </technical>
+  <educational>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>simulation</value>
+    </learningResourceType>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>tool</value>
+    </learningResourceType>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>lecture</value>
+    </learningResourceType>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>presentation</value>
+    </learningResourceType>
+    <intendedEndUserRole>
+      <source>LOMODSv1.0</source>
+      <value>learner</value>
+    </intendedEndUserRole>
+    <context>
+      <source>LOMODSv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <typicalAgeRange>
+      <string language="en">15-16</string>
+    </typicalAgeRange>
+  </educational>
+  <rights>
+    <copyrightAndOtherRestrictions>
+      <source>LOMODSv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="hr">Ovaj objekt učenja je vlasništvo njegovog autora. Objekt učenja slobodan je za korištenje uz navođenje autora materijala.</string>
+      <string language="en">This learning object is owned by its respective author. The learning object is free for use, but it is necessary to attribute the author as its creator.</string>
+    </description>
+  </rights>
+  <relation />
+  <annotation />
+  <classification>
+    <purpose>
+      <source>LOMODSv1.0</source>
+      <value>discipline</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Science Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Physics</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

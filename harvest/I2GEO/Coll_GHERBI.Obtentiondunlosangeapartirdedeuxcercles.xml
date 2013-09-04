@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_GHERBI.Obtentiondunlosangeapartirdedeuxcercles</entry>
+    </identifier>
+    <title>
+      <string language="fr">Obtention d’un losange  à partir de deux cercles</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">1-Description
+Construction d’un quadrilatère à partir de l’intersection de deux cercles quelconques (de rayons différents) de centre A et B.
+L’élève est amené a obtenir un losange, il doit mobiliser des concepts mathématiques (caractéristiques et propriétés géométrique du losange)  lui permettant de démontrer qu’il s’agit bien  d’un losange, pour cela il va valider ses hypothèses   par le biais   du logiciel dynamique (parallélisme des cotés, mesure de cotés et d’angles).&lt;p/&gt;
+2-Compétences&lt;p/&gt;
+1-	Déployer un raisonnement mathématique : Les situations d’application permettent aux élèves de développer leur habileté et de s’approprier de vocabulaire relatif au cercle, dans cette situation les élèves serons en mesure de construire des connaissances en essayons d’obtenir des formes différentes du quadrilatère, cependant ca leur demande de réflexion pour justifier l’obtention du trapèze.&lt;p/&gt;
+2-	Communiquer à l’aide du langage mathématique : Interpréter des messages à caractère mathématique en exprimant des idées mathématique en tenant compte des règles et des conventions qui s’y attachent ainsi que du contexte
+3-	niveau
+ Programme de formation de l’école québécoise m enseignement secondaire 1er cycle.&lt;p/&gt;</string>
+    </description>
+    <keyword>
+      <string language="fr" />
+      <!-- ttac =  -->
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">2.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Ahmed GHERBI&#xD;
+N:GHERBI;Ahmed;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-10-05T01:20:32.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Ahmed GHERBI&#xD;
+N:GHERBI;Ahmed;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-10-05T01:29:55.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>zip</format>
+    <size>11102</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_GHERBI/Obtentiondunlosangeapartirdedeuxcercles</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills</value>
+            </context>
+                                     -->
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+</lom>
+

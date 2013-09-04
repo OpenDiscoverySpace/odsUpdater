@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM lomODS.xsd">
+  <general>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM18</entry>
+    </identifier>
+    <title>
+      <string language="hr">Mnogokuti - matematika uz pomoć računala - primjena programa Sketchpad u nastavi matematike</string>
+    </title>
+    <language>hr</language>
+    <description>
+      <string language="hr">U cilju osuvremenjivanja nastave matematike već nekoliko školskih godina s učenicima OŠ Otok i OŠ Trnsko sustavno obrađujemo odabrane dijelove nastavnog plana redovne i izborne nastave matematike na nestandardni način. Iako postoje razrađeni materijali za sve razrede, ovdje smo odabrale tek jedan mali segment - nastavnu temu Mnogokuti, koja se obrađuje u sedmom razredu osnovne škole. Tema je razrađena na četiri razine:&lt;br /&gt;&lt;br /&gt;	&lt;br /&gt;		radni materijali za učenike (za redovnu nastavu),&lt;br /&gt;	&lt;br /&gt;		radni materijali za učenike (za dodatnu i izbornu nastavu),&lt;br /&gt;	&lt;br /&gt;		rješenja zadataka (pokazni materijal za prezentaciju),&lt;br /&gt;	&lt;br /&gt;		prezentacijski materijal za nastavu (ako se koristi samo jedno računalo i projektor).&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;	Projekt / primjer namijenjen je svim učenicima razrednog odjela te je poželjno da svaki učenik radi samostalno na računalu. Tako se postiže potpuna individualizacija nastave, tj. učenicima je omogućeno da do ''otkrića'' zakonitosti dolaze samostalno, pri čemu ih nitko ne ''usporava'', ali ni ne ''ubrzava'' u donošenju zaključka. Nešto lošija situacija je ako učenici rade u parovima, no i to je kvalitetnije nego rad na klasični način.&lt;br /&gt;&lt;br /&gt;	Uloga učitelja u tom slučaju potpuno je mentorska - on usmjerava učenike, ali im ne nameće svoje stavove i zaključke.&lt;br /&gt;&lt;br /&gt;	&lt;br /&gt;&lt;br /&gt;	Materijal se sastoji od:&lt;br /&gt;&lt;br /&gt;	&lt;br /&gt;		opisa projekta: projekt Mnogokuti - popločavanje&lt;br /&gt;	&lt;br /&gt;		nekoliko kompresiranih mapa dokumenata:&lt;br /&gt;		&lt;br /&gt;			&lt;br /&gt;				mnogokuti - prezentacije&lt;br /&gt;			&lt;br /&gt;				mnogokuti - radno učenici&lt;br /&gt;			&lt;br /&gt;				mnogokuti - radno rješenja&lt;br /&gt;		&lt;br /&gt;	&lt;br /&gt;	&lt;br /&gt;		1 sketchpadove datoteke za 8. razred</string>
+    </description>
+    <keyword>
+      <string language="hr">matematika</string>
+      <string language="hr">Sketchpad</string>
+      <string language="hr">računalo</string>
+      <string language="hr">mnogokuti</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <contribute>
+      <role>
+        <source>LOMODSv1.0</source>
+        <value>author</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+N:Kokić;Ivana
+FN:Ivana Kokić
+END:VCARD]]></entity>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMODSv1.0</source>
+        <value>author</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+N:Svedrec;Renata
+FN:Renata Svedrec
+END:VCARD]]></entity>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMODSv1.0</source>
+        <value>author</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+N:Soucie;Tanja
+FN:Tanja Soucie
+END:VCARD]]></entity>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMODSv1.0</source>
+        <value>author</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+N:Radović;Nikol
+FN:Nikol Radović
+END:VCARD]]></entity>
+    </contribute>
+  </lifeCycle>
+  <metaMetadata>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM18</entry>
+    </identifier>
+    <metadataSchema>LOMv1.0</metadataSchema>
+  </metaMetadata>
+  <technical>
+    <location>http://www.skole.hr/nastavni-materijali/materijal?nm_action=get_materijal_detaljno&amp;id=18</location>
+  </technical>
+  <educational>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>exercise</value>
+    </learningResourceType>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>lecture</value>
+    </learningResourceType>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>presentation</value>
+    </learningResourceType>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>reference</value>
+    </learningResourceType>
+    <intendedEndUserRole>
+      <source>LOMODSv1.0</source>
+      <value>learner</value>
+    </intendedEndUserRole>
+    <context>
+      <source>LOMODSv1.0</source>
+      <value>primary education</value>
+    </context>
+    <typicalAgeRange>
+      <string language="en">12-13</string>
+    </typicalAgeRange>
+  </educational>
+  <rights>
+    <copyrightAndOtherRestrictions>
+      <source>LOMODSv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="hr">Ovaj objekt učenja je vlasništvo njegovog autora. Objekt učenja slobodan je za korištenje uz navođenje autora materijala.</string>
+      <string language="en">This learning object is owned by its respective author. The learning object is free for use, but it is necessary to attribute the author as its creator.</string>
+    </description>
+  </rights>
+  <relation />
+  <annotation />
+  <classification>
+    <purpose>
+      <source>LOMODSv1.0</source>
+      <value>discipline</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">ODS ICT Vocabulary</string>
+      </source>
+      <taxon />
+    </taxonPath>
+    <taxonPath>
+      <source>
+        <string language="en">ODS ICT Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Technology</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Computer science</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Social Studies Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Culture and Cultural Theory</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Mathematics Vocabulary</string>
+      </source>
+      <taxon />
+    </taxonPath>
+  </classification>
+</lom>
+

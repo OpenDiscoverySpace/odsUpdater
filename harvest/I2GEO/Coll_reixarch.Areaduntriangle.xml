@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_reixarch.Areaduntriangle</entry>
+    </identifier>
+    <title>
+      <string language="en">Àrea d'un triangle</string>
+    </title>
+    <language>en</language>
+    <description>
+      <string language="en">Definció de la fórmula per calcular l'àrea d'un triangle y reprsentació gràfica.</string>
+    </description>
+    <keyword>
+      <string language="en">wiris</string>
+      <!-- ttac = #Calculate_area_of_triangle,#Triangle_r,#Measure_area -->
+      <string language="de">den Flächeninhalt eines Dreieck berechnen</string>
+      <string language="fr">calculer l'aire d'un triangle</string>
+      <string language="en">calculate the area of a triangle</string>
+      <string language="de">Dreieck</string>
+      <string language="fr">triangle</string>
+      <string language="en">triangle</string>
+      <string language="es">Triángulo</string>
+      <string language="nl">Driehoek</string>
+      <string language="cs">trojúhelník</string>
+      <string language="de">die Oberfläche messen</string>
+      <string language="fr">mesurer l'aire d'une surface</string>
+      <string language="en">measure the area of a surface</string>
+      <string language="es">medir un área</string>
+      <string language="nl">De oppervlakte van een oppervlak meten</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">1.02</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Ramon Eixarch&#xD;
+N:Eixarch;Ramon;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-10-03T06:27:48.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Ramon Eixarch&#xD;
+N:Eixarch;Ramon;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-11-04T14:59:32.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_reixarch/Areaduntriangle</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#England_and_Wales_Year6</value>
+            </context>
+                                     -->
+    <language>en</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Calculate_area_of_triangle</id>
+        <entry>
+          <string language="de">den Flächeninhalt eines Dreieck berechnen</string>
+          <string language="fr">calculer l'aire d'un triangle</string>
+          <string language="en">calculate the area of a triangle</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Triangle_r</id>
+        <entry>
+          <string language="de">Dreieck</string>
+          <string language="fr">triangle</string>
+          <string language="en">triangle</string>
+          <string language="es">Triángulo</string>
+          <string language="nl">Driehoek</string>
+          <string language="cs">trojúhelník</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Measure_area</id>
+        <entry>
+          <string language="de">die Oberfläche messen</string>
+          <string language="fr">mesurer l'aire d'une surface</string>
+          <string language="en">measure the area of a surface</string>
+          <string language="es">medir un área</string>
+          <string language="nl">De oppervlakte van een oppervlak meten</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

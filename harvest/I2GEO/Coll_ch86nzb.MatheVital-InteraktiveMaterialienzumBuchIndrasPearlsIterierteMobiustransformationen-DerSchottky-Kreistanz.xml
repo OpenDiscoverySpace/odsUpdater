@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_ch86nzb.MatheVital-InteraktiveMaterialienzumBuchIndrasPearlsIterierteMobiustransformationen-DerSchottky-Kreistanz</entry>
+    </identifier>
+    <title>
+      <string language="en">MatheVital - Interaktive Materialien zum Buch Indra's Pearls: Iterierte Möbiustransformationen - Der Schottky-Kreistanz</string>
+    </title>
+    <language>en</language>
+    <description>
+      <string language="en">Wir wollen uns erst einmal ansehen, was beim iterierten Abbilden der Kreise genau passiert. Das nächste Applet zeigt die vier Kreise und die dazu gehörigen Kreispunkte, über die die Möbiustransformationen festgelegt sind. Insgesamt haben wir also vier Möbiustransformationen - zu jedem der beiden diagonal gegenüber liegenden Kreispaare betrachten wir die Transformation und die Umkehrabbildung.&lt;p/&gt;
+Bildet man alle vier Kreise mit diesen vier Möbiustransformationen ab, so gibt es für jeden Kreis eine Transformation, die ihn auf seinen entsprechenden "Partner" abbildet. Die restlichen drei Transformationen bilden den Kreis in das Innere der andern drei Kreise ab. Führt man dies für jeden der Kreise durch, so entsteht im Inneren jedes Kreises je ein Bild für jeden der drei anderen Kreise. Bildet man nun wiederum diese Kreise ab (d.h. erhöht man die Iterationstiefe), so entstehen in diesen abgebildeten Kreisen wiederum Kreise.</string>
+    </description>
+    <keyword>
+      <string language="en" />
+      <!-- ttac = #Transformation_r,#Circle_r -->
+      <string language="de">Transformation</string>
+      <string language="de">Abbildung</string>
+      <string language="de">Transformation</string>
+      <string language="de">Abbildung</string>
+      <string language="fr">transformation</string>
+      <string language="en">transformation</string>
+      <string language="es">transformación</string>
+      <string language="nl">Transformatie</string>
+      <string language="cs">Geometrické zobrazení</string>
+      <string language="de">Kreis</string>
+      <string language="fr">cercle</string>
+      <string language="en">circle</string>
+      <string language="es">Círculo</string>
+      <string language="nl">Cirkel</string>
+      <string language="cs">Kružnice</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">2.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Christopher Heck&#xD;
+N:Heck;Christopher;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-11-02T20:32:45.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Christopher Heck&#xD;
+N:Heck;Christopher;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-11-02T20:33:53.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_ch86nzb/MatheVital-InteraktiveMaterialienzumBuchIndrasPearlsIterierteMobiustransformationen-DerSchottky-Kreistanz</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_worksheet
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>exercise</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills</value>
+            </context>
+                                     -->
+    <language>en</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Transformation_r</id>
+        <entry>
+          <string language="de">Transformation</string>
+          <string language="de">Abbildung</string>
+          <string language="de">Transformation</string>
+          <string language="de">Abbildung</string>
+          <string language="fr">transformation</string>
+          <string language="en">transformation</string>
+          <string language="es">transformación</string>
+          <string language="nl">Transformatie</string>
+          <string language="cs">Geometrické zobrazení</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Circle_r</id>
+        <entry>
+          <string language="de">Kreis</string>
+          <string language="fr">cercle</string>
+          <string language="en">circle</string>
+          <string language="es">Círculo</string>
+          <string language="nl">Cirkel</string>
+          <string language="cs">Kružnice</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_RafaLosada.Flores</entry>
+    </identifier>
+    <title>
+      <string language="es">Flores</string>
+    </title>
+    <language>es</language>
+    <description>
+      <string language="es">Muestra una familia de curvas que modelizan los pétalos de algunas flores.&lt;p/&gt;
+&lt;strong&gt;Este recurso ha sido copiado de una traza obtenida en los Primeros Pasos&lt;/strong&gt;&lt;p/&gt;
+Viene de la traza &lt;a class="wikicreatelink" href="http://i2geo.net/xwiki/bin/edit/Traces/Flores?parent=Coll_RafaLosada.Flores"&gt;&lt;span class="wikicreatelinktext"&gt;Flores&lt;/span&gt;&lt;span class="wikicreatelinkqm"&gt;?&lt;/span&gt;&lt;/a&gt; que mencionaba 1 construcciones&lt;p/&gt;
+&lt;ul class="minus"&gt;
+&lt;li&gt;Sistema de geometría: &lt;span class="wikilink"&gt;&lt;a href="http://i2geo.net/xwiki/bin/view/Softwares/GeoGebra"&gt;Geo Gebra&lt;/a&gt;&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;País: es&lt;/li&gt;
+&lt;li&gt;Nivel educativo: 15-18 años&lt;/li&gt;
+&lt;li&gt;Tema principal: Locus&lt;/li&gt;
+&lt;li&gt;Otros temas:&lt;/li&gt;
+&lt;/ul&gt;</string>
+    </description>
+    <keyword>
+      <string language="es" />
+      <!-- ttac = #Locus_r -->
+      <string language="de">Geometrischer Ort</string>
+      <string language="fr">lieu géométrique</string>
+      <string language="es">Lugar geométrico</string>
+      <string language="nl">Locus</string>
+      <string language="nl">Meetkundige plaats</string>
+      <string language="nl">Locus</string>
+      <string language="nl">Meetkundige plaats</string>
+      <string language="cs">Geometrické místo bodů</string>
+      <string language="cs">Množina bodů dané vlastnosti</string>
+      <string language="cs">Geometrické místo bodů</string>
+      <string language="cs">Množina bodů dané vlastnosti</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">2.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Rafa Losada&#xD;
+N:Losada;Rafa;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-03-01T17:29:40.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Sassenou  Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M&#xD;
+N: Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M;Sassenou;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-04-19T12:04:34.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_RafaLosada/Flores</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills</value>
+            </context>
+                                     -->
+    <language>es</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <!-- unrecognized license type: "cc-by-sa" -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Locus_r</id>
+        <entry>
+          <string language="de">Geometrischer Ort</string>
+          <string language="fr">lieu géométrique</string>
+          <string language="es">Lugar geométrico</string>
+          <string language="nl">Locus</string>
+          <string language="nl">Meetkundige plaats</string>
+          <string language="nl">Locus</string>
+          <string language="nl">Meetkundige plaats</string>
+          <string language="cs">Geometrické místo bodů</string>
+          <string language="cs">Množina bodů dané vlastnosti</string>
+          <string language="cs">Geometrické místo bodů</string>
+          <string language="cs">Množina bodů dané vlastnosti</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

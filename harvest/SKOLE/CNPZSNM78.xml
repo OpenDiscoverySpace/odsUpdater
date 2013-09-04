@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM lomODS.xsd">
+  <general>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM78</entry>
+    </identifier>
+    <title>
+      <string language="hr">Ein Traum von Europa</string>
+    </title>
+    <language>hr</language>
+    <description>
+      <string language="hr">Već četiri godine održava se kreativno natjecanje Fokus Europa u organizaciji Europskog parlamenta, Europske komisije, Njemačkog ministarstva vanjskih poslova i Instituta za prospektivne analize. Cilj ovog online natječaja je senzibilizirati mlade u Europi za zajedničke, ali i probleme svake pojedine zemlje, potaknuti mlade na promišljanje zajedničke budućnosti, i to na kreativan način kroz korištenje suvremenih medija i u skupini od bar četvero učenika. 2006. godine prvi put stigao rad iz Hrvatske, jedanaestominutni film učenika Ekonomske škole u Požegi pod nazivom Ein Traum von Europa. Jedna od tema je bila pitanje identiteta u zajedničkoj Europi. Učenice su tu temu obradile u obliku sna: jedna od učenica se susreće s novim svijetom, svijetom zajedničke europske valute, novina i natpisa na Ťglavnimť europskim jezicima. Kad se probudi, pronađe pismo Europe koja želi razbiti sve njene predrasude i ukloniti njene strahove. Učenice su filmom osvojile šestodnevno sudjelovanje na Kongresu o budućnosti u Berlinu, od 16. do 21. studenog 2006. godine.&lt;br /&gt;&lt;br /&gt;	&lt;br /&gt;&lt;br /&gt;	Učenici su trebali obraditi neke od zadanih tema: Europski identitet, Demokratska Europa, Gospodarski i socijalni razvoj, Okoliš, Globalizacija i Slike Europe. Natjecanje je samo predvježba za radionice na kojima su nagrađeni učenici sudjelovali na Europskom kongresu o budućnosti u Berlinu. Neminovno je daljnje proširenje Europske Unije, a ujedno je neizvjesna sudbina Europskog ustava, zajedničke europske valute, monetarne i vanjske politike. Upravo se stoga želi mlade stanovnike Europe potaknuti na promišljanje i suplaniranje zajedničke budućnosti. Cilj nije napraviti znanstvenu studiju o budućnosti Europe kroz deset do dvadeset godina, nego potaknuti mlade na promišljanje svoje budućnosti, na izgradnju vizija budućnosti, na osvješćivanje mogućih scenarija budućnosti zajedničke Europe. Učenici trebaju razvijati svoju kreativnost, argumentirati svoje stavove i pokazati primjenu suvremenih medija u nastavi. Radni jezik natjecanja i Kongresa o budućnosti je njemački jezik. Kroz razna natjecanja tijekom prethodne tri godine, nastojim potaknuti učenike na bavljenje njemačkim jezikom i osvijestiti činjenicu potrebe znanja njemačkog jezika u Republici Hrvatskoj. Učenici su već sedam puta imali prilike otputovati u zemlje njemačkog govornog područja ili na seminare u druge zemlje na kojima je radni jezik bio njemački, zahvaljujući iznimnom uspjehu na natjecanjima koje sam našla putem interneta. Time se postiže i legitiman cilj razvijanja jezične kompetencije kod učenika u komunikaciji s izvornim govornicima, ali i razvijanje kreativnosti učenika.&lt;br /&gt;</string>
+    </description>
+    <keyword>
+      <string language="hr">Europa</string>
+      <string language="hr">identitet</string>
+      <string language="hr">budućnost</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <contribute>
+      <role>
+        <source>LOMODSv1.0</source>
+        <value>author</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+N:Budimir;Martina
+FN:Martina Budimir
+END:VCARD]]></entity>
+    </contribute>
+  </lifeCycle>
+  <metaMetadata>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM78</entry>
+    </identifier>
+    <metadataSchema>LOMv1.0</metadataSchema>
+  </metaMetadata>
+  <technical>
+    <location>http://www.skole.hr/nastavni-materijali/materijal?nm_action=get_materijal_detaljno&amp;id=78</location>
+  </technical>
+  <educational>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <intendedEndUserRole>
+      <source>LOMODSv1.0</source>
+      <value>learner</value>
+    </intendedEndUserRole>
+    <context>
+      <source>LOMODSv1.0</source>
+      <value>primary education</value>
+    </context>
+    <context>
+      <source>LOMODSv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <typicalAgeRange>
+      <string language="en">12-13</string>
+      <string language="en">13-14</string>
+      <string language="en">14-15</string>
+      <string language="en">15-16</string>
+      <string language="en">16-17</string>
+      <string language="en">17-18</string>
+    </typicalAgeRange>
+  </educational>
+  <rights>
+    <copyrightAndOtherRestrictions>
+      <source>LOMODSv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="hr">Ovaj objekt učenja je vlasništvo njegovog autora. Objekt učenja slobodan je za korištenje uz navođenje autora materijala.</string>
+      <string language="en">This learning object is owned by its respective author. The learning object is free for use, but it is necessary to attribute the author as its creator.</string>
+    </description>
+  </rights>
+  <relation />
+  <annotation />
+  <classification>
+    <purpose>
+      <source>LOMODSv1.0</source>
+      <value>discipline</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Language Learning Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Reading</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Language Learning Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Writing</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Language Learning Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Speaking</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Language Learning Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Vocabulary</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

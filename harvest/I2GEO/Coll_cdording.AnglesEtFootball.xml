@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_cdording.AnglesEtFootball</entry>
+    </identifier>
+    <title>
+      <string language="fr">Angles et football</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">Où placer le ballon sur la ligne de touche pour voir le but sous un angle maximal ?</string>
+    </description>
+    <keyword>
+      <string language="fr">angle au centre angle inscrit tangente maximum</string>
+      <!-- ttac = #Angle_r,#Geolabo,#Inscribed_angle_r -->
+      <string language="de">Winkel</string>
+      <string language="fr">Secteur angulaire</string>
+      <string language="fr">angle</string>
+      <string language="fr">Secteur angulaire</string>
+      <string language="fr">angle</string>
+      <string language="en">angle</string>
+      <string language="es">Ángulo</string>
+      <string language="nl">Hoek</string>
+      <string language="cs">Velikost úhlu</string>
+      <string language="en">Geolabo</string>
+      <string language="en">Geolabo</string>
+      <string language="en">Geolabo</string>
+      <string language="en">Geolabo</string>
+      <string language="de">einbeschriebener Winkel</string>
+      <string language="fr">angle inscrit</string>
+      <string language="en">inscribed angle</string>
+      <string language="nl">Ingeschreven hoek</string>
+      <string language="cs">Obvodový úhel</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">4.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Carole Dording&#xD;
+N:Dording;Carole;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-04-16T20:20:06.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Paul Libbrecht&#xD;
+N:Libbrecht;Paul;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2013-03-05T14:50:30.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_cdording/AnglesEtFootball</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Lycee_General_et_Technologique_1</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Seconde</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Seconde</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Seconde</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Seconde</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 15 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 15 -->
+    <typicalAgeRange>
+      <string language="en">15-16</string>
+    </typicalAgeRange>
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">CurrikiCode.AssetLicenseClass_licenseType_Licences.GFDL</string>
+    </description>
+    <!-- <licenseURI>http://www.gnu.org/copyleft/fdl.html</licenseURI>-->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Angle_r</id>
+        <entry>
+          <string language="de">Winkel</string>
+          <string language="fr">Secteur angulaire</string>
+          <string language="fr">angle</string>
+          <string language="fr">Secteur angulaire</string>
+          <string language="fr">angle</string>
+          <string language="en">angle</string>
+          <string language="es">Ángulo</string>
+          <string language="nl">Hoek</string>
+          <string language="cs">Velikost úhlu</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Geolabo</id>
+        <entry>
+          <string language="en">Geolabo</string>
+          <string language="en">Geolabo</string>
+          <string language="en">Geolabo</string>
+          <string language="en">Geolabo</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Inscribed_angle_r</id>
+        <entry>
+          <string language="de">einbeschriebener Winkel</string>
+          <string language="fr">angle inscrit</string>
+          <string language="en">inscribed angle</string>
+          <string language="nl">Ingeschreven hoek</string>
+          <string language="cs">Obvodový úhel</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

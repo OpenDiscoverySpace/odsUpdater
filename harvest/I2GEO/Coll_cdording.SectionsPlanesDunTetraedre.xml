@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_cdording.SectionsPlanesDunTetraedre</entry>
+    </identifier>
+    <title>
+      <string language="fr">Sections planes d'un tétraèdre</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">On va extraire un tétraèdre d'un cube pour bien visualiser ce tétraèdre.&lt;p/&gt;
+Ensuite on fera des sections planes de ce tétraèdre perpendiculairement à la hauteur issue du sommet du cube. &lt;p/&gt;
+On utilisera une figure auxiliaire dans un plan pour démontrer que la hauteur a pour pied le centre de gravité de la base. &lt;p/&gt;
+Nous calculerons différentes grandeurs (périmètre, aire, volume)  liées à la section plane et nous en observerons les variations dans un graphique auxiliaire de façon dynamique. &lt;p/&gt;
+&lt;strong&gt;Cette resource est la copie d'une trace de la première étape d'intergeo&lt;/strong&gt;&lt;p/&gt;
+Cette resource vient de &lt;a class="wikicreatelink" href="http://i2geo.net/xwiki/bin/edit/Traces/dup-Sections+planes?parent=Coll_cdording.SectionsPlanesDunTetraedre"&gt;&lt;span class="wikicreatelinktext"&gt;dup&amp;#45;Sections planes&lt;/span&gt;&lt;span class="wikicreatelinkqm"&gt;?&lt;/span&gt;&lt;/a&gt; qui mentionne  constructions.&lt;p/&gt;
+&lt;ul class="minus"&gt;
+&lt;li&gt;Système de géométrie: &lt;span class="wikilink"&gt;&lt;a href="http://i2geo.net/xwiki/bin/view/Softwares/GeoPlan-GeoSpace"&gt;Geo Plan&amp;#45;Geo Space&lt;/a&gt;&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;Pays: fr&lt;/li&gt;
+&lt;li&gt;Niveau d'enseignement: Seconde-Première&lt;/li&gt;
+&lt;li&gt;Sujet principal: Sections&lt;/li&gt;
+&lt;li&gt;Autres thèmesaires - volumes - fonctions&lt;/li&gt;
+&lt;/ul&gt;</string>
+    </description>
+    <keyword>
+      <string language="fr">aires - volumes - fonctions</string>
+      <!-- ttac = #Section_r -->
+      <string language="de">Querschnitt</string>
+      <string language="fr">section</string>
+      <string language="en">cross section</string>
+      <string language="nl">Doorsnede (van lichamen)</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">2.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Carole Dording&#xD;
+N:Dording;Carole;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-04-20T14:48:13.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Sassenou  Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M&#xD;
+N: Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M;Sassenou;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-05-20T09:04:56.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_cdording/SectionsPlanesDunTetraedre</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills</value>
+            </context>
+                                     -->
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <!-- unrecognized license type: "cc-public-domain" -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Section_r</id>
+        <entry>
+          <string language="de">Querschnitt</string>
+          <string language="fr">section</string>
+          <string language="en">cross section</string>
+          <string language="nl">Doorsnede (van lichamen)</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

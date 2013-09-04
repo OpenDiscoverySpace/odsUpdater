@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_MichiBinder.MatheVital-LineareAlgebraIILineareDifferentialgleichungen</entry>
+    </identifier>
+    <title>
+      <string language="de">MatheVital - Lineare Algebra II: Lineare Differentialgleichungen</string>
+    </title>
+    <language>de</language>
+    <description>
+      <string language="de">Texte noch unvollständig</string>
+    </description>
+    <keyword>
+      <string language="de" />
+      <!-- ttac = #Solve_graphically_linear_equation,#Equations_r,#Linear_Equation_r,#Linear_model_r -->
+      <string language="de">eine lineare Gleichung grafisch lösen</string>
+      <string language="fr">donner une solution graphique évidente d'une équation linéaire</string>
+      <string language="de">Gleichungen</string>
+      <string language="fr">équation</string>
+      <string language="en">equation</string>
+      <string language="es">ecuación</string>
+      <string language="nl">Vergelijking</string>
+      <string language="de">lineare Gleichung</string>
+      <string language="fr">équation du premier degré</string>
+      <string language="en">linear equation</string>
+      <string language="es">ecuación de primer grado</string>
+      <string language="nl">Lineaire vergelijking</string>
+      <string language="nl">Affiene vergelijking</string>
+      <string language="nl">Lineaire vergelijking</string>
+      <string language="nl">Affiene vergelijking</string>
+      <string language="de">lineares Modell</string>
+      <string language="fr">modèle linéaire</string>
+      <string language="en">linear model</string>
+      <string language="es">modelo lineal</string>
+      <string language="nl">Lineair model</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">4.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Michael Binder&#xD;
+N:Binder;Michael;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-09-13T15:25:02.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Michael Binder&#xD;
+N:Binder;Michael;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-09-13T15:43:29.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_MichiBinder/MatheVital-LineareAlgebraIILineareDifferentialgleichungen</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills</value>
+            </context>
+                                     -->
+    <language>de</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">CurrikiCode.AssetLicenseClass_licenseType_Licences.Licences.CreativeCommonsAttributionNon-CommercialShareAlike</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by-nc-sa/2.0/</licenseURI>-->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Solve_graphically_linear_equation</id>
+        <entry>
+          <string language="de">eine lineare Gleichung grafisch lösen</string>
+          <string language="fr">donner une solution graphique évidente d'une équation linéaire</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Equations_r</id>
+        <entry>
+          <string language="de">Gleichungen</string>
+          <string language="fr">équation</string>
+          <string language="en">equation</string>
+          <string language="es">ecuación</string>
+          <string language="nl">Vergelijking</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Linear_Equation_r</id>
+        <entry>
+          <string language="de">lineare Gleichung</string>
+          <string language="fr">équation du premier degré</string>
+          <string language="en">linear equation</string>
+          <string language="es">ecuación de primer grado</string>
+          <string language="nl">Lineaire vergelijking</string>
+          <string language="nl">Affiene vergelijking</string>
+          <string language="nl">Lineaire vergelijking</string>
+          <string language="nl">Affiene vergelijking</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Linear_model_r</id>
+        <entry>
+          <string language="de">lineares Modell</string>
+          <string language="fr">modèle linéaire</string>
+          <string language="en">linear model</string>
+          <string language="es">modelo lineal</string>
+          <string language="nl">Lineair model</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

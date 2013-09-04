@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_josee.Lesrelationsdangledansunparallelogramme</entry>
+    </identifier>
+    <title>
+      <string language="fr">Les relations d’angle dans un parallélogramme</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">L'activité comprend deux curseurs qui déplacent les angles internes du parallélogramme. Un des mouvements vise à montrer aux élèves la notion de supplémentarité des angles consécutifs. L'autre illustre l'égalité entre les angles opposés.&lt;p/&gt;
+L'activité propose aux élèves de 1ère année du 1er cycle du secondaire de faire ressortir un maximum de propriétés quant aux relations entre les angles d’un parallélogramme. Ils doivent les justifier à l'aide de leurs connaissances antérieures. L'activité est conçue dans l'optique de laisser les élèves explorer l'animation.&lt;p/&gt;
+Notions et concepts pratiqués:&lt;p/&gt;
+-Les relations d'angles à l'aide des deux droites parallèles et d'une sécante (angles opposés par le sommet, angles correspondants)&lt;p/&gt;
+-Les angles opposés d'un parallélogramme sont congrus&lt;p/&gt;
+-La somme des angles intérieurs d'un parallélogramme est 360°&lt;p/&gt;
+-Les angles consécutifs d'un parallélogramme sont supplémentaires&lt;p/&gt;
+-L'angle intérieur et l'angle extérieur à un sommet sont supplémentaires&lt;p/&gt;
+Compétences en jeu (selon le programme de formation de l'école québécoise):&lt;p/&gt;
+-Déployer un raisonnement mathématique&lt;p/&gt;
+-Communiquer à l'aide d'un langage mathématique</string>
+    </description>
+    <keyword>
+      <string language="fr" />
+      <!-- ttac =  -->
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">8.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:josee Chouinard&#xD;
+N:Chouinard;josee;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-09-28T14:52:04.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:josee Chouinard&#xD;
+N:Chouinard;josee;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-10-15T15:04:51.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>zip</format>
+    <size>16131</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_josee/Lesrelationsdangledansunparallelogramme</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_exercise
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>exercise</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills</value>
+            </context>
+                                     -->
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+</lom>
+

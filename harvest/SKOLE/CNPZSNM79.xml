@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM lomODS.xsd">
+  <general>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM79</entry>
+    </identifier>
+    <title>
+      <string language="en">'Art and Music in English Classroom' workshop / Likovna umjetnost i glazba na satu engleskog jezika</string>
+    </title>
+    <language>en</language>
+    <description>
+      <string language="hr">Pri izradi radionice imala sam dva cilja.&lt;br /&gt;	U današnje vrijeme informacijske tehnologije su dostupne većini naših učenika, međutim tu postoje i zamke na koje trebaju biti upozoreni: kako u obilju ponuđenih informacija odabrati najbolje, kako ući u srž problema i ne ostati samo na površini tj. kako biti originalan kad je sve već netko drugi napravio prije nas i sve što trebamo učiniti je "copy-paste". Nadalje, željela sam kroz jednu središnju temu korelirati što više nastavnih predmeta (informatika, likovna i glazbena kultura, hrvatski jezik, zemljopis i engleski jezik - cijela radionica je vođena na engleskom jeziku).&lt;br /&gt;	Radionica započinje igrom asocijacija, kako bi učenici sami došli do naziva središnje teme. Rješenja se mogu ispisivati u tablicu na školskoj ploči ili projiciranjem na platnu.&lt;br /&gt;	Drugi korak zahtijeva maštovitost. Učenici su raspoređeni u manje skupine, pred sobom imaju listić s nazivom jedne od slika Vincenta van Gogha, ali stvarnu sliku ne vide. Zadatak je u što više detalja predvidjeti sadržaj slike. Na listiću se još nalaze i podpitanja koja pomažu učenicima, npr. koga/što vidiš na slici, ima li ljudi/životinja, koliko, malo/mnogo, koje je boje slikar koristio, kakvo raspoloženje u tebi budi slika? Učenici naglas opisuju "svoje" slike, a učitelj ih vodi dodatnim podpitanjima.&lt;br /&gt;	Nakon toga radionica se može odvijati na dva načina: učenici preko interneta traže zadanu sliku ili među ponuđenim reprodukcijama (stranice starog kalendara o Van Goghu i sl.) odabiru sliku koja najviše odgovara njihovom opisu. Kad pronađu "svoje" slike, učenici uspoređuju sličnosti i komentiraju razlike.&lt;br /&gt;	U slijedećem koraku učenici pričaju sve što znaju o životu i radu Van Gogha, a zatim izdvajaju desetak ključnih riječi (pridjeve, imenice, glagole) te osmišljavaju kratku pjesmu od najmanje 4 stiha.&lt;br /&gt;	Peti, posljednji korak je zapravo nagrada učenicima za njihov trud: prezentacija najpoznatijih Van Goghovih djela uz pjesmu "Starry Night".&lt;br /&gt;	(U prilogu je detaljan opis i tijek radionice na engleskom jeziku + video.)&lt;br /&gt;&lt;br /&gt;	Materijal se sastoji od pripreme u dokumentu, te filma.</string>
+    </description>
+    <keyword>
+      <string language="hr">Vincent van Gogh</string>
+      <string language="hr">motivacija</string>
+      <string language="hr">opisivanje slike</string>
+      <string language="hr">maštovitost</string>
+      <string language="hr">korelacija</string>
+      <string language="hr">prezentacija</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <contribute>
+      <role>
+        <source>LOMODSv1.0</source>
+        <value>author</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+N:Krpes-Pregun;Božica
+FN:Božica Krpes-Pregun
+END:VCARD]]></entity>
+    </contribute>
+  </lifeCycle>
+  <metaMetadata>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM79</entry>
+    </identifier>
+    <metadataSchema>LOMv1.0</metadataSchema>
+  </metaMetadata>
+  <technical>
+    <location>http://www.skole.hr/nastavni-materijali/materijal?nm_action=get_materijal_detaljno&amp;id=79</location>
+  </technical>
+  <educational>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>lecture</value>
+    </learningResourceType>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>presentation</value>
+    </learningResourceType>
+    <intendedEndUserRole>
+      <source>LOMODSv1.0</source>
+      <value>learner</value>
+    </intendedEndUserRole>
+    <context>
+      <source>LOMODSv1.0</source>
+      <value>primary education</value>
+    </context>
+    <context>
+      <source>LOMODSv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <typicalAgeRange>
+      <string language="en">12-13</string>
+      <string language="en">13-14</string>
+      <string language="en">14-15</string>
+    </typicalAgeRange>
+  </educational>
+  <rights>
+    <copyrightAndOtherRestrictions>
+      <source>LOMODSv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="hr">Ovaj objekt učenja je vlasništvo njegovog autora. Objekt učenja slobodan je za korištenje uz navođenje autora materijala.</string>
+      <string language="en">This learning object is owned by its respective author. The learning object is free for use, but it is necessary to attribute the author as its creator.</string>
+    </description>
+  </rights>
+  <relation />
+  <annotation />
+  <classification>
+    <purpose>
+      <source>LOMODSv1.0</source>
+      <value>discipline</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Language Learning Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Reading</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Language Learning Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Writing</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Language Learning Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Speaking</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Language Learning Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Vocabulary</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Social Studies Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Culture and Cultural Theory</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Social Studies Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Culture and Cultural Theory</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

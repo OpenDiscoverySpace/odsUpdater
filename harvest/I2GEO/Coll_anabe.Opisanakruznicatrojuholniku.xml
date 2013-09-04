@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_anabe.Opisanakruznicatrojuholniku</entry>
+    </identifier>
+    <title>
+      <string language="cs">Opísaná kružnica trojuholníku</string>
+    </title>
+    <language>cs</language>
+    <description>
+      <string language="cs">Tvarujte trojuholník pomocou bodov A,B,C ľubovoľne a skúmajte opísanú kružnicu  k tomuto trojuholníku.</string>
+    </description>
+    <keyword>
+      <string language="cs" />
+      <!-- ttac = #Circumcircle_r -->
+      <string language="de">Umkreis</string>
+      <string language="fr">cercle circonscrit</string>
+      <string language="en">circumscribed circle</string>
+      <string language="en">circumcircle</string>
+      <string language="en">circumscribed circle</string>
+      <string language="en">circumcircle</string>
+      <string language="es">Círculo circumscrito</string>
+      <string language="nl">Omgeschreven cirkel</string>
+      <string language="cs">Opsaná kružnice</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">2.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Anita Berner berner SVK&#xD;
+N:berner SVK;Anita Berner;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-03-24T19:02:12.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Anita Berner berner SVK&#xD;
+N:berner SVK;Anita Berner;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-03-24T19:10:24.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>ggb</format>
+    <size>5937</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_anabe/Opisanakruznicatrojuholniku</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT resource_template
+        true    true     -->
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>reference</value>
+    </learningResourceType>
+    <interactivityLevel>
+      <source>LOMv1.0</source>
+      <value>medium</value>
+    </interactivityLevel>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Zakladni_Skola_9</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Základní Škola - 9. třída</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Základní Škola - 9. třída</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Zakladni Skola - 9. trida</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Základní Škola - 9. třída</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Základní Škola - 9. třída</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Zakladni Skola - 9. trida</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Základní Škola - 9. třída</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Základní Škola - 9. třída</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Zakladni Skola - 9. trida</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 14 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 14 -->
+    <typicalAgeRange>
+      <string language="en">14-15</string>
+    </typicalAgeRange>
+    <language>cs</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Circumcircle_r</id>
+        <entry>
+          <string language="de">Umkreis</string>
+          <string language="fr">cercle circonscrit</string>
+          <string language="en">circumscribed circle</string>
+          <string language="en">circumcircle</string>
+          <string language="en">circumscribed circle</string>
+          <string language="en">circumcircle</string>
+          <string language="es">Círculo circumscrito</string>
+          <string language="nl">Omgeschreven cirkel</string>
+          <string language="cs">Opsaná kružnice</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

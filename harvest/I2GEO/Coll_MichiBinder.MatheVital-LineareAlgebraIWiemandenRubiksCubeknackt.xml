@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_MichiBinder.MatheVital-LineareAlgebraIWiemandenRubiksCubeknackt</entry>
+    </identifier>
+    <title>
+      <string language="de">MatheVital - Lineare Algebra I: Wie man den Rubik's Cube knackt</string>
+    </title>
+    <language>de</language>
+    <description>
+      <string language="de">Interaktives Tutorial mit hilfreichem Applet zum Erlernen von Lösungsstrategien des Rubik's Cube inkl. anschaulichem Videomaterial.</string>
+    </description>
+    <keyword>
+      <string language="de">Zauberwürfel</string>
+      <!-- ttac = #Cube_r,#Explore_alternative_strategies,#Rotation_r,#RevolutionSolid_r -->
+      <string language="de">Würfel</string>
+      <string language="fr">cube</string>
+      <string language="en">cube</string>
+      <string language="es">cubo</string>
+      <string language="nl">Kubus</string>
+      <string language="cs">Krychle</string>
+      <string language="de">alternative (Lösungs-) Strategien untersuchen</string>
+      <string language="fr">explorer des stratégies de rechange</string>
+      <string language="en">explore alternative strategies</string>
+      <string language="de">Rotation</string>
+      <string language="de">Drehung</string>
+      <string language="de">Rotation</string>
+      <string language="de">Drehung</string>
+      <string language="fr">rotation</string>
+      <string language="en">rotation</string>
+      <string language="es">rotación</string>
+      <string language="nl">Draaiing</string>
+      <string language="nl">Rotatie</string>
+      <string language="nl">Draaiing</string>
+      <string language="nl">Rotatie</string>
+      <string language="cs">Rotace</string>
+      <string language="cs">Otočení</string>
+      <string language="cs">Rotace</string>
+      <string language="cs">Otočení</string>
+      <string language="de">Rotationskörper</string>
+      <string language="fr">solide de révolution</string>
+      <string language="en">revolution solid</string>
+      <string language="es">cuerpo de revolución</string>
+      <string language="nl">Omwentelingslichaam</string>
+      <string language="cs">Rotační těleso</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">10.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Michael Binder&#xD;
+N:Binder;Michael;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-09-18T14:15:45.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Michael Binder&#xD;
+N:Binder;Michael;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-09-22T13:24:59.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_MichiBinder/MatheVital-LineareAlgebraIWiemandenRubiksCubeknackt</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_worksheet
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>exercise</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills</value>
+            </context>
+                                     -->
+    <language>de</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">CurrikiCode.AssetLicenseClass_licenseType_Licences.Licences.CreativeCommonsAttributionNon-CommercialShareAlike</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by-nc-sa/2.0/</licenseURI>-->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Cube_r</id>
+        <entry>
+          <string language="de">Würfel</string>
+          <string language="fr">cube</string>
+          <string language="en">cube</string>
+          <string language="es">cubo</string>
+          <string language="nl">Kubus</string>
+          <string language="cs">Krychle</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Explore_alternative_strategies</id>
+        <entry>
+          <string language="de">alternative (Lösungs-) Strategien untersuchen</string>
+          <string language="fr">explorer des stratégies de rechange</string>
+          <string language="en">explore alternative strategies</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Rotation_r</id>
+        <entry>
+          <string language="de">Rotation</string>
+          <string language="de">Drehung</string>
+          <string language="de">Rotation</string>
+          <string language="de">Drehung</string>
+          <string language="fr">rotation</string>
+          <string language="en">rotation</string>
+          <string language="es">rotación</string>
+          <string language="nl">Draaiing</string>
+          <string language="nl">Rotatie</string>
+          <string language="nl">Draaiing</string>
+          <string language="nl">Rotatie</string>
+          <string language="cs">Rotace</string>
+          <string language="cs">Otočení</string>
+          <string language="cs">Rotace</string>
+          <string language="cs">Otočení</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#RevolutionSolid_r</id>
+        <entry>
+          <string language="de">Rotationskörper</string>
+          <string language="fr">solide de révolution</string>
+          <string language="en">revolution solid</string>
+          <string language="es">cuerpo de revolución</string>
+          <string language="nl">Omwentelingslichaam</string>
+          <string language="cs">Rotační těleso</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

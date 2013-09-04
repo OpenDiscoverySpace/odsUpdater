@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM lomODS.xsd">
+  <general>
+    <identifier>
+      <catalog>CARNetMoodle</catalog>
+      <entry>MDLBK3391</entry>
+    </identifier>
+    <title>
+      <string language="hr">Igre u Moodleu</string>
+    </title>
+    <language>hr</language>
+    <description>
+      <string language="hr">Igre u Moodleu</string>
+    </description>
+  </general>
+  <lifeCycle />
+  <metaMetadata>
+    <identifier>
+      <catalog>CARNetMoodle</catalog>
+      <entry>MDLBK3391</entry>
+    </identifier>
+    <metadataSchema>LOMv1.0</metadataSchema>
+  </metaMetadata>
+  <technical>
+    <location>http://moodle.carnet.hr/mod/book/view.php?id=91600</location>
+  </technical>
+  <educational />
+  <rights>
+    <copyrightAndOtherRestrictions>
+      <source>LOMODSv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="hr">Ovaj objekt učenja je vlasništvo njegovog autora. Objekt učenja dostupan je samo CARNetovim korisnicima koji su upisani u ovaj tečaj.</string>
+      <string language="en">This learning object is owned by its author. The learning object is available only for registered CARNet users enrolled in the course.</string>
+    </description>
+  </rights>
+  <relation>
+    <kind>
+      <source>LOMODSv1.0</source>
+      <value>ispartof</value>
+    </kind>
+    <resource>
+      <identifier>
+        <catalog>CARNetMoodle</catalog>
+        <entry>MDLCRS2070</entry>
+      </identifier>
+    </resource>
+  </relation>
+  <annotation />
+  <classification>
+    <purpose>
+      <source>LOMODSv1.0</source>
+      <value>teaching approach</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Teaching Approaches Vocabulary</string>
+      </source>
+      <taxon>
+        <id>ODS-TA-03</id>
+        <entry>
+          <string language="en">Constructivist</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

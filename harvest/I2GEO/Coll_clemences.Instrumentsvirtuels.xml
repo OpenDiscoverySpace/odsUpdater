@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_clemences.Instrumentsvirtuels</entry>
+    </identifier>
+    <title>
+      <string language="fr">Instruments virtuels</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">Des fichiers GeoGebra représentant des instruments virtuels : une règle graduée. Il y a aussi une règle non graduée, un compas, un rapporteur, une équerre, une équerre glissant sur une règle.&lt;p/&gt;
+Version originale : &lt;span class="nobr"&gt;&lt;a href="http://i2geo.net/xwiki/bin/view/Coll_byache/InstrumentsVirtuels4"&gt;http://i2geo.net/xwiki/bin/view/Coll_byache/InstrumentsVirtuels4&lt;/a&gt;&lt;/span&gt;&lt;p/&gt;</string>
+    </description>
+    <keyword>
+      <string language="fr">règle graduée équerre rapporteur compas longueur segment</string>
+      <!-- ttac = #Ruler_r,#Protractor_r,#Set_square_r,#Compass_r,#Graduated_ruler_r -->
+      <string language="de">Lineal</string>
+      <string language="fr">règle</string>
+      <string language="en">ruler</string>
+      <string language="es">regla</string>
+      <string language="nl">Liniaal</string>
+      <string language="nl">Latje</string>
+      <string language="nl">Liniaal</string>
+      <string language="nl">Latje</string>
+      <string language="cs">Pravítko</string>
+      <string language="de">Winkelmesser</string>
+      <string language="fr">rapporteur</string>
+      <string language="en">protactor</string>
+      <string language="nl">Gradenboog</string>
+      <string language="cs">Úhloměr</string>
+      <string language="de">Geodreieck</string>
+      <string language="fr">équerre</string>
+      <string language="en">set square</string>
+      <string language="nl">Geodriehoek</string>
+      <string language="de">Zirkel</string>
+      <string language="fr">compas</string>
+      <string language="en">compass</string>
+      <string language="nl">Passer</string>
+      <string language="cs">Kružítko</string>
+      <string language="de">Lineal mit Skaleneinteilung</string>
+      <string language="fr">règle graduée</string>
+      <string language="en">graduated ruler</string>
+      <string language="nl">Liniaal</string>
+      <string language="cs">Pravítko se stupnicí</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">10.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Sassenou  Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M&#xD;
+N: Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M;Sassenou;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-05-05T09:01:56.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Sassenou  Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M&#xD;
+N: Université Montpellier 2, Institut de Mathématiques et de Modélisation de Montpellier, I3M;Sassenou;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-05-05T09:42:34.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_clemences/Instrumentsvirtuels</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#College_1</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Sixième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Sixième de Collège</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Sixième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Sixième de Collège</value>                </context>
+                                                    <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Ecole_Elementaire_4</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Cours Moyen 1</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Cours Moyen 1</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Cours Moyen 1</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Cours Moyen 1</value>                </context>
+                                                    <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Ecole_Elementaire_5</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Cours Moyen 2</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Cours Moyen 2</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Cours Moyen 2</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Cours Moyen 2</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 11 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 9 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>primary education</value>
+    </context>
+    <!-- typicalAgeRange is: 10 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>primary education</value>
+    </context>
+    <!-- typicalAgeRange is: 11 -->
+    <typicalAgeRange>
+      <string language="en">11-12</string>
+    </typicalAgeRange>
+    <!-- typicalAgeRange is: 9 -->
+    <typicalAgeRange>
+      <string language="en">9-10</string>
+    </typicalAgeRange>
+    <!-- typicalAgeRange is: 10 -->
+    <typicalAgeRange>
+      <string language="en">10-11</string>
+    </typicalAgeRange>
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Ruler_r</id>
+        <entry>
+          <string language="de">Lineal</string>
+          <string language="fr">règle</string>
+          <string language="en">ruler</string>
+          <string language="es">regla</string>
+          <string language="nl">Liniaal</string>
+          <string language="nl">Latje</string>
+          <string language="nl">Liniaal</string>
+          <string language="nl">Latje</string>
+          <string language="cs">Pravítko</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Protractor_r</id>
+        <entry>
+          <string language="de">Winkelmesser</string>
+          <string language="fr">rapporteur</string>
+          <string language="en">protactor</string>
+          <string language="nl">Gradenboog</string>
+          <string language="cs">Úhloměr</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Set_square_r</id>
+        <entry>
+          <string language="de">Geodreieck</string>
+          <string language="fr">équerre</string>
+          <string language="en">set square</string>
+          <string language="nl">Geodriehoek</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Compass_r</id>
+        <entry>
+          <string language="de">Zirkel</string>
+          <string language="fr">compas</string>
+          <string language="en">compass</string>
+          <string language="nl">Passer</string>
+          <string language="cs">Kružítko</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Graduated_ruler_r</id>
+        <entry>
+          <string language="de">Lineal mit Skaleneinteilung</string>
+          <string language="fr">règle graduée</string>
+          <string language="en">graduated ruler</string>
+          <string language="nl">Liniaal</string>
+          <string language="cs">Pravítko se stupnicí</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

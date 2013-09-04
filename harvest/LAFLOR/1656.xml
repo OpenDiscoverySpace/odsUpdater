@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom:lom xmlns:lom="http://ltsc.ieee.org/xsd/LOM" xmlns:xalan="http://xml.apache.org/xalan">
+  <lom:general>
+    <lom:identifier>
+      <lom:catalog>ColombiaAprende</lom:catalog>
+      <lom:entry>1656</lom:entry>
+    </lom:identifier>
+    <lom:title>
+      <lom:string language="es">Criterios de evaluación-Lms</lom:string>
+    </lom:title>
+    <lom:description>
+      <lom:string language="es">En este documento se detallan las herramientas que permiten el manejo y uso del software &amp;quot;Sistema de gestión de aprendizaje&amp;quot; (LMS por sus siglas en inglés). Este software sirve para automatizar la administración de acciones de formación. Un LMS registra usuarios, organiza los diferentes cursos en un catálogo, almacena datos sobre los usuarios, también provee informes para la gestión. Suministra al instructor un mecanismo para crear y distribuir contenido, monitorear la participación de los estudiantes y evaluar su desempeño. También suelen ofrecer a los estudiantes el uso de mecanismos de interacción como foros de discusión, videoconferencias o servicios de mensajería instantánea.</lom:string>
+    </lom:description>
+    <lom:structure>
+      <lom:source>LOMv1.0</lom:source>
+      <lom:value>atomic</lom:value>
+    </lom:structure>
+    <lom:aggregationLevel>
+      <lom:source>LOMv1.0</lom:source>
+      <lom:value>1</lom:value>
+    </lom:aggregationLevel>
+  </lom:general>
+  <lom:lifeCycle>
+    <lom:version>
+      <lom:string language="Español">1a. ed.</lom:string>
+    </lom:version>
+    <lom:contribute>
+      <lom:role>
+        <lom:source>LOMv1.0</lom:source>
+        <lom:value>author</lom:value>
+      </lom:role>
+      <lom:entity>BEGIN:VCARD
+FN:Ballesteros\, Blessed.
+N:Ballesteros\, Blessed.
+ORG:Fundación Universidad del Norte
+VERSION:3.0
+END:VCARD</lom:entity>
+      <lom:date />
+    </lom:contribute>
+  </lom:lifeCycle>
+  <lom:technical>
+    <lom:format />
+    <lom:size />
+    <lom:location>http://64.76.190.172/drupalM/?q=node/1656</lom:location>
+  </lom:technical>
+  <lom:educational>
+    <lom:intendedEndUserRole>
+      <lom:source>LOMv1.0</lom:source>
+      <lom:value>learner</lom:value>
+    </lom:intendedEndUserRole>
+    <lom:typicalAgeRange>
+      <lom:string language="es">18-U</lom:string>
+    </lom:typicalAgeRange>
+  </lom:educational>
+  <lom:rights>
+    <lom:cost>
+      <lom:source>LOMv1.0</lom:source>
+      <lom:value>no</lom:value>
+    </lom:cost>
+    <lom:copyrightAndOtherRestrictions>
+      <lom:source>LOMv1.0</lom:source>
+      <lom:value>yes</lom:value>
+    </lom:copyrightAndOtherRestrictions>
+    <lom:description>
+      <lom:string language="es">Universidad del Norte – publicado bajo la licencia Atribucion-NoComercial-SinObrasDerivadas 2.5 Colombia de Creative Commons.</lom:string>
+    </lom:description>
+  </lom:rights>
+  <lom:classification>
+    <lom:purpose>
+      <lom:source>LOMv1.0</lom:source>
+      <lom:value>discipline</lom:value>
+    </lom:purpose>
+    <lom:taxonPath>
+      <lom:source>
+        <lom:string language="es">Áreas de Conocimiento - NBC</lom:string>
+      </lom:source>
+      <lom:taxon>
+        <lom:entry>
+          <lom:string language="es">Ciencias de la Educación-&amp;gt;Educación</lom:string>
+        </lom:entry>
+      </lom:taxon>
+    </lom:taxonPath>
+  </lom:classification>
+</lom:lom>
+

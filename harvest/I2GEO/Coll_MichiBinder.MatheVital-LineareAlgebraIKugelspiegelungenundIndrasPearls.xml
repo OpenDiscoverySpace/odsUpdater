@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_MichiBinder.MatheVital-LineareAlgebraIKugelspiegelungenundIndrasPearls</entry>
+    </identifier>
+    <title>
+      <string language="en">MatheVital - Lineare Algebra I: Kugelspiegelungen und Indra's Pearls</string>
+    </title>
+    <language>en</language>
+    <description>
+      <string language="en">Was steckt hinter Indra's Pearls? In einem interaktiven Kurs zu Indra's Pearls können mit den auf der Mathematiksoftware Cindarella 2 gestützten Applets Erfahrungen zur Theorie Klein'scher Gruppen gemacht werden. In den weiteren Applets wird u.a das Thema Lichtstrahlen in Verbindung mit Spiegelungen aufgegriffen</string>
+    </description>
+    <keyword>
+      <string language="en" />
+      <!-- ttac = #Sphere_r,#Reflection_r,#Transformation_r,#Rotation_r,#Construct_complex_figure,#Circle_r -->
+      <string language="de">Kugel</string>
+      <string language="fr">sphère</string>
+      <string language="en">sphere</string>
+      <string language="es">esfera</string>
+      <string language="nl">Bol</string>
+      <string language="cs">Koule</string>
+      <string language="de">Spiegelung</string>
+      <string language="fr">symétrie</string>
+      <string language="en">reflection</string>
+      <string language="nl">Spiegeling</string>
+      <string language="cs">Souměrnost</string>
+      <string language="de">Transformation</string>
+      <string language="de">Abbildung</string>
+      <string language="de">Transformation</string>
+      <string language="de">Abbildung</string>
+      <string language="fr">transformation</string>
+      <string language="en">transformation</string>
+      <string language="es">transformación</string>
+      <string language="nl">Transformatie</string>
+      <string language="cs">Geometrické zobrazení</string>
+      <string language="de">Rotation</string>
+      <string language="de">Drehung</string>
+      <string language="de">Rotation</string>
+      <string language="de">Drehung</string>
+      <string language="fr">rotation</string>
+      <string language="en">rotation</string>
+      <string language="es">rotación</string>
+      <string language="nl">Draaiing</string>
+      <string language="nl">Rotatie</string>
+      <string language="nl">Draaiing</string>
+      <string language="nl">Rotatie</string>
+      <string language="cs">Rotace</string>
+      <string language="cs">Otočení</string>
+      <string language="cs">Rotace</string>
+      <string language="cs">Otočení</string>
+      <string language="de">eine komplexe Figur konstruieren</string>
+      <string language="fr">construction d'une figure complexe</string>
+      <string language="en">construct a complex figure</string>
+      <string language="nl">Een ingewikkelde figuur construeren</string>
+      <string language="de">Kreis</string>
+      <string language="fr">cercle</string>
+      <string language="en">circle</string>
+      <string language="es">Círculo</string>
+      <string language="nl">Cirkel</string>
+      <string language="cs">Kružnice</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">8.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Michael Binder&#xD;
+N:Binder;Michael;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-09-19T11:32:14.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Michael Binder&#xD;
+N:Binder;Michael;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-09-19T21:28:37.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_MichiBinder/MatheVital-LineareAlgebraIKugelspiegelungenundIndrasPearls</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT resource_template
+        true    true     -->
+    <!-- educational annotations from Curriki's ICT resource_article
+    true    true    true     -->
+    <!-- educational annotations from Curriki's ICT book_textbook
+    true    true         -->
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <!-- educational annotations from Curriki's ICT activity_worksheet
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>expositive</value>
+    </interactivityType>
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>expositive</value>
+    </interactivityType>
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>reference</value>
+    </learningResourceType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>text</value>
+    </learningResourceType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>textbook</value>
+    </learningResourceType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>exercise</value>
+    </learningResourceType>
+    <interactivityLevel>
+      <source>LOMv1.0</source>
+      <value>medium</value>
+    </interactivityLevel>
+    <interactivityLevel>
+      <source>LOMv1.0</source>
+      <value>very low</value>
+    </interactivityLevel>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills</value>
+            </context>
+                                     -->
+    <language>en</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">CurrikiCode.AssetLicenseClass_licenseType_Licences.Licences.CreativeCommonsAttributionNon-CommercialShareAlike</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by-nc-sa/2.0/</licenseURI>-->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Sphere_r</id>
+        <entry>
+          <string language="de">Kugel</string>
+          <string language="fr">sphère</string>
+          <string language="en">sphere</string>
+          <string language="es">esfera</string>
+          <string language="nl">Bol</string>
+          <string language="cs">Koule</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Reflection_r</id>
+        <entry>
+          <string language="de">Spiegelung</string>
+          <string language="fr">symétrie</string>
+          <string language="en">reflection</string>
+          <string language="nl">Spiegeling</string>
+          <string language="cs">Souměrnost</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Transformation_r</id>
+        <entry>
+          <string language="de">Transformation</string>
+          <string language="de">Abbildung</string>
+          <string language="de">Transformation</string>
+          <string language="de">Abbildung</string>
+          <string language="fr">transformation</string>
+          <string language="en">transformation</string>
+          <string language="es">transformación</string>
+          <string language="nl">Transformatie</string>
+          <string language="cs">Geometrické zobrazení</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Rotation_r</id>
+        <entry>
+          <string language="de">Rotation</string>
+          <string language="de">Drehung</string>
+          <string language="de">Rotation</string>
+          <string language="de">Drehung</string>
+          <string language="fr">rotation</string>
+          <string language="en">rotation</string>
+          <string language="es">rotación</string>
+          <string language="nl">Draaiing</string>
+          <string language="nl">Rotatie</string>
+          <string language="nl">Draaiing</string>
+          <string language="nl">Rotatie</string>
+          <string language="cs">Rotace</string>
+          <string language="cs">Otočení</string>
+          <string language="cs">Rotace</string>
+          <string language="cs">Otočení</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Construct_complex_figure</id>
+        <entry>
+          <string language="de">eine komplexe Figur konstruieren</string>
+          <string language="fr">construction d'une figure complexe</string>
+          <string language="en">construct a complex figure</string>
+          <string language="nl">Een ingewikkelde figuur construeren</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Circle_r</id>
+        <entry>
+          <string language="de">Kreis</string>
+          <string language="fr">cercle</string>
+          <string language="en">circle</string>
+          <string language="es">Círculo</string>
+          <string language="nl">Cirkel</string>
+          <string language="cs">Kružnice</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

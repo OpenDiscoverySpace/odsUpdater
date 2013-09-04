@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_DorisBocka.Prozentrechnung</entry>
+    </identifier>
+    <title>
+      <string language="de">Prozentrechnung</string>
+    </title>
+    <language>de</language>
+    <description>
+      <string language="de">Dynamische Lernumgebung zur Prozentrechnung</string>
+    </description>
+    <keyword>
+      <string language="de">Prozent Prozentrechnung Mulitplikation Flächenberechnung</string>
+      <!-- ttac = #Multiplication_r -->
+      <string language="de">Multiplikation</string>
+      <string language="fr">multiplication</string>
+      <string language="en">multiplication</string>
+      <string language="es">multiplicación</string>
+      <string language="nl">Vermenigvuldigen</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">1.02</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Doris Bocka&#xD;
+N:Bocka;Doris;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-05-27T12:33:01.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Doris Bocka&#xD;
+N:Bocka;Doris;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-11-04T14:53:20.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>zip</format>
+    <size>1156043</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_DorisBocka/Prozentrechnung</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_worksheet
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>exercise</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#England_and_Wales_Year6</value>
+            </context>
+                                     -->
+    <language>de</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Multiplication_r</id>
+        <entry>
+          <string language="de">Multiplikation</string>
+          <string language="fr">multiplication</string>
+          <string language="en">multiplication</string>
+          <string language="es">multiplicación</string>
+          <string language="nl">Vermenigvuldigen</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

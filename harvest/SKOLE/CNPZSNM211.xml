@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM lomODS.xsd">
+  <general>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM211</entry>
+    </identifier>
+    <title>
+      <string language="hr">Karlovačka županija</string>
+    </title>
+    <language>hr</language>
+    <description>
+      <string language="hr">U trećem razredu osnovne škole usvajaju se sadržaji nastavnih cjelina Snalaženje u prostoru i Nastanak zemljovida. Nakon usvojenih sadržaja slijedi cjelina Obilježja zavičaja. Učenici Karlovačke županije usvajaju sadržaje o svom širem zavičaju, Karlovačkoj županiji. Previđa se realizacija četiriju nastavnih jedinica: Karlovačka županija na karti RH, Prirodne cjeline i obilježja, Djelatnosti ljudi te Čuvanje i zaštita prirode.&lt;br /&gt;&lt;br /&gt;	Prezentacija ujedinjuje cjelokupne sadržaje nastavne cjeline Karlovačka županija.&lt;br /&gt;&lt;br /&gt;	Cilj: vizualnim poticajima i dosjećanjem koje se bazira na vlastitom iskustvu učenika povezati dijelove u cjelinu. Stoga se ostvaruje analitičko-sintetički pristup nastavnoj cjelini.&lt;br /&gt;&lt;br /&gt;	Prezentacija je stoga pogodna i za ponavljanje i uvježbavanje sadržaja.</string>
+    </description>
+    <keyword>
+      <string language="hr">uži i širi zavičaj</string>
+      <string language="hr">karlovačka županija</string>
+      <string language="hr">prirodne cjeline</string>
+      <string language="hr">reljef</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <contribute>
+      <role>
+        <source>LOMODSv1.0</source>
+        <value>author</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+N:Conjar;Bogdanka
+FN:Bogdanka Conjar
+END:VCARD]]></entity>
+    </contribute>
+  </lifeCycle>
+  <metaMetadata>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM211</entry>
+    </identifier>
+    <metadataSchema>LOMv1.0</metadataSchema>
+  </metaMetadata>
+  <technical>
+    <location>http://www.skole.hr/nastavni-materijali/materijal?nm_action=get_materijal_detaljno&amp;id=211</location>
+  </technical>
+  <educational>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>presentation</value>
+    </learningResourceType>
+    <intendedEndUserRole>
+      <source>LOMODSv1.0</source>
+      <value>learner</value>
+    </intendedEndUserRole>
+    <context>
+      <source>LOMODSv1.0</source>
+      <value>primary education</value>
+    </context>
+    <typicalAgeRange>
+      <string language="en">8-9</string>
+    </typicalAgeRange>
+  </educational>
+  <rights>
+    <copyrightAndOtherRestrictions>
+      <source>LOMODSv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="hr">Ovaj objekt učenja je vlasništvo njegovog autora. Objekt učenja slobodan je za korištenje uz navođenje autora materijala.</string>
+      <string language="en">This learning object is owned by its respective author. The learning object is free for use, but it is necessary to attribute the author as its creator.</string>
+    </description>
+  </rights>
+  <relation />
+  <annotation />
+  <classification>
+    <purpose>
+      <source>LOMODSv1.0</source>
+      <value>discipline</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Social Studies Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Nature and environment</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

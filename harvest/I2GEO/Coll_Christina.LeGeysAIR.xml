@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_Christina.LeGeysAIR</entry>
+    </identifier>
+    <title>
+      <string language="fr">Le GeysAIR</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">Question : &lt;p/&gt;
+Dans un parc d’attractions, trois amis montent à bord d’un nouveau manège, le GeysAIR. Le manège monte lentement ses passagers, assis sur une roche plate posée sur un geyser, à une trentaine de mètres du sol, puis les laisse soudainement retomber (avec quelques rebonds, bien entendu!). La forme de la roche et du mécanisme propulsant l’eau est hexagonale.&lt;p/&gt;
+a) Lorsque les trois amis sont au sommet du manège, sur quel solide semblent-ils être assis?&lt;p/&gt;
+b) Quelle est la transformation géométrique qu’a subie la roche?&lt;p/&gt;
+c) Que peux-tu conclure à propos de cette transformation, de la roche, et du solide engendré en a)? (Indice : Tu peux parler de l’aire de la base et du volume des prismes.)&lt;p/&gt;
+Supplément pour l’enseignant&lt;p/&gt;
+&lt;ol&gt;
+&lt;li&gt;Demander aux élèves d’animer le geyser.&lt;/li&gt;
+&lt;/ol&gt;2. Indiquer aux élèves que le point X permet de faire monter et descendre la roche manuellement.
+3. Indiquer aux élèves que s’ils désirent effacer les traces d’eau, ils n’ont qu’à bouger la barre de défilement.</string>
+    </description>
+    <keyword>
+      <string language="fr" />
+      <!-- ttac = #Right-Prism_r,#Translation_r -->
+      <string language="de">Gerades Prisma</string>
+      <string language="fr">prisme droit</string>
+      <string language="en">right prism</string>
+      <string language="es">prisma recto</string>
+      <string language="nl">Recht prisma</string>
+      <string language="cs">Kolmy hranol</string>
+      <string language="de">Translation</string>
+      <string language="de">Verschiebung</string>
+      <string language="de">Translation</string>
+      <string language="de">Verschiebung</string>
+      <string language="fr">translation</string>
+      <string language="en">shift</string>
+      <string language="es">translación</string>
+      <string language="nl">Translatie</string>
+      <string language="nl">Verschuiving</string>
+      <string language="nl">Translatie</string>
+      <string language="nl">Verschuiving</string>
+      <string language="cs">Translace</string>
+      <string language="cs">Posunutí</string>
+      <string language="cs">Translace</string>
+      <string language="cs">Posunutí</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">3.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Christina Taurozzi&#xD;
+N:Taurozzi;Christina;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-10-04T17:13:53.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Christina Taurozzi&#xD;
+N:Taurozzi;Christina;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-10-04T17:23:28.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>cabri2File</format>
+    <size>1720</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_Christina/LeGeysAIR</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Secondaire_Professionnel_3</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Secondaire Professionnel 3</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Secondaire Professionnel 3</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Secondaire Professionnel 3</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Secondaire Professionnel 3</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 14 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 14 -->
+    <typicalAgeRange>
+      <string language="en">14-15</string>
+    </typicalAgeRange>
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Right-Prism_r</id>
+        <entry>
+          <string language="de">Gerades Prisma</string>
+          <string language="fr">prisme droit</string>
+          <string language="en">right prism</string>
+          <string language="es">prisma recto</string>
+          <string language="nl">Recht prisma</string>
+          <string language="cs">Kolmy hranol</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Translation_r</id>
+        <entry>
+          <string language="de">Translation</string>
+          <string language="de">Verschiebung</string>
+          <string language="de">Translation</string>
+          <string language="de">Verschiebung</string>
+          <string language="fr">translation</string>
+          <string language="en">shift</string>
+          <string language="es">translación</string>
+          <string language="nl">Translatie</string>
+          <string language="nl">Verschuiving</string>
+          <string language="nl">Translatie</string>
+          <string language="nl">Verschuiving</string>
+          <string language="cs">Translace</string>
+          <string language="cs">Posunutí</string>
+          <string language="cs">Translace</string>
+          <string language="cs">Posunutí</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM lomODS.xsd">
+  <general>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM297</entry>
+    </identifier>
+    <title>
+      <string language="hr">Razredna web stranica</string>
+    </title>
+    <language>hr</language>
+    <description>
+      <string language="hr">Razredna web stranica namijenjena učenicima 1. razreda i njihovim roditeljima.&lt;br /&gt;&lt;br /&gt;	Učenicima stavljam na stranicu nastavne materijale iz svih nastavnih predmeta.&lt;br /&gt;&lt;br /&gt;	Služe im za uvježbavanje i ponavljanje nastavnih sadržaja.&lt;br /&gt;&lt;br /&gt;	U hot potatoes kvizovima interaktivnim kvizovima mogu samostalno i provjeriti usvojenost nastavnih sadržaja.&lt;br /&gt;&lt;br /&gt;	&lt;br /&gt;&lt;br /&gt;	Svrha pokretanja razredne stranice bila je staviti učenicima dostupne nastavne materijale u svako doba, omogućiti roditeljima u svakodnevni rad razrednog odjela.&lt;br /&gt;&lt;br /&gt;	Motiv za pokretanje ovoga projekta bila mi je činjenica da djeca vole dosta vremena provesti za računalom, da im je internet dostupan i da bi bilo korisno da vrijeme provedeno za računalom iskoriste i u učenju, a ne samo igrajući razne igrice.&lt;br /&gt;&lt;br /&gt;	Pokazalo se da učenici vole posjećivati našu stranicu, svakodnevno rješavaju kod kuće listiće za vježbanje, kvizove i natječu se tko će bolje, tko će više.</string>
+    </description>
+    <keyword>
+      <string language="hr">Rajićki bistrići</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <contribute>
+      <role>
+        <source>LOMODSv1.0</source>
+        <value>author</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+N:Čuvidić;Mira
+FN:Mira Čuvidić
+END:VCARD]]></entity>
+    </contribute>
+  </lifeCycle>
+  <metaMetadata>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM297</entry>
+    </identifier>
+    <metadataSchema>LOMv1.0</metadataSchema>
+  </metaMetadata>
+  <technical>
+    <location>http://www.skole.hr/nastavni-materijali/materijal?nm_action=get_materijal_detaljno&amp;id=297</location>
+  </technical>
+  <educational>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>website</value>
+    </learningResourceType>
+    <intendedEndUserRole>
+      <source>LOMODSv1.0</source>
+      <value>learner</value>
+    </intendedEndUserRole>
+    <context>
+      <source>LOMODSv1.0</source>
+      <value>primary education</value>
+    </context>
+    <typicalAgeRange>
+      <string language="en">6-7</string>
+    </typicalAgeRange>
+  </educational>
+  <rights>
+    <copyrightAndOtherRestrictions>
+      <source>LOMODSv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">This learning object is owned by its respective author. The learning object is free for use, but it is necessary to attribute the author as its creator.</string>
+      <string language="hr">Ovaj objekt učenja je vlasništvo njegovog autora. Objekt učenja slobodan je za korištenje uz navođenje autora materijala.</string>
+    </description>
+  </rights>
+  <relation />
+  <annotation />
+  <classification>
+    <purpose>
+      <source>LOMODSv1.0</source>
+      <value>discipline</value>
+    </purpose>
+    <taxonPath />
+  </classification>
+</lom>
+

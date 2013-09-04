@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM lomODS.xsd">
+  <general>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM285</entry>
+    </identifier>
+    <title>
+      <string language="hr">Moj kvart</string>
+    </title>
+    <language>hr</language>
+    <description>
+      <string language="hr">Cilj rada je osvještavanje vlastitog identiteta u kontekstu arhitekture i urbanizma kvarta. Rad je uklopljen u nastavu likovne umjetnosti 2. razreda gimnazije s ciljem utvrđivanja gradiva i kritičkog interpretiranja urbanističkog okruženja. Aktivnosti su uključivale izradu fotografske dokumentacije na terenu, pozicioniranje kvarta na interaktivnoj karti, te oblikovanje sažetog opisa kvarta unutar zadanog obrasca.&lt;br /&gt;	Učenici su predavali svoje radove kao MSWord dokumente koje se potom spajalo (PDF) u formatu knjige ili e-knjige. Poticaj za projekt bila je kulturno-antropološka studija:&lt;br /&gt;	Valentina Zulin Zrnić: Kvartovska spika, značenja grada i urbani lokalizmi u Novom Zagrebu; Institut za etnologiju i folkloristiku, Jesenski i Turk, Zagreb 2009.&lt;br /&gt;&lt;br /&gt;	Nastavnica je postavila osnovnu shemu koju su učenici popunili u istraživačkom postupku. Rad je objavljen na nekoliko stranica koje uključuju e-knjigu i google maps. Opis rada može se naći i na stranici časopisa Pogled kroz prozor od 31.08.2011.&lt;br /&gt;&lt;br /&gt;	Realizacija interaktivne karte nalazi se na stranici: http://maps.google.com/maps/ms?msid=215901780195021337217.000494552e31ee4290e25&amp;msa=0&amp;source=gplus-ogsb</string>
+    </description>
+    <keyword>
+      <string language="hr">likovna umjetnost</string>
+      <string language="hr">grad</string>
+      <string language="hr">kvart</string>
+      <string language="hr">interaktivna karta</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <contribute>
+      <role>
+        <source>LOMODSv1.0</source>
+        <value>author</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+N:Rismondo;Kristina
+FN:Kristina Rismondo
+END:VCARD]]></entity>
+    </contribute>
+  </lifeCycle>
+  <metaMetadata>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM285</entry>
+    </identifier>
+    <metadataSchema>LOMv1.0</metadataSchema>
+  </metaMetadata>
+  <technical>
+    <location>http://www.skole.hr/nastavni-materijali/materijal?nm_action=get_materijal_detaljno&amp;id=285</location>
+  </technical>
+  <educational>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <intendedEndUserRole>
+      <source>LOMODSv1.0</source>
+      <value>learner</value>
+    </intendedEndUserRole>
+    <context>
+      <source>LOMODSv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <typicalAgeRange>
+      <string language="en">15-16</string>
+    </typicalAgeRange>
+  </educational>
+  <rights>
+    <copyrightAndOtherRestrictions>
+      <source>LOMODSv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="hr">Ovaj objekt učenja je vlasništvo njegovog autora. Objekt učenja slobodan je za korištenje uz navođenje autora materijala.</string>
+      <string language="en">This learning object is owned by its respective author. The learning object is free for use, but it is necessary to attribute the author as its creator.</string>
+    </description>
+  </rights>
+  <relation />
+  <annotation />
+  <classification>
+    <purpose>
+      <source>LOMODSv1.0</source>
+      <value>discipline</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Social Studies Vocabulary</string>
+      </source>
+      <taxon>
+        <id />
+        <entry>
+          <string language="en">Culture and Cultural Theory</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

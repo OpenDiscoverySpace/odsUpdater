@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM lomODS.xsd">
+  <general>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM501</entry>
+    </identifier>
+    <title>
+      <string language="hr">Zbrajanje do 5</string>
+    </title>
+    <language>hr</language>
+    <description>
+      <string language="hr">U vrijeme kada je inkluzija djece s poteškoćama u razvoju sveprisutna u našim školama, svaki učitelj ima dodatni zadatak promišljati načine i metode kako objasniti i približiti prilagođene sadržaje i takvim učenicima. Ako se pak radi o učenicima prvog razreda osnovne škole, tada je taj zadatak još teži, složeniji jer, općepoznato je, što mlađi uzrast - to složenija metodika.&lt;br /&gt;&lt;br /&gt;	Ovom prezentacijom pokušalo se na zoran način unaprijediti brojenje do 5 što je ujedno i preduvjet za zbrajanje, koristeći pri tome mogućnosti PowerPointa 2007. Materijal je primjenjiv i u redovnoj nastavi za sve tipove sata kao i za uvježbavanje i ponavljanje na dopunskoj nastavi, iako je prvobitno pripreman za individualni rad s djetetom s teškoćama u razvoju.</string>
+    </description>
+    <keyword>
+      <string language="hr">zbrajanje</string>
+      <string language="hr">broj</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <contribute>
+      <role>
+        <source>LOMODSv1.0</source>
+        <value>author</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:3.0
+N:Conjar;Bogdanka
+FN:Bogdanka Conjar
+END:VCARD]]></entity>
+    </contribute>
+  </lifeCycle>
+  <metaMetadata>
+    <identifier>
+      <catalog>skole.hr</catalog>
+      <entry>CNPZSNM501</entry>
+    </identifier>
+    <metadataSchema>LOMv1.0</metadataSchema>
+  </metaMetadata>
+  <technical>
+    <location>http://www.skole.hr/nastavni-materijali/materijal?nm_action=get_materijal_detaljno&amp;id=501</location>
+  </technical>
+  <educational>
+    <learningResourceType>
+      <source>LOMODSv1.0</source>
+      <value>presentation</value>
+    </learningResourceType>
+    <intendedEndUserRole>
+      <source>LOMODSv1.0</source>
+      <value>learner</value>
+    </intendedEndUserRole>
+    <context>
+      <source>LOMODSv1.0</source>
+      <value>primary education</value>
+    </context>
+    <typicalAgeRange>
+      <string language="en">6-7</string>
+    </typicalAgeRange>
+  </educational>
+  <rights>
+    <copyrightAndOtherRestrictions>
+      <source>LOMODSv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="hr">Ovaj objekt učenja je vlasništvo njegovog autora. Objekt učenja slobodan je za korištenje uz navođenje autora materijala.</string>
+      <string language="en">This learning object is owned by its respective author. The learning object is free for use, but it is necessary to attribute the author as its creator.</string>
+    </description>
+  </rights>
+  <relation />
+  <annotation />
+  <classification>
+    <purpose>
+      <source>LOMODSv1.0</source>
+      <value>discipline</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">ODS Mathematics Vocabulary</string>
+      </source>
+      <taxon />
+    </taxonPath>
+  </classification>
+</lom>
+

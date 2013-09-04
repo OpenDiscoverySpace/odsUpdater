@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_ChristianMercat.LacolonneTrajane</entry>
+    </identifier>
+    <title>
+      <string language="fr">La colonne Trajane</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">Colonne élevé en 113 à Rome par Trajan. Les scènes sont conçues pour être visibles, à partir d'un point précis, sous le même angle, quelque soit l'altitude de la scène, dont la taille fait donc intervenir la tangente de l'angle de visée. On peut modifier la taille de la frise, le rayon de la colonne, le point de visée, des points contrôlant certains objets, comme une image originale d'une scène sur la colonne, un cercle, un quadrillage, un point qui trace.</string>
+    </description>
+    <keyword>
+      <string language="fr" />
+      <!-- ttac = #Tangent_Function,#Angle_r,#Tangent_of_angle_r -->
+      <string language="de">Tangensfunktion</string>
+      <string language="de">Tangensfunktion</string>
+      <string language="en">Tangent (as a function)</string>
+      <string language="en">Tangent (as a function)</string>
+      <string language="nl">Tangensfunctie</string>
+      <string language="nl">Tangensfunctie</string>
+      <string language="de">Tangensfunktion</string>
+      <string language="de">Tangensfunktion</string>
+      <string language="en">Tangent (as a function)</string>
+      <string language="en">Tangent (as a function)</string>
+      <string language="nl">Tangensfunctie</string>
+      <string language="nl">Tangensfunctie</string>
+      <string language="de">Winkel</string>
+      <string language="fr">Secteur angulaire</string>
+      <string language="fr">angle</string>
+      <string language="fr">Secteur angulaire</string>
+      <string language="fr">angle</string>
+      <string language="en">angle</string>
+      <string language="es">Ángulo</string>
+      <string language="nl">Hoek</string>
+      <string language="cs">Velikost úhlu</string>
+      <string language="de">Tangens (Verhältnis in einem Dreieck)</string>
+      <string language="de">Tangens (Verhältnis in einem Dreieck)</string>
+      <string language="en">tangent (ratio in a triangle)</string>
+      <string language="en">tangent (ratio in a triangle)</string>
+      <string language="nl">Tangens (verhouding in een driehoek)</string>
+      <string language="nl">Tangens (verhouding in een driehoek)</string>
+      <string language="de">Tangens (Verhältnis in einem Dreieck)</string>
+      <string language="de">Tangens (Verhältnis in einem Dreieck)</string>
+      <string language="fr">tangente</string>
+      <string language="en">tangent (ratio in a triangle)</string>
+      <string language="en">tangent (ratio in a triangle)</string>
+      <string language="es">tangente</string>
+      <string language="nl">Tangens (verhouding in een driehoek)</string>
+      <string language="nl">Tangens (verhouding in een driehoek)</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">8.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Christian Mercat IREM de Lyon, IUFM&#xD;
+N:IREM de Lyon, IUFM;Christian Mercat;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2011-12-12T18:01:18.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Christian Mercat IREM de Lyon, IUFM&#xD;
+N:IREM de Lyon, IUFM;Christian Mercat;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2011-12-13T14:59:49.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>ggb</format>
+    <size>38878</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_ChristianMercat/LacolonneTrajane</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Lycee_General_et_Technologique_3_serie_L</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Terminale générale L</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Terminale générale L</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Terminale générale L</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Terminale générale L</value>                </context>
+                                                    <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Lycee_General_et_Technologique_3_serie_STL</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Terminale STL</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Terminale STL</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Terminale STL</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Terminale STL</value>                </context>
+                                                    <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Lycee_General_et_Technologique_3_serie_ES</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Terminale générale ES</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Terminale générale ES</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Terminale générale ES</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Terminale générale ES</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 17 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 17 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 17 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 17 -->
+    <typicalAgeRange>
+      <string language="en">17-18</string>
+    </typicalAgeRange>
+    <!-- typicalAgeRange is: 17 -->
+    <typicalAgeRange>
+      <string language="en">17-18</string>
+    </typicalAgeRange>
+    <!-- typicalAgeRange is: 17 -->
+    <typicalAgeRange>
+      <string language="en">17-18</string>
+    </typicalAgeRange>
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Tangent_Function</id>
+        <entry>
+          <string language="de">Tangensfunktion</string>
+          <string language="de">Tangensfunktion</string>
+          <string language="en">Tangent (as a function)</string>
+          <string language="en">Tangent (as a function)</string>
+          <string language="nl">Tangensfunctie</string>
+          <string language="nl">Tangensfunctie</string>
+          <string language="de">Tangensfunktion</string>
+          <string language="de">Tangensfunktion</string>
+          <string language="en">Tangent (as a function)</string>
+          <string language="en">Tangent (as a function)</string>
+          <string language="nl">Tangensfunctie</string>
+          <string language="nl">Tangensfunctie</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Angle_r</id>
+        <entry>
+          <string language="de">Winkel</string>
+          <string language="fr">Secteur angulaire</string>
+          <string language="fr">angle</string>
+          <string language="fr">Secteur angulaire</string>
+          <string language="fr">angle</string>
+          <string language="en">angle</string>
+          <string language="es">Ángulo</string>
+          <string language="nl">Hoek</string>
+          <string language="cs">Velikost úhlu</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Tangent_of_angle_r</id>
+        <entry>
+          <string language="de">Tangens (Verhältnis in einem Dreieck)</string>
+          <string language="de">Tangens (Verhältnis in einem Dreieck)</string>
+          <string language="en">tangent (ratio in a triangle)</string>
+          <string language="en">tangent (ratio in a triangle)</string>
+          <string language="nl">Tangens (verhouding in een driehoek)</string>
+          <string language="nl">Tangens (verhouding in een driehoek)</string>
+          <string language="de">Tangens (Verhältnis in einem Dreieck)</string>
+          <string language="de">Tangens (Verhältnis in einem Dreieck)</string>
+          <string language="fr">tangente</string>
+          <string language="en">tangent (ratio in a triangle)</string>
+          <string language="en">tangent (ratio in a triangle)</string>
+          <string language="es">tangente</string>
+          <string language="nl">Tangens (verhouding in een driehoek)</string>
+          <string language="nl">Tangens (verhouding in een driehoek)</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

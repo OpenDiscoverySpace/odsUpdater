@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_realmath.VolumeneinesQuaders</entry>
+    </identifier>
+    <title>
+      <string language="fr">Volumen eines Quaders</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">Die dynamische Lernumgebung ermöglicht es den Lernenden, einen zufällig erzeugten Ausgangsquader mit cm³-Würfel zu füllen. Dadurch wird offensichtlich, dass die Anzahl der cm³-Würfel von der jeweiligen Länge, Breite und Höhe des Quaders abhängt. Zudem wird der multiplikative Zusammenhang der Größen "Länge, Breite und Höhe" ersichtlich und dass es ohne Bedeutung ist, in welcher Reihenfolge die drei zugehörigen Maßzahlen multipliziert beziehungsweise in welcher Reihenfolge die Einheitswürfel erzeugt werden.</string>
+    </description>
+    <keyword>
+      <string language="fr">Volumen Quader Volumenformel Geometrie Raumgeometrie</string>
+      <!-- ttac = #Right_parallelepiped_r,#Measure_volume -->
+      <string language="de">Quader</string>
+      <string language="fr">pavé droit</string>
+      <string language="en">right angled paralellepiped</string>
+      <string language="nl">Recht parallellepipedum</string>
+      <string language="de">das Volumen eines Körpers messen</string>
+      <string language="fr">mesurer le volume d'un solide</string>
+      <string language="en">measure the volume of a solid</string>
+      <string language="es">medir un volumen</string>
+      <string language="nl">De inhoud van een lichaam meten</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">10.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Andreas Meier&#xD;
+N:Meier;Andreas;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2011-06-25T15:58:11.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Paul Libbrecht&#xD;
+N:Libbrecht;Paul;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2011-06-26T20:44:31.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_realmath/VolumeneinesQuaders</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Gymnasium_Bayern_5te</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >fünfte Klasse</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >fünfte</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >5</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >fünfte Gymnasium</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >fuenfte</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 10 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>primary education</value>
+    </context>
+    <!-- typicalAgeRange is: 10 -->
+    <typicalAgeRange>
+      <string language="en">10-11</string>
+    </typicalAgeRange>
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">CurrikiCode.AssetLicenseClass_licenseType_Licences.Licences.CreativeCommonsAttributionNon-CommercialNoDerivatives</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by-nc-nd/2.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Right_parallelepiped_r</id>
+        <entry>
+          <string language="de">Quader</string>
+          <string language="fr">pavé droit</string>
+          <string language="en">right angled paralellepiped</string>
+          <string language="nl">Recht parallellepipedum</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Measure_volume</id>
+        <entry>
+          <string language="de">das Volumen eines Körpers messen</string>
+          <string language="fr">mesurer le volume d'un solide</string>
+          <string language="en">measure the volume of a solid</string>
+          <string language="es">medir un volumen</string>
+          <string language="nl">De inhoud van een lichaam meten</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

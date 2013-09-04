@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_ChristianMercat.Alignement</entry>
+    </identifier>
+    <title>
+      <string language="fr">Alignement</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">Trois points A, B, C sont manipulables. Les vecteurs AB et AC sont affichés, ainsi que le parallélogramme qu'ils définissent avec son aire algébrique, déterminant de leurs coordonnées. On voit que quand ce déterminant est nul, les trois points sont alignés.  La partie tableur montre que les différences d'abscisses et d'ordonnées sont proportionnelles seulement dans le cas d'alignement. On peut fixer les points à une position précise en entrant, par exemple A=(1,1) dans la ligne de saisie plutôt que de les manipuler à la souris. Un seuil epsilon est modifiable (faire afficher l'ascenseur) et un texte "les points sont (presque) alignés" apparaît. Après avoir observé et manipulé, une tâche peut-être de faire reconstruire une figure semblable (sans les enjolivements graphiques) sur une séance par les élèves.</string>
+    </description>
+    <keyword>
+      <string language="fr" />
+      <!-- ttac = #Collinear_points_r -->
+      <string language="de">kollineare Punkte</string>
+      <string language="fr">alignement de trois points</string>
+      <string language="nl">Punten op één lijn</string>
+      <string language="nl">Collineaire punten</string>
+      <string language="nl">Punten op één lijn</string>
+      <string language="nl">Collineaire punten</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">8.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Christian Mercat IREM de Lyon, IUFM&#xD;
+N:IREM de Lyon, IUFM;Christian Mercat;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2012-04-18T14:14:57.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Christian Mercat IREM de Lyon, IUFM&#xD;
+N:IREM de Lyon, IUFM;Christian Mercat;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2012-04-18T15:09:31.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>ggb</format>
+    <size>6090</size>
+    <!-- THINKME: OS requirements? could derive form DGS format, see examples   <requirement>-->
+    <location>http://i2geo.net/Coll_ChristianMercat/Alignement</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#Lycee_General_et_Technologique_1</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Seconde</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Seconde</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Seconde</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Seconde</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 15 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 15 -->
+    <typicalAgeRange>
+      <string language="en">15-16</string>
+    </typicalAgeRange>
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Collinear_points_r</id>
+        <entry>
+          <string language="de">kollineare Punkte</string>
+          <string language="fr">alignement de trois points</string>
+          <string language="nl">Punten op één lijn</string>
+          <string language="nl">Collineaire punten</string>
+          <string language="nl">Punten op één lijn</string>
+          <string language="nl">Collineaire punten</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

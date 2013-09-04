@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_jmora.ArcosEnArquitectura</entry>
+    </identifier>
+    <title>
+      <string language="en">Arcos en arquitectura</string>
+    </title>
+    <language>en</language>
+    <description>
+      <string language="en">Las instrucciones para construir los arcos se ofrecen mediante una corta animación. Después se propone la construcción en GeoGebra de la curva en un applet con el navegador. Se incluye un archivo comprimido con todos los materiales para llevarlo a clase y trabajar sin conexión a Internet.&lt;p/&gt;
+&lt;strong&gt;Este recurso ha sido copiado de una traza obtenida en los Primeros Pasos&lt;/strong&gt;&lt;p/&gt;
+Viene de la traza &lt;a class="wikicreatelink" href="http://i2geo.net/xwiki/bin/edit/Traces/Arcos+en+arquitectura?parent=Coll_jmora.ArcosEnArquitectura"&gt;&lt;span class="wikicreatelinktext"&gt;Arcos en arquitectura&lt;/span&gt;&lt;span class="wikicreatelinkqm"&gt;?&lt;/span&gt;&lt;/a&gt; que mencionaba 10 construcciones&lt;p/&gt;
+&lt;ul class="minus"&gt;
+&lt;li&gt;Sistema de geometría: &lt;span class="wikilink"&gt;&lt;a href="http://i2geo.net/xwiki/bin/view/Softwares/GeoGebra"&gt;Geo Gebra&lt;/a&gt;&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;País: es&lt;/li&gt;
+&lt;li&gt;Nivel educativo: Secundaria&lt;/li&gt;
+&lt;li&gt;Tema principal: Arcs and circles&lt;/li&gt;
+&lt;li&gt;Otros temas:Arts, lines, geometry&lt;/li&gt;
+&lt;/ul&gt;</string>
+    </description>
+    <keyword>
+      <string language="en">Arts lines geometry</string>
+      <!-- ttac = #Arc_r,#Circle_r -->
+      <string language="de">Kreisbogen</string>
+      <string language="fr">arc</string>
+      <string language="en">arch</string>
+      <string language="es">arco de circumferéncia</string>
+      <string language="nl">Cirkelboog</string>
+      <string language="cs">Oblouk</string>
+      <string language="de">Kreis</string>
+      <string language="fr">cercle</string>
+      <string language="en">circle</string>
+      <string language="es">Círculo</string>
+      <string language="nl">Cirkel</string>
+      <string language="cs">Kružnice</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">3.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Jose Antonio Mora&#xD;
+N:Mora;Jose Antonio;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2009-03-08T21:20:52.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Jose Antonio Mora&#xD;
+N:Mora;Jose Antonio;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-09-26T22:22:35.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_jmora/ArcosEnArquitectura</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#England_and_Wales_Year6</value>
+            </context>
+                                     -->
+    <language>en</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <!-- unrecognized license type: "cc-by-sa" -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Arc_r</id>
+        <entry>
+          <string language="de">Kreisbogen</string>
+          <string language="fr">arc</string>
+          <string language="en">arch</string>
+          <string language="es">arco de circumferéncia</string>
+          <string language="nl">Cirkelboog</string>
+          <string language="cs">Oblouk</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Circle_r</id>
+        <entry>
+          <string language="de">Kreis</string>
+          <string language="fr">cercle</string>
+          <string language="en">circle</string>
+          <string language="es">Círculo</string>
+          <string language="nl">Cirkel</string>
+          <string language="cs">Kružnice</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+

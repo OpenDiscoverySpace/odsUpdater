@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://i2geo.net/ontologies/lomschema/lom-i2g.xsd">
+  <general>
+    <!-- 1: General -->
+    <identifier>
+      <catalog>i2g</catalog>
+      <entry>Coll_MD.Dessituationsproblemesdesdemarchesdinvestigationenfinquelquesuneslesautressontdanslesite</entry>
+    </identifier>
+    <title>
+      <string language="fr">Des situations problèmes, des démarches d'investigation,.....enfin quelques unes ,les autres sont dans le site</string>
+    </title>
+    <language>fr</language>
+    <description>
+      <string language="fr">Elles ne sont pas toutes ici, il faut parcourir tout le site</string>
+    </description>
+    <keyword>
+      <string language="fr" />
+      <!-- ttac = #Determine_rule_for_term_of_linear_sequence,#Calculation_r,#Algebraic_expression_r -->
+      <string language="fr">déterminer le terme suivant ou le nème terme d'une suite arithmétique</string>
+      <string language="en">determine the next term or the nth term of a linear sequence</string>
+      <string language="de">Berechnung</string>
+      <string language="fr">Calculs</string>
+      <string language="fr">calcul</string>
+      <string language="fr">Calculs</string>
+      <string language="fr">calcul</string>
+      <string language="en">calculation</string>
+      <string language="nl">Berekening</string>
+      <string language="de">algebraische Ausdrucksweise</string>
+      <string language="fr">expression algébrique</string>
+      <string language="en">algebraic expression</string>
+      <string language="nl">Algebraïsche uitdrukking</string>
+    </keyword>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">2.01</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>revised</value>
+    </status>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>initiator</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Daniel Mentrard&#xD;
+N:Mentrard;Daniel;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-02-16T17:48:08.000Z</dateTime>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>editor</value>
+      </role>
+      <entity>BEGIN:VCARD&#xD;
+VERSION:4.0&#xD;
+FN:Daniel Mentrard&#xD;
+N:Mentrard;Daniel;;;&#xD;
+END:VCARD</entity>
+      <date>
+        <dateTime>2010-02-16T17:52:03.000Z</dateTime>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <location>http://i2geo.net/Coll_MD/Dessituationsproblemesdesdemarchesdinvestigationenfinquelquesuneslesautressontdanslesite</location>
+  </technical>
+  <educational>
+    <!-- educational annotations from Curriki's ICT activity_exercise
+    true    true         -->
+    <!-- educational annotations from Curriki's ICT activity_lab
+    true    true         -->
+    <!-- educational annotations from Curriki's ICT resource_animation
+        true    true     -->
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <interactivityType>
+      <source>LOMv1.0</source>
+      <value>active</value>
+    </interactivityType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>exercise</value>
+    </learningResourceType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>other</value>
+    </learningResourceType>
+    <learningResourceType>
+      <source>LOMv1.0</source>
+      <value>demonstration</value>
+    </learningResourceType>
+    <interactivityLevel>
+      <source>LOMv1.0</source>
+      <value>medium</value>
+    </interactivityLevel>
+    <!-- i2g-context: as precise as possible but not interoperable
+                        <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#College_3</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Quatrième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Quatrième de Collège</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Quatrième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Quatrième de Collège</value>                </context>
+                                                    <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#College_1</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Sixième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Sixième de Collège</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Sixième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Sixième de Collège</value>                </context>
+                                                    <context><source>i2g</source>                <value>http://www.inter2geo.eu/2008/ontology/GeoSkills#College_2</value>
+            </context>
+                                                        <context><source>i2g</source>
+                    <value >Cinquième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Cinquième de Collège</value>                </context>
+                                                            <context><source>i2g</source>
+                    <value >Cinquième de Collège</value>                </context>
+                                <context><source>i2g</source>
+                    <value >Cinquième de Collège</value>                </context>
+                                         -->
+    <!-- typicalAgeRange is: 13 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 11 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 12 -->
+    <context>
+      <source>LOMv1.0</source>
+      <value>secondary education</value>
+    </context>
+    <!-- typicalAgeRange is: 13 -->
+    <typicalAgeRange>
+      <string language="en">13-14</string>
+    </typicalAgeRange>
+    <!-- typicalAgeRange is: 11 -->
+    <typicalAgeRange>
+      <string language="en">11-12</string>
+    </typicalAgeRange>
+    <!-- typicalAgeRange is: 12 -->
+    <typicalAgeRange>
+      <string language="en">12-13</string>
+    </typicalAgeRange>
+    <language>fr</language>
+  </educational>
+  <rights>
+    <cost>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </cost>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>yes</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en">i2geo License (Creative Commons Attributions 3.0)</string>
+    </description>
+    <!-- <licenseURI>http://creativecommons.org/licenses/by/3.0/</licenseURI> -->
+  </rights>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>educational objective</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="en">http://www.inter2geo.eu/2008/ontology/GeoSkills</string>
+      </source>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Determine_rule_for_term_of_linear_sequence</id>
+        <entry>
+          <string language="fr">déterminer le terme suivant ou le nème terme d'une suite arithmétique</string>
+          <string language="en">determine the next term or the nth term of a linear sequence</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Calculation_r</id>
+        <entry>
+          <string language="de">Berechnung</string>
+          <string language="fr">Calculs</string>
+          <string language="fr">calcul</string>
+          <string language="fr">Calculs</string>
+          <string language="fr">calcul</string>
+          <string language="en">calculation</string>
+          <string language="nl">Berekening</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>http://www.inter2geo.eu/2008/ontology/GeoSkills#Algebraic_expression_r</id>
+        <entry>
+          <string language="de">algebraische Ausdrucksweise</string>
+          <string language="fr">expression algébrique</string>
+          <string language="en">algebraic expression</string>
+          <string language="nl">Algebraïsche uitdrukking</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+  </classification>
+</lom>
+
