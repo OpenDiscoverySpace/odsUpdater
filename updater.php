@@ -357,9 +357,6 @@ class Updater
         foreach ($value as $aggregation_level) {
             $aggregation_value = $this->replaceWithHeuristics($aggregation_level["value"], "aggregation_level.ini");
 
-            $this->debug("AL: ". $aggregation_value, 5);
-            exit(0);
-
             $node->field_field_aggregation_level = $this->getTermId($aggregation_value, 'aggregation_level');
         }
 
@@ -433,6 +430,7 @@ class Updater
 
         if(count($terms) > 0) {   
             // If term was found
+            foreach($terms as $key => $value)
             {
                 $this->debug("Found term ID in vocabulary '". $vocabulary ."' with ID='". $key ."'.", 3);
                 // Return ID of the tag
