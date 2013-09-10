@@ -1,7 +1,7 @@
 <?php
 
 //
-// Updater version: 13.9.4
+// Updater version: 13.9.10
 //
 // Copyright (c) 2013-2014 Luis Alberto Lalueza
 // http://github.com/luisango
@@ -72,6 +72,7 @@ class Updater
         $node->title = "";
         $node->language = "";
         $node->type = 'educational_object';
+
         node_object_prepare($node);
 
         $node->uid = user_load_by_name('social updater')->uid; // Social data user
@@ -156,6 +157,7 @@ class Updater
         // Prevent for multiple languages
         foreach ($value as $language) {
             $language = $this->replaceWithHeuristics($language, "languages.ini");
+
             $node->language = $language;
         }
 
@@ -274,10 +276,29 @@ class Updater
     {
         foreach ($value as $author)
         {
-            // Transformations
-            $author = str_replace("\\", "", $author);
+            // Clean vCard
+            $matches = array();
+            $vcard = sprintf("%s", $author);
 
-            $node->field_author_fullname['und'][0]['value'] = $author;
+            preg_match(
+                "/FN:(.*)/", 
+                $vcard, 
+                $matches
+            );
+
+            if (count($matches) >= 2) {
+                $node->field_author_fullname['und'][0]['value'] = trim($matches[1]);
+            } else {
+                $node->field_author_fullname['und'][0]['value'] = "";
+            }
+
+            // Transformations
+            $node->field_author_fullname['und'][0]['value'] = str_replace("\\", "", $node->field_author_fullname['und'][0]['value']);
+
+            if ($node->field_author_fullname['und'][0]['value'] == "") {
+                // If not vCard, just put RAW data
+                $node->field_author_fullname['und'][0]['value'] = $author;
+            }
 
             return $node;
         }
@@ -289,7 +310,15 @@ class Updater
     {
         foreach ($value as $date)
         {
-            $node->field_update_date['und'][0]['value'] = date('Y-m-d', strtotime($date['datetime']));
+            $node->field_update_date['und'][0]['value'] = new DateTime($date['datetime']);//date('Y-m-d', strtotime($date['datetime']));
+
+            $year_str = $node->field_update_date['und'][0]['value']->format('Y');
+            $year_int = intval($year_str);
+
+            if ($year_int < 1990) {
+                $this->debug("Date under 1990! setting it back to the 90's!");
+                $node->field_update_date['und'][0]['value'] = '1990-01-01';
+            }
 
             return $node;
         }
@@ -345,7 +374,10 @@ class Updater
                 if (trim($keyword['value']) == "")
                     continue;
 
-                $node->field_edu_tags['und'][]['tid'] = $this->getTermId($keyword['value'], 'edu_tags');
+                $term_id = $this->getTermId($keyword['value'], 'edu_tags');
+
+                if ($term_id !== false)
+                    $node->field_edu_tags['und'][]['tid'] = $term_id;
             }
         }
 
@@ -357,7 +389,10 @@ class Updater
         foreach ($value as $aggregation_level) {
             $aggregation_value = $this->replaceWithHeuristics($aggregation_level["value"], "aggregation_level.ini");
 
-            $node->field_field_aggregation_level = $this->getTermId($aggregation_value, 'aggregation_level');
+            $term_id = $this->getTermId($aggregation_value, 'aggregation_level', false);
+
+            if ($term_id !== false)
+                $node->field_field_aggregation_level = $term_id;
         }
 
         return $node;
@@ -376,8 +411,17 @@ class Updater
 
         $term_id = $this->getTermId($value, 'repository', false); 
 
-        if ($term_id != 0)
+        $this->debug("Data provider: ". $value, 3);
+
+        if ($term_id !== false) {
+            // Evade wrong repository
+            if (strpos($a,'xml') !== false) {
+                $this->debug("--------- DETECTED WRONG REPOSITORY --------", 5);
+                return $node;
+            }
+
             $node->field_data_provider['und'][]['tid'] = $term_id;
+        }
 
         return $node;
     }
@@ -390,7 +434,10 @@ class Updater
             if (trim($educational_context['value']) == "")
                 continue;
 
-            $node->field_educational_context['und'][]['tid'] = $this->getTermId($educational_context['value'], 'educational_context');
+            $term_id = $this->getTermId($educational_context['value'], 'educational_context');
+
+            if ($term_id !== false)
+                $node->field_educational_context['und'][]['tid'] = $term_id;
         }
 
         return $node;   
@@ -423,7 +470,7 @@ class Updater
      * @param  string $vocabulary
      * @return integer Term ID
      */
-    private function getTermId($term, $vocabulary, $create_if_not_found = true)
+    private function getTermId($term, $vocabulary, $create_if_not_found = false) //true)
     {
         // Get term on 'edu_tags' vocabulary
         $terms = taxonomy_get_term_by_name($term, $vocabulary);
@@ -452,21 +499,21 @@ class Updater
                 // Recursive ;)
                 return $this->getTermId($term, $vocabulary);
             } else {
-                // Return 0 if term not created
-                return 0;
+                // Return false if term not created
+                return false;
             }
         }
     }
 
-    private function replaceWithHeuristics($value, $heuristics)
+    private function replaceWithHeuristics($value, $heuristics_file)
     {
-        if (is_file($heuristics) && is_readable($heuristics)) {
-            $heuristics = parse_ini_file($heuristics);
+        if (is_file($heuristics_file) && is_readable($heuristics_file)) {
+            $heuristics = parse_ini_file($heuristics_file);
 
             if (array_key_exists($value, $heuristics)) {
                 foreach ($heuristics as $heuristic => $replace) {
                     if ($heuristic == $value) {
-                        $this->debug("String '". $value ."' has been replaced with '". $replace ."' with '". $heuristic ."'", 3);
+                        $this->debug("String '". $value ."' has been replaced with '". $replace ."' with '". $heuristics_file ."'", 3);
                         $value = $replace;
                         break;
                     }
@@ -490,6 +537,23 @@ class ODSDocument
 
     // The XML as is
     private $xml;
+
+    /**
+     * Prints debug trace
+     * @param  string  $string 
+     * @param  integer $n Relative spacing
+     * @param  string  $separator 
+     */
+    private function debug($string, $n = 1, $separator = " ")
+    {
+        if (UPDATER_DEBUG_ENABLED) {
+            $n = ($n-1)*4;
+            for($i = 0; $i < $n; $i++)
+                echo $separator;
+
+            echo $string."\n";
+        }
+    }
 
     /**
      * Function that defines, according to Updater class functions, xpath
@@ -531,7 +595,7 @@ class ODSDocument
             array(
                 "name"  => "lifecycle_contribute_entity", // vcard
                 "xpath" => "/lom/lifeCycle/contribute/entity",
-                "type"  => "vcard",
+                "type"  => "literal",//"vcard",
             ),
             array(
                 "name"  => "lifecycle_contribute_date",
@@ -588,7 +652,7 @@ class ODSDocument
         $url_split = explode("/", $path);
         $this->data_repository = $url_split[1];
 
-        echo "REPO: ". $this->data_repository ."\n";
+        $this->debug("Repository is set to '". $this->data_repository ."'", 2);
 
         // Anti-prefix (namespace) hack
         $plain_xml = str_replace("lom:", "", $plain_xml);
