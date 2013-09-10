@@ -14,7 +14,7 @@
 // MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
 // 
 
-define('UPDATER_DEBUG_ENABLED', true);
+define('UPDATER_DEBUG_ENABLED', false);
 
 /**
  * Reads a directory and subdirectories and stores them as an array
@@ -69,8 +69,6 @@ class Updater
     private function prepareNode()
     {
         $node = new stdClass();
-        $node->title = "";
-        $node->language = "";
         $node->type = 'educational_object';
 
         node_object_prepare($node);
@@ -131,9 +129,9 @@ class Updater
             return;
         }
 
-        if($node = node_submit($node)) {
+        /*if($node = node_submit($node)) {
             node_save($node);
-        }
+        }*/
 
         $this->debug("Saving node finished!", 2);
     }
@@ -194,10 +192,6 @@ class Updater
             }
         }
 
-        if($node->title === "" || $node->title === null) {
-            $node->title = "Missing title";
-        }
-
         return $node;
     }
 
@@ -250,7 +244,7 @@ class Updater
     {
         foreach ($value as $copyright)
         {
-            $node->field_copyright['und'][0]['value'] = (strlen($copyright['source']) > 0) ? "Yes" : "No";
+            $node->field_copyright['und'][0]['value'] = $copyright['source'];
         }
 
         return $node;
@@ -520,8 +514,6 @@ class Updater
                 }
             }
         }
-
-        // MUST DEFINE STATIC TRANSFORMATIONS AS 'none'
 
         return $value;
     }
