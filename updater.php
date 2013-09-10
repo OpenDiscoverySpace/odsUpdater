@@ -409,7 +409,7 @@ class Updater
 
         if ($term_id !== false) {
             // Evade wrong repository
-            if (strpos($a,'xml') !== false) {
+            if (strpos($value,'xml') !== false) {
                 $this->debug("--------- DETECTED WRONG REPOSITORY --------", 5);
                 return $node;
             }
