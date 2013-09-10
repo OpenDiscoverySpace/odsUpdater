@@ -14,7 +14,9 @@
 // MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
 // 
 
-define('UPDATER_DEBUG_ENABLED', false);
+define('UPDATER_DEBUG_ENABLED', true);
+
+$GLOBALS['heuristics'] = array();
 
 /**
  * Reads a directory and subdirectories and stores them as an array
@@ -129,9 +131,9 @@ class Updater
             return;
         }
 
-        /*if($node = node_submit($node)) {
+        if($node = node_submit($node)) {
             node_save($node);
-        }*/
+        }
 
         $this->debug("Saving node finished!", 2);
     }
@@ -464,7 +466,7 @@ class Updater
      * @param  string $vocabulary
      * @return integer Term ID
      */
-    private function getTermId($term, $vocabulary, $create_if_not_found = false) //true)
+    private function getTermId($term, $vocabulary, $create_if_not_found = true)
     {
         // Get term on 'edu_tags' vocabulary
         $terms = taxonomy_get_term_by_name($term, $vocabulary);
@@ -501,21 +503,34 @@ class Updater
 
     private function replaceWithHeuristics($value, $heuristics_file)
     {
-        if (is_file($heuristics_file) && is_readable($heuristics_file)) {
-            $heuristics = parse_ini_file($heuristics_file);
+        // If heuristics not loaded
+        if (!array_key_exists($heuristics_file, $GLOBALS['heuristics'])) {
+            // Load heuristics
+            if (is_file($heuristics_file) && is_readable($heuristics_file)) {
+                $heuristics = parse_ini_file($heuristics_file);
+                $GLOBALS['heuristics'][$heuristics_file] = $heuristics; 
+
+                // Run heuristics
+                return $this->replaceWithHeuristics($value, $heuristics_file);
+            }
+        } else {
+            //If heuristics loaded
+            $heuristics = $GLOBALS['heuristics'][$heuristics_file];
 
             if (array_key_exists($value, $heuristics)) {
                 foreach ($heuristics as $heuristic => $replace) {
                     if ($heuristic == $value) {
                         $this->debug("String '". $value ."' has been replaced with '". $replace ."' with '". $heuristics_file ."'", 3);
+
                         $value = $replace;
                         break;
                     }
                 }
             }
+
+            return $value;
         }
 
-        return $value;
     }
 }
 
