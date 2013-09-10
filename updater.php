@@ -430,9 +430,11 @@ class Updater
         if(count($terms) > 0) {   
             // If term was found
             {
-                $this->debug("Found term ID in vocabulary '". $vocabulary ."' with ID='". $key ."'.", 3);
+                foreach ($terms as $key) {
+                    $this->debug("Found term ID in vocabulary '". $vocabulary ."' with ID='". $key ."'.", 3);
+                }
                 // Return ID of the tag
-                return $key;
+                return $terms[0];
             }
         } else {
             $vid = taxonomy_vocabulary_machine_name_load($vocabulary)->vid;
@@ -456,7 +458,7 @@ class Updater
             $heuristics = parse_ini_file($heuristics);
 
             if (array_key_exists($value, $heuristics)) {
-                foreach ($heuristics as $heursitic => $replace) {
+                foreach ($heuristics as $heuristic => $replace) {
                     if ($heuristic == $value) {
                         $value = $replace;
                         break;
