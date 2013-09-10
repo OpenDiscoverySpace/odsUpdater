@@ -71,6 +71,8 @@ class Updater
     private function prepareNode()
     {
         $node = new stdClass();
+        $node->title = "";
+        $node->language = "";
         $node->type = 'educational_object';
 
         node_object_prepare($node);
@@ -122,7 +124,7 @@ class Updater
         // PREVENT GHOST NODES
         $has_title      = trim($node->title) != "";
         $has_identifier = trim($node->field_lo_identifier['und'][0]['value']) != "";
-        $has_location   = trim($node->field_resource_link['und'][0]['url']) != "";
+        $has_location   = trim($node->field_eo_link['und'][0]['url']) != "";
 
 
         if(!$has_title || !$has_identifier || !$has_location) {
@@ -158,7 +160,12 @@ class Updater
         foreach ($value as $language) {
             $language = $this->replaceWithHeuristics($language, "languages.ini");
 
-            $node->language = $language;
+            //$node->language = $language;
+
+            $term_id = $this->getTermId($language, 'ods_ap_languages', false);
+
+            if ($term_id !== false)
+                $node->field_general_language['und'][]['tid'] = $term_id;
         }
 
         return $node;
@@ -194,6 +201,10 @@ class Updater
             }
         }
 
+        if($node->title === "" || $node->title === null) {
+            $node->title = "Missing title";
+        }
+
         return $node;
     }
 
@@ -209,15 +220,15 @@ class Updater
                 $language = $description['language'];
                 $language = $this->replaceWithHeuristics($language, "languages.ini");
 
-                $node->body[$language][0]['value']   = $description['value'];
-                $node->body[$language][0]['summary'] = $description['value'];
-                $node->body[$language][0]['format']  = 'filtered_html';
+                $node->field_eo_description[$language][0]['value']   = $description['value'];
+                //$node->field_eo_description[$language][0]['summary'] = $description['value'];
+                $node->field_eo_description[$language][0]['format']  = 'filtered_html';
 
                 if($is_first) {
                     // UND BY DEFAULT
-                    $node->body['und'][0]['value']   = $description['value'];
-                    $node->body['und'][0]['summary'] = $description['value'];
-                    $node->body['und'][0]['format']  = 'filtered_html';
+                    $node->field_eo_description['und'][0]['value']   = $description['value'];
+                    //$node->field_eo_description['und'][0]['summary'] = $description['value'];
+                    $node->field_eo_description['und'][0]['format']  = 'filtered_html';
 
                     $is_first = false;
                 }
@@ -232,8 +243,8 @@ class Updater
         // Prevent for multiple technical location
         foreach ($value as $technical_location)
         {
-            $node->field_resource_link['und'][0]['url'] = $technical_location;
-            $node->field_resource_link['und'][0]['title'] = "View Resource";
+            $node->field_eo_link['und'][0]['url'] = $technical_location;
+            $node->field_eo_link['und'][0]['title'] = "View Resource";
 
             // Return at first occurrence (only one/first technical location is supposed to be shown)
             return $node;
@@ -246,7 +257,8 @@ class Updater
     {
         foreach ($value as $copyright)
         {
-            $node->field_copyright['und'][0]['value'] = $copyright['source'];
+            //$node->field_copyright['und'][0]['value'] = $copyright['source'];
+            $node->field_rights_copyright['und'][0]['value'] = (strlen($copyright['source']) > 0) ? "Yes" : "No";
         }
 
         return $node;
@@ -296,6 +308,8 @@ class Updater
                 $node->field_author_fullname['und'][0]['value'] = $author;
             }
 
+            $this->debug("Author detected as: '". $node->field_author_fullname['und'][0]['value'] ."'", 5);
+
             return $node;
         }
 
@@ -306,14 +320,14 @@ class Updater
     {
         foreach ($value as $date)
         {
-            $node->field_update_date['und'][0]['value'] = new DateTime($date['datetime']);//date('Y-m-d', strtotime($date['datetime']));
+            $node->field_eo_update_date['und'][0]['value'] = new DateTime($date['datetime']);//date('Y-m-d', strtotime($date['datetime']));
 
-            $year_str = $node->field_update_date['und'][0]['value']->format('Y');
+            $year_str = $node->field_eo_update_date['und'][0]['value']->format('Y');
             $year_int = intval($year_str);
 
             if ($year_int < 1990) {
                 $this->debug("Date under 1990! setting it back to the 90's!");
-                $node->field_update_date['und'][0]['value'] = '1990-01-01';
+                $node->field_eo_update_date['und'][0]['value'] = '1990-01-01';
             }
 
             return $node;
@@ -326,7 +340,15 @@ class Updater
     {
         foreach ($value as $date)
         {
-            $node->field_update_date['und'][0]['value'] = date('Y-m-d', strtotime($date['datetime']));
+            $node->field_eo_update_date['und'][0]['value'] = new DateTime($date['datetime']);//date('Y-m-d', strtotime($date['datetime']));
+
+            $year_str = $node->field_eo_update_date['und'][0]['value']->format('Y');
+            $year_int = intval($year_str);
+
+            if ($year_int < 1990) {
+                $this->debug("Date under 1990! setting it back to the 90's!");
+                $node->field_eo_update_date['und'][0]['value'] = '1990-01-01';
+            }
 
             return $node;
         }
@@ -350,6 +372,24 @@ class Updater
 
                         // NOT MULTILINGUAL
                         $node->field_classification_taxonpath['und'][0]['value'] = $entry['value'];
+
+                        // Evade max_length
+                        if (strlen($entry['value']) > 254) {
+                            $node->field_classification_taxonpath['und'][0]['value'] = substr($entry['value'], 0, 254);
+                        }
+
+                        // Classification discipline
+                        if (strpos($entry['value'], '::')) {
+                            $exploded = explode('::', $entry['value']);
+
+                            $last = count($exploded) - 1;
+                            $classification_discipline = $exploded[$last];
+
+                            $term_id = $this->getTermId($classification_discipline, 'ods_ap_classification_discipline', false);
+                            $this->debug("Discipline detected as: '". $classification_discipline ."'", 5);
+                            if ($term_id !== false)
+                                $node->field_field_classification_discipline['und'][]['tid'] = $term_id;
+                        }
 
                         return $node;
                     }
@@ -388,7 +428,7 @@ class Updater
             $term_id = $this->getTermId($aggregation_value, 'aggregation_level', false);
 
             if ($term_id !== false)
-                $node->field_field_aggregation_level = $term_id;
+                $node->field_aggregation_level['und'][]['tid'] = $term_id;
         }
 
         return $node;
@@ -527,6 +567,8 @@ class Updater
                     }
                 }
             }
+
+            // MUST DEFINE STATIC TRANSFORMATIONS AS 'none'
 
             return $value;
         }
@@ -946,7 +988,13 @@ foreach($files as $key => $file)
     if (strlen($file) > 4) 
         if (substr($file, -4) != ".xml") {
             unset($files[$key]);
+            continue;
         }
+
+    if (strpos($file,'%') !== false) {
+        unset($files[$key]);
+        continue;
+    }
 }
 
 echo "Instance updater...\n";
