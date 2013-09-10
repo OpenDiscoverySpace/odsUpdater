@@ -133,6 +133,9 @@ class Updater
             return;
         }
 
+        if(UPDATER_DEBUG_ENABLED) 
+            var_dump($node);
+
         if($node = node_submit($node)) {
             node_save($node);
         }
@@ -257,8 +260,12 @@ class Updater
     {
         foreach ($value as $copyright)
         {
-            //$node->field_copyright['und'][0]['value'] = $copyright['source'];
-            $node->field_rights_copyright['und'][0]['value'] = (strlen($copyright['source']) > 0) ? "Yes" : "No";
+            $copyright_value = (strlen($copyright['source']) > 0) ? "Yes" : "No";
+
+            $term_id = $this->getTermId($copyright_value, 'ods_ap_rights_copyright', false);
+            
+            if ($term_id !== false)
+                $node->field_rights_copyright['und'][]['tid'] = $term_id;
         }
 
         return $node;
@@ -328,6 +335,8 @@ class Updater
             if ($year_int < 1990) {
                 $this->debug("Date under 1990! setting it back to the 90's!");
                 $node->field_eo_update_date['und'][0]['value'] = '1990-01-01';
+            } else {
+                $node->field_eo_update_date['und'][0]['value'] = $node->field_eo_update_date['und'][0]['value']->format('Y-m-d');
             }
 
             return $node;
