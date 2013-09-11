@@ -157,7 +157,7 @@ class Updater
         $new_node->data                   = $node->data;
         $new_node->uid                    = $node->uid;
 
-        $this->debug("Saving node...", 2);
+        $this->debug("Saving node '". $new_node->nid ."'...", 2);
         node_save($new_node);
     }
 
@@ -187,7 +187,7 @@ class Updater
         if($node = node_submit($node)) {
             node_save($node);
 
-            $this->debug("Saving node ".$node->nid." finished!", 2);
+            $this->debug("Saving node '".$node->nid."' finished!", 2);
         }
     }
 
