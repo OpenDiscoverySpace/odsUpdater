@@ -177,16 +177,12 @@ class Updater
         $has_location   = trim($node->field_eo_link['und'][0]['url']) != "";
 
 
-        if(!$has_title || !$has_identifier || !$has_location) {
-            $this->debug("!!!!!!!!!!!!! WARNING: NODE NOT VALID, NOT SAVING !!!!!!!!!!!!!", 6);
+        if($has_title && $has_identifier && $has_location) {
+            if($node = node_submit($node)) {
+                node_save($node);
 
-            return;
-        }
-
-        if($node = node_submit($node)) {
-            node_save($node);
-
-            $this->debug("Saving node '".$node->nid."' finished!", 2);
+                $this->debug("Saving node '".$node->nid."' finished!", 2);
+            }   
         }
     }
 
