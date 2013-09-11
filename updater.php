@@ -408,6 +408,8 @@ class Updater
             if ($year_int < 1990) {
                 $this->debug("Date under 1990! setting it back to the 90's!");
                 $node->field_eo_update_date['und'][0]['value'] = '1990-01-01';
+            } else {
+                $node->field_eo_update_date['und'][0]['value'] = $node->field_eo_update_date['und'][0]['value']->format('Y-m-d');
             }
 
             return $node;
