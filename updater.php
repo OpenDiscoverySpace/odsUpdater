@@ -243,17 +243,17 @@ class Updater
 
                 // If title language match resource language
                 if($language == $node->language) {
-                    $node->title = $title['value'];
+                    $node->title = $this->ensureLength255($title['value']);
                 }
 
                 // Set current language translation
-                $node->title_field[$language][0]['value'] = $title['value'];
+                $node->title_field[$language][0]['value'] = $this->ensureLength255($title['value']);
             }
 
             // If node title has been not set, set it now
             if ($node->title == "") {
                 if (is_array($title_languages) && count($title_languages) > 0)
-                    $node->title = $title_languages[0]['value'];
+                    $node->title = $this->ensureLength255($title_languages[0]['value']);
             }
         }
 
@@ -435,12 +435,7 @@ class Updater
                         $language = $this->replaceWithHeuristics($language, "languages.ini");
 
                         // NOT MULTILINGUAL
-                        $node->field_classification_taxonpath['und'][0]['value'] = $entry['value'];
-
-                        // Evade max_length
-                        if (strlen($entry['value']) > 254) {
-                            $node->field_classification_taxonpath['und'][0]['value'] = substr($entry['value'], 0, 254);
-                        }
+                        $node->field_classification_taxonpath['und'][0]['value'] = $this->ensureLength255($entry['value']);
 
                         // Classification discipline
                         if (strpos($entry['value'], ':')) {
@@ -647,6 +642,15 @@ class Updater
             return $value;
         }
 
+    }
+
+    private function ensureLength255($string)
+    {
+        if (strlen($string) > 254) {
+            $string = substr($string, 0, 254);
+        }
+
+        return $string;
     }
 }
 
