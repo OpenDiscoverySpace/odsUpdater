@@ -134,6 +134,8 @@ class Updater
         $node = node_load($existing_node_id);
         
         $this->debug("Updating info...", 2);
+        $update_time = new DateTime('NOW');
+
         $new_node->nid                    = $node->nid;
         $new_node->vid                    = $node->vid;
         $new_node->log                    = $node->log;
@@ -142,7 +144,7 @@ class Updater
         $new_node->promote                = $node->promote;
         $new_node->sticky                 = $node->sticky;
         $new_node->created                = $node->created;
-        $new_node->changed                = new DateTime()->format('U');
+        $new_node->changed                = $update_time->format('U');
         $new_node->tnid                   = $node->tnid;
         $new_node->translate              = $node->translate;
         $new_node->revision_timestamp     = $node->revision_timestamp;
