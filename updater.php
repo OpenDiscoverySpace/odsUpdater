@@ -456,7 +456,7 @@ class Updater
                             // Single word
 
                             $term_id = $this->getTermId($node->field_classification_taxonpath['und'][0]['value'], 'ods_ap_classification_discipline', false);
-                            $this->debug("Discipline detected as: '". $classification_discipline ."'", 5);
+                            $this->debug("Discipline detected as: '". $node->field_classification_taxonpath['und'][0]['value'] ."'", 5);
                             if ($term_id !== false)
                                 $node->field_field_classification_discipline['und'][]['tid'] = $term_id;
                         }
