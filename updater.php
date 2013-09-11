@@ -169,8 +169,11 @@ class Updater
 
             $term_id = $this->getTermId($language, 'ods_ap_languages', false);
 
-            if ($term_id !== false)
+            if ($term_id !== false) {
                 $node->field_general_language['und'][]['tid'] = $term_id;
+            } else {
+                $this->debug("Bad language ".$value.".");
+            }
         }
 
         return $node;
