@@ -75,9 +75,9 @@ class Updater
         $node->language = "";
         $node->type = 'educational_object';
 
-        //node_object_prepare($node);
+        node_object_prepare($node);
 
-        $node->uid = 0;//user_load_by_name('social updater')->uid; // Social data user
+        $node->uid = user_load_by_name('social updater')->uid; // Social data user
 
         return $node;
     }
@@ -161,7 +161,9 @@ class Updater
     {
         // Prevent for multiple languages
         foreach ($value as $language) {
+            $this->debug("Language: ".$language);
             $language = $this->replaceWithHeuristics($language, "languages.ini");
+            $this->debug("Replaced: ".$language);
 
             //$node->language = $language;
 
@@ -557,7 +559,10 @@ class Updater
             // Load heuristics
             if (is_file($heuristics_file) && is_readable($heuristics_file)) {
                 $heuristics = parse_ini_file($heuristics_file);
-                $GLOBALS['heuristics'][$heuristics_file] = $heuristics; 
+                $GLOBALS['heuristics'][$heuristics_file] = $heuristics;
+                $this->debug("** Heuristics file ".$heuristics_file." loaded: ");
+                $this->debug(print_r($heuristics,true));
+                $this->debug("**");
 
                 // Run heuristics
                 return $this->replaceWithHeuristics($value, $heuristics_file);
@@ -573,8 +578,12 @@ class Updater
 
                         $value = $replace;
                         break;
+                    } else {
+                        $this->debug("Heuristics failed to replace \"". $value . "\".");
                     }
                 }
+            } else {
+                $this->debug("Heuristics failed to replace \"". $value . "\".");
             }
 
             // MUST DEFINE STATIC TRANSFORMATIONS AS 'none'
