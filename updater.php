@@ -183,9 +183,6 @@ class Updater
             return;
         }
 
-        if(UPDATER_DEBUG_ENABLED) 
-            var_dump($node);
-
         if($node = node_submit($node)) {
             node_save($node);
 
