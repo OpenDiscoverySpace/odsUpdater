@@ -142,7 +142,7 @@ class Updater
         $new_node->promote                = $node->promote;
         $new_node->sticky                 = $node->sticky;
         $new_node->created                = $node->created;
-        $new_node->changed                = $node->changed;
+        $new_node->changed                = new DateTime()->format('U');
         $new_node->tnid                   = $node->tnid;
         $new_node->translate              = $node->translate;
         $new_node->revision_timestamp     = $node->revision_timestamp;
@@ -453,14 +453,14 @@ class Updater
                             $term_id = $this->getTermId($classification_discipline, 'ods_ap_classification_discipline', false);
                             $this->debug("Discipline detected as: '". $classification_discipline ."'", 5);
                             if ($term_id !== false)
-                                $node->field_field_classification_discipline['und'][]['tid'] = $term_id;
+                                $node->field_classification_discipline['und'][]['tid'] = $term_id;
                         } else {
                             // Single word
 
                             $term_id = $this->getTermId($node->field_classification_taxonpath['und'][0]['value'], 'ods_ap_classification_discipline', false);
                             $this->debug("Discipline detected as: '". $node->field_classification_taxonpath['und'][0]['value'] ."'", 5);
                             if ($term_id !== false)
-                                $node->field_field_classification_discipline['und'][]['tid'] = $term_id;
+                                $node->field_classification_discipline['und'][]['tid'] = $term_id;
                         }
 
                         return $node;
