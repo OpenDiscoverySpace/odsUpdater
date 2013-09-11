@@ -115,7 +115,7 @@ class Updater
         $node_exists = $this->loIdentifierExists($lo_id);
 
         if (is_numeric($node_exists)) {
-            $this->updateNode($node, $node_exists)
+            $this->updateNode($node, $node_exists);
         } else {
             $this->saveNode($node);
         }
