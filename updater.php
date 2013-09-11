@@ -110,8 +110,56 @@ class Updater
 
         $this->debug("Creating node finished!");
 
-        $this->saveNode($node);
+        // UPDATE NODE IF EXISTING
+        $lo_id = $node->field_lo_identifier['und'][0]['value'];
+        $node_exists = $this->loIdentifierExists($lo_id);
+
+        if (is_numeric($node_exists)) {
+            $this->updateNode($node, $node_exists)
+        } else {
+            $this->saveNode($node);
+        }
     } 
+
+    /**
+     * Updates a node 
+     * @param  stdClass $new_node         new node created with new information
+     * @param  int $existing_node_id nid of the existing node with the same information
+     */
+    private function updateNode($new_node, $existing_node_id)
+    {
+        $this->debug("Updating node...");
+
+        $this->debug("Loading existing node...", 2);
+        $node = node_load($existing_node_id);
+        
+        $this->debug("Updating info...", 2);
+        $new_node->nid                    = $node->nid;
+        $new_node->vid                    = $node->vid;
+        $new_node->log                    = $node->log;
+        $new_node->status                 = $node->status;
+        $new_node->comment                = $node->comment;
+        $new_node->promote                = $node->promote;
+        $new_node->sticky                 = $node->sticky;
+        $new_node->created                = $node->created;
+        $new_node->changed                = $node->changed;
+        $new_node->tnid                   = $node->tnid;
+        $new_node->translate              = $node->translate;
+        $new_node->revision_timestamp     = $node->revision_timestamp;
+        $new_node->revision_uid           = $node->revision_uid;
+        $new_node->cid                    = $node->cid;
+        $new_node->last_comment_timestamp = $node->last_comment_timestamp;
+        $new_node->last_comment_name      = $node->last_comment_name;
+        $new_node->last_comment_uid       = $node->last_comment_uid;
+        $new_node->comment_count          = $node->comment_count;
+        $new_node->picture                = $node->picture;
+        $new_node->name                   = $node->name;
+        $new_node->data                   = $node->data;
+        $new_node->uid                    = $node->uid;
+
+        $this->debug("Saving node...", 2);
+        node_save($new_node);
+    }
 
     /**
      * Saves a node
@@ -138,9 +186,9 @@ class Updater
 
         if($node = node_submit($node)) {
             node_save($node);
-        }
 
-        $this->debug("Saving node finished!", 2);
+            $this->debug("Saving node ".$node->nid." finished!", 2);
+        }
     }
 
     /*
@@ -167,8 +215,11 @@ class Updater
 
             $term_id = $this->getTermId($language, 'ods_ap_languages', false);
 
-            if ($term_id !== false)
+            if ($term_id !== false) {
                 $node->field_general_language['und'][]['tid'] = $term_id;
+            } else {
+                $this->debug("Bad language ".$value.".");
+            }
         }
 
         return $node;
@@ -388,13 +439,23 @@ class Updater
                         }
 
                         // Classification discipline
-                        if (strpos($entry['value'], '::')) {
-                            $exploded = explode('::', $entry['value']);
+                        if (strpos($entry['value'], ':')) {
+                            // Word with separators
+
+                            $entry_value = str_replace("::", ":", $entry['value']);
+                            $exploded = explode(':', $entry_value);
 
                             $last = count($exploded) - 1;
-                            $classification_discipline = $exploded[$last];
+                            $classification_discipline = trim($exploded[$last]);
 
                             $term_id = $this->getTermId($classification_discipline, 'ods_ap_classification_discipline', false);
+                            $this->debug("Discipline detected as: '". $classification_discipline ."'", 5);
+                            if ($term_id !== false)
+                                $node->field_field_classification_discipline['und'][]['tid'] = $term_id;
+                        } else {
+                            // Single word
+
+                            $term_id = $this->getTermId($node->field_classification_taxonpath['und'][0]['value'], 'ods_ap_classification_discipline', false);
                             $this->debug("Discipline detected as: '". $classification_discipline ."'", 5);
                             if ($term_id !== false)
                                 $node->field_field_classification_discipline['und'][]['tid'] = $term_id;
@@ -491,7 +552,7 @@ class Updater
     /**
      * Check if FIELD_LO_IDENTIFIER exists or not in DB.
      * @param  string $lo_id
-     * @return boolean
+     * @return boolean or lo_id
      */
     private function loIdentifierExists($lo_id)
     {
@@ -505,7 +566,7 @@ class Updater
         if(!$lo_identifier)
             return false;
 
-        return true;
+        return $lo_identifier;
     }
 
     /**
