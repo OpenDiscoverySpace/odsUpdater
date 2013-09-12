@@ -75,9 +75,9 @@ class Updater
         $node->language = "";
         $node->type = 'educational_object';
 
-        //node_object_prepare($node);
+        node_object_prepare($node);
 
-        $node->uid = 0;//user_load_by_name('social updater')->uid; // Social data user
+        $node->uid = user_load_by_name('social updater')->uid; // Social data user
 
         return $node;
     }
