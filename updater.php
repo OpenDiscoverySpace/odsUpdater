@@ -186,7 +186,7 @@ class Updater
                 }   
             }
         } catch (Exception $e) {
-            $this->debug("Node couldn't be saved!!", 2)
+            $this->debug("Node couldn't be saved!!", 2);
         }
         
     }
