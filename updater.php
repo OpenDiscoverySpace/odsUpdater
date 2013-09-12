@@ -169,21 +169,26 @@ class Updater
      */
     private function saveNode($node)
     {   
-        $this->debug("Saving node...");
+        try {
+            $this->debug("Saving node...");
 
-        // PREVENT GHOST NODES
-        $has_title      = trim($node->title) != "";
-        $has_identifier = trim($node->field_lo_identifier['und'][0]['value']) != "";
-        $has_location   = trim($node->field_eo_link['und'][0]['url']) != "";
+            // PREVENT GHOST NODES
+            $has_title      = trim($node->title) != "";
+            $has_identifier = trim($node->field_lo_identifier['und'][0]['value']) != "";
+            $has_location   = trim($node->field_eo_link['und'][0]['url']) != "";
 
 
-        if($has_title && $has_identifier && $has_location) {
-            if($node = node_submit($node)) {
-                node_save($node);
+            if($has_title && $has_identifier && $has_location) {
+                if($node = node_submit($node)) {
+                    node_save($node);
 
-                $this->debug("Saving node '".$node->nid."' finished!", 2);
-            }   
+                    $this->debug("Saving node '".$node->nid."' finished!", 2);
+                }   
+            }
+        } catch (Exception $e) {
+            $this->debug("Node couldn't be saved!!", 2)
         }
+        
     }
 
     /*
