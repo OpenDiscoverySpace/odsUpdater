@@ -16,7 +16,8 @@
 
 define('UPDATER_DEBUG_ENABLED', true);
 
-$GLOBALS['heuristics'] = array();
+$GLOBALS['heuristics']   = array();
+$GLOBALS['updater_path'] = variable_get('ods_updater_xml_root_file_path', 'DEFAULT_PATH');
 
 /**
  * Reads a directory and subdirectories and stores them as an array
@@ -44,7 +45,7 @@ function directoryToArray($directory, $recursive) {
     }
     return $array_items;
 }
-
+ 
 class Updater
 {
     /**
@@ -1052,7 +1053,7 @@ echo "OPEN DISCOVERY SPACE - DRUPAL UPDATER\n";
 echo "=====================================\n\n";
 
 echo "Generating update tree...\n";
-$files = directoryToArray("harvest", true);
+$files = directoryToArray($GLOBALS['updater_path'], true);
 
 echo "Cleaning tree...\n";
 foreach($files as $key => $file)
