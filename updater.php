@@ -160,8 +160,9 @@ class Updater
         $new_node->data                   = $node->data;
         $new_node->uid                    = $node->uid;
 
-        $this->debug("Saving node '". $new_node->nid ."'...", 2);
+        $this->debug("Saveing node '". $new_node->nid ."'...", 2);
         node_save($new_node);
+        $this->debug(date("h:i:s: ")."Saved node '". $new_node->nid ."'...", 2);
     }
 
     /**
@@ -183,7 +184,7 @@ class Updater
                 if($node = node_submit($node)) {
                     node_save($node);
 
-                    $this->debug("Saving node '".$node->nid."' finished!", 2);
+                    $this->debug(date("h:i:s: ").": Saving node '".$node->nid."' finished!", 2);
                 }   
             }
         } catch (Exception $e) {
@@ -1080,12 +1081,22 @@ $updater = new Updater();
 $processed_files = 0;
 
 echo "Processing XML...\n";
+$size = sizeof($files);
+$fullStartTime = microtime(true);
+$meanDuration = 0.0;
 foreach ($files as $file)
 {
+    $startTime= microtime(true);
     echo "> '". $file ."'...\n";
     $doc = new ODSDocument($file);
 
     $updater->createNode($doc->getData());
+    $duration = (microtime(true)-$startTime);
+    $meanDuration = ($processed_files*$meanDuration + $duration)/($processed_files+1.0); // in s
+    $leftTime = (($size-$processed_files)*$meanDuration);
+    $leftTimeHours = intval($leftTime/3600);
+    $leftTimeS = strval($leftTimeHours).":".strval(intval(($leftTime-$leftTimeHours*3600)/60));
+    echo "> Processed \"".$file."\" in $duration ms ($processed_files of $size, estimate time left $leftTimeS)\n";
 
     $processed_files++;
 }
