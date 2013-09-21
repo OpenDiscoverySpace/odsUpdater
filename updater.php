@@ -1132,9 +1132,6 @@ foreach ($files as $file)
     $GLOBALS['actual_resource'] = 'none';
     $simple_path = getDataRepo($file) ."/". basename($file);
 
-    echo "\nSP:". $simple_path;
-    fromNew2error($simple_path);
-    exit(0);
     $startTime= microtime(true);
 
     echo "> '". $file ."'...\n";
