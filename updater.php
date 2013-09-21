@@ -1,7 +1,7 @@
 <?php
 
 //
-// Updater version: 13.9.10
+// Updater version: 13.9.21
 //
 // Copyright (c) 2013-2014 Luis Alberto Lalueza
 // http://github.com/luisango
@@ -17,7 +17,7 @@
 define('UPDATER_DEBUG_ENABLED', true);
 
 $GLOBALS['heuristics']         = array();
-$GLOBALS['updater_path']       = '/Users/luis/Documents/ODS/www/drupal-7.22-v2.1/harvest'; //variable_get('ods_updater_xml_root_file_path', 'DEFAULT_PATH');
+$GLOBALS['updater_path']       = variable_get('ods_updater_xml_root_file_path', 'DEFAULT_PATH');
 $GLOBALS['updater_path_new']   = '/new';
 $GLOBALS['updater_path_old']   = '/old';
 $GLOBALS['updater_path_error'] = '/error';
