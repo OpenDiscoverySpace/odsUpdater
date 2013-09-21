@@ -16,9 +16,12 @@
 
 define('UPDATER_DEBUG_ENABLED', true);
 
-$GLOBALS['heuristics']   = array();
-$GLOBALS['updater_path'] = variable_get('ods_updater_xml_root_file_path', 'DEFAULT_PATH');
-
+$GLOBALS['heuristics']         = array();
+$GLOBALS['updater_path']       = '/Users/luis/Documents/ODS/www/drupal-7.22-v2.1/harvest'; //variable_get('ods_updater_xml_root_file_path', 'DEFAULT_PATH');
+$GLOBALS['updater_path_new']   = '/new';
+$GLOBALS['updater_path_old']   = '/old';
+$GLOBALS['updater_path_error'] = '/error';
+$GLOBALS['actual_resource']    = 'none'; 
 /**
  * Reads a directory and subdirectories and stores them as an array
  * @param  string $directory
@@ -44,6 +47,44 @@ function directoryToArray($directory, $recursive) {
         closedir($handle);
     }
     return $array_items;
+}
+
+function create_dir($dir) {
+    exec("mkdir -p ". $dir);
+}
+
+function fromNew2old($path) {
+    $path = "/".$path;
+    $new = $GLOBALS['updater_path'].$GLOBALS['updater_path_new'].$path;
+    $old = $GLOBALS['updater_path'].$GLOBALS['updater_path_old'].$path;
+
+    /*echo "\nDIR: ". dirname($old);
+    echo "\nNEW: ". $new;
+    echo "\nOLD: ". $old;*/
+
+    create_dir(dirname($old));
+
+    rename($new, $old);
+}
+
+function fromNew2error($path) {
+    $path = "/".$path;
+    $new   = $GLOBALS['updater_path'].$GLOBALS['updater_path_new'].$path;
+    $error = $GLOBALS['updater_path'].$GLOBALS['updater_path_error'].$path;
+
+    /*echo "\nDIR: ". dirname($error);
+    echo "\nNEW: ". $new;
+    echo "\nERROR: ". $error;*/
+
+    create_dir(dirname($error));
+
+    rename($new, $error);
+}
+
+function getDataRepo($path) {
+    $url_split = explode("/", $path);   
+    $length = count($url_split);
+    return $url_split[$length-2];
 }
  
 class Updater
@@ -185,10 +226,12 @@ class Updater
                     node_save($node);
 
                     $this->debug(date("h:i:s: ").": Saving node '".$node->nid."' finished!", 2);
+                    $GLOBALS['actual_resource'] = 'success';
                 }   
             }
         } catch (Exception $e) {
             $this->debug("Node couldn't be saved!!", 2);
+            $GLOBALS['actual_resource'] = 'error';
         }
         
     }
@@ -776,8 +819,8 @@ class ODSDocument
         unset($xml);
 
         // Gather repo
-        $url_split = explode("/", $path);
-        $this->data_repository = $url_split[1];
+        //$url_split = explode("/", $path);
+        $this->data_repository = getDataRepo($path);//$url_split[1];
 
         $this->debug("Repository is set to '". $this->data_repository ."'", 2);
 
@@ -1054,7 +1097,7 @@ echo "OPEN DISCOVERY SPACE - DRUPAL UPDATER\n";
 echo "=====================================\n\n";
 
 echo "Generating update tree...\n";
-$files = directoryToArray($GLOBALS['updater_path'], true);
+$files = directoryToArray($GLOBALS['updater_path'].$GLOBALS['updater_path_new'], true);
 
 echo "Cleaning tree...\n";
 foreach($files as $key => $file)
@@ -1086,11 +1129,33 @@ $fullStartTime = microtime(true);
 $meanDuration = 0.0;
 foreach ($files as $file)
 {
+    $GLOBALS['actual_resource'] = 'none';
+    $simple_path = getDataRepo($file) ."/". basename($file);
+
+    echo "\nSP:". $simple_path;
+    fromNew2error($simple_path);
+    exit(0);
     $startTime= microtime(true);
+
     echo "> '". $file ."'...\n";
     $doc = new ODSDocument($file);
 
     $updater->createNode($doc->getData());
+
+    
+    switch($GLOBALS['actual_resource']) 
+    {
+        case 'success':
+            fromNew2old($simple_path);
+            break;
+        case 'error':
+            fromNew2error($simple_path);
+            break;
+        default:
+            // Nothing
+            break;
+    }
+
     $duration = (microtime(true)-$startTime);
     $meanDuration = ($processed_files*$meanDuration + $duration)/($processed_files+1.0); // in s
     $leftTime = (($size-$processed_files)*$meanDuration);
