@@ -579,7 +579,7 @@ class Updater
         $full_path = '';
 
         $full_path .= variable_get('ods_updater_xml_root_file_path', 'DEFAULT_PATH');
-        $full_path .= $GLOBALS['updater_path_old'];
+        $full_path .= $GLOBALS['updater_path_old']."/";
         $full_path .= getDataRepo($value) ."/". basename($value);
 
         $node->field_xml_path['und'][]['value'] = $full_path;
