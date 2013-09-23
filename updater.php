@@ -574,6 +574,15 @@ class Updater
         return $node;
     }
 
+    private function createXmlPathField($node, $value)
+    {
+        $simple_path = getDataRepo($value) ."/". basename($value);
+
+        $node->field_xml_path = $simple_path;
+
+        return $node;
+    }
+
     private function createEducationalContextField($node, $value)
     {
         foreach ($value as $educational_context)
@@ -821,6 +830,7 @@ class ODSDocument
         // Gather repo
         //$url_split = explode("/", $path);
         $this->data_repository = getDataRepo($path);//$url_split[1];
+        $this->xml_path        = getDataRepo($path) ."/". basename($path);
 
         $this->debug("Repository is set to '". $this->data_repository ."'", 2);
 
