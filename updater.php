@@ -289,7 +289,7 @@ class Updater
             foreach ($title_languages as $title)
             {
                 $language = $title['language'];
-                $language = $this->replaceWithHeuristics($language, "languages.ini");
+                $language = $this->replaceWithHeuristics($language, "language_codes.ini");
 
                 // If title language match resource language
                 if($language == $node->language) {
@@ -324,7 +324,7 @@ class Updater
             foreach($description_languages as $description)
             {
                 $language = $description['language'];
-                $language = $this->replaceWithHeuristics($language, "languages.ini");
+                $language = $this->replaceWithHeuristics($language, "language_codes.ini");
 
                 $node->field_eo_description[$language][0]['value']   = $description['value'];
                 //$node->field_eo_description[$language][0]['summary'] = $description['value'];
