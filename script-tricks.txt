@@ -1,0 +1,24 @@
+
+
+## run screen to launch longish processes
+## ======================================
+## invoke screen command
+screen -L
+## see log of screen
+tail -f ~/screenlog.0
+
+
+## copy random 5000 resources of each repos
+## ========================================
+## go in a directory of export of the metadatas
+cd ~devel/data
+
+## list all repos
+ls
+
+## for each repo (here LAFLOR)
+## do the following:
+
+REPO=LAFLOR && (find $REPO -type f | head -n 5000 | sort -R > /tmp/first5000_${REPO})
+REPO=LAFLOR && mkdir -p ~/firstData/$REPO && (cat /tmp/first5000_${REPO} | while read a; do cp  $a ~/firstData/$a; done )
+
