@@ -252,11 +252,17 @@ class Updater
 
     private function createGeneralLanguageField($node, $value)
     {
+        $is_first = true;
+
         // Prevent for multiple languages
         foreach ($value as $language) {
             $language = $this->replaceWithHeuristics($language, "languages.ini");
 
-            //$node->language = $language;
+            if ($is_first) {
+                $node->language = $language;
+
+                $is_first = false;
+            }
 
             $term_id = $this->getTermId($language, 'ods_ap_languages', false);
 
