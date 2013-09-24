@@ -1,7 +1,7 @@
 <?php
 
 //
-// Updater version: 13.9.21
+// Updater version: 13.9.24
 //
 // Copyright (c) 2013-2014 Luis Alberto Lalueza
 // http://github.com/luisango
@@ -256,10 +256,11 @@ class Updater
 
         // Prevent for multiple languages
         foreach ($value as $language) {
-            $language = $this->replaceWithHeuristics($language, "languages.ini");
+            $language      = $this->replaceWithHeuristics($language, "languages.ini");
+            $language_code = $this->replaceWithHeuristics($language, "language_codes.ini");
 
             if ($is_first) {
-                $node->language = $language;
+                $node->language = $language_code;
 
                 $is_first = false;
             }
