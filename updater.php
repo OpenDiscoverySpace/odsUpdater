@@ -255,9 +255,9 @@ class Updater
         $is_first = true;
 
         // Prevent for multiple languages
-        foreach ($value as $language) {
-            $language      = $this->replaceWithHeuristics($language, "languages.ini");
-            $language_code = $this->replaceWithHeuristics($language, "language_codes.ini");
+        foreach ($value as $language_raw) {
+            $language      = $this->replaceWithHeuristics($language_raw, "languages.ini");
+            $language_code = $this->replaceWithHeuristics($language_raw, "language_codes.ini");
 
             if ($is_first) {
                 $node->language = $language_code;
