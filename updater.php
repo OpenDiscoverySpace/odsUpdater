@@ -16,12 +16,13 @@
 
 define('UPDATER_DEBUG_ENABLED', true);
 
-$GLOBALS['heuristics']         = array();
-$GLOBALS['updater_path']       = variable_get('ods_updater_xml_root_file_path', 'DEFAULT_PATH');
-$GLOBALS['updater_path_new']   = '/new';
-$GLOBALS['updater_path_old']   = '/old';
-$GLOBALS['updater_path_error'] = '/error';
-$GLOBALS['actual_resource']    = 'none'; 
+$GLOBALS['heuristics']                = array();
+$GLOBALS['updater_path']              = variable_get('ods_updater_xml_root_file_path', 'DEFAULT_PATH');
+$GLOBALS['updater_path_new']          = '/new';
+$GLOBALS['updater_path_old']          = '/old';
+$GLOBALS['updater_path_error']        = '/error';
+$GLOBALS['updater_path_error_update'] = '/update_error';
+$GLOBALS['actual_resource']           = 'none'; 
 /**
  * Reads a directory and subdirectories and stores them as an array
  * @param  string $directory
@@ -58,10 +59,6 @@ function fromNew2old($path) {
     $new = $GLOBALS['updater_path'].$GLOBALS['updater_path_new'].$path;
     $old = $GLOBALS['updater_path'].$GLOBALS['updater_path_old'].$path;
 
-    /*echo "\nDIR: ". dirname($old);
-    echo "\nNEW: ". $new;
-    echo "\nOLD: ". $old;*/
-
     create_dir(dirname($old));
 
     rename($new, $old);
@@ -72,9 +69,15 @@ function fromNew2error($path) {
     $new   = $GLOBALS['updater_path'].$GLOBALS['updater_path_new'].$path;
     $error = $GLOBALS['updater_path'].$GLOBALS['updater_path_error'].$path;
 
-    /*echo "\nDIR: ". dirname($error);
-    echo "\nNEW: ". $new;
-    echo "\nERROR: ". $error;*/
+    create_dir(dirname($error));
+
+    rename($new, $error);
+}
+
+function fromNew2updateError($path) {
+    $path = "/".$path;
+    $new   = $GLOBALS['updater_path'].$GLOBALS['updater_path_new'].$path;
+    $error = $GLOBALS['updater_path'].$GLOBALS['updater_path_error_update'].$path;
 
     create_dir(dirname($error));
 
@@ -82,7 +85,7 @@ function fromNew2error($path) {
 }
 
 function getDataRepo($path) {
-    $url_split = explode("/", $path);   
+    $url_split = explode("/", $path); 
     $length = count($url_split);
     return $url_split[$length-2];
 }
@@ -170,40 +173,45 @@ class Updater
      */
     private function updateNode($new_node, $existing_node_id)
     {
-        $this->debug("Updating node...");
+	try {
+            $this->debug("Updating node...");
 
-        $this->debug("Loading existing node...", 2);
-        $node = node_load($existing_node_id);
+            $this->debug("Loading existing node...", 2);
+            $node = node_load($existing_node_id);
         
-        $this->debug("Updating info...", 2);
-        $update_time = new DateTime('NOW');
+            $this->debug("Updating info...", 2);
+            $update_time = new DateTime('NOW');
 
-        $new_node->nid                    = $node->nid;
-        $new_node->vid                    = $node->vid;
-        $new_node->log                    = $node->log;
-        $new_node->status                 = $node->status;
-        $new_node->comment                = $node->comment;
-        $new_node->promote                = $node->promote;
-        $new_node->sticky                 = $node->sticky;
-        $new_node->created                = $node->created;
-        $new_node->changed                = $update_time->format('U');
-        $new_node->tnid                   = $node->tnid;
-        $new_node->translate              = $node->translate;
-        $new_node->revision_timestamp     = $node->revision_timestamp;
-        $new_node->revision_uid           = $node->revision_uid;
-        $new_node->cid                    = $node->cid;
-        $new_node->last_comment_timestamp = $node->last_comment_timestamp;
-        $new_node->last_comment_name      = $node->last_comment_name;
-        $new_node->last_comment_uid       = $node->last_comment_uid;
-        $new_node->comment_count          = $node->comment_count;
-        $new_node->picture                = $node->picture;
-        $new_node->name                   = $node->name;
-        $new_node->data                   = $node->data;
-        $new_node->uid                    = $node->uid;
+            $new_node->nid                    = $node->nid;
+            $new_node->vid                    = $node->vid;
+            $new_node->log                    = $node->log;
+            $new_node->status                 = $node->status;
+            $new_node->comment                = $node->comment;
+            $new_node->promote                = $node->promote;
+            $new_node->sticky                 = $node->sticky;
+            $new_node->created                = $node->created;
+            $new_node->changed                = $update_time->format('U');
+            $new_node->tnid                   = $node->tnid;
+            $new_node->translate              = $node->translate;
+            $new_node->revision_timestamp     = $node->revision_timestamp;
+            $new_node->revision_uid           = $node->revision_uid;
+            $new_node->cid                    = $node->cid;
+            $new_node->last_comment_timestamp = $node->last_comment_timestamp;
+            $new_node->last_comment_name      = $node->last_comment_name;
+            $new_node->last_comment_uid       = $node->last_comment_uid;
+            $new_node->comment_count          = $node->comment_count;
+            $new_node->picture                = $node->picture;
+            $new_node->name                   = $node->name;
+            $new_node->data                   = $node->data;
+            $new_node->uid                    = $node->uid;
 
-        $this->debug("Saveing node '". $new_node->nid ."'...", 2);
-        node_save($new_node);
-        $this->debug(date("h:i:s: ")."Saved node '". $new_node->nid ."'...", 2);
+            $this->debug("Saveing node '". $new_node->nid ."'...", 2);
+            node_save($new_node);
+            $this->debug(date("h:i:s: ")."Saved node '". $new_node->nid ."'...", 2);
+        } catch (Exception $e) {
+            $this->debug("Node couldn't be updated!!", 2);
+            $GLOBALS['actual_resource'] = 'error_update';
+        }
     }
 
     /**
@@ -660,7 +668,7 @@ class Updater
 
                 // Add term to the vocabulary
                 taxonomy_term_save((object) array(
-                  'name' => $term,
+                  'name' => $this->ensureLength255($term),
                   'vid' => $vid,
                 ));
 
@@ -1170,6 +1178,9 @@ foreach ($files as $file)
             break;
         case 'error':
             fromNew2error($simple_path);
+            break;
+        case 'error_update':
+            fromNew2updateError($simple_path);
             break;
         default:
             // Nothing
