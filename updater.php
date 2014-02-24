@@ -536,7 +536,10 @@ class Updater
                 // If keyword is blank...
                 if (trim($keyword['value']) == "")
                     continue;
-
+		
+		if(strlen($keyword['value'])> 254)
+			$keyword['value']=substr($keyword['value'],1,254);
+			
                 $term_id = $this->getTermId($keyword['value'], 'edu_tags');
 
                 if ($term_id !== false)
