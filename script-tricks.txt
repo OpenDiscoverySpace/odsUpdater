@@ -2,11 +2,14 @@
 
 ## run screen to launch longish processes
 ## ======================================
-## invoke screen command
+## invoke screen command (better do so from home)
+cd ~
 screen -L
 ## see log of screen
 tail -f ~/screenlog.0
-
+## activate or deactivate console logging
+CTRL-A H
+(H is upper-case!)
 
 ## copy random 5000 resources of each repos
 ## ========================================
