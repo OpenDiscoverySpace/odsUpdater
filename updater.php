@@ -99,7 +99,6 @@ foreach ($files as $file)
 
     //Obtain the content of the XML file using the PHP function file_get_contents:
     $xml = file_get_contents($file);
-    //print_r($xml);
     //We use DOM to process the files using the PHP function DOMDocument:
     //The DOM extension allows us to operate on XML documents through the DOM API with PHP 5.
     $DOM = new DOMDocument('1.0', 'utf-8');
@@ -1432,7 +1431,7 @@ class Updater
         }
 
         return $node;
-    }//End function createGeneralLanguageFields
+    }//End function createLanguageFields
 
     /**
     * This function removes the current information that has a field.
