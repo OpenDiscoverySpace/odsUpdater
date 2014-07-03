@@ -5,7 +5,6 @@
 //
 // Copyright (c) 2014 UAH
 //
-//
 // Released under the GPL license
 // http://www.opensource.org/licenses/gpl-license.php
 // 
