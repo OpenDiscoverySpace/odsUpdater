@@ -1,7 +1,7 @@
 <?php
 
 //
-// Updater version: 14.0.5
+// Updater version: 14.0.6
 //
 // Copyright (c) 2014 UAH
 //
@@ -99,6 +99,7 @@ foreach ($files as $file)
 
     //Obtain the content of the XML file using the PHP function file_get_contents:
     $xml = file_get_contents($file);
+    //print_r($xml);
     //We use DOM to process the files using the PHP function DOMDocument:
     //The DOM extension allows us to operate on XML documents through the DOM API with PHP 5.
     $DOM = new DOMDocument('1.0', 'utf-8');
@@ -1560,7 +1561,6 @@ class Updater
 
         //First we remove the values of the description collection
         $this->clearFieldCollectionNode($node, 'field_eo_description');
-        $this->clearFieldCollectionNode($node, 'body');
         if (count($this->ods_node_info->getODSDescriptions()) > 0){
             //We only take the first list of descriptions (i.e. the first label <description>),
             //because the description field in the Drupal node only can have 1 value.
@@ -1574,10 +1574,6 @@ class Updater
                     $node->field_eo_description[$language][0]['format'] = 'filtered_html';
                     $node->field_eo_description[$language][0]['safe_value'] = $description->getText();
 
-                    $node->body[$language][0]['value']   = $description->getText();
-                    $node->body[$language][0]['format']  = 'filtered_html';
-                    $node->body[$language][0]['safe_value'] = $description->getText();
-
                     if($is_first) {
                         //Language 'und' by default.
                         //We take the description of the first language in the list.
@@ -1585,10 +1581,6 @@ class Updater
                         $node->field_eo_description['und'][0]['format']  = 'filtered_html';
                         $node->field_eo_description['und'][0]['safe_value'] = $description->getText();
 
-                        //The body field of Drupal should have the same information.
-                        $node->body['und'][0]['value']   = $description->getText();
-                        $node->body['und'][0]['format']  = 'filtered_html';
-                        $node->body['und'][0]['safe_value'] = $description->getText();
                         $is_first = false;
                     }
                 }catch (HeuristicFileException $e) {
@@ -1602,10 +1594,6 @@ class Updater
             $node->field_eo_description['und'][0]['value']   = "";
             $node->field_eo_description['und'][0]['format']  = "";
             $node->field_eo_description['und'][0]['safe_value'] = "";
-            //The body field of Drupal should have the same information.
-            $node->body['und'][0]['value']   = "";
-            $node->body['und'][0]['format']  = "";
-            $node->body['und'][0]['safe_value'] = "";
         }
         return $node;
     }//End function createGeneralDescriptionField
