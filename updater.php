@@ -2143,7 +2143,7 @@ class Updater
             throw new IdentifierException("There is no lo identifier.\n");   
         }
         return $node;
-    }//End function createDataProviderField
+    }//End function createGeneralIdentifierField
 
 
 } //End class Updater
