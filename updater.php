@@ -1,7 +1,7 @@
 <?php
 
 //
-// Updater version: 14.0.6
+// Updater version: 14.0.7
 //
 // Copyright (c) 2014 UAH
 //
@@ -1637,12 +1637,12 @@ class Updater
                 try {
                     //We obtain the id of this term in the ODS AP Technical.Format vocabulary (ods_ap_technical_format).
                     $term_id = $this->getTermId($format, 'ods_ap_technical_format');
+                    //We add the format to our field in the Drupal node (field_technical_format)
+                    $node->field_technical_format['und'][]['tid'] = $term_id;                       
                 }catch (TermNameException $e) {
-                    //If the format is not in the technical format vocabulary then we have to add this term.
-                    $term_id = $this->addTermVocabulary($format, 'ods_ap_technical_format');
+                    //If the format is not in the technical format vocabulary then we have to discard the file.
+                    throw new XMLFileException("ODS AP Technical.Format: " . $e->errorMessage());            
                 }
-                //We add the format to our field in the Drupal node (field_technical_format)
-                $node->field_technical_format['und'][]['tid'] = $term_id;                       
             }
         }
         return $node;
@@ -1704,9 +1704,8 @@ class Updater
                 $term_id = $this->getTermId($copyright, 'ods_ap_rights_copyright');
                 $node->field_rights_copyright['und'][0]['tid'] = $term_id;
             }catch (TermNameException $e) {
-                //If the copyright has not a valid term in the taxonomy we don't include
-                //this field in the Drupal node. It has to be empty in the Drupal node.
-                return $node;
+                //If the copyright has not a valid term in the taxonomy we discard the file.
+                throw new XMLFileException("ODS AP Rights.Copyright: " . $e->errorMessage());            
             }
         }
         return $node; 
@@ -1752,9 +1751,8 @@ class Updater
                 $term_id = $this->getTermId($cost, 'ods_ap_rights_cost');
                 $node->field_rights_cost['und'][0]['tid'] = $term_id;
             }catch (TermNameException $e) {
-                //If the cost has not a valid term in the taxonomy we don't include
-                //this field in the Drupal node. It has to be empty in the Drupal node.
-                return $node;
+                //If the cost has not a valid term in the taxonomy we discard the file.
+                throw new XMLFileException("ODS AP Rights.Cost: " . $e->errorMessage());            
             }
         }
         return $node;
@@ -1781,9 +1779,8 @@ class Updater
             }catch (HeuristicNameException $e) {
                 throw new XMLFileException("aggregation_level.ini: " .$e->errorMessage());            
             }catch (TermNameException $e) {
-                //If the cost has not a valid term in the taxonomy (i.e. the cost term is not included in the vocabulary)
-                //we don't include this field in the Drupal node. It has to be empty in the Drupal node.
-                return $node;
+                //If the aggregation level has not a valid term in the taxonomy we discard the file.
+                throw new XMLFileException("ODS AP Aggregation.Level: " . $e->errorMessage());            
             }
         }
         return $node;
@@ -1902,7 +1899,9 @@ class Updater
                                 }catch (HeuristicNameException $e) {
                                     throw new XMLFileException("language_codes.ini: " .$e->errorMessage());            
                                 }catch (TermNameException $e) {
-                                    //If we don't find the term in the vocabulary we don't have to do anything.
+                                    //If we don't find the term in the vocabulary we discard the file.
+                                    throw new XMLFileException("ODS AP Classification.Discipline: " . $e->errorMessage());            
+
                                 }
                             }
                         }
@@ -1930,19 +1929,19 @@ class Updater
                         try {
                             //We obtain the id of this term in the Educational context vocabulary.
                             $term_id = $this->getTermId($ctxt, 'ods_ap_educational_context');
+                            //We add the keyword to our field in the Drupal node (field_educational_context)
+                            $node->field_educational_context['und'][]['tid'] = $term_id;                       
                         }catch (TermNameException $e) {
-                            //If the context is not in the educational_context vocabulary then we have to add this term.
-                            $term_id = $this->addTermVocabulary($ctxt, 'ods_ap_educational_context');
+                            //If the context is not in the educational_context vocabulary then we discard the file.
+                            throw new XMLFileException("ODS AP Educational.Context: " . $e->errorMessage());            
                         }
-                        //We add the keyword to our field in the Drupal node (field_educational_context)
-                        $node->field_educational_context['und'][]['tid'] = $term_id;                       
                     }
                 }
 
             }
         }
         return $node;
-    }//End function createEducationalContextsField
+    }//End function createEducationalContextField
 
 
     /**
@@ -1967,7 +1966,8 @@ class Updater
                             $node->field_learning_resource_type['und'][]['tid'] = $term_id;                       
                         }catch (TermNameException $e) {
                             //If the context is not in the ods_ap_educational_learningresourcetype vocabulary 
-                            //then we don't have to add this term.
+                            //then we discard the file.
+                            throw new XMLFileException("ODS AP Educational.LearningResourceType: " . $e->errorMessage());            
                         }
                     }
                 }
