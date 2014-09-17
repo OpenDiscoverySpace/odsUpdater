@@ -3,9 +3,7 @@ Open Discovery Space Updater
 
 ## What is this?
 
-The updater is an application in PHP which is the responsible to create the educational object nodes for the ODS Drupal 
-using LOM-based XML files generated from harvested content from different repositories. Each XML file represents an educational 
-object node in the Drupal site. Read the OpenDiscoverySpace_Updater.pdf document for more information.
+The ODS updater is an application in PHP which is the responsible to create the educational object nodes for the ODS Drupal using LOM-based XML files generated from harvested content from different repositories. Each XML file represents an educational object node in the Drupal site. Read the OpenDiscoverySpace_Updater.pdf document for more information.
 
 ## Requirements
 
@@ -14,5 +12,6 @@ object node in the Drupal site. Read the OpenDiscoverySpace_Updater.pdf document
 * Drush 
 * MySQL 5.1.6.3
 * PHP 5.3.5
+* Solr 4.6.1
 
 
