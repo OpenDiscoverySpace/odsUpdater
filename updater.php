@@ -1,9 +1,9 @@
 <?php
 
 //
-// Updater version: 14.0.7
+// Updater version: 14.0.8
 //
-// Copyright (c) 2014 UAH
+// Copyright (c) November 2014 UAH - Maria-Cruz Valiente
 //
 // Released under the GPL license
 // http://www.opensource.org/licenses/gpl-license.php
@@ -13,7 +13,9 @@
 define('UPDATER_DEBUG_ENABLED', true);
 
 $GLOBALS['heuristics'] = array();
-$GLOBALS['updater_path'] = variable_get('ods_updater_xml_root_file_path', 'DEFAULT_PATH'); //home/odssearch/bigData
+//ods_updater_xml_root_file_path is the variable defined in the Drupal portal (devel menu: Development > Variable editor),
+//e.g. /home/odssearch/bigData or /var/odsHarvestedRepositories (development environment).
+$GLOBALS['updater_path'] = variable_get('ods_updater_xml_root_file_path', 'DEFAULT_PATH');
 $GLOBALS['updater_path_new'] = '/new';
 $GLOBALS['updater_path_old'] = '/old';
 $GLOBALS['updater_path_error'] = '/error';
@@ -28,19 +30,37 @@ echo "=====================================\n\n";
 
 echo "Generating the updater tree...\n";
 $files = directoryToArray($GLOBALS['updater_path'].$GLOBALS['updater_path_new'], true);
-echo "Total elements in the updater XML root file path: " . count($files) ."\n";
+//Calculate the repositories (i.e. directory names) and remove directories from the list of files.
+$num_repositories = 0;
+$total_files = 0;
+foreach ($files as $key => $elem) {
+    if(is_dir($elem)){
+        //Sample output: /home/odssearch/bigData/new/ORGANIC_EDUNET
+        //The element is a directory, therefore this is the repository name (data provider)
+        //(the name of the folder represents the name of the repository). We remove the element from the array.
+        $last_pos_file_separator = stripos($file, '/');
+        $rp_name = substr($file, $last_pos_file_separator+1);
+        $GLOBALS['rep_cnt_missing_titles'][$rp_name] = 0;
+        unset($files[$key]);
+        $num_repositories++;
+    } else $total_files++;
+}
+//Reindex the array because some elements could have been discarded in the previous step.
+$files = array_values($files);
+
+echo "Total files in the updater XML root file path: " . $total_files ."\n";
 foreach ($files as $key => $file) {
     echo "<" . ($key + 1) . "> " . $file . "\n";
 }
 
 $num_invalid_files = 0;
-$num_repositories = 0;
 
-//Create the log file that contains information about the state of each file: 
-//error file, added as a node and updated a node.
-$log_ods_files = fopen($GLOBALS['updater_path'].$GLOBALS['updater_path_new'].date("/d-m-Y_H:i:s_")."updater.log", "a") or die("Problems in the creation");
+//Create the log file that contains information regarding the state of each file: 
+//file with errors, added as a node or updated a node.
+$log_ods_files = fopen($GLOBALS['updater_path'].$GLOBALS['updater_path_new'].date("/d-m-Y_H:i:s_")."updater.log", "a") or 
+                 die("The log file cannot be created.");
 
-//Create the output directories is they don't exist
+//Create the output directories is they don't exist.
 $old_folder = $GLOBALS['updater_path'].$GLOBALS['updater_path_old']; 
 if(!file_exists($old_folder))
 {
@@ -56,34 +76,26 @@ if(!file_exists($error_folder))
 echo "Cleaning the tree...\n";
 foreach($files as $key => $file)
 {
-    if(is_dir($file)){
-        //Sample output: /home/odssearch/bigData/new/ORGANIC_EDUNET
-        //The element is a directory, therefore the last folder is a repository
-        //(the name of the folder represents the name of the repository).
-        $last_pos_file_separator = strrpos($file, '/');
-        $rp_name = substr($file, $last_pos_file_separator+1, strlen($file));
-        $GLOBALS['rep_cnt_missing_titles'][$rp_name] = 0;
-        unset($files[$key]);
-        $num_repositories++;
-        $num_invalid_files++;
-    } elseif (strlen($file) > 4 and substr($file, -4) != ".xml") {
-        //The element doesn't have the .xml extension.
+    if (strlen($file) > 4 and substr($file, -4) != ".xml") {
+        //The element doesn't have the .xml extension. We discard the element.
         unset($files[$key]);
         $num_invalid_files++;
         //Include the file name in the log file.
         fputs($log_ods_files, "> " . $file . " doesn't represent a xml file." . "\n");
-        //Move to the error folder
+        //Move to the error folder.
         fromNewToError($file);
     } elseif (strpos($file,'%') !== false) {
-        //The element includes the % symbol.
+        //The element includes the % symbol. We discard the element.
         unset($files[$key]);
         $num_invalid_files++;
         //Include the file name in the log file.
         fputs($log_ods_files, "> " . $file . " doesn't represent a xml file." . "\n");
-        //Move to the error folder
+        //Move to the error folder.
         fromNewToError($file);
     }
 }
+//Reindex the array because some elements could have been discarded in the previous step.
+$files = array_values($files);
 
 //PROCESS XML FILES
 $num_processed_files = 0;
@@ -92,19 +104,17 @@ $num_new_nodes = 0;
 
 echo "Processing XML files...\n\n";
 echo "Creating the instance of the Updater...\n\n";
-$size = sizeof($files);
 foreach ($files as $file)
 {
     echo ">>>File to be processed: " . $file . "\n";
 
     //Obtain the content of the XML file using the PHP function file_get_contents:
     $xml = file_get_contents($file);
-    //print_r($xml);
     //We use DOM to process the files using the PHP function DOMDocument:
     //The DOM extension allows us to operate on XML documents through the DOM API with PHP 5.
     $DOM = new DOMDocument('1.0', 'utf-8');
     $DOM->loadXML($xml);
-    //Obtain the historic folder.
+    //Obtain the historic folder where the file will be saved after processing.
     $newPathFile = getHistoricPathFile($file);
     //Read the information from the XML file.
     $ods_node = new ODSNode($DOM, getRepositoryName($file), $newPathFile);
@@ -124,22 +134,24 @@ foreach ($files as $file)
 
             //Create the instance of the Updater class in order to process the node.
             $updater = new Updater($ods_node);
-            //Check if the node is in Drupal. If we find the same node, 
-            //then we have to replace the information that 
+            //Check if the node is in Drupal. If it is in Drupal but it has 
+            //not the ODS identifiers and this file includes the ODS identifiers,
+            //then the node is updated with these identifiers. Besides, if we 
+            //find the same node, then we have to replace the information that 
             //is stored in the Drupal database with the new information.    
             $node_id = $updater->checkNode();
             if ($node_id > 0){
                 //The node exists in the Drupal portal.
                 //We have to update the node.
-                $updater->updateNode($node_id);
+                $updater->generateNode($node_id);
                 $num_updated_nodes++;
                 //Include the file name in the log file.
                 fputs($log_ods_files, "> " . $file . " updated a node.\n");
                 //Move to the old folder.
                 fromNewToOld($file);
             }else{        
-                //Create the node in Drupal for this file
-                $updater->addNode();
+                //It is a new now, then we have to create the node in Drupal for this file.
+                $updater->generateNode();
                 $num_new_nodes++;
                 //Include the file name in the log file.
                 fputs($log_ods_files, "> " . $file . " added as a node.\n");
@@ -148,27 +160,19 @@ foreach ($files as $file)
             }
             $num_processed_files++;
         }catch (XMLFileException $e) {
-            //Display the custom message
-            echo $e->errorMessage();
+            //Display the custom message.
+            echo $e->errorMessage() ."\n";
             $num_invalid_files++;
             //Include the error in the log file.
             fputs($log_ods_files, "> " . $file ." discarded because: " . $e->errorMessage());
             //Move to the error folder.
             fromNewToError($file);
-        }catch (UpdateNodeException $e){            
-            //Display the custom message
-            echo $e->errorMessage();
+        }catch (GenerateNodeException $e){            
+            //Display the custom message.
+            echo $e->errorMessage() ."\n";
             $num_invalid_files++;
             //Include the error in the log file.
-            fputs($log_ods_files, "> " . $file ." didn't update the node because: " . $e->errorMessage());
-            //Move to the error folder.
-            fromNewToError($file);
-        }catch (AddNodeException $e){            
-            //Display the custom message
-            echo $e->errorMessage();
-            $num_invalid_files++;
-            //Include the error in the log file.
-            fputs($log_ods_files, "> " . $file ." didn't add the node because: " . $e->errorMessage());
+            fputs($log_ods_files, "> " . $file ." didn't generate the node because: " . $e->errorMessage());
             //Move to the error folder.
             fromNewToError($file);
         }
@@ -185,7 +189,7 @@ echo "Repositories: ". $num_repositories ."\n";
 fputs($log_ods_files, "Repositories: ". $num_repositories ."\n");
 echo "Valid XML files: ". $num_processed_files ."\n";
 fputs($log_ods_files, "Valid XML files: ". $num_processed_files ."\n");
-echo "Invalid XML files: ". $num_invalid_files ."\n";
+echo "Invalid files: ". $num_invalid_files ."\n";
 fputs($log_ods_files, "Invalid XML files: ". $num_invalid_files ."\n");
 echo "New nodes: ". $num_new_nodes ."\n";
 fputs($log_ods_files, "New nodes: ". $num_new_nodes ."\n");
@@ -197,29 +201,20 @@ foreach ($GLOBALS['rep_cnt_missing_titles'] as $key => $cnt) {
     echo "--> Repository " . $key . ": " . $cnt . "\n";
     fputs($log_ods_files, "--> Repository " . $key . ": " . $GLOBALS['rep_cnt_missing_titles'][$key] . "\n");
 }
-echo "\n\nUPDATER PROCESS COMPLETE!\n\n";
-
 //Close the logfile;
 fclose($log_ods_files);
 //Remove empty folders from the /new folder (when you rename the files the files
 //are moved to the new location, but the folder still are in the new folder)
-$files = directoryToArray($GLOBALS['updater_path'].$GLOBALS['updater_path_new'], true);
-foreach($files as $file)
-{
-    if(is_dir($file)){
-        //Sample output: /home/odssearch/bigData/new/ORGANIC_EDUNET
-        //The element is a directory, therefore we have to remove it.
-        rmdir($file);
-    }
-} 
+removeEmptyFolders($GLOBALS['updater_path'].$GLOBALS['updater_path_new']);
+echo "\n\nUPDATER PROCESS COMPLETE!\n\n";
 
 /**
  * This functions reads a directory (in our case home/odssearch/bigData/new) and subdirectories and stores them as an array.
  * Each element in the array is in the form like: /home/odssearch/bigData/new/OESamples/example3.xml
  * The subfolders are also stored in the array, for example: /home/odssearch/bigData/new/OESamples
- * @param  string $directory
- * @param  boolean $recursive
- * @return array with the elements of the directory.
+ * @param  $directory The character string assigned to represent the directory to process.
+ * @param  $recursive The boolean value that indicates if it has to be recursive or not.
+ * @return An array with the elements of the directory.
  */
 function directoryToArray($directory, $recursive) 
 {
@@ -244,41 +239,62 @@ function directoryToArray($directory, $recursive)
     return $array_items;
 }//End function directoryToArray
 
+/**
+ * This function reads a directory (in our case will be home/odssearch/bigData/new) and remove the empty folders.
+ * @param  $directory The character string assigned to represent the directory to remove empty folders.
+ */
+function removeEmptyFolders($directory) 
+{
+    $files = directoryToArray($directory, true);
+    foreach($files as $file)
+    {
+        if(is_dir($file)){
+            $dirFiles = directoryToArray($directory, $file);
+            $numfiles = count($dirFiles);
+            echo "Number of files in the directory " . $file . ": " . $numfiles . "\n";
+            if (count($dirFiles == 0)) {                
+                rmdir($file);
+            }
+        }
+    } 
+}//End function removeEmptyFolders
 
 /**
-* This function obtain the new location of a processed file.
-* @param String with the complete path of the file.
-* @return The new location of the file.
+* This function obtains the new location of a processed file.
+* @param $file The character string assigned to represent the complete path of the file (e.g. /home/odssearch/bigData/new/ORGANIC_EDUNET/ODS_ORGANIC_EDUNET__1030.xml).
+* @return The character string with the new location of the file (e.g. /home/odssearch/bigData/old/ORGANIC_EDUNET/ODS_ORGANIC_EDUNET__1030.xml).
 */
 function getHistoricPathFile($file) {
 
-    $path = getPathToSave($file);
-    $old_file = $GLOBALS['updater_path'].$GLOBALS['updater_path_old'].$path;
+    //Calculate the relative path of the file (e.g. /ORGANIC_EDUNET/ODS_ORGANIC_EDUNET__1030.xml).
+    $relative_path = getRelativePathToSave($file);
+    //Fix the new location the file (in the historic folder).
+    $old_file = $GLOBALS['updater_path'].$GLOBALS['updater_path_old'].$relative_path;
 
     return $old_file;
 }//End function getHistoricPath
 
 /**
-* This function obtain the location to save in the historic folder for the
+* This function obtains the relative location to save in the historic folder for the
 * XML files that have been processed.
-* @param String with the complete path of the file.
-* @return The final path to save for the file.
+* @param $file The character string assigned to represent the complete path of the file.
+* @return The character string with the final path to save for the file (e.g. /ORGANIC_EDUNET/ODS_ORGANIC_EDUNET__1030.xml).
 */
-function getPathToSave($file){
+function getRelativePathToSave($file){
 
     $last_pos = strripos($file, "/");
-    $file_name = substr($file, $last_pos, strlen($file));
+    $file_name = substr($file, $last_pos);
     $repo_name = getRepositoryName($file);
     $path = "/". $repo_name . $file_name;
     
     return $path;
-}//End function getPathToSave
+}//End function getRelativePathToSave
 
 
 /**
-* This function move the processed file to the old folder in order to recover it later
-* for the metadata viewer in the summary page (search).
-* @param String with the complete path of the file.
+* This function moves the processed file to the historic folder in order to recover it later
+* for the metadata viewer in the summary page (the search functionality).
+* @param $file The character string assigned to represent the complete path of the file.
 */
 function fromNewToOld($file) {
 
@@ -290,7 +306,7 @@ function fromNewToOld($file) {
     {
         mkdir ($repo_folder);
     } 
-    $path = getPathToSave($file);
+    $path = getRelativePathToSave($file);
     $new_file = $GLOBALS['updater_path'].$GLOBALS['updater_path_new'].$path;
     $old_file = $GLOBALS['updater_path'].$GLOBALS['updater_path_old'].$path;
 
@@ -299,13 +315,13 @@ function fromNewToOld($file) {
 }//End function fromNewToOld
 
 /**
-* This function move the invalid file to the error folder.
-* @param String with the complete path of the file.
+* This function moves the invalid file to the error folder.
+* @param $file The character string assigned to represent the complete path of the file.
 */
 function fromNewToError($file) {
 
     $last_pos = strripos($file, "/");
-    $file_name = substr($file, $last_pos, strlen($file));
+    $file_name = substr($file, $last_pos);
     //Create repository folder 
     $repo_name = getRepositoryName($file);
     if (strcmp($repo_name, "new") == 0){
@@ -318,7 +334,7 @@ function fromNewToError($file) {
         {
             mkdir ($repo_folder);
         } 
-        $path = getPathToSave($file);
+        $path = getRelativePathToSave($file);
     }
 
     $new_file   = $GLOBALS['updater_path'].$GLOBALS['updater_path_new'].$path;
@@ -329,9 +345,9 @@ function fromNewToError($file) {
 }//End function fromNewToError
 
 /**
-* Returns the name of the parent folder of a path file that represents the repository of a resource. 
-* @param string $path (e.g. /home/odssearch/bigData/new/OESamples/example3.xml)
-* @return string with the name of the repository (Using the previous example it will return OESamples)
+* This function calculates the name of the parent folder of a path file that represents the repository name of a resource. 
+* @param $path The character string assigned to represent the complete path of the file (e.g. /home/odssearch/bigData/new/OESamples/example3.xml).
+* @return A character string with the name of the repository (using the previous example it will return "OESamples").
 */
 function getRepositoryName($path) {
     $url_split = explode("/", $path); 
@@ -341,7 +357,7 @@ function getRepositoryName($path) {
 
 
 /**
-* This class contains the information that has to be stored in the Drupal node of type Educational Object.
+* This class contains the information that has to be stored in an Educational Object object node (Drupal site).
 * The class extracts all the required information from the DOM document that receives
 * in the constructor and it stores the repository name.
 */
@@ -365,32 +381,34 @@ class ODSNode
     private $ods_classifications;
     private $ods_file_location;
     private $ods_technical_formats;
-    
-    /**
-    * @param DOMDocument $dom_doc. The object that represents the XML document.
-    * @param String $repo_name. The name of the repository that includes this XML document.
-    */
 
+
+    /**
+    * @param $dom_doc The DOMDocument object assigned to represent the XML document.
+    * @param $repo_name The character string assigned to represent the name of the repository that includes this XML document.
+    * @param $file_path The character string assigned to represent the historic location of the XML file to be processed 
+    *        (the new location of the file).
+    */
     public function __construct ($dom_doc, $repo_name, $file_path)
     {
         //Initialize class properties.
         $this->ods_dom_document = $dom_doc;
         $this->ods_data_provider = $repo_name;
+        $this->ods_file_location = $file_path;        
         $this->ods_lo_identifiers = array();
         $this->ods_general_identifier = "";
         $this->ods_titles = array();
         $this->ods_languages = array();
         $this->ods_descriptions = array();
         $this->ods_keywords = array();
-        $this->ods_aggregation_level = 1; //educational object.
+        $this->ods_aggregation_level = 1; //1: Educational Object (taxonomy: OD AP Aggregation Level).
         $this->ods_lifecycle_contributes = array();
         $this->ods_metadata_identifier = "";
         $this->ods_resource_links = array();
         $this->ods_educationals = array();
-        $this->ods_copyright = ""; //posible values: yes or no.
-        $this->ods_cost = ""; //posible values: yes or no.
+        $this->ods_copyright = ""; 
+        $this->ods_cost = ""; 
         $this->ods_classifications = array();
-        $this->ods_file_location = $file_path;
         $this->ods_technical_formats = array();
 
     }//End function __construct
@@ -472,8 +490,8 @@ class ODSNode
     //----------------------------------------
 
     /**
-    * This function reads the dom document that receives as input and stores the information that
-    * is need for the updater in order to create de Drupal Educational Object nodes.
+    * This function reads the DOM document that receives as input and stores the information that
+    * is needed for the updater in order to create de Drupal Educational Object nodes.
     * It serves as the root of the document tree.
     */
     public function extractInfoFromXML ()
@@ -489,7 +507,7 @@ class ODSNode
     }//End function extractInfoFromXML
 
     /**
-    * This function extracts the required information from the General label.
+    * This function extracts the required information from the LOM General label.
     */
     private function getGeneralCategoryInfo ()
     {        
@@ -520,8 +538,6 @@ class ODSNode
                 } else {
                     //Add the identifier to the general identifiers array.
                     $this->ods_lo_identifiers[] = $entry; 
-                    //Reindex the array to the new number of identifiers in the array.
-                    //$this->ods_lo_identifiers = array_values($this->ods_lo_identifiers);
                 }
             }
 
@@ -542,20 +558,16 @@ class ODSNode
             $languages = $general->item(0)-> getElementsByTagName("language");
             //The number of Language labels could be 0 or more than 1.
             foreach ($languages as $key => $lang) {
-                //Add the identifier to the general identifiers array.
+                //Add the language to the languages array.
                 //We have to check that we don't have something like that: <language />
                 if (!empty($lang->nodeValue)){
-                    if (strcmp($lang->nodeValue, "none" == 0)) {
+                    if (strcmp($lang->nodeValue, "none") == 0) {
                         //If the language is none, we change it with the code of the
                         //undefined language.
                         $this->ods_languages[] = "und"; 
-                        //Reindex the array to the new number of languages in the array.
-                        $this->ods_languages = array_values($this->ods_languages);
 
                     }else {                        
                         $this->ods_languages[] = $lang->nodeValue; 
-                        //Reindex the array to the new number of languages in the array.
-                        $this->ods_languages = array_values($this->ods_languages);
                     }        
                 }
             }
@@ -594,8 +606,8 @@ class ODSNode
 
 
     /**
-    * This function read from the XML file all the <string> labels.
-    * @param string $node The node that contains the <string> labels.
+    * This function reads and process the <string> labels.
+    * @param $node The character string assigned to represent the node that contains the <string> labels.
     * @return The array with the different strings where the index of the array is the language code.
     */
     private function getLangStrings ($dom_element){
@@ -613,23 +625,19 @@ class ODSNode
             //according to the LOM standard these elements are LangString. However
             //in the ODS project we process it, so we will assign the "und" value
             //in order to indicate that it has an undefined language.
-            //However, if we have more than one string with no language, only the last one
-            //will be stored in the 'und' position .
             //We have to control also that we have a value in the node and not something
             //like that: <string language="en" />.
             if (!empty($lang_word) and !empty($str->nodeValue)) {
                 if (strcmp($lang_word, "none") == 0){
                     //If the language is "none" we change it with the code of the 
                     //undefined language.
-                    $aux_list[] = new LangString('und', $str->nodeValue);
+                    $aux_list[] = new LangString("und", $str->nodeValue);
                 } else $aux_list[] = new LangString($lang_word, $str->nodeValue);
             } else if (empty($lang_word)){ 
                 //There is no language.
-                //echo "The string doesn't have the language attribute: " . $str->nodeValue ."\n";
-                $aux_list[] = new LangString('und', $str->nodeValue);
+                $aux_list[] = new LangString("und", $str->nodeValue);
             } else {
                 //There is a language attribute, but not a value.
-                //echo "The string have the language attribute (" .$lang_word. ") but not a value.\n";                
             }
         }
         return $aux_list;
@@ -637,7 +645,7 @@ class ODSNode
 
 
     /**
-    * This function extracts the required information from the Lifecycle label.
+    * This function extracts the required information from the LOM Lifecycle label.
     */
     private function getLifecycleCategoryInfo ()
     {        
@@ -671,7 +679,6 @@ class ODSNode
                     //because sometimes the VCARD is included here.
                     foreach($entity->childNodes as $child) {
                         if ($child->nodeType == XML_CDATA_SECTION_NODE) {
-                            //echo "Author name: " . $child->textContent . "\n";
                             $vcard_info = $child->textContent;
                             $cdata_section = true;
                         }
@@ -696,8 +703,6 @@ class ODSNode
                     }
                     //Add the item to the matrix:
                     $aux_authors[] = $author_name;
-                    //Reindex the array to the new number of authors in the array.
-                    $aux_authors = array_values($aux_authors);
                 }
                 if ($entities->length > 0 and count($aux_authors) > 0) {
                     //Add the array to the $ods_lifecycle_contributes->author_fullnames array
@@ -724,7 +729,7 @@ class ODSNode
     }//End function getLifecycleCategoryInfo
 
     /**
-    * This function extracts the required information from the MetaMetaData label.
+    * This function extracts the required information from the LOM MetaMetaData label.
     * In this case, we only need the ODS metadata identifier.
     */
     private function getMetaMetaDataInfo ()
@@ -761,7 +766,7 @@ class ODSNode
     }//End function getMetaMetaDataInfo
 
     /**
-    * This function extracts the required information from the Technical label.
+    * This function extracts the required information from the LOM Technical label.
     */
     private function getTechnicalCategoryInfo ()
     {        
@@ -775,21 +780,23 @@ class ODSNode
             //<location>
             //DOMNodeList $locations
             $locations = $technical->item(0)-> getElementsByTagName("location");
+            //The number of location labels could be 0 or more than 1.
             foreach ($locations as $loc) {
                 $this->ods_resource_links[] = $loc->nodeValue;
             }
-
             //<format>
             //DOMNodeList $formats
             $formats = $technical->item(0)-> getElementsByTagName("format");
+            //The number of format labels could be 0 or more than 1.
             foreach ($formats as $frmt) {
                 $this->ods_technical_formats[] = $frmt->nodeValue;
             }            
+
         }
     }//End function getTechnicalCategoryInfo
 
     /**
-    * This function extracts the required information from the General label.
+    * This function extracts the required information from the LOM Educational label.
     */
     private function getEducationalCategoryInfo ()
     {        
@@ -865,15 +872,15 @@ class ODSNode
             }
             if ($learningtypes->length > 0 and count($aux_learningtype) > 0)
             {
-                //Add the array to the $ods_educational->contexts array representing the values of the <context> label
-                //for a specific <educational> label.
+                //Add the array to the $ods_educational->learning_resource_types array representing 
+                //the values of the <learningResourceType> label for a specific <educational> label.
                 $this->ods_educationals[$key]->setLearningResourceTypes($aux_learningtype);
             }
         }
     }//End function getEducationalCategoryInfo
 
     /**
-    * This function extracts the required information from the Lifecycle label.
+    * This function extracts the required information from the LOM Rights label.
     */
     private function getRightsCategoryInfo ()
     {        
@@ -943,7 +950,7 @@ class ODSNode
             {
                 //Value
                 //<value>
-                //DOMNodeList $cost
+                //DOMNodeList $purpose
                 $purpose = $purposes->item(0)->getElementsByTagName('value');                    
                 //The number of Value elements could be 0 or 1 as maximum.
                 if ($purpose->length > 0){
@@ -990,22 +997,21 @@ class ODSNode
                 $this->ods_classifications[$key]->setTaxonpaths($aux_taxonpath_list);
             }
         }
-
     }//End function getClassificationCategoryInfo
-}//en class ODSNode
+}//end class ODSNode
 
 /**
-* This class contains the structure of the <string> label wich type is of LangString.
+* This class contains the structure of the <string> label (the LangString Datatype).
 */
 class LangString
 {
     private $language;
     private $text;
 
-    public function __construct ($lang, $text)
+    public function __construct ($lang, $txt)
     {
         $this->language = $lang;
-        $this->text = $text;
+        $this->text = $txt;
     }
 
     //-----------------------------
@@ -1032,7 +1038,7 @@ class LangString
 
 /**
 * This class contains the structure of the <educational> label useful for the ODS project:
-* Context and Typical Age Range.
+* Context, Typical Age Range and Learning Resource Type.
 */
 class Educational 
 {
@@ -1078,7 +1084,7 @@ class Educational
 
 /**
 * This class contains the structure of the <LifeCycle> => <contribute> label useful for the ODS project:
-* Entity and Date.
+* Entity (author fullnames) and Date.
 */
 class LifeCycleContribute 
 {
@@ -1148,6 +1154,10 @@ class Classification
     }        
 }//End class Classification
 
+/**
+* This class contains the code that creates the Educational Object nodes and update the portal with them
+* (update a node if it exists in the portal yet, or add a new node if we cannot find the same node in the portal).
+*/
 class Updater
 {
     private $ods_node_info; //ODSNode.
@@ -1160,14 +1170,8 @@ class Updater
         try{
             //Calculate the normalized name of the repository:
             $this->ods_repository = $this->ods_node_info->getODSDataProvider();
-            //echo "Repository name: ".$this->ods_repository."\n";
-            //The current directory is the Drupal site (e.g. /var/www/beta) and in order to locate the file
-            //we have to add the odsUpdater path.
             $this->ods_data_provider = $this->replaceWithHeuristics($this->ods_repository,"odsUpdater/repositories.ini");
-            //echo "New repository name: ".$this->ods_data_provider."\n";
         }catch (HeuristicFileException $e) {
-            //Display custom message
-            //echo $e->errorMessage();
             throw new XMLFileException($e->errorMessage());
             
         }catch (HeuristicNameException $e) {
@@ -1178,20 +1182,20 @@ class Updater
     /**
     * This function calculates the normalized name of the first parameter according
     * to the heuristic file indicated in the second parameter.
-    * @param $value Name to normalize.
-    * @param $heuristic_file Name of the file to use.
+    * @param $value The character string assigned to represent the name to normalize.
+    * @param $heuristic_file The character string assigned to represent the name (with location) of the file to use.
     * @return The normalized name to be used.
     */
     private function replaceWithHeuristics($value, $heuristics_file)
     {
-        // If heuristics not loaded
+        // We check if the heuristics if not loaded. If not, we load it.
         if (!array_key_exists($heuristics_file, $GLOBALS['heuristics'])) {
-            // Load heuristics
+            // Load heuristics.
             if (is_file($heuristics_file) && is_readable($heuristics_file)) {
                 $heuristics = parse_ini_file($heuristics_file);
-                //print_r($heuristics);
+                //The index will be the location of the heuristics file.
                 $GLOBALS['heuristics'][$heuristics_file] = $heuristics; 
-                // Run heuristics
+                // Run heuristics now that we have loaded the heuristic file.
                 return $this->replaceWithHeuristics($value, $heuristics_file);
             } else{
                 //The file cannot be processed, then throw the exception.
@@ -1199,7 +1203,7 @@ class Updater
             }
         } else {
             $found = false;
-            //If heuristics loaded.
+            //Heuristics is loaded.
             $heuristics = $GLOBALS['heuristics'][$heuristics_file];
             if (array_key_exists($value, $heuristics)) {
                 foreach ($heuristics as $heuristic => $replace) {
@@ -1218,9 +1222,11 @@ class Updater
 
 
     /**
-     * Check if the file has an equivalente node in the Drupal database
-     * (same identifier and same repository) and in this case it assigns
-     * the ODS identifiers.
+     * This function checks if the file has an equivalent node in the Drupal database.
+     * That is, we can find in the portal an Educational Object node with the same identifiers
+     * (general and metametadata) or, if the node in the portal doesn't have these new ODS identifiers
+     * we have to ckeck if the portal node has the same repository and  the same data provider than the 
+     * processed node.
      * @return The node id of the Drupal portal node (-1 if it is not found).
      */
     public function checkNode()
@@ -1246,7 +1252,6 @@ class Updater
             //the repository.
             $lo_identifiers = array();
             $lo_identifiers = $this->ods_node_info->getODSloIdentifiers();
-            //echo "Number of identifiers: " . count($lo_identifiers) . "\n";
             foreach ($lo_identifiers as $identifier) {
                 $result = db_query(
                     'SELECT lo.entity_id FROM {field_data_field_lo_identifier} lo
@@ -1261,11 +1266,8 @@ class Updater
                     try{
                         $taxonomy_machine_name = "repository";
                         $rep_id = $this->getTermId($this->ods_data_provider, $taxonomy_machine_name);
-                        //echo "Repository ID: " . $rep_id ."\n";
-                        
-                        //Check if the Drupal node has the same repository ID
-                        //We use the tables from the gthanos_odsdev_10 stored in the 
-                        //MySQL database (use http://localhost/phpmyadmin/index.php to access it).
+
+                        //Check if the Drupal node has the same repository ID.
                         $result = db_query(
                         'SELECT dp.entity_id FROM {field_data_field_data_provider} dp
                         WHERE dp.entity_id = :nid and dp.field_data_provider_tid = :rep_id limit 1', 
@@ -1291,18 +1293,18 @@ class Updater
     }//End function checkNode
 
     /**
-     * Obtains a term id by specifying the term and a vocabulary, if term does
-     * not exist, it will be created depending of the value of the third parameter..
-     * @param  string $term The term to find in the vocabulary.
-     * @param  string $vocabulary The vocabulary that we have to use in order to find the term.
-     * @return integer The term id of the term in the vocabulary.
+     * This function obtains a term id by specifying the term and a vocabulary.
+     * @param  $term The character string assigned to represent the term to find in the vocabulary.
+     * @param  $vocabulary The character string assigned to represent the vocabulary that we have 
+     *         to use in order to find the term.
+     * @return The numeric (Integer) term id of the term in the vocabulary.
      */
     private function getTermId($term, $vocabulary)
     {
-        // Drupal taxonomy api
+        // Drupal taxonomy api: taxonomy_get_term_by_name().
         $terms = taxonomy_get_term_by_name($term, $vocabulary);
         if (count($terms) > 0){
-            //The term has been found
+            //The term has been found.
             foreach($terms as $key => $value)
             {
                 // Return ID of the term.
@@ -1312,106 +1314,131 @@ class Updater
     }//End function getTermId
 
     /**
-     * Updates the drupal node with the information of our ODSNode.
-     * @param  int nid The id of the Drupal node that we have to update.
+     * This function updates or add a drupal node with the information of our ODSNode.
+     * @param  $nid The integer value assigned to represent the id of the Drupal node that we have to update.
+     * If this value is not set then we have to add the node
      */
-    public function updateNode($nid)
+    public function generateNode($nid = NULL)
     {
         try {
+            if (isset($nid)) {
+                //The variable is set and is not null. Therefore, we have to update the node. 
+                echo "Updating node " . $nid . "...\n";
+                $node = node_load($nid);
+            } else {
+                //The variable is not set, therefore, we have to add the node.
+                echo "Creating a new node...\n";
+                $node = new stdClass();
+                $node->type = 'educational_object';
+                //Set some default values:
+                node_object_prepare($node);
+                $node->uid = user_load_by_name('social updater')->uid; // Social data user
+                $node->status = 1; //1 is published, 0 is unpublished
+                $node->promote = 0; //0 is not promoted to home page.
+            }
 
-            echo "Updating node " . $nid . "...\n";
 
-            $node = node_load($nid);
+            //Language of the node and general languages.
+            $this->createLanguageFields($node);
 
-            //Update the language of the node and the general languages.
-            //echo "Updating languages... \n";
-            $this->createGeneralLanguageFields($node);
-
-            //Update title
-            //echo "Updating title...\n";
+            //Title
             $this->createGeneralTitleField($node);
 
-            //Update author fullname
+            //Data provider
+            $this->createDataProviderField($node);
+
+            //Author fullname
             $this->createLifecycleContributeEntityField($node);
 
-            //Assign the ODS identifiers.
+            //Lo identifier
+            $this->createGeneralIdentifierField($node);
+
+            //Assign the ODS identifiers.           
+            $node->field_ods_general_identifier[$node->language][0]['value'] = $this->ods_node_info->getODSGeneralIdentifier();
+            $node->field_ods_metadata_identifier[$node->language][0]['value'] = $this->ods_node_info->getODSMetadataIdentifier();
+            //We have to assign these values to the 'und' language, because in another case we cannot see the values in the content node.
             $node->field_ods_general_identifier['und'][0]['value'] = $this->ods_node_info->getODSGeneralIdentifier();
             $node->field_ods_metadata_identifier['und'][0]['value'] = $this->ods_node_info->getODSMetadataIdentifier();
 
-            //Assign the source file location.
-            $node->field_ods_file_location['und'][0]['value'] = $this->ods_node_info->getODSFileLocation();
 
-            //Update description
+            //Assign the source file location.
+            $node->field_ods_file_location[$node->language][0]['value'] = $this->ods_node_info->getODSFileLocation();          
+            $node->field_ods_file_location['und'][0]['value'] = $this->ods_node_info->getODSFileLocation();          
+
+            //Description
             $this->createGeneralDescriptionField($node);
 
-            //Update location
+            //Technical location
             $this->createTechnicalLocationField($node);
 
-            //Update format
+            //Format
             $this->createTechnicalFormatField($node);
 
-            //Update typical age range
+            //Typical age range
             $this->createEducationalTypicalAgeRangeField($node);
 
-            //Update copyright
+            //Copyright
             $this->createRightsCopyrightField($node);
 
-
-            //Update cost
+            //Cost
             $this->createRightsCostField($node);
 
-            //Update aggregation level
+            //Aggregation level
             $this->createGeneralAggregationLevelField($node);
 
-            //Update keywords
+            //Keywords
             $this->createGeneralKeywordsField($node);
 
-            //Update classification fields: Taxon path and disclipline
+            //Classification fields: Taxon path and disclipline
             $this->createClassificationFields($node);
 
-            //Update educational contexts
+            //Educational contexts
             $this->createEducationalContextsField($node);
 
-            //Update lifecycle date
+            //Educational learning resource types
+            $this->createEducationalLearningResourceTypeField($node);
+
+            //Lifecycle update date
             $this->createLifecycleContributeDateField($node);
 
             //Prepare node for saving:
-            $node = node_submit($node);
-            node_save($node);   
-            echo "Node updated successfully!\n\n";
+            if ($node = node_submit($node)){
+                node_save($node);   
+                echo "Node generated successfully!\n\n";         
+            } else throw new GenerateNodeException("Error when saving the node.\n");
         } catch (Exception $e) {
-            throw new UpdateNodeException($e->getMessage());            
+            throw new GenerateNodeException($e->getMessage());            
         }
-    }//End function updateNode
+    }//End function generateNode
+
 
     /**
     * This function assigns the language codes to the Drupal fields: language and  field_general_language.
-    * The field field_general_language may have multiple values included in the taxonomy ODS AP Languages
+    * The field_general_language field may have multiple values included in the taxonomy ODS AP Languages
     * (ods_ap_languages).
-    * @param $node The entity to add the language fields.
-    * @return The Drupal entity with the language fields filled.
+    * @param $node The drupal node passed by reference where to store the languages.
     */
-    private function createGeneralLanguageFields($node)
+    private function createLanguageFields($node)
     {
         $is_first = true;
 
-        //First we remove the values of the general language collection
-        $this->clearFieldCollectionNode($node, 'field_general_language');
         if (count($this->ods_node_info->getODSLanguages()) > 0){
             foreach ($this->ods_node_info->getODSLanguages() as $lg_code) {
-                try {                    
-                    $language = $this->replaceWithHeuristics($lg_code, "odsUpdater/languages.ini");
-                }catch (HeuristicFileException $e) {
-                    throw new XMLFileException($e->errorMessage());        
-                }catch (HeuristicNameException $e) {
-                    throw new XMLFileException("languages.ini: " .$e->errorMessage());            
-                }
-                try {                    
+                try {    
+                    //First we check that we have this code in the language_codes.ini.                
                     $language_code = $this->replaceWithHeuristics($lg_code, "odsUpdater/language_codes.ini");
                 }catch (HeuristicFileException $e) {
                     throw new XMLFileException($e->errorMessage());        
                 }catch (HeuristicNameException $e) {
                     throw new XMLFileException("language_codes.ini: " .$e->errorMessage());            
+                }
+                try {                    
+                    //Next, we check the Drupal language name of the language code in the languages.ini.                    
+                    $language_name = $this->replaceWithHeuristics($language_code, "odsUpdater/languages.ini");
+                }catch (HeuristicFileException $e) {
+                    throw new XMLFileException($e->errorMessage());        
+                }catch (HeuristicNameException $e) {
+                    throw new XMLFileException("languages.ini: " .$e->errorMessage());            
                 }
 
                 if ($is_first) {
@@ -1419,9 +1446,11 @@ class Updater
                     $is_first = false;
                 }
                 try {                                    
-                    $term_id = $this->getTermId($language, 'ods_ap_languages');
+                    $term_id = $this->getTermId($language_name, 'ods_ap_languages');
+                    $node->field_general_language[$node->language][]['tid'] = $term_id;
                     $node->field_general_language['und'][]['tid'] = $term_id;
                 }catch (TermNameException $e) {
+                    //If we find an invalid language the resource will be discarded.
                     throw new XMLFileException("ODS AP Languages: " . $e->errorMessage());            
                 }
             }
@@ -1430,34 +1459,14 @@ class Updater
             //undefined language.
             $node->language = $GLOBALS['UND_LANG_CODE'];
         }
-
         return $node;
-    }//End function createLanguageFields
+      }//End function createGeneralLanguageFields
+
 
     /**
-    * This function removes the current information that has a field.
-    * @param $node The entity to remove field values.
-    * @param $field_name The name of the field.
-    */
-    private function clearFieldCollectionNode ($node, $field_name){
-        //Check if the field exists.
-        $total_items = 0 ;
-        if (isset($node->$field_name)){
-            //We obtain the language of the field
-            $lang = field_language("node", $node, $field_name );
-            //We check the number of items of the field.
-            $total_items = count($node->{$field_name}[$lang]) ;
-            for ($i=0; $i < $total_items ; $i++){
-                unset($node->{$field_name}[$lang][$i]);
-            }
-        }
-    }//End function clearFieldNode
-
-    /**
-    * This function assign the lang titles of the ods node info to the node
+    * This function assigns the title of the ods node info to the node
     * that receives as input.
-    * @param Drupal entity $node The entity to add the title fields.
-    * @return The Drupal entity with the title fields filled.
+    * @param $node The drupal node passed by reference where to store the title field.
     */
     private function createGeneralTitleField($node)
     {
@@ -1466,25 +1475,22 @@ class Updater
         $title_aux = "";
         $lang_aux = "";
 
-        //First we remove the values of the title collection
-        $this->clearFieldCollectionNode($node, 'title_field');
         if (count($this->ods_node_info->getODSTitles()) >0){
             foreach ($this->ods_node_info->getODSTitles() as $key => $tit) {
                 try{
-                    //Normalize language code
+                    //Normalize the language code.
                     $language = $this->replaceWithHeuristics($tit->getLanguage(), "odsUpdater/language_codes.ini");
                     $shortTitle = $this->ensureLength255($tit->getText());
                     //Assign the title to the node.
-                    //In this case, the 'und' by default is not necessary (I don't know why, I suppose it takes
-                    //"en" as the default because it shows the title in the English language).
                     $node->title_field[$language][0]['value'] = $shortTitle;
-                    $node->title_field[$language][0]['safe_value'] = $shortTitle;
                     if ($key == 0) {
-                        //We collect the data to use in the case we obtain a "Missing title",
-                        //because we don't have a title with the same language of the node
+                        //We collect the data to use if we obtain a "Missing title"
+                        //due to we don't have a title with the same language of the node
                         //(node->language).
                         $title_aux = $shortTitle;
-                        $lang_aux = $language;
+                        //We assign a value for the undefined language and for the node language.
+                        $node->title_field[$node_language][0]['value'] = $shortTitle;
+                        $node->title_field['und'][0]['value'] = $shortTitle;
                     }
                     // Check if the title language match resource language.
                     if(strcmp($language,$node->language) == 0) {
@@ -1499,17 +1505,14 @@ class Updater
             if (empty($node->title)) {
                 //The title of the node should not be empty, so instead to 
                 //put the String "Missing title" (a lot of nodes could have 
-                //these titles), we assign the first title that we have found
-                //and we change the language of the node, in order to have the
-                //same of the title language.
+                //these titles), we assign the first title that we have found.
                 //$node->title = "Missing title";
                 $node->title = $title_aux;
-                $node->language = $lang_aux;
                 //We add the number of missing titles:
                 $GLOBALS['rep_cnt_missing_titles'][$this->ods_repository]++;
             }
-            return $node;
-        } else throw new ODSFieldException("There is no title.\n");        
+        } else throw new ODSFieldException("There is no title.\n"); 
+        return $node;       
     }//End function createGeneralTitleField
 
 
@@ -1523,10 +1526,27 @@ class Updater
     }//End function ensureLength255
 
     /**
-    * This function assign the Author of the ods node info to the node
+    * This function assigns the data provider to the Drupal field.
+    * @param $node The drupal node passed by reference where to store the data provider field.
+    */
+    private function createDataProviderField($node)
+    {
+       try {
+            $taxonomy_machine_name = "repository";
+            $rep_id = $this->getTermId($this->ods_data_provider, $taxonomy_machine_name);
+            $node->field_data_provider[$node->language][]['tid'] = $rep_id;
+            $node->field_data_provider['und'][]['tid'] = $rep_id;
+        }catch (TermNameException $e) {
+            //The repository name has not been found in the vocabulary
+            throw new XMLFileException("Repository: " . $e->errorMessage());
+        }
+        return $node;
+    }//End function createDataProviderField
+
+    /**
+    * This function assigns the author (contributor) of the ods node info to the node
     * that receives as input.
-    * @param Drupal entity $node The entity to add the author field.
-    * @return The Drupal entity with the author field filled.
+    * @param $node The drupal node passed by reference where to store the contributor field.
     */
     private function createLifecycleContributeEntityField($node)
     {
@@ -1534,53 +1554,69 @@ class Updater
             foreach ($this->ods_node_info->getODSLifeCycleContributes() as $cntr) {
                 if (count($cntr->getAuthorFullNames()) > 0){
                     foreach ($cntr->getAuthorFullNames() as $author) {
+                        $node->field_author_fullname[$node->language][0]['value'] = $this->ensureLength255($author);
                         $node->field_author_fullname['und'][0]['value'] = $this->ensureLength255($author);
-                        $node->field_author_fullname['und'][0]['safe_value'] = $this->ensureLength255($author);
-                        //We stop at the first author
+                        //We stop at the first author.
                         return $node;
                     }
                 }
             }
-        } else {
-            //The field has to be empty.
-            $node->field_author_fullname['und'][0]['value'] = "";   
-            $node->field_author_fullname['und'][0]['safe_value'] = "";   
-        }
-        return $node; 
+        } 
+        return $node;
     }//End function createLifecycleContributeEntityField
 
+    /**
+    * This function assigns the general identifier to the Drupal field.
+    * @param $node The drupal node passed by reference where to store the general identifier.
+    */
+    private function createGeneralIdentifierField($node)
+    {
+        $lo_list = $this->ods_node_info->getODSloIdentifiers();
+        if (count($lo_list > 0)){
+            //We take the first lo identifier.
+            $node->field_lo_identifier[$node->language][0]['value'] = $lo_list[0]; 
+            $node->field_lo_identifier['und'][0]['value'] = $lo_list[0]; 
+        } else {
+            //The node doesn't have any lo identifier, we discard the node (i.e. the xml file).
+            throw new IdentifierException("There is no lo identifier.\n");   
+        }
+        return $node;
+    }//End function createGeneralIdentifierField
 
     /**
-    * This function create the description field for the corresponding drupal node
-    * @param Drupal entity $node The entity to add the description field.
-    * @return The Drupal entity with the description field filled.
+    * This function assigns the description of the ods node info to the node
+    * that receives as input.
+    * @param $node The drupal node passed by reference where to store the description field.
     */
     private function createGeneralDescriptionField($node)
     {
-        $is_first = true;
-
-        //First we remove the values of the description collection
-        $this->clearFieldCollectionNode($node, 'field_eo_description');
         if (count($this->ods_node_info->getODSDescriptions()) > 0){
             //We only take the first list of descriptions (i.e. the first label <description>),
             //because the description field in the Drupal node only can have 1 value.
             $descriptions_groups = $this->ods_node_info->getODSDescriptions();
             $description_list = $descriptions_groups[0];
+            $is_first = true;
             foreach ($description_list as $description) {
                 try{
-                    //Normalize language code
+                    //Normalize the language code.
                     $language = $this->replaceWithHeuristics($description->getLanguage(), "odsUpdater/language_codes.ini");
                     $node->field_eo_description[$language][0]['value'] = $description->getText();
-                    $node->field_eo_description[$language][0]['format'] = 'filtered_html';
-                    $node->field_eo_description[$language][0]['safe_value'] = $description->getText();
+                    $node->field_eo_description[$language][0]['summary'] = text_summary($description->getText());
+                    $node->field_eo_description[$language][0]['format'] = filter_default_format();
 
-                    if($is_first) {
-                        //Language 'und' by default.
-                        //We take the description of the first language in the list.
+                    //We store the description in the body field too, since this field should be 
+                    //the field to store this kind of information.
+                    $node->body[$language][0]['value']   = $description->getText();
+                    $node->body[$language][0]['summary'] = text_summary($description->getText());
+                    $node->body[$language][0]['format'] = filter_default_format();
+
+                    if ($is_first) {
                         $node->field_eo_description['und'][0]['value']   = $description->getText();
-                        $node->field_eo_description['und'][0]['format']  = 'filtered_html';
-                        $node->field_eo_description['und'][0]['safe_value'] = $description->getText();
-
+                        $node->field_eo_description['und'][0]['summary'] = text_summary($description->getText());
+                        $node->field_eo_description['und'][0]['format'] = filter_default_format();
+                        $node->body['und'][0]['value']   = $description->getText();
+                        $node->body['und'][0]['summary'] = text_summary($description->getText());
+                        $node->body['und'][0]['format'] = filter_default_format();                       
                         $is_first = false;
                     }
                 }catch (HeuristicFileException $e) {
@@ -1589,69 +1625,63 @@ class Updater
                     throw new XMLFileException("language_codes.ini: " .$e->errorMessage());            
                 }
             }
-        }else {
-            //The field has to be empty.
-            $node->field_eo_description['und'][0]['value']   = "";
-            $node->field_eo_description['und'][0]['format']  = "";
-            $node->field_eo_description['und'][0]['safe_value'] = "";
         }
         return $node;
     }//End function createGeneralDescriptionField
 
 
     /**
-    * This function create the location field for the corresponding drupal node
-    * @param Drupal entity $node The entity to add the location field.
-    * @return The Drupal entity with the location field filled.
+    * This function assigns the technical location of the ods node info to the node
+    * that receives as input.
+    * @param $node The drupal node passed by reference where to store the technical location field.
     */
     private function createTechnicalLocationField($node)
     {
         if (count($this->ods_node_info->getODSResourceLinks()) > 0) {
             foreach ($this->ods_node_info->getODSResourceLinks() as $link) {
 
-                //We find two fields with the locations: field_resource_link and field_eo_link
+                $node->field_resource_link[$node->language][0]['url'] = $link;
+                $node->field_resource_link[$node->language][0]['title'] = "View resource";
                 $node->field_resource_link['und'][0]['url'] = $link;
-                $node->field_resource_link['und'][0]['title'] = "View Resource";
+                $node->field_resource_link['und'][0]['title'] = "View resource";
 
-                $node->field_eo_link['und'][0]['url'] = $link;
-                $node->field_eo_link['und'][0]['title'] = "View Resource";
-
-                // Return at first occurrence (only one/first technical location is supposed to be shown)
+                // Finish at first occurrence (only one/first technical location is supposed to be shown)
                 return $node;
             }
         } else throw new ODSFieldException("There is no location.\n");
+        return $node;
     }//End function createTechnicalLocationField
 
-
     /**
-    * This function create the technical format field for the corresponding drupal node
-    * @param Drupal entity $node The entity to add the technical format field.
-    * @return The Drupal entity with the technical format field filled.
+    * This function assigns the technical format of the ods node info to the node
+    * that receives as input.
+    * @param $node The drupal node passed by reference where to store the technical format field.
     */
     private function createTechnicalFormatField($node)
     {
-        //First we remove the values of the technical formats collection
-        $this->clearFieldCollectionNode($node, 'field_technical_format');
         if (count($this->ods_node_info->getODSTechnicalFormat()) > 0){
             foreach ($this->ods_node_info->getODSTechnicalFormat() as $format) {
                 try {
                     //We obtain the id of this term in the ODS AP Technical.Format vocabulary (ods_ap_technical_format).
                     $term_id = $this->getTermId($format, 'ods_ap_technical_format');
-                    //We add the format to our field in the Drupal node (field_technical_format)
-                    $node->field_technical_format['und'][]['tid'] = $term_id;                       
                 }catch (TermNameException $e) {
                     //If the format is not in the technical format vocabulary then we have to discard the file.
-                    throw new XMLFileException("ODS AP Technical.Format: " . $e->errorMessage());            
+                    //throw new XMLFileException("ODS AP Technical.Format: " . $e->errorMessage());            
+                    //Last change: if the format is not in the technical format vocabulary, we have to add this term.
+                    $term_id = $this->addTermVocabulary($format, 'ods_ap_technical_format');
                 }
+                //We add the format to our field in the Drupal node (field_technical_format)
+                $node->field_technical_format[$node->language][]['tid'] = $term_id;                       
+                $node->field_technical_format['und'][]['tid'] = $term_id;                       
             }
         }
         return $node;
     }//End function createTechnicalFormatField
 
     /**
-    * This function create the typicalagerange field for the corresponding drupal node
-    * @param Drupal entity $node The entity to add the typical age range field.
-    * @return The Drupal entity with the typical age range field filled.
+    * This function assigns the typical age range of the ods node info to the node
+    * that receives as input.
+    * @param $node The drupal node passed by reference where to store the typical age range field.
     */
     private function createEducationalTypicalAgeRangeField($node)
     {
@@ -1661,15 +1691,10 @@ class Updater
                     foreach ($educ->getTypicalAgeRanges() as $key2 => $age_list) {
                         foreach ($age_list as $key => $age) {
                             try {
-                                //Normalize language code
+                                //Normalize the language code.
                                 $language = $this->replaceWithHeuristics($age->getLanguage(), "odsUpdater/language_codes.ini");
                                 $node->field_educational_typicalagerang[$language][0]['value'] = $age->getText();
-                                $node->field_educational_typicalagerang[$language][0]['safe_value'] = $age->getText();
-                                if ($key == 0){
-                                    //Language 'und' by default.                                    
-                                    $node->field_educational_typicalagerang['und'][0]['value'] = $age->getText();
-                                    $node->field_educational_typicalagerang['und'][0]['safe_value'] = $age->getText();
-                                }
+                                $node->field_educational_typicalagerang['und'][0]['value'] = $age->getText();
                             }catch (HeuristicFileException $e) {
                                 throw new XMLFileException($e->errorMessage());            
                             }catch (HeuristicNameException $e) {
@@ -1681,60 +1706,40 @@ class Updater
                     } 
                 }
             }
-        } else {
-            $node->field_educational_typicalagerang[$node->language][0]['value'] = "";
-            $node->field_educational_typicalagerang[$node->language][0]['safe_value'] = "";
         } 
         return $node;
     }//End function createEducationalTypicalAgeRangeField
 
 
     /**
-    * This function create the copyright field for the corresponding drupal node
-    * @param Drupal entity $node The entity to add the copyright field.
-    * @return The Drupal entity with the copyright field filled.
+    * This function assigns the copyright of the ods node info to the node
+    * that receives as input.
+    * @param $node The drupal node passed by reference where to store the copyright field.
     */
-    private function createRightsCopyrightField($node)
+     private function createRightsCopyrightField($node)
     {
-        //First we remove the value of the field if it exists
-        $this->clearFieldNode($node, 'field_rights_copyright');
         $copyright = $this->ods_node_info->getODSCopyright();
         if (!empty($copyright)){            
             try {
                 $term_id = $this->getTermId($copyright, 'ods_ap_rights_copyright');
-                $node->field_rights_copyright['und'][0]['tid'] = $term_id;
+                $node->field_rights_copyright[$node->language][]['tid'] = $term_id;
+                $node->field_rights_copyright['und'][]['tid'] = $term_id;                       
             }catch (TermNameException $e) {
                 //If the copyright has not a valid term in the taxonomy we discard the file.
                 throw new XMLFileException("ODS AP Rights.Copyright: " . $e->errorMessage());            
             }
         }
-        return $node; 
+        return $node;
     }//End function createRightsCopyrightField
 
     /**
-    * This function removes the current value that has a field.
-    * @param $node The entity to remove field value.
-    * @param $field_name The name of the field.
-    */
-    private function clearFieldNode ($node, $field_name){
-        //Check if the field exists.
-        if (isset($node->$field_name)){
-            //We obtain the language of the field
-            $lang = field_language("node", $node, $field_name );
-            unset($node->{$field_name}[$lang][0]);
-        }
-    }//End function clearFieldNode
-
-    /**
-    * This function create the cost field for the corresponding drupal node
-    * @param Drupal entity $node The entity to add the cost field.
-    * @return The Drupal entity with the cost field filled.
+    * This function assigns the cost of the ods node info to the node
+    * that receives as input.
+    * @param $node The drupal node passed by reference where to store the cost field.
     */
     private function createRightsCostField($node)
     {
 
-        //First we remove the value of the field if it exists
-        $this->clearFieldNode($node, 'field_rights_cost');
         $cost = $this->ods_node_info->getODSCost();
         if (!empty($cost)){
             //In the 'ods_ap_rights_cost' taxonomy we only have these values:
@@ -1749,7 +1754,8 @@ class Updater
             }
             try {
                 $term_id = $this->getTermId($cost, 'ods_ap_rights_cost');
-                $node->field_rights_cost['und'][0]['tid'] = $term_id;
+                $node->field_rights_cost[$node->language][]['tid'] = $term_id;
+                $node->field_rights_cost['und'][]['tid'] = $term_id;
             }catch (TermNameException $e) {
                 //If the cost has not a valid term in the taxonomy we discard the file.
                 throw new XMLFileException("ODS AP Rights.Cost: " . $e->errorMessage());            
@@ -1759,21 +1765,20 @@ class Updater
     }//End function createRightsCostField
 
     /**
-    * This function create the aggregation level field for the corresponding drupal node
-    * @param Drupal entity $node The entity to add the aggregation level field.
-    * @return The Drupal entity with the aggregation level field filled.
+    * This function assigns the aggregation level (granularity) of the ods node info to the node
+    * that receives as input.
+    * @param $node The drupal node passed by reference where to store the aggregation level field.
     */
     private function createGeneralAggregationLevelField($node)
     {
-        //First we remove the value of the field if it exists
-        $this->clearFieldNode($node, 'field_aggregation_level');
         $agg_level = $this->ods_node_info->getODSAggregationLevel();
         if (!empty($agg_level)){            
             try {
-                //Normalize language code
+                //Normalize the language code.
                 $agg_level_code = $this->replaceWithHeuristics($agg_level, "odsUpdater/aggregation_level.ini");
                 $term_id = $this->getTermId($agg_level_code, 'ods_ap_aggregation_level');
-                $node->field_aggregation_level['und'][0]['tid'] = $term_id;
+                $node->field_aggregation_level[$node->language][]['tid'] = $term_id;
+                $node->field_aggregation_level['und'][]['tid'] = $term_id;
             }catch (HeuristicFileException $e) {
                 throw new XMLFileException($e->errorMessage());            
             }catch (HeuristicNameException $e) {
@@ -1787,38 +1792,36 @@ class Updater
     }//End function createGeneralAggregationLevelField
 
     /**
-    * This function create the keywords field (Edu tags field) for the corresponding drupal node.
-    * If a keyword is not in the vocabulary, the function adds this term to the corresponding vocabulary.
-    * @param Drupal entity $node The entity to add the keywords.
-    * @return The Drupal entity with the Edu tags field (keywords) filled.
+    * This function assigns the keywords of the ods node info to the node
+    * that receives as input.
+    * @param $node The drupal node passed by reference where to store the keywords field.
     */
-    private function createGeneralKeywordsField($node)
+   private function createGeneralKeywordsField($node)
     {
-        //First we remove the values of the keywords collection
-        $this->clearFieldCollectionNode($node, 'field_edu_tags');
         if (count($this->ods_node_info->getODSKeywords()) > 0){
             foreach ($this->ods_node_info->getODSKeywords() as $keyword_list) {
                 foreach ($keyword_list as $keyword) {
                     try {
                         //We obtain the id of this term in the Edu Tags vocabulary (edu_tags).
-                        $term_id = $this->getTermId($keyword->getText(), 'edu_tags');
+                        $term_id = $this->getTermId($this->ensureLength255($keyword->getText()), 'edu_tags');
                     }catch (TermNameException $e) {
                         //If the keyword is not in the edu_tags vocabulary then we have to add this term.
                         $term_id = $this->addTermVocabulary($keyword->getText(), 'edu_tags');
                     }
+                    $language = $this->replaceWithHeuristics($keyword->getLanguage(), "odsUpdater/language_codes.ini");
                     //We add the keyword to our field in the Drupal node (field_edu_tags)
-                    $node->field_edu_tags['und'][]['tid'] = $term_id;                       
-
+                    $node->field_edu_tags[$language][]['tid'] = $term_id;  
+                    $node->field_edu_tags['und'][]['tid'] = $term_id;  
                 }
             }
         }
         return $node;
-    }//End function createGeneralKeywordsField
+   }//End function createGeneralKeywordsField
 
     /**
     * This function returns the term id for a given term name added to a vocabulary.
-    * @param $term_name The term to add in a vocabulary.
-    * @param $vocabulary The vocabulary to add the term.
+    * @param $term_name The character string assigned to represent the term to add in a vocabulary.
+    * @param $vocabulary The character string assigned to represent the vocabulary to add the term.
     * @return The term id of the new added term.
     */
     private function addTermVocabulary($term_name, $vocabulary) {
@@ -1832,16 +1835,13 @@ class Updater
     }
 
     /**
-    * This function create the taxon path and discipline classification fields for the corresponding drupal node.
-    * @param Drupal entity $node The entity to add the keywords.
-    * @return The Drupal entity with the Edu tags field (keywords) filled.
+    * This function assigns the taxon path and discipline classification fields of the ods node info to the node
+    * that receives as input.
+    * @param $node The drupal node passed by reference where to store the classification fields.
     */
     private function createClassificationFields($node)
     {   
 
-        //First we remove the values of the keywords collection
-        $this->clearFieldCollectionNode($node, 'field_classification_taxonpath');
-        $this->clearFieldCollectionNode($node, 'field_classification_discipline');
         if (count($this->ods_node_info->getODSClassifications()) > 0){
             foreach ($this->ods_node_info->getODSClassifications() as $classif) {
                 if (count($classif->getTaxonpaths()) > 0)
@@ -1850,20 +1850,15 @@ class Updater
                         foreach ($taxon_list as $taxon_entry) {
                             foreach ($taxon_entry as $key => $langstring) {
                                 try {
-                                    //Normalize language code
+                                    //Normalize the language code.
                                     $language = $this->replaceWithHeuristics($langstring->getLanguage(), "odsUpdater/language_codes.ini");
-                                    //echo "Taxon Language: " . $language . "\n";
-                                    //echo "Taxon: " . $this->ensureLength255($langstring->getText()) . "\n";
 
                                     //Classification Taxon path
-                                    //Here the problem that we have is that we can have diferente taxons in different
+                                    //Here the problem that we have is that we can have different taxons in different
                                     //taxonpath labels, if they have the same language, we store in the drupal node
                                     //the taxon of the last taxon label.
                                     $node->field_classification_taxonpath[$language][]['value'] = $this->ensureLength255($langstring->getText());
-                                    $node->field_classification_taxonpath[$language][]['safe_value'] = $this->ensureLength255($langstring->getText());
-                                    //Language 'und' by default.                                    
                                     $node->field_classification_taxonpath['und'][]['value'] = $this->ensureLength255($langstring->getText());
-                                    $node->field_classification_taxonpath['und'][]['safe_value'] = $this->ensureLength255($langstring->getText());
 
                                     //Classification Discipline
                                     //Check if the taxon has the separator ::
@@ -1876,20 +1871,15 @@ class Updater
                                         //If we have more that one :: separator, the discipline is the string after
                                         //the last separator.
                                         $classification_discipline = trim($exploded[$last]);
-                                        //echo "Discipline defined as: " . $classification_discipline . "\n";
 
                                         //We only store the term if it is in the vocabulary.
                                         $term_id = $this->getTermId($classification_discipline, 'ods_ap_classification_discipline');
-                                        //echo "Found the discipline (with separator) id for the term: " . $classification_discipline . "\n";
                                         $node->field_classification_discipline[$language][]['tid'] = $term_id;
-                                        $node->field_classification_discipline[$language][]['tid'] = $term_id;
-                                        //Language 'und' by default.                                    
                                         $node->field_classification_discipline['und'][]['tid'] = $term_id;
                                     } else {
                                         //Single word
                                         //We only store the term if it is in the vocabulary.
                                         $term_id = $this->getTermId($this->ensureLength255($langstring->getText()), 'ods_ap_classification_discipline');
-                                        //echo "Found the discipline id for the term: " . $this->ensureLength255($langstring->getText()) . "\n";
                                         $node->field_classification_discipline[$language][]['tid'] = $term_id;
                                         //Language 'und' by default.
                                         $node->field_classification_discipline['und'][]['tid'] = $term_id;
@@ -1913,15 +1903,11 @@ class Updater
     }//End function createClassificationFields
 
     /**
-    * This function create the educational contexts field for the corresponding drupal node.
-    * If a context is not in the vocabulary, the function adds this term to the corresponding vocabulary.
-    * @param Drupal entity $node The entity to add the contexts.
-    * @return The Drupal entity with the contexts filled.
+    * This function assigns the educational contexts to the Drupal field.
+    * @param $node The drupal node passed by reference where to store the educational contexts.
     */
     private function createEducationalContextsField($node)
     {
-        //First we remove the values of the contexts collection
-        $this->clearFieldCollectionNode($node, 'field_educational_context');
         if (count($this->ods_node_info->getODSEducationals()) > 0){
             foreach ($this->ods_node_info->getODSEducationals() as $educ) {
                 if (count($educ->getContexts()) > 0){
@@ -1930,6 +1916,7 @@ class Updater
                             //We obtain the id of this term in the Educational context vocabulary.
                             $term_id = $this->getTermId($ctxt, 'ods_ap_educational_context');
                             //We add the keyword to our field in the Drupal node (field_educational_context)
+                            $node->field_educational_context[$node->language][]['tid'] = $term_id;                       
                             $node->field_educational_context['und'][]['tid'] = $term_id;                       
                         }catch (TermNameException $e) {
                             //If the context is not in the educational_context vocabulary then we discard the file.
@@ -1937,23 +1924,17 @@ class Updater
                         }
                     }
                 }
-
             }
         }
         return $node;
     }//End function createEducationalContextField
 
-
     /**
-    * This function create the educational learning resource type field for the corresponding drupal node.
-    * If a learning resource type is not in the vocabulary, the function add this term to the corresponding vocabulary.
-    * @param Drupal entity $node The entity to add the contexts.
-    * @return The Drupal entity with the contexts filled.
+    * This function assigns the educational learning resource type to the Drupal field.
+    * @param $node The drupal node passed by reference where to store the educational learning resource type.
     */
     private function createEducationalLearningResourceTypeField($node)
     {
-        //First we remove the values of the contexts collection
-        $this->clearFieldCollectionNode($node, 'field_learning_resource_type');
         if (count($this->ods_node_info->getODSEducationals()) > 0){
             foreach ($this->ods_node_info->getODSEducationals() as $educ) {
                 if (count($educ->getLearningResourceTypes()) > 0){
@@ -1963,6 +1944,7 @@ class Updater
                             //(ods_ap_educational_learningresourcetype).
                             $term_id = $this->getTermId($ltypes, 'ods_ap_educational_learningresourcetype');
                             //We add the keyword to our field in the Drupal node (field_learning_resource_type)
+                            $node->field_learning_resource_type[$node->language][]['tid'] = $term_id;                       
                             $node->field_learning_resource_type['und'][]['tid'] = $term_id;                       
                         }catch (TermNameException $e) {
                             //If the context is not in the ods_ap_educational_learningresourcetype vocabulary 
@@ -1978,12 +1960,10 @@ class Updater
     }//End function createEducationalLearningResourceTypeField
 
     /**
-    * This function assign the EO update date of the ods node info to the node
-    * that receives as input.
-    * @param Drupal entity $node The entity to add the update date of the educational object.
-    * @return The Drupal entity with the date field filled.
+    * This function assigns the update date to the Drupal field.
+    * @param $node The drupal node passed by reference where to store the update date field.
     */
-    private function createLifecycleContributeDateField($node)
+   private function createLifecycleContributeDateField($node)
     {
 
         if (count($this->ods_node_info->getODSLifeCycleContributes()) > 0){
@@ -2003,9 +1983,11 @@ class Updater
                                 $day_date >= 1 and $day_date <= 31){
                                 if ($year_date < 1990){
                                     //I don't know the reason why we do that.
+                                    $node->field_eo_update_date[$node->language][0]['value'] = date ("Y-m-d", strtotime ('1990-01-01'));
                                     $node->field_eo_update_date['und'][0]['value'] = date ("Y-m-d", strtotime ('1990-01-01'));
                                 } else{
                                     $drupal_date = $year_date . "-" . $month_date . "-" . $day_date;
+                                    $node->field_eo_update_date[$node->language][0]['value'] = date ("Y-m-d", strtotime ($drupal_date));
                                     $node->field_eo_update_date['und'][0]['value'] = date ("Y-m-d", strtotime ($drupal_date));
                                 }
                                 //Since the field_eo_update_date field only accepts one value, 
@@ -2018,140 +2000,24 @@ class Updater
                 }
             }
             //If we reach this instruction is because we haven't found a valid date.
+            //We set an empty date.
+            //$node->field_eo_update_date['und']][0]['value'] = date ("Y-m-d", strtotime ('0000-00-00'));
             //We assign the valid date assigned to the year 1990.
+            $node->field_eo_update_date[$node->language][0]['value'] = date ("Y-m-d", strtotime ('1990-01-01'));
             $node->field_eo_update_date['und'][0]['value'] = date ("Y-m-d", strtotime ('1990-01-01'));
         }
         return $node;
-    }//End function createMetametadataContributeDateField
-
-    /**
-     * Add a drupal node with the information of our ODSNode.
-     * We know that at least the ODSNode will have one title and a location.
-     * @param  int nid The id of the Drupal node that we have to update.
-     */
-    public function addNode(){
-        try {
-            echo "Creating node " . $nid . "...\n";
-            $node = new stdClass();
-            $node->type = 'educational_object';
-            //Set some default values
-            node_object_prepare($node);
-            $node->uid = user_load_by_name('social updater')->uid; // Social data user
-            $node->status = 1; //1 is published, 0 is unpublished
-            $node->promote = 0; //0 is not promoted to home page.
-
-            //Create the language of the node and the general languages.
-            $this->createGeneralLanguageFields($node);
-
-            //Create title
-            $this->createGeneralTitleField($node);
-
-            //Create data provider
-            $this->createDataProviderField($node);
-
-            //Create author fullname
-            $this->createLifecycleContributeEntityField($node);
-
-            //Create the lo identifier
-            $this->createGeneralIdentifierField($node);
-
-            //Create the ODS identifiers.
-            $node->field_ods_general_identifier['und'][0]['value'] = $this->ods_node_info->getODSGeneralIdentifier();
-            $node->field_ods_metadata_identifier['und'][0]['value'] = $this->ods_node_info->getODSMetadataIdentifier();
-
-            //Create the source file location
-            $node->field_ods_file_location['und'][0]['value'] = $this->ods_node_info->getODSFileLocation();
-
-            //Create description
-            $this->createGeneralDescriptionField($node);
-
-            //Create location
-            $this->createTechnicalLocationField($node);
-
-            //Create format
-            $this->createTechnicalFormatField($node);
-
-            //Create typical age range
-            $this->createEducationalTypicalAgeRangeField($node);
-
-            //Create copyright
-            $this->createRightsCopyrightField($node);
-
-            //Create cost
-            $this->createRightsCostField($node);
-
-            //Create aggregation level
-            $this->createGeneralAggregationLevelField($node);
-
-            //Create keywords
-            $this->createGeneralKeywordsField($node);
-
-            //Create classification fields: Taxon path and disclipline
-            $this->createClassificationFields($node);
-
-            //Create educational contexts
-            $this->createEducationalContextsField($node);
-
-            //Create educational learning resource types
-            $this->createEducationalLearningResourceTypeField($node);
-
-            //Create lifecycle date
-            $this->createLifecycleContributeDateField($node);
-
-            //Prepare node for saving:
-            if ($node = node_submit($node)){
-                node_save($node);   
-                echo "Node added successfully!\n\n";         
-            } else throw new AddNodeException("Error when saving the node.\n");
-            
-        } catch (Exception $e) {
-            throw new AddNodeException($e->getMessage());            
-        }        
-    }//End function addNode
-
-    /**
-    * This function create the data provider field for the corresponding drupal node
-    * @param Drupal entity $node The entity to add the data provider field.
-    * @return The Drupal entity with the data provider field filled.
-    */
-    private function createDataProviderField($node)
-    {
-        try {
-            $taxonomy_machine_name = "repository";
-            $rep_id = $this->getTermId($this->ods_data_provider, $taxonomy_machine_name);
-            $node->field_data_provider['und'][0]['tid'] = $rep_id;
-        }catch (TermNameException $e) {
-            //The repository name has not been found in the vocabulary
-            throw new XMLFileException("Repository: " . $e->errorMessage());
-        }
-        return $node;
-    }//End function createDataProviderField
-
-    /**
-    * This function create the lo identifier field for the corresponding drupal node
-    * @param Drupal entity $node The entity to add the lo identifier field.
-    * @return The Drupal entity with the lo identifier field filled.
-    */
-    private function createGeneralIdentifierField($node)
-    {
-        $lo_list = $this->ods_node_info->getODSloIdentifiers();
-        if (count($lo_list > 0)){
-            //We take the first lo identifier.
-            $node->field_lo_identifier['und'][0]['value'] = $lo_list[0]; 
-        } else {
-            //The node doesn't have any lo identifier, we discard the node (i.e. the xml file).
-            throw new IdentifierException("There is no lo identifier.\n");   
-        }
-        return $node;
-    }//End function createGeneralIdentifierField
-
+    }//End function createLifecycleContributeDateField
 
 } //End class Updater
 
 //********************************
 //CUSTOM EXCEPTION CLASSES
 //********************************
-class AddNodeException extends Exception {
+//********************************
+//CUSTOM EXCEPTION CLASSES
+//********************************
+class GenerateNodeException extends Exception {
   private $error_message;
 
   public function __construct($msg){
@@ -2203,19 +2069,6 @@ class ODSFieldException extends Exception {
   public function errorMessage() {
     //Error message    
     $errorMsg = $this->getMessage();
-    return $errorMsg;
-  }
-}
-
-class UpdateNodeException extends Exception {
-  private $error_message;
-
-  public function __construct($msg){
-     $this->error_message = $msg;
-  }
-  public function errorMessage() {
-    //Error message    
-    $errorMsg = $this->error_message;
     return $errorMsg;
   }
 }
