@@ -1354,15 +1354,11 @@ class Updater
             $this->createGeneralIdentifierField($node);
 
             //Assign the ODS identifiers.           
-            $node->field_ods_general_identifier[$node->language][0]['value'] = $this->ods_node_info->getODSGeneralIdentifier();
-            $node->field_ods_metadata_identifier[$node->language][0]['value'] = $this->ods_node_info->getODSMetadataIdentifier();
-            //We have to assign these values to the 'und' language, because in another case we cannot see the values in the content node.
             $node->field_ods_general_identifier['und'][0]['value'] = $this->ods_node_info->getODSGeneralIdentifier();
             $node->field_ods_metadata_identifier['und'][0]['value'] = $this->ods_node_info->getODSMetadataIdentifier();
 
 
             //Assign the source file location.
-            $node->field_ods_file_location[$node->language][0]['value'] = $this->ods_node_info->getODSFileLocation();          
             $node->field_ods_file_location['und'][0]['value'] = $this->ods_node_info->getODSFileLocation();          
 
             //Description
@@ -1420,9 +1416,10 @@ class Updater
     */
     private function createLanguageFields($node)
     {
-        $is_first = true;
-
         if (count($this->ods_node_info->getODSLanguages()) > 0){
+            $is_first = true;
+            //Remove the content of the field.
+            $this->clearFieldCollectionNode($node, 'field_general_language', 'und');
             foreach ($this->ods_node_info->getODSLanguages() as $lg_code) {
                 try {    
                     //First we check that we have this code in the language_codes.ini.                
@@ -1447,7 +1444,6 @@ class Updater
                 }
                 try {                                    
                     $term_id = $this->getTermId($language_name, 'ods_ap_languages');
-                    $node->field_general_language[$node->language][]['tid'] = $term_id;
                     $node->field_general_language['und'][]['tid'] = $term_id;
                 }catch (TermNameException $e) {
                     //If we find an invalid language the resource will be discarded.
@@ -1460,8 +1456,26 @@ class Updater
             $node->language = $GLOBALS['UND_LANG_CODE'];
         }
         return $node;
-      }//End function createGeneralLanguageFields
+    }//End function createGeneralLanguageFields
 
+    /**
+    * This function removes the current information that has a field in a specific language.
+    * @param $node The entity to remove field values.
+    * @param $field_name The character string assigned to represent the name of the field.
+    * @param $lang The character string assigned to represent the language of the field that
+    * we have to use.
+    */
+    private function clearFieldCollectionNode ($node, $field_name, $lang){
+        //Check if the field exists.
+        $total_items = 0 ;
+        if (isset($node->$field_name)){
+            //We check the number of items of the field.
+            $total_items = count($node->{$field_name}[$lang]) ;
+            for ($i=0; $i < $total_items ; $i++){
+                unset($node->{$field_name}[$lang][$i]);
+            }
+        }
+    }//End function clearFieldCollectionNode
 
     /**
     * This function assigns the title of the ods node info to the node
@@ -1488,9 +1502,6 @@ class Updater
                         //due to we don't have a title with the same language of the node
                         //(node->language).
                         $title_aux = $shortTitle;
-                        //We assign a value for the undefined language and for the node language.
-                        $node->title_field[$node_language][0]['value'] = $shortTitle;
-                        $node->title_field['und'][0]['value'] = $shortTitle;
                     }
                     // Check if the title language match resource language.
                     if(strcmp($language,$node->language) == 0) {
@@ -1503,11 +1514,13 @@ class Updater
                 }
             }
             if (empty($node->title)) {
-                //The title of the node should not be empty, so instead to 
-                //put the String "Missing title" (a lot of nodes could have 
+                //We have not found a title with the same language of the node
+                //$node->language. However, the title of the node should not be empty, 
+                //so instead to put the String "Missing title" (a lot of nodes could have 
                 //these titles), we assign the first title that we have found.
                 //$node->title = "Missing title";
                 $node->title = $title_aux;
+                $node->title_field[$node->language][0]['value'] = $shortTitle;
                 //We add the number of missing titles:
                 $GLOBALS['rep_cnt_missing_titles'][$this->ods_repository]++;
             }
@@ -1532,9 +1545,10 @@ class Updater
     private function createDataProviderField($node)
     {
        try {
+            //Remove the content of the field.
+            $this->clearFieldCollectionNode($node, 'field_data_provider', 'und');
             $taxonomy_machine_name = "repository";
             $rep_id = $this->getTermId($this->ods_data_provider, $taxonomy_machine_name);
-            $node->field_data_provider[$node->language][]['tid'] = $rep_id;
             $node->field_data_provider['und'][]['tid'] = $rep_id;
         }catch (TermNameException $e) {
             //The repository name has not been found in the vocabulary
@@ -1555,7 +1569,6 @@ class Updater
                 if (count($cntr->getAuthorFullNames()) > 0){
                     foreach ($cntr->getAuthorFullNames() as $author) {
                         $node->field_author_fullname[$node->language][0]['value'] = $this->ensureLength255($author);
-                        $node->field_author_fullname['und'][0]['value'] = $this->ensureLength255($author);
                         //We stop at the first author.
                         return $node;
                     }
@@ -1574,7 +1587,6 @@ class Updater
         $lo_list = $this->ods_node_info->getODSloIdentifiers();
         if (count($lo_list > 0)){
             //We take the first lo identifier.
-            $node->field_lo_identifier[$node->language][0]['value'] = $lo_list[0]; 
             $node->field_lo_identifier['und'][0]['value'] = $lo_list[0]; 
         } else {
             //The node doesn't have any lo identifier, we discard the node (i.e. the xml file).
@@ -1595,7 +1607,6 @@ class Updater
             //because the description field in the Drupal node only can have 1 value.
             $descriptions_groups = $this->ods_node_info->getODSDescriptions();
             $description_list = $descriptions_groups[0];
-            $is_first = true;
             foreach ($description_list as $description) {
                 try{
                     //Normalize the language code.
@@ -1609,16 +1620,6 @@ class Updater
                     $node->body[$language][0]['value']   = $description->getText();
                     $node->body[$language][0]['summary'] = text_summary($description->getText());
                     $node->body[$language][0]['format'] = filter_default_format();
-
-                    if ($is_first) {
-                        $node->field_eo_description['und'][0]['value']   = $description->getText();
-                        $node->field_eo_description['und'][0]['summary'] = text_summary($description->getText());
-                        $node->field_eo_description['und'][0]['format'] = filter_default_format();
-                        $node->body['und'][0]['value']   = $description->getText();
-                        $node->body['und'][0]['summary'] = text_summary($description->getText());
-                        $node->body['und'][0]['format'] = filter_default_format();                       
-                        $is_first = false;
-                    }
                 }catch (HeuristicFileException $e) {
                     throw new XMLFileException($e->errorMessage());            
                 }catch (HeuristicNameException $e) {
@@ -1639,17 +1640,12 @@ class Updater
     {
         if (count($this->ods_node_info->getODSResourceLinks()) > 0) {
             foreach ($this->ods_node_info->getODSResourceLinks() as $link) {
-
-                $node->field_resource_link[$node->language][0]['url'] = $link;
-                $node->field_resource_link[$node->language][0]['title'] = "View resource";
                 $node->field_resource_link['und'][0]['url'] = $link;
                 $node->field_resource_link['und'][0]['title'] = "View resource";
-
                 // Finish at first occurrence (only one/first technical location is supposed to be shown)
                 return $node;
             }
         } else throw new ODSFieldException("There is no location.\n");
-        return $node;
     }//End function createTechnicalLocationField
 
     /**
@@ -1660,6 +1656,8 @@ class Updater
     private function createTechnicalFormatField($node)
     {
         if (count($this->ods_node_info->getODSTechnicalFormat()) > 0){
+            //Remove the content of the field.
+            $this->clearFieldCollectionNode($node, 'field_technical_format', 'und');
             foreach ($this->ods_node_info->getODSTechnicalFormat() as $format) {
                 try {
                     //We obtain the id of this term in the ODS AP Technical.Format vocabulary (ods_ap_technical_format).
@@ -1671,7 +1669,6 @@ class Updater
                     $term_id = $this->addTermVocabulary($format, 'ods_ap_technical_format');
                 }
                 //We add the format to our field in the Drupal node (field_technical_format)
-                $node->field_technical_format[$node->language][]['tid'] = $term_id;                       
                 $node->field_technical_format['und'][]['tid'] = $term_id;                       
             }
         }
@@ -1694,7 +1691,6 @@ class Updater
                                 //Normalize the language code.
                                 $language = $this->replaceWithHeuristics($age->getLanguage(), "odsUpdater/language_codes.ini");
                                 $node->field_educational_typicalagerang[$language][0]['value'] = $age->getText();
-                                $node->field_educational_typicalagerang['und'][0]['value'] = $age->getText();
                             }catch (HeuristicFileException $e) {
                                 throw new XMLFileException($e->errorMessage());            
                             }catch (HeuristicNameException $e) {
@@ -1722,7 +1718,8 @@ class Updater
         if (!empty($copyright)){            
             try {
                 $term_id = $this->getTermId($copyright, 'ods_ap_rights_copyright');
-                $node->field_rights_copyright[$node->language][]['tid'] = $term_id;
+                //Remove the content of the field.
+                $this->clearFieldCollectionNode($node, 'field_rights_copyright', 'und');
                 $node->field_rights_copyright['und'][]['tid'] = $term_id;                       
             }catch (TermNameException $e) {
                 //If the copyright has not a valid term in the taxonomy we discard the file.
@@ -1754,7 +1751,11 @@ class Updater
             }
             try {
                 $term_id = $this->getTermId($cost, 'ods_ap_rights_cost');
-                $node->field_rights_cost[$node->language][]['tid'] = $term_id;
+                //Remove the content of the field.
+                $this->clearFieldCollectionNode($node, 'field_rights_cost', 'und');
+                //We need this instruction because in a previous version of the updater 
+                //we introduced the value in this language too:
+                $this->clearFieldCollectionNode($node, 'field_rights_cost', $node->language);
                 $node->field_rights_cost['und'][]['tid'] = $term_id;
             }catch (TermNameException $e) {
                 //If the cost has not a valid term in the taxonomy we discard the file.
@@ -1763,6 +1764,8 @@ class Updater
         }
         return $node;
     }//End function createRightsCostField
+
+
 
     /**
     * This function assigns the aggregation level (granularity) of the ods node info to the node
@@ -1777,7 +1780,11 @@ class Updater
                 //Normalize the language code.
                 $agg_level_code = $this->replaceWithHeuristics($agg_level, "odsUpdater/aggregation_level.ini");
                 $term_id = $this->getTermId($agg_level_code, 'ods_ap_aggregation_level');
-                $node->field_aggregation_level[$node->language][]['tid'] = $term_id;
+                //Remove the content of the field.
+                $this->clearFieldCollectionNode($node, 'field_aggregation_level', 'und');
+                //We need this instruction because in a previous version of the updater 
+                //we introduced the value in this language too:
+                $this->clearFieldCollectionNode($node, 'field_aggregation_level', $node->language);
                 $node->field_aggregation_level['und'][]['tid'] = $term_id;
             }catch (HeuristicFileException $e) {
                 throw new XMLFileException($e->errorMessage());            
@@ -1799,6 +1806,8 @@ class Updater
    private function createGeneralKeywordsField($node)
     {
         if (count($this->ods_node_info->getODSKeywords()) > 0){
+            //Remove the content of the field.
+            $this->clearFieldCollectionNode($node, 'field_edu_tags', 'und');
             foreach ($this->ods_node_info->getODSKeywords() as $keyword_list) {
                 foreach ($keyword_list as $keyword) {
                     try {
@@ -1810,7 +1819,6 @@ class Updater
                     }
                     $language = $this->replaceWithHeuristics($keyword->getLanguage(), "odsUpdater/language_codes.ini");
                     //We add the keyword to our field in the Drupal node (field_edu_tags)
-                    $node->field_edu_tags[$language][]['tid'] = $term_id;  
                     $node->field_edu_tags['und'][]['tid'] = $term_id;  
                 }
             }
@@ -1841,25 +1849,60 @@ class Updater
     */
     private function createClassificationFields($node)
     {   
-
-        if (count($this->ods_node_info->getODSClassifications()) > 0){
+        if (count($this->ods_node_info->getODSClassifications()) > 0) {
+            $languages = array();
             foreach ($this->ods_node_info->getODSClassifications() as $classif) {
-                if (count($classif->getTaxonpaths()) > 0)
-                {
+                if (count($classif->getTaxonpaths()) > 0) {
                     foreach ($classif->getTaxonpaths() as $taxon_list) {
                         foreach ($taxon_list as $taxon_entry) {
                             foreach ($taxon_entry as $key => $langstring) {
                                 try {
+                                    //Classification TaxonPath
                                     //Normalize the language code.
                                     $language = $this->replaceWithHeuristics($langstring->getLanguage(), "odsUpdater/language_codes.ini");
-
-                                    //Classification Taxon path
-                                    //Here the problem that we have is that we can have different taxons in different
-                                    //taxonpath labels, if they have the same language, we store in the drupal node
-                                    //the taxon of the last taxon label.
+                                    $languages[] = $language;
+                                }catch (HeuristicFileException $e) {
+                                    throw new XMLFileException($e->errorMessage());            
+                                }catch (HeuristicNameException $e) {
+                                    throw new XMLFileException("language_codes.ini: " .$e->errorMessage());    
+                                }        
+                            }
+                        }
+                    }
+                }
+            }
+            //Remove duplicates in the language array
+            $langs = array_unique($languages);
+            foreach ($langs as $lang) {
+                //Remove the content of the field.
+                $this->clearFieldCollectionNode($node, 'field_classification_taxonpath', $lang);
+                //We need this instruction because in a previous version of the updater 
+                //we introduced the value for the languages too:
+                $this->clearFieldCollectionNode($node, 'field_classification_discipline', $lang);
+            }
+            $this->clearFieldCollectionNode($node, 'field_classification_discipline', 'und');
+            foreach ($this->ods_node_info->getODSClassifications() as $classif) {
+                if (count($classif->getTaxonpaths()) > 0) {
+                    foreach ($classif->getTaxonpaths() as $taxon_list) {
+                        foreach ($taxon_list as $taxon_entry) {
+                            foreach ($taxon_entry as $key => $langstring) {
+                                try {
+                                    //Classification TaxonPath
+                                    //Normalize the language code.
+                                    $language = $this->replaceWithHeuristics($langstring->getLanguage(), "odsUpdater/language_codes.ini");
                                     $node->field_classification_taxonpath[$language][]['value'] = $this->ensureLength255($langstring->getText());
-                                    $node->field_classification_taxonpath['und'][]['value'] = $this->ensureLength255($langstring->getText());
-
+                                }catch (HeuristicFileException $e) {
+                                    throw new XMLFileException($e->errorMessage());            
+                                }catch (HeuristicNameException $e) {
+                                    throw new XMLFileException("language_codes.ini: " .$e->errorMessage());    
+                                }        
+                            }
+                        }
+                    }
+                    foreach ($classif->getTaxonpaths() as $taxon_list) {
+                        foreach ($taxon_list as $taxon_entry) {
+                            foreach ($taxon_entry as $key => $langstring) {
+                                try {
                                     //Classification Discipline
                                     //Check if the taxon has the separator ::
                                     if (strpos($langstring->getText(), ':')) {
@@ -1874,24 +1917,22 @@ class Updater
 
                                         //We only store the term if it is in the vocabulary.
                                         $term_id = $this->getTermId($classification_discipline, 'ods_ap_classification_discipline');
-                                        $node->field_classification_discipline[$language][]['tid'] = $term_id;
+                                        //echo "Found the discipline (with separator) id for the term: " . $classification_discipline . "\n";
                                         $node->field_classification_discipline['und'][]['tid'] = $term_id;
+                                        //Since the field only accepts one value we finish with the first discipline.
+                                        return $node;
                                     } else {
                                         //Single word
                                         //We only store the term if it is in the vocabulary.
                                         $term_id = $this->getTermId($this->ensureLength255($langstring->getText()), 'ods_ap_classification_discipline');
-                                        $node->field_classification_discipline[$language][]['tid'] = $term_id;
-                                        //Language 'und' by default.
+                                        //echo "Found the discipline id for the term: " . $this->ensureLength255($langstring->getText()) . "\n";
                                         $node->field_classification_discipline['und'][]['tid'] = $term_id;
+                                        //Since the field only accepts one value we finish with the first discipline.
+                                        return $node;
                                     }
-                                }catch (HeuristicFileException $e) {
-                                    throw new XMLFileException($e->errorMessage());            
-                                }catch (HeuristicNameException $e) {
-                                    throw new XMLFileException("language_codes.ini: " .$e->errorMessage());            
                                 }catch (TermNameException $e) {
                                     //If we don't find the term in the vocabulary we discard the file.
-                                    throw new XMLFileException("ODS AP Classification.Discipline: " . $e->errorMessage());            
-
+                                    throw new XMLFileException("ODS AP Classification.Discipline: " . $e->errorMessage());
                                 }
                             }
                         }
@@ -1909,14 +1950,14 @@ class Updater
     private function createEducationalContextsField($node)
     {
         if (count($this->ods_node_info->getODSEducationals()) > 0){
+            //Remove the content of the field.
+            $this->clearFieldCollectionNode($node, 'field_educational_context', 'und');
             foreach ($this->ods_node_info->getODSEducationals() as $educ) {
                 if (count($educ->getContexts()) > 0){
                     foreach ($educ->getContexts() as $ctxt) {
                         try {
                             //We obtain the id of this term in the Educational context vocabulary.
                             $term_id = $this->getTermId($ctxt, 'ods_ap_educational_context');
-                            //We add the keyword to our field in the Drupal node (field_educational_context)
-                            $node->field_educational_context[$node->language][]['tid'] = $term_id;                       
                             $node->field_educational_context['und'][]['tid'] = $term_id;                       
                         }catch (TermNameException $e) {
                             //If the context is not in the educational_context vocabulary then we discard the file.
@@ -1936,6 +1977,8 @@ class Updater
     private function createEducationalLearningResourceTypeField($node)
     {
         if (count($this->ods_node_info->getODSEducationals()) > 0){
+            //Remove the content of the field.
+            $this->clearFieldCollectionNode($node, 'field_learning_resource_type', 'und');
             foreach ($this->ods_node_info->getODSEducationals() as $educ) {
                 if (count($educ->getLearningResourceTypes()) > 0){
                     foreach ($educ->getLearningResourceTypes() as $ltypes) {
@@ -1943,8 +1986,6 @@ class Updater
                             //We obtain the id of this term in the Educational learning resource type vocabulary
                             //(ods_ap_educational_learningresourcetype).
                             $term_id = $this->getTermId($ltypes, 'ods_ap_educational_learningresourcetype');
-                            //We add the keyword to our field in the Drupal node (field_learning_resource_type)
-                            $node->field_learning_resource_type[$node->language][]['tid'] = $term_id;                       
                             $node->field_learning_resource_type['und'][]['tid'] = $term_id;                       
                         }catch (TermNameException $e) {
                             //If the context is not in the ods_ap_educational_learningresourcetype vocabulary 
@@ -1983,11 +2024,9 @@ class Updater
                                 $day_date >= 1 and $day_date <= 31){
                                 if ($year_date < 1990){
                                     //I don't know the reason why we do that.
-                                    $node->field_eo_update_date[$node->language][0]['value'] = date ("Y-m-d", strtotime ('1990-01-01'));
                                     $node->field_eo_update_date['und'][0]['value'] = date ("Y-m-d", strtotime ('1990-01-01'));
                                 } else{
                                     $drupal_date = $year_date . "-" . $month_date . "-" . $day_date;
-                                    $node->field_eo_update_date[$node->language][0]['value'] = date ("Y-m-d", strtotime ($drupal_date));
                                     $node->field_eo_update_date['und'][0]['value'] = date ("Y-m-d", strtotime ($drupal_date));
                                 }
                                 //Since the field_eo_update_date field only accepts one value, 
