@@ -16,9 +16,10 @@ $GLOBALS['heuristics'] = array();
 //ods_updater_xml_root_file_path is the variable defined in the Drupal portal (devel menu: Development > Variable editor),
 //e.g. /home/odssearch/bigData or /var/odsHarvestedRepositories (development environment).
 $GLOBALS['updater_path'] = variable_get('ods_updater_xml_root_file_path', 'DEFAULT_PATH');
-$GLOBALS['updater_path_new'] = '/new';
-$GLOBALS['updater_path_old'] = '/old';
-$GLOBALS['updater_path_error'] = '/error';
+$GLOBALS['updater_path_new'] = DIRECTORY_SEPARATOR . "new";
+$GLOBALS['updater_path_old'] = DIRECTORY_SEPARATOR . "old";
+$GLOBALS['updater_path_error'] = DIRECTORY_SEPARATOR . "error";
+$GLOBALS['updater_path_log'] = DIRECTORY_SEPARATOR . "log";
 $GLOBALS['UND_LANG_CODE'] = 'en'; //According to the code assigned to the 'und' language code in the language_codes.ini file.
 $GLOBALS['rep_cnt_missing_titles'] = array(); //Array with the number of missing titles in each repository.
 
@@ -29,36 +30,6 @@ echo "OPEN DISCOVERY SPACE - DRUPAL UPDATER\n";
 echo "=====================================\n\n";
 
 echo "Generating the updater tree...\n";
-$files = directoryToArray($GLOBALS['updater_path'].$GLOBALS['updater_path_new'], true);
-//Calculate the repositories (i.e. directory names) and remove directories from the list of files.
-$num_repositories = 0;
-$total_files = 0;
-foreach ($files as $key => $elem) {
-    if(is_dir($elem)){
-        //Sample output: /home/odssearch/bigData/new/ORGANIC_EDUNET
-        //The element is a directory, therefore this is the repository name (data provider)
-        //(the name of the folder represents the name of the repository). We remove the element from the array.
-        $last_pos_file_separator = stripos($file, '/');
-        $rp_name = substr($file, $last_pos_file_separator+1);
-        $GLOBALS['rep_cnt_missing_titles'][$rp_name] = 0;
-        unset($files[$key]);
-        $num_repositories++;
-    } else $total_files++;
-}
-//Reindex the array because some elements could have been discarded in the previous step.
-$files = array_values($files);
-
-echo "Total files in the updater XML root file path: " . $total_files ."\n";
-foreach ($files as $key => $file) {
-    echo "<" . ($key + 1) . "> " . $file . "\n";
-}
-
-$num_invalid_files = 0;
-
-//Create the log file that contains information regarding the state of each file: 
-//file with errors, added as a node or updated a node.
-$log_ods_files = fopen($GLOBALS['updater_path'].$GLOBALS['updater_path_new'].date("/d-m-Y_H:i:s_")."updater.log", "a") or 
-                 die("The log file cannot be created.");
 
 //Create the output directories is they don't exist.
 $old_folder = $GLOBALS['updater_path'].$GLOBALS['updater_path_old']; 
@@ -71,6 +42,43 @@ if(!file_exists($error_folder))
 {
     mkdir ($error_folder);
 } 
+$log_folder = $GLOBALS['updater_path'].$GLOBALS['updater_path_log']; 
+if(!file_exists($log_folder))
+{
+    mkdir ($log_folder);
+} 
+
+$files = directoryToArray($GLOBALS['updater_path'].$GLOBALS['updater_path_new'], true);
+//Calculate the repositories (i.e. directory names) and remove directories from the list of files.
+$num_repositories = 0;
+$total_files = 0;
+$repository_logs = array();
+$updater_process_date = date("d-m-Y_H:i:s");
+foreach ($files as $key => $file) {
+    if(is_dir($file)){
+        //Sample output: /home/odssearch/bigData/new/ORGANIC_EDUNET
+        //The element is a directory, therefore this is the repository name (data provider)
+        //(the name of the folder represents the name of the repository). We remove the element from the array.
+        $last_pos_file_separator = strrpos($file, DIRECTORY_SEPARATOR);
+        $rp_name = substr($file, $last_pos_file_separator+1);
+        $GLOBALS['rep_cnt_missing_titles'][$rp_name] = 0;
+        unset($files[$key]);
+        $num_repositories++;
+        //We create the log file for the repository with the next pattern: updater-[repository_name]-[date].log
+        //The log file contains the information regarding: file with errors, added as a node or updated a node.
+        $repository_logs[$rp_name] = fopen($GLOBALS['updater_path'].$GLOBALS['updater_path_log'].DIRECTORY_SEPARATOR.
+            "updater-".$rp_name. "-".$updater_process_date.".log", "a") or die("The log file cannot be created.");
+    } else $total_files++;
+}
+//Reindex the array because some elements could have been discarded in the previous step.
+$files = array_values($files);
+
+echo "Total files in the updater XML root file path: " . $total_files ."\n";
+foreach ($files as $key => $file) {
+    echo "<" . ($key + 1) . "> " . $file . "\n";
+}
+
+$num_invalid_files = 0;
 
 //REMOVE NON-XML FILES
 echo "Cleaning the tree...\n";
@@ -80,16 +88,20 @@ foreach($files as $key => $file)
         //The element doesn't have the .xml extension. We discard the element.
         unset($files[$key]);
         $num_invalid_files++;
+        //Get the repository name.
+        $repo_name = getRepositoryName($file);
         //Include the file name in the log file.
-        fputs($log_ods_files, "> " . $file . " doesn't represent a xml file." . "\n");
+        fputs($repository_logs[$repo_name], "> " . $file . " doesn't represent a xml file." . "\n");
         //Move to the error folder.
         fromNewToError($file);
     } elseif (strpos($file,'%') !== false) {
         //The element includes the % symbol. We discard the element.
         unset($files[$key]);
         $num_invalid_files++;
+        //Get the repository name.
+        $repo_name = getRepositoryName($file);
         //Include the file name in the log file.
-        fputs($log_ods_files, "> " . $file . " doesn't represent a xml file." . "\n");
+        fputs($repository_logs[$repo_name], "> " . $file . " doesn't represent a xml file." . "\n");
         //Move to the error folder.
         fromNewToError($file);
     }
@@ -104,9 +116,13 @@ $num_new_nodes = 0;
 
 echo "Processing XML files...\n\n";
 echo "Creating the instance of the Updater...\n\n";
+
 foreach ($files as $file)
 {
     echo ">>>File to be processed: " . $file . "\n";
+
+    //Get the repository name.
+    $repo_name = getRepositoryName($file);
 
     //Obtain the content of the XML file using the PHP function file_get_contents:
     $xml = file_get_contents($file);
@@ -117,7 +133,7 @@ foreach ($files as $file)
     //Obtain the historic folder where the file will be saved after processing.
     $newPathFile = getHistoricPathFile($file);
     //Read the information from the XML file.
-    $ods_node = new ODSNode($DOM, getRepositoryName($file), $newPathFile);
+    $ods_node = new ODSNode($DOM, $repo_name, $newPathFile);
     $ods_node->extractInfoFromXML();
     //We discard the file if it doesn't contain the ODS identifiers
     $generalID = $ods_node->getODSGeneralIdentifier();
@@ -126,12 +142,11 @@ foreach ($files as $file)
         echo "The file is discarded because it doesn't contain the ODS identifiers.\n\n";
         $num_invalid_files++;
         //Include the file name in the log file.
-        fputs($log_ods_files, "> " . $file . " discarded because it doesn't contain the ODS identifiers.\n");
+        fputs($repository_logs[$repo_name], "> " . $file . " discarded because it doesn't contain the ODS identifiers.\n");
         //Move to the error folder.
         fromNewToError($file);
     } else {
         try{
-
             //Create the instance of the Updater class in order to process the node.
             $updater = new Updater($ods_node);
             //Check if the node is in Drupal. If it is in Drupal but it has 
@@ -146,7 +161,7 @@ foreach ($files as $file)
                 $updater->generateNode($node_id);
                 $num_updated_nodes++;
                 //Include the file name in the log file.
-                fputs($log_ods_files, "> " . $file . " updated a node.\n");
+                fputs($repository_logs[$repo_name], "> " . $file . " updated a node.\n");
                 //Move to the old folder.
                 fromNewToOld($file);
             }else{        
@@ -154,7 +169,7 @@ foreach ($files as $file)
                 $updater->generateNode();
                 $num_new_nodes++;
                 //Include the file name in the log file.
-                fputs($log_ods_files, "> " . $file . " added as a node.\n");
+                fputs($repository_logs[$repo_name], "> " . $file . " added as a node.\n");
                 //Move to the old folder.
                 fromNewToOld($file);
             }
@@ -164,7 +179,7 @@ foreach ($files as $file)
             echo $e->errorMessage() ."\n";
             $num_invalid_files++;
             //Include the error in the log file.
-            fputs($log_ods_files, "> " . $file ." discarded because: " . $e->errorMessage());
+            fputs($repository_logs[$repo_name], "> " . $file ." discarded because: " . $e->errorMessage());
             //Move to the error folder.
             fromNewToError($file);
         }catch (GenerateNodeException $e){            
@@ -172,39 +187,56 @@ foreach ($files as $file)
             echo $e->errorMessage() ."\n";
             $num_invalid_files++;
             //Include the error in the log file.
-            fputs($log_ods_files, "> " . $file ." didn't generate the node because: " . $e->errorMessage());
+            fputs($repository_logs[$repo_name], "> " . $file ." didn't generate the node because: " . $e->errorMessage());
             //Move to the error folder.
             fromNewToError($file);
         }
     }
 }
 
-echo "\n-------\n";
-fputs($log_ods_files, "\n-------\n");
-echo "SUMMARY\n";
-fputs($log_ods_files, "SUMMARY\n");
-echo "-------\n";
-fputs($log_ods_files, "-------\n");
+//We create the log file with the summary of the updater process.
+$log_ods_summary = fopen($GLOBALS['updater_path'].$GLOBALS['updater_path_log'].DIRECTORY_SEPARATOR.
+                    "updater-summary-".$updater_process_date.".log", "a") or die("The log file cannot be created.");
+echo "---------------\n";
+fputs($log_ods_summary, "\n-------\n");
+echo "UPDATER SUMMARY\n";
+fputs($log_ods_summary, "SUMMARY\n");
+echo "---------------\n";
+fputs($log_ods_summary, "-------\n");
 echo "Repositories: ". $num_repositories ."\n";
-fputs($log_ods_files, "Repositories: ". $num_repositories ."\n");
+fputs($log_ods_summary, "Repositories: ". $num_repositories ."\n");
 echo "Valid XML files: ". $num_processed_files ."\n";
-fputs($log_ods_files, "Valid XML files: ". $num_processed_files ."\n");
+fputs($log_ods_summary, "Valid XML files: ". $num_processed_files ."\n");
 echo "Invalid files: ". $num_invalid_files ."\n";
-fputs($log_ods_files, "Invalid XML files: ". $num_invalid_files ."\n");
+fputs($log_ods_summary, "Invalid XML files: ". $num_invalid_files ."\n");
 echo "New nodes: ". $num_new_nodes ."\n";
-fputs($log_ods_files, "New nodes: ". $num_new_nodes ."\n");
+fputs($log_ods_summary, "New nodes: ". $num_new_nodes ."\n");
 echo "Updated nodes: " . $num_updated_nodes ."\n";
-fputs($log_ods_files, "Updated nodes: " . $num_updated_nodes ."\n");
+fputs($log_ods_summary, "Updated nodes: " . $num_updated_nodes ."\n");
 echo "Number of files with missing titles in each repository:\n";
-fputs($log_ods_files, "Number of files with missing titles in each repository:\n");
+fputs($log_ods_summary, "Number of files with missing titles in each repository:\n");
 foreach ($GLOBALS['rep_cnt_missing_titles'] as $key => $cnt) {
-    echo "--> Repository " . $key . ": " . $cnt . "\n";
-    fputs($log_ods_files, "--> Repository " . $key . ": " . $GLOBALS['rep_cnt_missing_titles'][$key] . "\n");
+    echo "--> " . $key . ": " . $cnt . "\n";
+    fputs($log_ods_summary, "--> " . $key . ": " . $GLOBALS['rep_cnt_missing_titles'][$key] . "\n");
 }
-//Close the logfile;
-fclose($log_ods_files);
-//Remove empty folders from the /new folder (when you rename the files the files
-//are moved to the new location, but the folder still are in the new folder)
+
+//Close the log files.
+fclose($log_ods_summary);
+foreach ($repository_logs as $log_file) {
+    fclose($log_file);
+}
+
+//Remove empty log files.
+$log_files = directoryToArray($GLOBALS['updater_path'].$GLOBALS['updater_path_log'], false);
+foreach ($log_files as $log_file) {
+    if (filesize($log_file) == 0){
+        //The file is empty, we remove the file.
+        unlink($log_file);
+    }
+}
+
+//Remove empty folders from the 'new' folder (when you rename the files the files
+//are moved to the new location, but the folder still are in the new folder).
 removeEmptyFolders($GLOBALS['updater_path'].$GLOBALS['updater_path_new']);
 echo "\n\nUPDATER PROCESS COMPLETE!\n\n";
 
@@ -222,15 +254,15 @@ function directoryToArray($directory, $recursive)
     if ($handle = opendir($directory)) {
         while (false !== ($file = readdir($handle))) {
             if ($file != "." && $file != "..") {
-                if (is_dir($directory. "/" . $file)) {
+                if (is_dir($directory. DIRECTORY_SEPARATOR . $file)) {
                     if($recursive) {
-                        $array_items = array_merge($array_items, directoryToArray($directory. "/" . $file, $recursive));
+                        $array_items = array_merge($array_items, directoryToArray($directory. DIRECTORY_SEPARATOR . $file, $recursive));
                     }
-                    $file = $directory . "/" . $file;
-                    $array_items[] = preg_replace("/\/\//si", "/", $file);
+                    $file = $directory . DIRECTORY_SEPARATOR . $file;
+                    $array_items[] = preg_replace("/\/\//si", DIRECTORY_SEPARATOR, $file);
                 } else {
-                    $file = $directory . "/" . $file;
-                    $array_items[] = preg_replace("/\/\//si", "/", $file);
+                    $file = $directory . DIRECTORY_SEPARATOR . $file;
+                    $array_items[] = preg_replace("/\/\//si", DIRECTORY_SEPARATOR, $file);
                 }
             }
         }
@@ -251,8 +283,9 @@ function removeEmptyFolders($directory)
         if(is_dir($file)){
             $dirFiles = directoryToArray($directory, $file);
             $numfiles = count($dirFiles);
-            echo "Number of files in the directory " . $file . ": " . $numfiles . "\n";
             if (count($dirFiles == 0)) {                
+                //Sample output: /home/odssearch/bigData/new/ORGANIC_EDUNET
+                //The element is a directory, therefore we have to remove it.
                 rmdir($file);
             }
         }
@@ -282,10 +315,10 @@ function getHistoricPathFile($file) {
 */
 function getRelativePathToSave($file){
 
-    $last_pos = strripos($file, "/");
+    $last_pos = strrpos($file, DIRECTORY_SEPARATOR);
     $file_name = substr($file, $last_pos);
     $repo_name = getRepositoryName($file);
-    $path = "/". $repo_name . $file_name;
+    $path = DIRECTORY_SEPARATOR. $repo_name . $file_name;
     
     return $path;
 }//End function getRelativePathToSave
@@ -301,7 +334,7 @@ function fromNewToOld($file) {
     //Create repository folder 
     $repo_name = getRepositoryName($file);
     $old_folder = $GLOBALS['updater_path'].$GLOBALS['updater_path_old']; 
-    $repo_folder = $old_folder . "/" . $repo_name;
+    $repo_folder = $old_folder . DIRECTORY_SEPARATOR . $repo_name;
     if(!file_exists($repo_folder))
     {
         mkdir ($repo_folder);
@@ -320,7 +353,7 @@ function fromNewToOld($file) {
 */
 function fromNewToError($file) {
 
-    $last_pos = strripos($file, "/");
+    $last_pos = strrpos($file, DIRECTORY_SEPARATOR);
     $file_name = substr($file, $last_pos);
     //Create repository folder 
     $repo_name = getRepositoryName($file);
@@ -329,7 +362,7 @@ function fromNewToError($file) {
         $path = $file_name;
     } else {
         $error_folder = $GLOBALS['updater_path'].$GLOBALS['updater_path_error']; 
-        $repo_folder = $error_folder . "/" . $repo_name;
+        $repo_folder = $error_folder . DIRECTORY_SEPARATOR . $repo_name;
         if(!file_exists($repo_folder))
         {
             mkdir ($repo_folder);
@@ -350,7 +383,7 @@ function fromNewToError($file) {
 * @return A character string with the name of the repository (using the previous example it will return "OESamples").
 */
 function getRepositoryName($path) {
-    $url_split = explode("/", $path); 
+    $url_split = explode(DIRECTORY_SEPARATOR, $path); 
     $length = count($url_split);
     return $url_split[$length-2];
 }//End function getRepositoryName
@@ -604,7 +637,6 @@ class ODSNode
         }
     }//End function getGeneralCategoryInfo
 
-
     /**
     * This function reads and process the <string> labels.
     * @param $node The character string assigned to represent the node that contains the <string> labels.
@@ -642,7 +674,6 @@ class ODSNode
         }
         return $aux_list;
     }//End function getLangStrings
-
 
     /**
     * This function extracts the required information from the LOM Lifecycle label.
@@ -884,14 +915,12 @@ class ODSNode
     */
     private function getRightsCategoryInfo ()
     {        
-
         //RIGHTS
         //<rights>
         //DOMNodeList $rights
         $rights = $this->ods_dom_document->getElementsByTagName('rights');
         //The number of Rights elements could be 0 or 1 as maximum.
         if ($rights->length > 0){
-
             //Copyright label
             //<copyRightAndOtherRestrictions>
             //DOMNodeList $copyrights
@@ -921,7 +950,6 @@ class ODSNode
                     $this->ods_cost = $cost->item(0)->nodeValue;
                 }
             }
-
         }
     }//End function getRightsCategoryInfo
 
@@ -1193,6 +1221,7 @@ class Updater
             // Load heuristics.
             if (is_file($heuristics_file) && is_readable($heuristics_file)) {
                 $heuristics = parse_ini_file($heuristics_file);
+                //print_r($heuristics);
                 //The index will be the location of the heuristics file.
                 $GLOBALS['heuristics'][$heuristics_file] = $heuristics; 
                 // Run heuristics now that we have loaded the heuristic file.
@@ -1288,7 +1317,6 @@ class Updater
                 }
             }
         }
-
         return $nid;
     }//End function checkNode
 
@@ -1354,11 +1382,15 @@ class Updater
             $this->createGeneralIdentifierField($node);
 
             //Assign the ODS identifiers.           
+            //We have to assign these values to the 'und' language, because altough they are text fields it has no sense
+            //enable translations for identifiers.
             $node->field_ods_general_identifier['und'][0]['value'] = $this->ods_node_info->getODSGeneralIdentifier();
             $node->field_ods_metadata_identifier['und'][0]['value'] = $this->ods_node_info->getODSMetadataIdentifier();
 
 
             //Assign the source file location.
+            //We have to assign this value to the 'und' language, because altough this is a text field it has no sense
+            //enable translations for a path.
             $node->field_ods_file_location['und'][0]['value'] = $this->ods_node_info->getODSFileLocation();          
 
             //Description
@@ -1416,6 +1448,7 @@ class Updater
     */
     private function createLanguageFields($node)
     {
+
         if (count($this->ods_node_info->getODSLanguages()) > 0){
             $is_first = true;
             //Remove the content of the field.
@@ -1444,6 +1477,7 @@ class Updater
                 }
                 try {                                    
                     $term_id = $this->getTermId($language_name, 'ods_ap_languages');
+                    //For taxonomy terms we only have to assign the tid to the undefined language.
                     $node->field_general_language['und'][]['tid'] = $term_id;
                 }catch (TermNameException $e) {
                     //If we find an invalid language the resource will be discarded.
@@ -1456,7 +1490,8 @@ class Updater
             $node->language = $GLOBALS['UND_LANG_CODE'];
         }
         return $node;
-    }//End function createGeneralLanguageFields
+      }//End function createGeneralLanguageFields
+
 
     /**
     * This function removes the current information that has a field in a specific language.
@@ -1487,7 +1522,6 @@ class Updater
 
         $node->title = "";
         $title_aux = "";
-        $lang_aux = "";
 
         if (count($this->ods_node_info->getODSTitles()) >0){
             foreach ($this->ods_node_info->getODSTitles() as $key => $tit) {
@@ -1495,7 +1529,6 @@ class Updater
                     //Normalize the language code.
                     $language = $this->replaceWithHeuristics($tit->getLanguage(), "odsUpdater/language_codes.ini");
                     $shortTitle = $this->ensureLength255($tit->getText());
-                    //Assign the title to the node.
                     $node->title_field[$language][0]['value'] = $shortTitle;
                     if ($key == 0) {
                         //We collect the data to use if we obtain a "Missing title"
@@ -1505,12 +1538,14 @@ class Updater
                     }
                     // Check if the title language match resource language.
                     if(strcmp($language,$node->language) == 0) {
+                        //Assign the official title to the node.
                         $node->title = $shortTitle;
                     }
                 }catch (HeuristicFileException $e) {
                     throw new XMLFileException($e->errorMessage());            
                 }catch (HeuristicNameException $e) {
-                    throw new XMLFileException("language_codes.ini: " .$e->errorMessage());            
+                    //In order to avoid the rejection of many resources, we ignore the exception.
+                    //throw new XMLFileException("language_codes.ini: " .$e->errorMessage());            
                 }
             }
             if (empty($node->title)) {
@@ -1568,7 +1603,12 @@ class Updater
             foreach ($this->ods_node_info->getODSLifeCycleContributes() as $cntr) {
                 if (count($cntr->getAuthorFullNames()) > 0){
                     foreach ($cntr->getAuthorFullNames() as $author) {
-                        $node->field_author_fullname[$node->language][0]['value'] = $this->ensureLength255($author);
+                        //Although this field is textual and the translation is enabled, and we could
+                        //assign the value to a specific language, we assign the value to the 'und' language
+                        //in order to avoid inconsistencies with old resources imported to the portal that
+                        //were stored in the undefined language (besides, this field is not going to be
+                        //translated).
+                        $node->field_author_fullname['und'][0]['value'] = $this->ensureLength255($author);
                         //We stop at the first author.
                         return $node;
                     }
@@ -1587,6 +1627,8 @@ class Updater
         $lo_list = $this->ods_node_info->getODSloIdentifiers();
         if (count($lo_list > 0)){
             //We take the first lo identifier.
+            //Since this field doesn't have the translation enabled (although is a textual field)
+            //we assign the value to the undefined language (identifiers should not be translated).
             $node->field_lo_identifier['und'][0]['value'] = $lo_list[0]; 
         } else {
             //The node doesn't have any lo identifier, we discard the node (i.e. the xml file).
@@ -1607,6 +1649,7 @@ class Updater
             //because the description field in the Drupal node only can have 1 value.
             $descriptions_groups = $this->ods_node_info->getODSDescriptions();
             $description_list = $descriptions_groups[0];
+            //It displays 'plain_text':
             foreach ($description_list as $description) {
                 try{
                     //Normalize the language code.
@@ -1623,7 +1666,8 @@ class Updater
                 }catch (HeuristicFileException $e) {
                     throw new XMLFileException($e->errorMessage());            
                 }catch (HeuristicNameException $e) {
-                    throw new XMLFileException("language_codes.ini: " .$e->errorMessage());            
+                    //In order to avoid the rejection of many resources, we ignore the exception.
+                    //throw new XMLFileException("language_codes.ini: " .$e->errorMessage());            
                 }
             }
         }
@@ -1640,6 +1684,8 @@ class Updater
     {
         if (count($this->ods_node_info->getODSResourceLinks()) > 0) {
             foreach ($this->ods_node_info->getODSResourceLinks() as $link) {
+                //Since this field doesn't have the translation enabled, we
+                //assign the value to the undefined language.
                 $node->field_resource_link['und'][0]['url'] = $link;
                 $node->field_resource_link['und'][0]['title'] = "View resource";
                 // Finish at first occurrence (only one/first technical location is supposed to be shown)
@@ -1694,7 +1740,8 @@ class Updater
                             }catch (HeuristicFileException $e) {
                                 throw new XMLFileException($e->errorMessage());            
                             }catch (HeuristicNameException $e) {
-                                throw new XMLFileException("language_codes.ini: " .$e->errorMessage());            
+                                //In order to avoid the rejection of many resources, we ignore the exception.
+                                //throw new XMLFileException("language_codes.ini: " .$e->errorMessage());            
                             }
                         }
                         //We stop at the first age range.
@@ -1720,6 +1767,8 @@ class Updater
                 $term_id = $this->getTermId($copyright, 'ods_ap_rights_copyright');
                 //Remove the content of the field.
                 $this->clearFieldCollectionNode($node, 'field_rights_copyright', 'und');
+                //For taxonomy terms, we assigned the tid to the undefined language
+                //(translation is not enabled for this kind of fields).
                 $node->field_rights_copyright['und'][]['tid'] = $term_id;                       
             }catch (TermNameException $e) {
                 //If the copyright has not a valid term in the taxonomy we discard the file.
@@ -1764,8 +1813,6 @@ class Updater
         }
         return $node;
     }//End function createRightsCostField
-
-
 
     /**
     * This function assigns the aggregation level (granularity) of the ods node info to the node
@@ -1818,7 +1865,7 @@ class Updater
                         $term_id = $this->addTermVocabulary($keyword->getText(), 'edu_tags');
                     }
                     $language = $this->replaceWithHeuristics($keyword->getLanguage(), "odsUpdater/language_codes.ini");
-                    //We add the keyword to our field in the Drupal node (field_edu_tags)
+                    //We add the keyword to our field in the Drupal node (field_edu_tags).
                     $node->field_edu_tags['und'][]['tid'] = $term_id;  
                 }
             }
@@ -1864,7 +1911,8 @@ class Updater
                                 }catch (HeuristicFileException $e) {
                                     throw new XMLFileException($e->errorMessage());            
                                 }catch (HeuristicNameException $e) {
-                                    throw new XMLFileException("language_codes.ini: " .$e->errorMessage());    
+                                    //In order to avoid the rejection of many resources, we ignore the exception.
+                                    //throw new XMLFileException("language_codes.ini: " .$e->errorMessage());    
                                 }        
                             }
                         }
@@ -1894,7 +1942,8 @@ class Updater
                                 }catch (HeuristicFileException $e) {
                                     throw new XMLFileException($e->errorMessage());            
                                 }catch (HeuristicNameException $e) {
-                                    throw new XMLFileException("language_codes.ini: " .$e->errorMessage());    
+                                    //In order to avoid the rejection of many resources, we ignore the exception.
+                                    //throw new XMLFileException("language_codes.ini: " .$e->errorMessage());    
                                 }        
                             }
                         }
@@ -1917,7 +1966,6 @@ class Updater
 
                                         //We only store the term if it is in the vocabulary.
                                         $term_id = $this->getTermId($classification_discipline, 'ods_ap_classification_discipline');
-                                        //echo "Found the discipline (with separator) id for the term: " . $classification_discipline . "\n";
                                         $node->field_classification_discipline['und'][]['tid'] = $term_id;
                                         //Since the field only accepts one value we finish with the first discipline.
                                         return $node;
@@ -1925,14 +1973,14 @@ class Updater
                                         //Single word
                                         //We only store the term if it is in the vocabulary.
                                         $term_id = $this->getTermId($this->ensureLength255($langstring->getText()), 'ods_ap_classification_discipline');
-                                        //echo "Found the discipline id for the term: " . $this->ensureLength255($langstring->getText()) . "\n";
                                         $node->field_classification_discipline['und'][]['tid'] = $term_id;
                                         //Since the field only accepts one value we finish with the first discipline.
                                         return $node;
                                     }
                                 }catch (TermNameException $e) {
+                                    //In order to avoid the rejection of many resources, we ignore the exception.
                                     //If we don't find the term in the vocabulary we discard the file.
-                                    throw new XMLFileException("ODS AP Classification.Discipline: " . $e->errorMessage());
+                                    //throw new XMLFileException("ODS AP Classification.Discipline: " . $e->errorMessage());
                                 }
                             }
                         }
@@ -2023,7 +2071,7 @@ class Updater
                             if ($year_date <= $current_year and $month_date >= 1 and $month_date <= 12 and 
                                 $day_date >= 1 and $day_date <= 31){
                                 if ($year_date < 1990){
-                                    //I don't know the reason why we do that.
+                                    //I don't know the reason why we do that and we don't keep the real date of the resource.
                                     $node->field_eo_update_date['und'][0]['value'] = date ("Y-m-d", strtotime ('1990-01-01'));
                                 } else{
                                     $drupal_date = $year_date . "-" . $month_date . "-" . $day_date;
@@ -2042,7 +2090,6 @@ class Updater
             //We set an empty date.
             //$node->field_eo_update_date['und']][0]['value'] = date ("Y-m-d", strtotime ('0000-00-00'));
             //We assign the valid date assigned to the year 1990.
-            $node->field_eo_update_date[$node->language][0]['value'] = date ("Y-m-d", strtotime ('1990-01-01'));
             $node->field_eo_update_date['und'][0]['value'] = date ("Y-m-d", strtotime ('1990-01-01'));
         }
         return $node;
