@@ -1527,8 +1527,8 @@ class Updater
             foreach ($this->ods_node_info->getODSTitles() as $key => $tit) {
                 try{
                     //Normalize the language code.
-                    $language = $this->replaceWithHeuristics($tit->getLanguage(), "odsUpdater/language_codes.ini");
                     $shortTitle = $this->ensureLength255($tit->getText());
+                    $language = $this->replaceWithHeuristics($tit->getLanguage(), "odsUpdater/language_codes.ini");
                     $node->title_field[$language][0]['value'] = $shortTitle;
                     if ($key == 0) {
                         //We collect the data to use if we obtain a "Missing title"
@@ -1546,18 +1546,27 @@ class Updater
                 }catch (HeuristicNameException $e) {
                     //In order to avoid the rejection of many resources, we ignore the exception.
                     //throw new XMLFileException("language_codes.ini: " .$e->errorMessage());            
+                    //Since we don't discard the title if it has an invalid title, we have to
+                    //add the next instructions.          
+                    if ($key == 0){
+                        //The first title has an invalid language, therefore we have
+                        //to assign $short_title to the $title_aux.
+                        $title_aux = $shortTitle;
+                    }
                 }
             }
             if (empty($node->title)) {
-                //We have not found a title with the same language of the node
-                //$node->language. However, the title of the node should not be empty, 
-                //so instead to put the String "Missing title" (a lot of nodes could have 
-                //these titles), we assign the first title that we have found.
-                //$node->title = "Missing title";
-                $node->title = $title_aux;
-                $node->title_field[$node->language][0]['value'] = $shortTitle;
-                //We add the number of missing titles:
-                $GLOBALS['rep_cnt_missing_titles'][$this->ods_repository]++;
+                if (!empty($title_aux)) {
+                    //We have not found a title with the same language of the node
+                    //$node->language. However, the title of the node should not be empty, 
+                    //so instead to put the String "Missing title" (a lot of nodes could have 
+                    //these titles), we assign the first title that we have found.
+                    //$node->title = "Missing title";
+                    $node->title = $title_aux;
+                    $node->title_field[$node->language][0]['value'] = $shortTitle;
+                    //We add the number of missing titles:
+                    $GLOBALS['rep_cnt_missing_titles'][$this->ods_repository]++;
+                }else throw new ODSFieldException("There is no title.\n");
             }
         } else throw new ODSFieldException("There is no title.\n"); 
         return $node;       
