@@ -179,7 +179,7 @@ foreach ($files as $file)
             echo $e->errorMessage() ."\n";
             $num_invalid_files++;
             //Include the error in the log file.
-            fputs($repository_logs[$repo_name], "> " . $file ." discarded because: " . $e->errorMessage());
+            fputs($repository_logs[$repo_name], "> " . $file ." discarded because: " . $e->errorMessage() . "\n");
             //Move to the error folder.
             fromNewToError($file);
         }catch (GenerateNodeException $e){            
@@ -187,7 +187,7 @@ foreach ($files as $file)
             echo $e->errorMessage() ."\n";
             $num_invalid_files++;
             //Include the error in the log file.
-            fputs($repository_logs[$repo_name], "> " . $file ." didn't generate the node because: " . $e->errorMessage());
+            fputs($repository_logs[$repo_name], "> " . $file ." didn't generate the node because: " . $e->errorMessage() . "\n");
             //Move to the error folder.
             fromNewToError($file);
         }
