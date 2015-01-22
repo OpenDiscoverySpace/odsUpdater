@@ -1,7 +1,7 @@
 <?php
 
 //
-// Updater version: 14.0.8
+// Updater version: 14.0.9
 //
 // Copyright (c) November 2014 UAH - Maria-Cruz Valiente
 //
@@ -1906,6 +1906,7 @@ class Updater
     private function createClassificationFields($node)
     {   
         if (count($this->ods_node_info->getODSClassifications()) > 0) {
+            //First, we store the languages of the all taxonpaths that we have in the harvested file (i.e. XML file).
             $languages = array();
             foreach ($this->ods_node_info->getODSClassifications() as $classif) {
                 if (count($classif->getTaxonpaths()) > 0) {
@@ -1931,7 +1932,7 @@ class Updater
             //Remove duplicates in the language array
             $langs = array_unique($languages);
             foreach ($langs as $lang) {
-                //Remove the content of the field.
+                //Remove the content of the field node.
                 $this->clearFieldCollectionNode($node, 'field_classification_taxonpath', $lang);
                 //We need this instruction because in a previous version of the updater 
                 //we introduced the value for the languages too:
@@ -1948,19 +1949,7 @@ class Updater
                                     //Normalize the language code.
                                     $language = $this->replaceWithHeuristics($langstring->getLanguage(), "odsUpdater/language_codes.ini");
                                     $node->field_classification_taxonpath[$language][]['value'] = $this->ensureLength255($langstring->getText());
-                                }catch (HeuristicFileException $e) {
-                                    throw new XMLFileException($e->errorMessage());            
-                                }catch (HeuristicNameException $e) {
-                                    //In order to avoid the rejection of many resources, we ignore the exception.
-                                    //throw new XMLFileException("language_codes.ini: " .$e->errorMessage());    
-                                }        
-                            }
-                        }
-                    }
-                    foreach ($classif->getTaxonpaths() as $taxon_list) {
-                        foreach ($taxon_list as $taxon_entry) {
-                            foreach ($taxon_entry as $key => $langstring) {
-                                try {
+
                                     //Classification Discipline
                                     //Check if the taxon has the separator ::
                                     if (strpos($langstring->getText(), ':')) {
@@ -1972,22 +1961,20 @@ class Updater
                                         //If we have more that one :: separator, the discipline is the string after
                                         //the last separator.
                                         $classification_discipline = trim($exploded[$last]);
-
-                                        //We only store the term if it is in the vocabulary.
-                                        $term_id = $this->getTermId($classification_discipline, 'ods_ap_classification_discipline');
-                                        $node->field_classification_discipline['und'][]['tid'] = $term_id;
-                                        //Since the field only accepts one value we finish with the first discipline.
-                                        return $node;
                                     } else {
                                         //Single word
-                                        //We only store the term if it is in the vocabulary.
-                                        $term_id = $this->getTermId($this->ensureLength255($langstring->getText()), 'ods_ap_classification_discipline');
-                                        $node->field_classification_discipline['und'][]['tid'] = $term_id;
-                                        //Since the field only accepts one value we finish with the first discipline.
-                                        return $node;
+                                        $classification_discipline = $langstring->getText();
                                     }
-                                }catch (TermNameException $e) {
+                                    //We only store the term if it is in the vocabulary.
+                                    $term_id = $this->getTermId($this->ensureLength255($classification_discipline), 'ods_ap_classification_discipline');
+                                    $node->field_classification_discipline['und'][]['tid'] = $term_id;
+                                }catch (HeuristicFileException $e) {
+                                    throw new XMLFileException($e->errorMessage());            
+                                }catch (HeuristicNameException $e) {
                                     //In order to avoid the rejection of many resources, we ignore the exception.
+                                    //throw new XMLFileException("language_codes.ini: " .$e->errorMessage());    
+                                }catch (TermNameException $e) {
+                                    //In order to avoid the rejection of many resources, we ignore the Discipline term exception.
                                     //If we don't find the term in the vocabulary we discard the file.
                                     //throw new XMLFileException("ODS AP Classification.Discipline: " . $e->errorMessage());
                                 }
