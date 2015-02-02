@@ -1,9 +1,9 @@
 <?php
 
 //
-// Updater version: 14.0.9
+// Updater version: 15.0.0
 //
-// Copyright (c) November 2014 UAH - Maria-Cruz Valiente
+// Copyright (c) January 2015 UAH - Maria-Cruz Valiente
 //
 // Released under the GPL license
 // http://www.opensource.org/licenses/gpl-license.php
@@ -434,7 +434,7 @@ class ODSNode
         $this->ods_languages = array();
         $this->ods_descriptions = array();
         $this->ods_keywords = array();
-        $this->ods_aggregation_level = 1; //1: Educational Object (taxonomy: OD AP Aggregation Level).
+        $this->ods_aggregation_level = "";
         $this->ods_lifecycle_contributes = array();
         $this->ods_metadata_identifier = "";
         $this->ods_resource_links = array();
@@ -631,9 +631,22 @@ class ODSNode
 
             //Aggregation level
             //<aggregationlevel>
-            //Not present in the xml samples files. It always will have the value of 1 (educational object)
-            $this->ods_aggregation_level = 1; //1: educational object.
-
+            //DOMNodeList $aggLevels
+            $aggLevels = $general->item(0)-> getElementsByTagName("aggregationLevel");
+            //The number of aggregationLevel labels could be 0 or 1 as maximum.
+            if ($aggLevels->length > 0){
+                //<value>
+                //DOMNodeList $aggLevel
+                $aggLevel = $aggLevels->item(0)->getElementsByTagName('value');                    
+                //The number of Value elements could be 0 or 1 as maximum.
+                if ($aggLevel->length > 0){
+                    $this->ods_aggregation_level = $aggLevel->item(0)->nodeValue;
+                }
+            } else {
+                //The aggregationLevel label is missing, we assign the value of 1 (educational object)
+                //by default.
+                $this->ods_aggregation_level = "1";
+            }
         }
     }//End function getGeneralCategoryInfo
 
